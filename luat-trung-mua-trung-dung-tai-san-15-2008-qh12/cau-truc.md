@@ -1,0 +1,8 @@
+Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Chương II
+TRƯNG MUA TÀI SẢN
+Chương III
+TRƯNG DỤNG TÀI SẢN
+Chương IV
+ĐIỀU KHOẢN THI HÀNH
