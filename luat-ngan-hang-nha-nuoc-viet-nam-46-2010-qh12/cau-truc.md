@@ -1,0 +1,13 @@
+Chương I NHỮNG QUY ĐỊNH CHUNG
+Chương II TỔ CHỨC CỦA NGÂN HÀNG NHÀ NƯỚC
+Chương III HOẠT ĐỘNG CỦA NGÂN HÀNG NHÀ NƯỚC
+Mục 1 THỰC HIỆN CHÍNH SÁCH TIỀN TỆ QUỐC GIA
+Mục 2 PHÁT HÀNH TIỀN GIẤY, TIỀN KIM LOẠI
+Mục 3 CHO VAY, BẢO LÃNH, TẠM ỨNG CHO NGÂN SÁCH
+Mục 4 HOẠT ĐỘNG THANH TOÁN VÀ NGÂN QUỸ
+Mục 5 QUẢN LÝ NGOẠI HỐI VÀ HOẠT ĐỘNG NGOẠI HỐI
+Mục 6 HOẠT ĐỘNG THÔNG TIN, BÁO CÁO
+Chương IV TÀI CHÍNH, KẾ TOÁN CỦA NGÂN HÀNG NHÀ NƯỚC
+Chương V THANH TRA, GIÁM SÁT NGÂN HÀNG
+Chương VI KIỂM TOÁN NỘI BỘ
+Chương VII ĐIỀU KHOẢN THI HÀNH
