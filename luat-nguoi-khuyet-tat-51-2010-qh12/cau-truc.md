@@ -1,0 +1,22 @@
+Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Chương II
+XÁC NHẬN KHUYẾT TẬT
+Chương III
+CHĂM SÓC SỨC KHỎE
+Chương IV
+GIÁO DỤC
+Chương V
+DẠY NGHỀ VÀ VIỆC LÀM
+Chương VI
+VĂN HÓA, THỂ DỤC, THỂ THAO, GIẢI TRÍ VÀ DU LỊCH
+Chương VII
+NHÀ CHUNG CƯ, CÔNG TRÌNH CÔNG CỘNG, GIAO THÔNG, CÔNG
+NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG
+Chương VIII
+BẢO TRỢ XÃ HỘI
+Chương IX
+TRÁCH NHIỆM CỦA CƠ QUAN NHÀ NƯỚC VỀ CÔNG TÁC NGƯỜI
+KHUYẾT TẬT
+Chương X
+ĐIỀU KHOẢN THI HÀNH
