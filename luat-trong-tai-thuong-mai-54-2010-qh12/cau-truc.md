@@ -1,0 +1,26 @@
+Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Chương II
+THỎA THUẬN TRỌNG TÀI
+Chương III
+TRỌNG TÀI VIÊN
+Chương IV
+TRUNG TÂM TRỌNG TÀI
+Chương V
+KHỞI KIỆN
+Chương VI
+HỘI ĐỒNG TRỌNG TÀI
+Chương VII
+BIỆN PHÁP KHẨN CẤP TẠM THỜI
+Chương VIII
+PHIÊN HỌP GIẢI QUYẾT TRANH CHẤP
+Chương IX
+PHÁN QUYẾT TRỌNG TÀI
+Chương X
+THI HÀNH PHÁN QUYẾT TRỌNG TÀI
+Chương XI
+HUỶ PHÁN QUYẾT TRỌNG TÀI
+Chương XII
+TỔ CHỨC VÀ HOẠT ĐỘNG CỦA TRỌNG TÀI NƯỚC NGOÀI TẠI VIỆT NAM
+Chương XIII
+ĐIỀU KHOẢN THI HÀNH
