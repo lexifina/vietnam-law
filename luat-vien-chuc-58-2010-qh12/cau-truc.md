@@ -1,0 +1,30 @@
+Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Chương II
+QUYỀN, NGHĨA VỤ CỦA VIÊN CHỨC
+Mục 1
+QUYỀN CỦA VIÊN CHỨC
+Mục 2
+NGHĨA VỤ CỦA VIÊN CHỨC
+Chương III
+TUYỂN DỤNG, SỬ DỤNG VIÊN CHỨC
+Mục 1
+TUYỂN DỤNG
+Mục 2
+HỢP ĐỒNG LÀM VIỆC
+Mục 3
+BỔ NHIỆM, THAY ĐỔI CHỨC DANH NGHỀ NGHIỆP, THAY ĐỔI VỊ TRÍ VIỆC LÀM CỦA VIÊN CHỨC
+Mục 4
+ĐÀO TẠO, BỒI DƯỠNG
+Mục 5
+BIỆT PHÁI, BỔ NHIỆM, MIỄN NHIỆM
+Mục 6
+ĐÁNH GIÁ VIÊN CHỨC
+Mục 7
+CHẾ ĐỘ THÔI VIỆC, HƯU TRÍ
+Chương IV
+QUẢN LÝ VIÊN CHỨC
+Chương V
+KHEN THƯỞNG VÀ XỬ LÝ VI PHẠM
+Chương VI
+ĐIỀU KHOẢN THI HÀNH
