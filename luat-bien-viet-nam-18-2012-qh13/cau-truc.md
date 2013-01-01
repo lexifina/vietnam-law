@@ -1,0 +1,14 @@
+Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Chương II
+VÙNG BIỂN VIỆT NAM
+Chương III
+HOẠT ĐỘNG TRONG VÙNG BIỂN VIỆT NAM
+Chương IV
+PHÁT TRIỂN KINH TẾ BIỂN
+Chương V
+TUẦN TRA, KIỂM SOÁT TRÊN BIỂN
+Chương VI
+XỬ LÝ VI PHẠM
+Chương VII
+ĐIỀU KHOẢN THI HÀNH
