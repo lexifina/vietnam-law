@@ -1,0 +1,5 @@
+Chương I NHỮNG QUY ĐỊNH CHUNG
+Chương II CÁC BIỆN PHÁP GIẢM NHU CẦU SỬ DỤNG THUỐC LÁ
+Chương III CÁC BIỆN PHÁP KIỂM SOÁT NGUỒN CUNG CẤP THUỐC LÁ
+Chương IV CÁC ĐIỀU KIỆN BẢO ĐẢM ĐỂ PHÒNG, CHỐNG TÁC HẠI CỦA THUỐC LÁ
+Chương V ĐIỀU KHOẢN THI HÀNH
