@@ -1,0 +1,12 @@
+Chương I NHỮNG QUY ĐỊNH CHUNG
+Chương II HỆ THỐNG THÔNG TIN THỐNG KÊ NHÀ NƯỚC
+Chương III THU THẬP THÔNG TIN THỐNG KÊ NHÀ NƯỚC
+Mục 1 ĐIỀU TRA THỐNG KÊ
+Mục 2 SỬ DỤNG DỮ LIỆU HÀNH CHÍNH CHO HOẠT ĐỘNG THỐNG KÊ NHÀ NƯỚC
+Mục 3 CHẾ ĐỘ BÁO CÁO THỐNG KÊ
+Chương IV PHÂN TÍCH VÀ DỰ BÁO THỐNG KÊ, CÔNG BỐ VÀ PHỔ BIẾN THÔNG TIN THỐNG KÊ NHÀ NƯỚC
+Chương V NGHIÊN CỨU, ỨNG DỤNG PHƯƠNG PHÁP THỐNG KÊ, CÔNG NGHỆ THÔNG TIN - TRUYỀN THÔNG VÀ HỢP TÁC QUỐC TẾ TRONG HOẠT THỐNG KÊ NHÀ NƯỚC
+Chương VI SỬ DỤNG CƠ SỞ DỮ LIỆU THỐNG KÊ VÀ THÔNG TIN THỐNG KÊ NHÀ NƯỚC
+Chương VII TỔ CHỨC THỐNG KÊ NHÀ NƯỚC
+Chương VIII HOẠT ĐỘNG THỐNG KÊ, SỬ DỤNG THÔNG TIN THỐNG KÊ NGOÀI THỐNG KÊ NHÀ NƯỚC
+Chương IX ĐIỀU KHOẢN THI HÀNH
