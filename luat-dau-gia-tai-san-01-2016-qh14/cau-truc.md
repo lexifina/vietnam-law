@@ -1,0 +1,28 @@
+CHƯƠNG 1
+NHỮNG QUY ĐỊNH CHUNG
+CHƯƠNG II
+ĐẤU GIÁ VIÊN, TỔ CHỨC ĐẤU GIÁ TÀI SẢN
+Mục 1
+ĐẤU GIÁ VIÊN
+Mục 2
+TỔ CHỨC ĐẤU GIÁ TÀI SẢN
+CHƯƠNG III
+TRÌNH TỰ, THỦ TỤC ĐẤU GIÁ TÀI SẢN
+CHƯƠNG IV
+ĐẤU GIÁ TÀI SẢN MÀ PHÁP LUẬT QUY ĐỊNH
+PHẢI BÁN THÔNG QUA ĐẤU GIÁ
+Mục 1
+MỘT SỐ QUY ĐỊNH CHUNG
+Mục 2
+HỘI ĐỒNG ĐẤU GIÁ TÀI SẢN
+Mục 3
+ĐẤU GIÁ NỢ XẤU VÀ TÀI SẢN BẢO ĐẢM CỦA KHOẢN NỢ XẤU
+CHƯƠNG V
+THÙ LAO DỊCH VỤ ĐẤU GIÁ, CHI PHÍ ĐẤU GIÁ TÀI SẢN
+CHƯƠNG VI
+XỬ LÝ VI PHẠM, HỦY KẾT QUẢ ĐẤU GIÁ TÀI SẢN,
+BỒI THƯỜNG THIỆT HẠI
+CHƯƠNG VII
+QUẢN LÝ NHÀ NƯỚC VỀ ĐẤU GIÁ TÀI SẢN
+CHƯƠNG VIII
+ĐIỀU KHOẢN THI HÀNH
