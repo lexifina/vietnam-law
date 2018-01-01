@@ -1,0 +1,16 @@
+Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Chương II
+NGƯỜI ĐƯỢC TRỢ GIÚP PHÁP LÝ, QUYỀN VÀ NGHĨA VỤ CỦA NGƯỜI ĐƯỢC TRỢ GIÚP PHÁP LÝ
+Chương III
+TỔ CHỨC THỰC HIỆN TRỢ GIÚP PHÁP LÝ, QUYỀN VÀ NGHĨA VỤ CỦA TỔ CHỨC THỰC HIỆN TRỢ GIÚP PHÁP LÝ
+Chương IV
+NGƯỜI THỰC HIỆN TRỢ GIÚP PHÁP LÝ, QUYỀN, NGHĨA VỤ CỦA NGƯỜI THỰC HIỆN TRỢ GIÚP PHÁP LÝ
+Chương V
+PHẠM VI, LĨNH VỰC, HÌNH THỨC VÀ HOẠT ĐỘNG TRỢ GIÚP PHÁP LÝ
+Chương VI
+TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC ĐỐI VỚI HOẠT ĐỘNG TRỢ GIÚP PHÁP LÝ
+Chương VII
+GIẢI QUYẾT KHIẾU NẠI, TỐ CÁO VÀ TRANH CHẤP
+Chương VIII
+ĐIỀU KHOẢN THI HÀNH
