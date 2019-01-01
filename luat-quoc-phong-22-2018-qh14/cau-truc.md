@@ -1,0 +1,7 @@
+Chương I NHỮNG QUY ĐỊNH CHUNG
+Chương II HOẠT ĐỘNG CƠ BẢN VỀ QUỐC PHÒNG
+Chương III TÌNH TRẠNG CHIẾN TRANH, TÌNH TRẠNG KHẨN CẤP VỀ QUỐC PHÒNG, THIẾT QUÂN LUẬT, GIỚI NGHIÊM
+Chương IV LỰC LƯỢNG VŨ TRANG NHÂN DÂN
+Chương V BẢO ĐẢM QUỐC PHÒNG
+Chương VI NHIỆM VỤ, QUYỀN HẠN CỦA CƠ QUAN, TỔ CHỨC VỀ QUỐC PHÒNG
+Chương VII ĐIỀU KHOẢN THI HÀNH
