@@ -1,0 +1,20 @@
+Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Chương II
+THÀNH LẬP THƯ VIỆN
+Mục 1
+MẠNG LƯỚI THƯ VIỆN
+Mục 2
+THÀNH LẬP, SÁP NHẬP, HỢP NHẤT, CHIA, TÁCH, GIẢI THỂ THƯ VIỆN
+Chương III
+HOẠT ĐỘNG THƯ VIỆN
+Chương IV
+QUYỀN, NGHĨA VỤ VÀ TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN TRONG HOẠT ĐỘNG THƯ VIỆN
+Mục 1
+QUYỀN, NGHĨA VỤ VÀ TRÁCH NHIỆM CỦA THƯ VIỆN, NGƯỜI LÀM CÔNG TÁC THƯ VIỆN, NGƯỜI SỬ DỤNG THƯ VIỆN
+Mục 2
+TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN CÓ LIÊN QUAN
+Chương V
+TRÁCH NHIỆM QUẢN LÝ NHÀ NƯỚC VỀ THƯ VIỆN
+Chương VI
+ĐIỀU KHOẢN THI HÀNH
