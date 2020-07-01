@@ -1,0 +1,7 @@
+# Điều 69a. Khởi kiện quyết định giải quyết khiếu nại trong hoạt động kiểm toán nhà nước
+1. Quyết định giải quyết khiếu nại trong hoạt động kiểm toán nhà nước bị khởi kiện bao gồm:
+a) Quyết định giải quyết khiếu nại về hành vi của Trưởng Đoàn kiểm toán, Tổ trưởng Tổ kiểm toán, thành viên Đoàn kiểm toán;
+b) Quyết định giải quyết khiếu nại về đánh giá, xác nhận, kết luận, kiến nghị kiểm toán của Kiểm toán nhà nước trong báo cáo kiểm toán, thông báo kết quả kiểm toán, thông báo kết luận, kiến nghị của Kiểm toán nhà nước.
+2. Trong thời hạn 30 ngày, kể từ ngày nhận được quyết định giải quyết khiếu nại trong hoạt động kiểm toán nhà nước mà người khiếu nại không đồng ý thì có quyền khởi kiện một phần hoặc toàn bộ nội dung của quyết định giải quyết khiếu nại trong hoạt động kiểm toán nhà nước tại Tòa án có thẩm quyền theo quy định của Luật Tố tụng hành chính.
+3. Trường hợp Tòa án thụ lý đơn khởi kiện theo quy định tại khoản 2 Điều này, Kiểm toán nhà nước có trách nhiệm chuyển hồ sơ vụ việc đến Tòa án trong thời hạn 10 ngày làm việc, kể từ ngày nhận được yêu cầu của Tòa án.
+4. Trường hợp bản án, quyết định của Tòa án tuyên hủy một phần hoặc toàn bộ quyết định giải quyết khiếu nại trong hoạt động kiểm toán nhà nước, Tổng Kiểm toán nhà nước có trách nhiệm giải quyết lại vụ việc và điều chỉnh báo cáo kiểm toán, gửi báo cáo kiểm toán, thông báo kết quả kiểm toán, thông báo kết luận, kiến nghị đã điều chỉnh cho người khởi kiện trong thời hạn 10 ngày làm việc, kể từ ngày bản án, quyết định của Tòa án có hiệu lực pháp luật.
