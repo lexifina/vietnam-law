@@ -1,0 +1,16 @@
+Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Chương II
+QUẢN LÝ KIẾN TRÚC
+Chương III
+HÀNH NGHỀ KIẾN TRÚC
+Mục 1
+QUY ĐỊNH CHUNG VỀ HÀNH NGHỀ KIẾN TRÚC
+Mục 2
+HÀNH NGHỀ KIẾN TRÚC CỦA CÁ NHÂN
+Mục 3
+HÀNH NGHỀ KIẾN TRÚC CỦA TỔ CHỨC
+Chương IV
+QUẢN LÝ NHÀ NƯỚC VỀ KIẾN TRÚC
+Chương V
+ĐIỀU KHOẢN THI HÀNH
