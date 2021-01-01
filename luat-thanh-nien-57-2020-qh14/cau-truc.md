@@ -1,0 +1,7 @@
+Chương I NHỮNG QUY ĐỊNH CHUNG
+Chương II TRÁCH NHIỆM CỦA THANH NIÊN
+Chương III CHÍNH SÁCH CỦA NHÀ NƯỚC ĐỐI VỚI THANH NIÊN
+Chương IV TRÁCH NHIỆM CỦA TỔ CHỨC THANH NIÊN
+Chương V TRÁCH NHIỆM CỦA MẶT TRẬN TỔ QUỐC VIỆT NAM, TỔ CHỨC XÃ HỘI, TỔ CHỨC KINH TẾ, CƠ SỞ GIÁO DỤC, GIA ĐÌNH
+Chương VI QUẢN LÝ NHÀ NƯỚC VỀ THANH NIÊN
+Chương VII ĐIỀU KHOẢN THI HÀNH
