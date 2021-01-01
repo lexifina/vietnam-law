@@ -1,0 +1,42 @@
+Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Chương II VIỆC LÀM, TUYỂN DỤNG VÀ QUẢN LÝ LAO ĐỘNG
+Chương III HỢP ĐỒNG LAO ĐỘNG
+Mục 1. GIAO KẾT HỢP ĐỒNG LAO ĐỘNG
+Mục 2. THỰC HIỆN HỢP ĐỒNG LAO ĐỘNG
+Mục 3. CHẤM DỨT HỢP ĐỒNG LAO ĐỘNG
+Mục 4. HỢP ĐỒNG LAO ĐỘNG VÔ HIỆU
+Mục 5. CHO THUÊ LẠI LAO ĐỘNG
+Chương IV GIÁO DỤC NGHỀ NGHIỆP VÀ PHÁT TRIỂN KỸ NĂNG NGHỀ
+Chương V ĐỐI THOẠI TẠI NƠI LÀM VIỆC, THƯƠNG LƯỢNG TẬP THỂ, THỎA ƯỚC LAO ĐỘNG TẬP THỂ
+Mục 1. ĐỐI THOẠI TẠI NƠI LÀM VIỆC
+Mục 2. THƯƠNG LƯỢNG TẬP THỂ
+Mục 3. THỎA ƯỚC LAO ĐỘNG TẬP THỂ
+Chương VI TIỀN LƯƠNG
+Chương VII THỜI GIỜ LÀM VIỆC, THỜI GIỜ NGHỈ NGƠI
+Mục 1. THỜI GIỜ LÀM VIỆC
+Mục 2. THỜI GIỜ NGHỈ NGƠI
+Mục 3. THỜI GIỜ LÀM VIỆC, THỜI GIỜ NGHỈ NGƠI ĐỐI VỚI NGƯỜI LÀM CÔNG VIỆC CÓ TÍNH CHẤT ĐẶC BIỆT
+Chương VIII KỶ LUẬT LAO ĐỘNG, TRÁCH NHIỆM VẬT CHẤT
+Mục 1. KỶ LUẬT LAO ĐỘNG
+Mục 2. TRÁCH NHIỆM VẬT CHẤT
+Chương IX AN TOÀN, VỆ SINH LAO ĐỘNG
+Chương X NHỮNG QUY ĐỊNH RIÊNG ĐỐI VỚI LAO ĐỘNG NỮ VÀ BẢO ĐẢM BÌNH ĐẲNG GIỚI
+Chương XI NHỮNG QUY ĐỊNH RIÊNG ĐỐI VỚI LAO ĐỘNG CHƯA THÀNH NIÊN VÀ MỘT SỐ LAO ĐỘNG KHÁC
+Mục 1. LAO ĐỘNG CHƯA THÀNH NIÊN
+Mục 2. NGƯỜI LAO ĐỘNG CAO TUỔI
+Mục 3. NGƯỜI LAO ĐỘNG VIỆT NAM ĐI LÀM VIỆC Ở NƯỚC NGOÀI, LAO ĐỘNG CHO CÁC TỔ CHỨC, CÁ NHÂN NƯỚC NGOÀI TẠI VIỆT NAM, LAO ĐỘNG LÀ NGƯỜI NƯỚC NGOÀI LÀM VIỆC TẠI VIỆT NAM
+Mục 4. LAO ĐỘNG LÀ NGƯỜI KHUYẾT TẬT
+Mục 5. LAO ĐỘNG LÀ NGƯỜI GIÚP VIỆC GIA ĐÌNH
+Mục 6. MỘT SỐ LAO ĐỘNG KHÁC
+Chương XII BẢO HIỂM XÃ HỘI, BẢO HIỂM Y TẾ, BẢO HIỂM THẤT NGHIỆP
+Chương XIII TỔ CHỨC ĐẠI DIỆN NGƯỜI LAO ĐỘNG TẠI CƠ SỞ
+Chương XIV GIẢI QUYẾT TRANH CHẤP LAO ĐỘNG
+Mục 1. NHỮNG QUY ĐỊNH CHUNG VỀ GIẢI QUYẾT TRANH CHẤP LAO ĐỘNG
+Mục 2. THẨM QUYỀN VÀ TRÌNH TỰ GIẢI QUYẾT TRANH CHẤP LAO ĐỘNG CÁ NHÂN
+Mục 3. THẨM QUYỀN VÀ TRÌNH TỰ GIẢI QUYẾT TRANH CHẤP LAO ĐỘNG TẬP THỂ VỀ QUYỀN
+Mục 4. THẨM QUYỀN VÀ TRÌNH TỰ GIẢI QUYẾT TRANH CHẤP LAO ĐỘNG TẬP THỂ VỀ LỢI ÍCH
+Mục 5. ĐÌNH CÔNG
+Chương XV QUẢN LÝ NHÀ NƯỚC VỀ LAO ĐỘNG
+Chương XVI THANH TRA LAO ĐỘNG, XỬ LÝ VI PHẠM PHÁP LUẬT VỀ LAO ĐỘNG
+Chương XVII ĐIỀU KHOẢN THI HÀNH
