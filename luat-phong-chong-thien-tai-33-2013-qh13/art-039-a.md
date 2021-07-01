@@ -1,0 +1,3 @@
+# Điều 39a. Khoa học và công nghệ trong phòng, chống thiên tai
+1. Nghiên cứu, ứng dụng công nghệ cao, công nghệ tiên tiến, công nghệ mới để nâng cao năng lực dự báo, cảnh báo, theo dõi, giám sát, truyền tin các loại hình thiên tai, tác động của biến đổi khí hậu và các hoạt động có thể làm gia tăng rủi ro thiên tai.
+2. Nghiên cứu khoa học và ứng dụng công nghệ cao, công nghệ tiên tiến, công nghệ mới, vật liệu mới để nâng cao hiệu quả đầu tư, quản lý, sử dụng công trình phòng, chống thiên tai, thích ứng biến đổi khí hậu; bảo đảm an toàn công trình đê điều, công trình phòng, chống sạt lở, sụt lún đất, hồ, đập và công trình phòng, chống thiên tai khác.
