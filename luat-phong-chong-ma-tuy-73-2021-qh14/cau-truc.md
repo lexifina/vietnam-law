@@ -1,0 +1,16 @@
+Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Chương II
+TRÁCH NHIỆM PHÒNG, CHỐNG MA TÚY
+Chương III
+KIỂM SOÁT CÁC HOẠT ĐỘNG HỢP PHÁP LIÊN QUAN ĐẾN MA TÚY
+Chương IV
+QUẢN LÝ NGƯỜI SỬ DỤNG TRÁI PHÉP CHẤT MA TÚY
+Chương V
+CAI NGHIỆN MA TÚY
+Chương VI
+QUẢN LÝ NHÀ NƯỚC VỀ PHÒNG, CHỐNG MA TÚY
+Chương VII
+HỢP TÁC QUỐC TẾ VỀ PHÒNG, CHỐNG MA TÚY
+Chương VIII
+ĐIỀU KHOẢN THI HÀNH
