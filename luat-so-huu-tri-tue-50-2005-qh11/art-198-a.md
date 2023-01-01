@@ -1,0 +1,5 @@
+# Điều 198a. Giả định về quyền tác giả, quyền liên quan
+Trong các thủ tục tố tụng dân sự, hành chính, hình sự về quyền tác giả và quyền liên quan, nếu không có chứng cứ ngược lại thì quyền tác giả, quyền liên quan được giả định như sau:
+1. Cá nhân, tổ chức được nêu tên theo cách thông thường là tác giả, người biểu diễn, nhà sản xuất bản ghi âm, ghi hình, tổ chức phát sóng, nhà sản xuất tác phẩm điện ảnh, nhà xuất bản được coi là chủ thể quyền đối với tác phẩm, cuộc biểu diễn, bản ghi âm, ghi hình, chương trình phát sóng đó;
+2. Nêu tên theo cách thông thường quy định tại khoản 1 Điều này được hiểu là được nêu tên trên bản gốc tác phẩm, bản định hình đầu tiên cuộc biểu diễn, bản ghi âm, ghi hình, chương trình phát sóng và các tài liệu liên quan (nếu có) hoặc trên các bản sao tương ứng được công bố hợp pháp trong trường hợp bản gốc tác phẩm, bản định hình đầu tiên cuộc biểu diễn, bản ghi âm, ghi hình, chương trình phát sóng và các tài liệu liên quan không còn tồn tại;
+3. Cá nhân, tổ chức quy định tại khoản 1 Điều này được hưởng quyền tác giả hoặc quyền liên quan tương ứng.
