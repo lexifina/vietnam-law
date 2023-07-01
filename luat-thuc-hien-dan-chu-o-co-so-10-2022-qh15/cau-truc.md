@@ -1,0 +1,25 @@
+Chương I NHỮNG QUY ĐỊNH CHUNG
+Chương II THỰC HIỆN DÂN CHỦ Ở XÃ, PHƯỜNG, THỊ TRẤN
+Mục 1 CÔNG KHAI THÔNG TIN Ở XÃ, PHƯỜNG, THỊ TRẤN
+Mục 2 NHÂN DÂN BÀN VÀ QUYẾT ĐỊNH
+Mục 3 NHÂN DÂN THAM GIA Ý KIẾN
+Mục 4 NHÂN DÂN KIỂM TRA, GIÁM SÁT
+Tiểu mục 1 NỘI DUNG, HÌNH THỨC KIỂM TRA, GIÁM SÁT
+Tiểu mục 2 BAN THANH TRA NHÂN DÂN Ở XÃ, PHƯỜNG, THỊ TRẤN
+Tiểu mục 3 BAN GIÁM SÁT ĐẦU TƯ CỦA CỘNG ĐỒNG
+Chương III THỰC HIỆN DÂN CHỦ Ở CƠ QUAN, ĐƠN VỊ
+Mục 1 CÔNG KHAI THÔNG TIN Ở CƠ QUAN, ĐƠN VỊ
+Mục 2 CÁN BỘ, CÔNG CHỨC, VIÊN CHỨC, NGƯỜI LAO ĐỘNG BÀN VÀ QUYẾT ĐỊNH
+Mục 3 CÁN BỘ, CÔNG CHỨC, VIÊN CHỨC, NGƯỜI LAO ĐỘNG THAM GIA Ý KIẾN
+Mục 4 CÁN BỘ, CÔNG CHỨC, VIÊN CHỨC, NGƯỜI LAO ĐỘNG KIỂM TRA, GIÁM SÁT
+Tiểu mục 1 NỘI DUNG, HÌNH THỨC KIỂM TRA, GIÁM SÁT
+Tiểu mục 2 BAN THANH TRA NHÂN DÂN Ở CƠ QUAN, ĐƠN VỊ
+Chương IV THỰC HIỆN DÂN CHỦ Ở TỔ CHỨC CÓ SỬ DỤNG LAO ĐỘNG
+Mục 1 THỰC HIỆN DÂN CHỦ Ở DOANH NGHIỆP NHÀ NƯỚC
+Tiểu mục 1 CÔNG KHAI THÔNG TIN Ở DOANH NGHIỆP NHÀ NƯỚC
+Tiểu mục 2 NGƯỜI LAO ĐỘNG Ở DOANH NGHIỆP NHÀ NƯỚC BÀN VÀ QUYẾT ĐỊNH
+Tiểu mục 3 NGƯỜI LAO ĐỘNG Ở DOANH NGHIỆP NHÀ NƯỚC THAM GIA Ý KIẾN
+Tiểu mục 4 NGƯỜI LAO ĐỘNG Ở DOANH NGHIỆP NHÀ NƯỚC KIỂM TRA, GIÁM SÁT
+Mục 2 THỰC HIỆN DÂN CHỦ Ở DOANH NGHIỆP, TỔ CHỨC KHÁC CÓ THUÊ MƯỚN, SỬ DỤNG LAO ĐỘNG THEO HỢP ĐỒNG LAO ĐỘNG THUỘC KHU VỰC NGOÀI NHÀ NƯỚC
+Chương V TỔ CHỨC THỰC HIỆN PHÁP LUẬT VỀ THỰC HIỆN DÂN CHỦ Ở CƠ SỞ
+Chương VI ĐIỀU KHOẢN THI HÀNH
