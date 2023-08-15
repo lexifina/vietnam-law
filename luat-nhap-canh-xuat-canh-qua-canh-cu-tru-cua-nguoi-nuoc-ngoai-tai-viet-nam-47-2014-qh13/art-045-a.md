@@ -1,0 +1,3 @@
+# Điều 45a. Trách nhiệm của cơ quan, tổ chức, cá nhân khác có liên quan
+1. Cơ quan, tổ chức, cá nhân chỉ được sử dụng lao động là người nước ngoài, tổ chức chương trình du lịch cho người nước ngoài hoặc cho người nước ngoài tạm trú khi người nước ngoài cư trú hợp pháp tại Việt Nam.
+2. Cơ quan, tổ chức, cá nhân phát hiện dấu hiệu vi phạm pháp luật về nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam phải thông báo ngay cho cơ quan Công an nơi gần nhất; trường hợp phát hiện dấu hiệu vi phạm trong khu vực biên giới phải thông báo ngay cho cơ quan Công an hoặc đồn, trạm Biên phòng nơi gần nhất.
