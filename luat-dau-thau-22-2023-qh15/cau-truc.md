@@ -1,0 +1,22 @@
+Chương I QUY ĐỊNH CHUNG
+Chương II HÌNH THỨC, PHƯƠNG THỨC LỰA CHỌN NHÀ THẦU, NHÀ ĐẦU TƯ
+Mục 1 HÌNH THỨC LỰA CHỌN NHÀ THẦU
+Mục 2 PHƯƠNG THỨC LỰA CHỌN NHÀ THẦU
+Mục 3 HÌNH THỨC, PHƯƠNG THỨC LỰA CHỌN NHÀ ĐẦU TƯ
+Chương III KẾ HOẠCH LỰA CHỌN NHÀ THẦU
+Chương IV QUY TRÌNH, THỦ TỤC LỰA CHỌN NHÀ THẦU, NHÀ ĐẦU TƯ
+Mục 1 QUY TRÌNH, THỦ TỤC LỰA CHỌN NHÀ THẦU
+Mục 2 QUY TRÌNH, THỦ TỤC LỰA CHỌN NHÀ ĐẦU TƯ
+Mục 3 ĐẤU THẦU QUA MẠNG
+Chương V MUA SẮM TẬP TRUNG; MUA THUỐC, HÓA CHẤT, VẬT TƯ XÉT NGHIỆM, THIẾT BỊ Y TẾ; CUNG CẤP SẢN PHẨM, DỊCH VỤ CÔNG
+Chương VI PHƯƠNG PHÁP ĐÁNH GIÁ HỒ SƠ DỰ THẦU VÀ XÉT DUYỆT TRÚNG THẦU
+Mục 1 PHƯƠNG PHÁP ĐÁNH GIÁ HỒ SƠ DỰ THẦU VÀ XÉT DUYỆT TRÚNG THẦU TRONG LỰA CHỌN NHÀ THẦU
+Mục 2 PHƯƠNG PHÁP ĐÁNH GIÁ HỒ SƠ DỰ THẦU VÀ XÉT DUYỆT TRÚNG THẦU TRONG LỰA CHỌN NHÀ ĐẦU TƯ
+Chương VII HỢP ĐỒNG
+Mục 1 HỢP ĐỒNG VỚI NHÀ THẦU
+Mục 2 HỢP ĐỒNG DỰ ÁN ĐẦU TƯ KINH DOANH VỚI NHÀ ĐẦU TƯ
+Chương VIII TRÁCH NHIỆM CỦA CÁC BÊN TRONG HOẠT ĐỘNG ĐẤU THẦU
+Chương IX QUẢN LÝ NHÀ NƯỚC ĐỐI VỚI HOẠT ĐỘNG ĐẤU THẦU
+Mục 1 QUẢN LÝ NHÀ NƯỚC VỀ ĐẤU THẦU
+Mục 2 XỬ LÝ TÌNH HUỐNG VÀ GIẢI QUYẾT KIẾN NGHỊ TRONG HOẠT ĐỘNG ĐẤU THẦU
+Chương X ĐIỀU KHOẢN THI HÀNH
