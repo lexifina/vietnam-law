@@ -1,0 +1,16 @@
+Chương I NHỮNG QUY ĐỊNH CHUNG
+Chương II QUYỀN, NGHĨA VỤ CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH HÀNG HÓA, DỊCH VỤ VÀ NGƯỜI TIÊU DÙNG TRONG LĨNH VỰC GIÁ
+Chương III NHIỆM VỤ, QUYỀN HẠN CỦA CƠ QUAN QUẢN LÝ NHÀ NƯỚC VỀ GIÁ, THẨM ĐỊNH GIÁ
+Chương IV HOẠT ĐỘNG QUẢN LÝ, ĐIỀU TIẾT GIÁ CỦA NHÀ NƯỚC
+Mục 1 BÌNH ỔN GIÁ
+Mục 2 ĐỊNH GIÁ
+Mục 3 HIỆP THƯƠNG GIÁ
+Mục 4 KÊ KHAI GIÁ, NIÊM YẾT GIÁ, GIÁ THAM CHIẾU
+Mục 5 KIỂM TRA YẾU TỐ HÌNH THÀNH GIÁ
+Chương V TỔNG HỢP, PHÂN TÍCH, DỰ BÁO GIÁ THỊ TRƯỜNG, CƠ SỞ DỮ LIỆU VỀ GIÁ
+Chương VI THẨM ĐỊNH GIÁ
+Mục 1 QUY ĐỊNH CHUNG
+Mục 2 DỊCH VỤ THẨM ĐỊNH GIÁ
+Mục 3 THẨM ĐỊNH GIÁ CỦA NHÀ NƯỚC
+Chương VII THANH TRA CHUYÊN NGÀNH VỀ GIÁ, KIỂM TRA VIỆC CHẤP HÀNH PHÁP LUẬT VỀ GIÁ, THẨM ĐỊNH GIÁ
+Chương VIII ĐIỀU KHOẢN THI HÀNH
