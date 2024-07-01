@@ -1,0 +1,16 @@
+Chương I NHỮNG QUY ĐỊNH CHUNG
+Chương II ĐIỀU TRA CƠ BẢN, CHIẾN LƯỢC, QUY HOẠCH VỀ TÀI NGUYÊN NƯỚC
+Mục 1 ĐIỀU TRA CƠ BẢN TÀI NGUYÊN NƯỚC
+Mục 2 CHIẾN LƯỢC, QUY HOẠCH VỀ TÀI NGUYÊN NƯỚC
+Chương III BẢO VỆ TÀI NGUYÊN NƯỚC VÀ PHỤC HỒI NGUỒN NƯỚC
+Chương IV ĐIỀU HÒA, PHÂN PHỐI VÀ KHAI THÁC, SỬ DỤNG TÀI NGUYÊN NƯỚC
+Mục 1 ĐIỀU HÒA, PHÂN PHỐI TÀI NGUYÊN NƯỚC
+Mục 2 KHAI THÁC, SỬ DỤNG TÀI NGUYÊN NƯỚC
+Mục 3 KÊ KHAI, ĐĂNG KÝ, CẤP PHÉP VỀ TÀI NGUYÊN NƯỚC
+Mục 4 SỬ DỤNG NƯỚC TIẾT KIỆM, HIỆU QUẢ
+Chương V PHÒNG, CHỐNG VÀ KHẮC PHỤC TÁC HẠI DO NƯỚC GÂY RA
+Chương VI CÔNG CỤ KINH TẾ, CHÍNH SÁCH VÀ NGUỒN LỰC CHO TÀI NGUYÊN NƯỚC
+Chương VII HỢP TÁC QUỐC TẾ VỀ TÀI NGUYÊN NƯỚC
+Chương VIII TRÁCH NHIỆM QUẢN LÝ NHÀ NƯỚC VỀ TÀI NGUYÊN NƯỚC
+Chương IX THANH TRA, KIỂM TRA VỀ TÀI NGUYÊN NƯỚC
+Chương X ĐIỀU KHOẢN THI HÀNH
