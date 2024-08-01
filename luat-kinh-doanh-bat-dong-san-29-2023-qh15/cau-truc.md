@@ -1,0 +1,52 @@
+Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Chương II
+KINH DOANH NHÀ Ở, CÔNG TRÌNH XÂY DỰNG CÓ SẴN
+Chương III
+KINH DOANH NHÀ Ở, CÔNG TRÌNH XÂY DỰNG HÌNH THÀNH TRONG TƯƠNG LAI
+Chương IV
+KINH DOANH QUYỀN SỬ DỤNG ĐẤT ĐÃ CÓ HẠ TẦNG KỸ THUẬT
+TRONG DỰ ÁN BẤT ĐỘNG SẢN
+Mục 1
+QUY ĐỊNH CHUNG
+Mục 2
+CHUYỂN NHƯỢNG QUYỀN SỬ DỤNG ĐẤT
+ĐÃ CÓ HẠ TẦNG KỸ THUẬT TRONG DỰ ÁN BẤT ĐỘNG SẢN
+CHO CÁ NHÂN TỰ XÂY DỰNG NHÀ Ở
+Mục 3
+CHUYỂN NHƯỢNG, CHO THUÊ, CHO THUÊ LẠI
+QUYỀN SỬ DỤNG ĐẤT ĐÃ CÓ HẠ TẦNG KỸ THUẬT
+TRONG DỰ ÁN BẤT ĐỘNG SẢN CHO TỔ CHỨC
+Chương V
+CHUYỂN NHƯỢNG DỰ ÁN BẤT ĐỘNG SẢN
+Chương VI
+HỢP ĐỒNG KINH DOANH BẤT ĐỘNG SẢN . ­­­­
+Mục 1
+CÁC LOẠI HỢP ĐỒNG KINH DOANH BẤT ĐỘNG SẢN, SỬ DỤNG HỢP ĐỒNG KINH DOANH BẤT ĐỘNG SẢN
+Mục 2
+CHUYỂN NHƯỢNG HỢP ĐỒNG KINH DOANH BẤT ĐỘNG SẢN
+Chương VII
+KINH DOANH DỊCH VỤ BẤT ĐỘNG SẢN
+VÀ ĐÀO TẠO, BỒI DƯỠNG, CẤP CHỨNG CHỈ HÀNH NGHỀ
+TRONG KINH DOANH DỊCH VỤ BẤT ĐỘNG SẢN
+Mục 1
+SÀN GIAO DỊCH BẤT ĐỘNG SẢN
+Mục 2
+MÔI GIỚI BẤT ĐỘNG SẢN
+Mục 3
+TƯ VẤN, QUẢN LÝ BẤT ĐỘNG SẢN
+Mục 4
+ĐÀO TẠO, BỒI DƯỠNG KIẾN THỨC HÀNH NGHỀ MÔI GIỚI
+BẤT ĐỘNG SẢN, ĐIỀU HÀNH SÀN GIAO DỊCH BẤT ĐỘNG SẢN;
+CẤP CHỨNG CHỈ HÀNH NGHỀ MÔI GIỚI BẤT ĐỘNG SẢN
+Chương VIII
+XÂY DỰNG VÀ QUẢN LÝ HỆ THỐNG THÔNG TIN,
+CƠ SỞ DỮ LIỆU VỀ NHÀ Ở VÀ THỊ TRƯỜNG BẤT ĐỘNG SẢN
+Chương IX
+QUẢN LÝ NHÀ NƯỚC VỀ KINH DOANH BẤT ĐỘNG SẢN
+Mục 1
+ĐIỀU TIẾT THỊ TRƯỜNG BẤT ĐỘNG SẢN
+Mục 2
+NỘI DUNG, TRÁCH NHIỆM QUẢN LÝ NHÀ NƯỚC VỀ KINH DOANH BẤT ĐỘNG SẢN
+Chương X
+ĐIỀU KHOẢN THI HÀNH
