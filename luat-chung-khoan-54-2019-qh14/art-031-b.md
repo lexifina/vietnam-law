@@ -1,0 +1,8 @@
+# Điều 31b. Hủy bỏ chào bán chứng khoán riêng lẻ
+1. Ủy ban Chứng khoán Nhà nước quyết định hủy bỏ đợt chào bán chứng khoán riêng lẻ đã đăng ký với Ủy ban Chứng khoán Nhà nước trong các trường hợp sau đây:
+a) Hết thời hạn đình chỉ theo quy định tại khoản 1 Điều 31a của Luật này mà tổ chức phát hành không khắc phục được thiếu sót dẫn đến việc bị đình chỉ đợt chào bán chứng khoán riêng lẻ;
+b) Sau khi kết thúc đợt chào bán cổ phiếu riêng lẻ và cổ phiếu chưa đưa vào niêm yết hoặc đăng ký giao dịch mà phát hiện đợt chào bán vi phạm quy định tại khoản 1 Điều 31a của Luật này;
+c) Sau khi kết thúc đợt chào bán trái phiếu riêng lẻ mà phát hiện đợt chào bán vi phạm quy định tại khoản 1 Điều 31a của Luật này.
+2. Ngoài các trường hợp quy định tại khoản 1 Điều này, đợt chào bán chứng khoán riêng lẻ bị hủy bỏ theo bản án, quyết định của Tòa án đã có hiệu lực pháp luật, quyết định của Trọng tài hoặc cơ quan có thẩm quyền theo quy định của pháp luật.
+3. Sau khi chào bán riêng lẻ mà cổ phiếu hoặc cổ phiếu được chuyển đổi từ trái phiếu chuyển đổi hoặc cổ phiếu được mua từ chứng quyền đã được đưa vào niêm yết hoặc đăng ký giao dịch thì không hủy bỏ.
+4. Trong thời hạn 07 ngày làm việc kể từ ngày đợt chào bán chứng khoán riêng lẻ bị hủy bỏ, tổ chức phát hành phải công bố việc hủy bỏ chào bán chứng khoán riêng lẻ theo phương thức quy định tại khoản 3 Điều 25 của Luật này và phải thu hồi chứng khoán đã phát hành, đồng thời hoàn trả tiền cho nhà đầu tư trong thời hạn 15 ngày kể từ ngày đợt chào bán bị hủy bỏ. Hết thời hạn này, tổ chức phát hành phải bồi thường thiệt hại cho nhà đầu tư theo các điều khoản đã cam kết với nhà đầu tư.
