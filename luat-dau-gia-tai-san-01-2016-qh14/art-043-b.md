@@ -1,0 +1,7 @@
+# Điều 43b. Trình tự, thủ tục đấu giá trực tuyến
+1. Tổ chức hành nghề đấu giá tài sản, Hội đồng đấu giá tài sản, tổ chức mà Nhà nước sở hữu 100% vốn điều lệ do Ngân hàng Nhà nước Việt Nam thành lập để xử lý nợ xấu của tổ chức tín dụng thực hiện trình tự, thủ tục đấu giá trực tuyến theo quy định tại Điều này, các điều từ Điều 33 đến Điều 39, Điều 43a, các điều từ Điều 44 đến Điều 54 và Chương IV của Luật này.
+2. Tổ chức hành nghề đấu giá tài sản, Hội đồng đấu giá tài sản, tổ chức mà Nhà nước sở hữu 100% vốn điều lệ do Ngân hàng Nhà nước Việt Nam thành lập để xử lý nợ xấu của tổ chức tín dụng đăng tải Quy chế cuộc đấu giá, thông báo công khai việc đấu giá trên Cổng Đấu giá tài sản quốc gia hoặc trang thông tin đấu giá trực tuyến.
+3. Người tham gia đấu giá đăng ký tham gia đấu giá, nộp hồ sơ tham gia đấu giá, trả giá trên Cổng Đấu giá tài sản quốc gia hoặc trang thông tin đấu giá trực tuyến; nộp tiền đặt trước theo quy định; xem tài sản đấu giá trực tuyến hoặc xem tài sản đấu giá trực tiếp theo Quy chế cuộc đấu giá.
+4. Tổ chức hành nghề đấu giá tài sản phân công đấu giá viên điều hành phiên đấu giá trực tuyến. Hội đồng đấu giá tài sản, tổ chức mà Nhà nước sở hữu 100% vốn điều lệ do Ngân hàng Nhà nước Việt Nam thành lập để xử lý nợ xấu của tổ chức tín dụng phân công thành viên điều hành phiên đấu giá trực tuyến.
+5. Kết quả cuộc đấu giá trực tuyến được đăng công khai trên Cổng Đấu giá tài sản quốc gia hoặc trang thông tin đấu giá trực tuyến và được gửi vào địa chỉ thư điện tử của người tham gia đấu giá.
+6. Chính phủ quy định chi tiết Điều này.

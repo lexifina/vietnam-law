@@ -1,0 +1,7 @@
+# Điều 43a. Đấu giá trực tuyến
+1. Việc đấu giá trực tuyến được thực hiện thông qua Cổng Đấu giá tài sản quốc gia hoặc trang thông tin đấu giá trực tuyến.
+2. Việc xây dựng, quản lý và vận hành Cổng Đấu giá tài sản quốc gia, trang thông tin đấu giá trực tuyến được thực hiện theo quy định của pháp luật về thông tin và truyền thông, pháp luật về thương mại điện tử và pháp luật về đấu giá tài sản.
+Kinh phí xây dựng, quản lý, vận hành, bảo trì, nâng cấp Cổng Đấu giá tài sản quốc gia được sử dụng từ nguồn ngân sách nhà nước và các nguồn khác theo quy định của pháp luật.
+3. Tổ chức hành nghề đấu giá tài sản, Hội đồng đấu giá tài sản, tổ chức mà Nhà nước sở hữu 100% vốn điều lệ do Ngân hàng Nhà nước Việt Nam thành lập để xử lý nợ xấu của tổ chức tín dụng tổ chức việc đấu giá trực tuyến thông qua sử dụng Cổng Đấu giá tài sản quốc gia hoặc sử dụng trang thông tin đấu giá trực tuyến của mình hoặc thuê, sử dụng trang thông tin đấu giá trực tuyến của tổ chức hành nghề đấu giá tài sản khác.
+4. Chi phí sử dụng Cổng Đấu giá tài sản quốc gia, chi phí thuê trang thông tin đấu giá trực tuyến để tổ chức cuộc đấu giá bằng hình thức đấu giá trực tuyến được tính vào chi phí đấu giá tài sản quy định tại khoản 2 Điều 66 của Luật này.
+5. Chính phủ quy định chi tiết yêu cầu, điều kiện đối với Cổng Đấu giá tài sản quốc gia và yêu cầu, điều kiện, việc thẩm định, phê duyệt trang thông tin đấu giá trực tuyến; trách nhiệm của các cơ quan, tổ chức, cá nhân trong việc xây dựng, quản lý, vận hành, sử dụng Cổng Đấu giá tài sản quốc gia, trang thông tin đấu giá trực tuyến.
