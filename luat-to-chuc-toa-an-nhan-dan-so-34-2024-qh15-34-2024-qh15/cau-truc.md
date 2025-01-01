@@ -1,0 +1,21 @@
+Chương I NHỮNG QUY ĐỊNH CHUNG
+Chương II NHIỆM VỤ, QUYỀN HẠN CỦA CÁC TÒA ÁN
+Mục 1 NHIỆM VỤ, QUYỀN HẠN CỦA TÒA ÁN THEO THẨM QUYỀN XÉT XỬ
+Mục 2 NHIỆM VỤ, QUYỀN HẠN CỦA TÒA ÁN NHÂN DÂN
+Chương III HỘI ĐỒNG TUYỂN CHỌN, GIÁM SÁT THẨM PHÁN QUỐC GIA
+Chương IV TỔ CHỨC BỘ MÁY
+Mục 1 TÒA ÁN NHÂN DÂN TỐI CAO
+Mục 2 TÒA ÁN NHÂN DÂN CẤP CAO
+Mục 3 TÒA ÁN NHÂN DÂN TỈNH, THÀNH PHỐ TRỰC THUỘC TRUNG ƯƠNG
+Mục 4 TÒA ÁN NHÂN DÂN HUYỆN, QUẬN, THỊ XÃ, THÀNH PHỐ THUỘC TỈNH, THÀNH PHỐ THUỘC THÀNH PHỐ TRỰC THUỘC TRUNG ƯƠNG
+Mục 5 TÒA ÁN NHÂN DÂN SƠ THẨM CHUYÊN BIỆT
+Mục 6 TÒA ÁN QUÂN SỰ
+Chương V CÁN BỘ, CÔNG CHỨC, VIÊN CHỨC VÀ NGƯỜI LAO ĐỘNG TRONG TÒA ÁN NHÂN DÂN
+Mục 1 NHỮNG QUY ĐỊNH CHUNG
+Mục 2 CHÁNH ÁN, PHÓ CHÁNH ÁN TÒA ÁN NHÂN DÂN
+Mục 3 THẨM PHÁN
+Mục 4 THẨM TRA VIÊN TÒA ÁN, THƯ KÝ TÒA ÁN
+Chương VI HỘI THẨM
+Chương VII TỔ CHỨC XÉT XỬ
+Chương VIII BẢO ĐẢM HOẠT ĐỘNG CỦA TÒA ÁN NHÂN DÂN
+Chương IX ĐIỀU KHOẢN THI HÀNH
