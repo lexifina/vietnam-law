@@ -1,0 +1,3 @@
+# Điều 34a. Lựa chọn nhà đầu tư trong trường hợp đặc biệt
+1. Việc lựa chọn nhà đầu tư trong trường hợp đặc biệt được áp dụng đối với dự án đầu tư kinh doanh có một hoặc một số yêu cầu, điều kiện đặc thù về thủ tục đầu tư; thủ tục giao đất, cho thuê đất, giao khu vực biển; thủ tục, phương pháp, tiêu chuẩn lựa chọn nhà đầu tư và nội dung hợp đồng dự án đầu tư kinh doanh hoặc yêu cầu bảo đảm quốc phòng, an ninh, đối ngoại, biên giới lãnh thổ, lợi ích quốc gia, thực hiện nhiệm vụ chính trị của quốc gia mà không thể áp dụng được một trong các hình thức lựa chọn nhà đầu tư quy định tại khoản 1 và khoản 2 Điều 34 của Luật này.
+2. Chính phủ quy định chi tiết Điều này.
