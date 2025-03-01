@@ -1,0 +1,14 @@
+Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Chương II
+CHÍNH PHỦ, THỦ TƯỚNG CHÍNH PHỦ
+Mục 1
+CHÍNH PHỦ
+Mục 2
+THỦ TƯỚNG CHÍNH PHỦ
+Chương III
+BỘ TRƯỞNG, THỦ TRƯỞNG CƠ QUAN NGANG BỘ; BỘ, CƠ QUAN NGANG BỘ, CƠ QUAN THUỘC CHÍNH PHỦ
+Chương IV
+CHẾ ĐỘ LÀM VIỆC CỦA CHÍNH PHỦ
+Chương V
+ĐIỀU KHOẢN THI HÀNH
