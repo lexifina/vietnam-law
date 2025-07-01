@@ -1,0 +1,10 @@
+# Điều 99a. Xử lý vướng mắc giảm doanh thu của các dự án BOT giao thông được ký kết trước ngày Luật này có hiệu lực thi hành
+1. Đối với dự án BOT trong lĩnh vực đường bộ có hợp đồng được ký kết trước ngày 01 tháng 01 năm 2021, Nhà nước chia sẻ với nhà đầu tư, doanh nghiệp dự án PPP theo tỷ lệ phần chênh lệch giữa doanh thu trong phương án tài chính và doanh thu thực tế.
+2. Việc chia sẻ phần giảm doanh thu quy định tại khoản 1 Điều này được áp dụng khi đáp ứng các điều kiện sau đây:
+a) Dự án bị ảnh hưởng do thay đổi quy hoạch, chính sách, pháp luật có liên quan của Nhà nước, sau khi áp dụng các biện pháp điều chỉnh theo quy định của pháp luật và tính toán điều chỉnh mức phí sử dụng dịch vụ đường bộ, thời hạn hợp đồng dự án nhưng doanh thu thực tế của 03 năm gần nhất đạt dưới 75% mức doanh thu trong phương án tài chính tại hợp đồng dự án PPP và phương án tài chính vẫn không bảo đảm hiệu quả;
+b) Hợp đồng dự án chưa quy định nội dung áp dụng cơ chế chia sẻ phần tăng, giảm doanh thu;
+c) Cơ quan ký kết hợp đồng đã đàm phán với nhà đầu tư, doanh nghiệp dự án và bên cho vay về tỷ suất lợi nhuận trên vốn chủ sở hữu, lãi suất vốn vay, phương án trả nợ trong phương án tài chính. Trường hợp phương án tài chính được điều chỉnh không bảo đảm tính khả thi thì không áp dụng cơ chế chia sẻ phần giảm doanh thu tại Điều này;
+d) Đã được Kiểm toán nhà nước thực hiện kiểm toán phần giảm doanh thu và số tiền Nhà nước chia sẻ phần giảm doanh thu.
+3. Việc chia sẻ phần giảm doanh thu quy định tại khoản 2 Điều này được thực hiện một lần và không phải thực hiện thủ tục điều chỉnh chủ trương đầu tư, điều chỉnh dự án. Bộ trưởng, Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định việc áp dụng chia sẻ phần giảm doanh thu và tỷ lệ chia sẻ đối với dự án do mình phê duyệt theo quy định của Chính phủ, bảo đảm công bằng, minh bạch, không làm phát sinh tăng phí sử dụng dịch vụ đường bộ và thời gian thu phí theo hợp đồng đã ký.
+4. Nguồn vốn để chi trả phần giảm doanh thu quy định tại Điều này thực hiện theo quy định tại khoản 3 Điều 82 của Luật này.
+5. Chính phủ quy định chi tiết Điều này.
