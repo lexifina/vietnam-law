@@ -1,0 +1,2 @@
+# Điều 506a. Giữ người trong trường hợp khẩn cấp trước khi có yêu cầu dẫn độ
+Việc giữ người trong trường hợp khẩn cấp trước khi có yêu cầu dẫn độ của cơ quan có thẩm quyền của nước ngoài được thực hiện theo quy định của điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên và pháp luật về dẫn độ.
