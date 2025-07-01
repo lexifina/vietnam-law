@@ -1,0 +1,21 @@
+Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Chương II
+PHÒNG NGỪA MUA BÁN NGƯỜI
+Chương III
+PHÁT HIỆN, XỬ LÝ HÀNH VI VI PHẠM PHÁP LUẬT
+VỀ PHÒNG, CHỐNG MUA BÁN NGƯỜI
+Chương IV
+TIẾP NHẬN, XÁC MINH, XÁC ĐỊNH VÀ BẢO VỆ NẠN NHÂN
+Mục 1 TIẾP NHẬN, XÁC MINH, XÁC ĐỊNH NẠN NHÂN
+Mục 2 CĂN CỨ ĐỂ XÁC ĐỊNH NẠN NHÂN; GIẤY TỜ,
+TÀI LIỆU XÁC NHẬN NẠN NHÂN
+Mục 3 BẢO VỆ NẠN NHÂN, NGƯỜI ĐANG TRONG QUÁ TRÌNH XÁC ĐỊNH LÀ NẠN NHÂN VÀ NGƯỜI THÂN THÍCH CỦA HỌ
+Chương V
+HỖ TRỢ NẠN NHÂN, NGƯỜI ĐANG TRONG QUÁ TRÌNH XÁC ĐỊNH LÀ NẠN NHÂN
+Chương VI
+QUẢN LÝ NHÀ NƯỚC VỀ PHÒNG, CHỐNG MUA BÁN NGƯỜI
+Chương VII
+HỢP TÁC QUỐC TẾ TRONG PHÒNG, CHỐNG MUA BÁN NGƯỜI
+Chương VIII
+ĐIỀU KHOẢN THI HÀNH
