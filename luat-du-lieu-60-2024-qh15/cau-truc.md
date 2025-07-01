@@ -1,0 +1,7 @@
+Chương I QUY ĐỊNH CHUNG
+Chương II XÂY DỰNG, PHÁT TRIỂN, BẢO VỆ, QUẢN TRỊ, XỬ LÝ, SỬ SỤNG DỮ LIỆU; QUỸ PHÁT TRIỂN DỮ LIỆU QUỐC GIA
+Chương III XÂY DỰNG, PHÁT TRIỂN TRUNG TÂM DỮ LIỆU QUỐC GIA; CƠ SỞ DỮ LIỆU TỔNG HỢP QUỐC GIA
+Mục 1 XÂY DỰNG, PHÁT TRIỂN TRUNG TÂM DỮ LIỆU QUỐC GIA
+Mục 2 CƠ SỞ DỮ LIỆU TỔNG HỢP QUỐC GIA
+Chương IV SẢN PHẨM, DỊCH VỤ VỀ DỮ LIỆU
+Chương V ĐIỀU KHOẢN THI HÀNH
