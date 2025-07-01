@@ -1,0 +1,5 @@
+Chương I NHỮNG QUY ĐỊNH CHUNG
+Chương II CĂN CỨ VÀ PHƯƠNG PHÁP TÍNH THUẾ
+CHƯƠNG III KHẤU TRỪ, HOÀN THUẾ
+Chương IV
+ĐIỀU KHOẢN THI HÀNH
