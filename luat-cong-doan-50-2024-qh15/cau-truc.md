@@ -1,0 +1,10 @@
+Chương I NHỮNG QUY ĐỊNH CHUNG
+Chương II QUYỀN, TRÁCH NHIỆM CỦA CÔNG ĐOÀN VÀ ĐOÀN VIÊN CÔNG ĐOÀN
+Mục 1 QUYỀN, TRÁCH NHIỆM CỦA CÔNG ĐOÀN
+Mục 2 QUYỀN, TRÁCH NHIỆM CỦA ĐOÀN VIÊN CÔNG ĐOÀN
+Chương III TRÁCH NHIỆM CỦA NHÀ NƯỚC,
+NGƯỜI SỬ DỤNG LAO ĐỘNG ĐỐI VỚI CÔNG ĐOÀN
+Chương IV BẢO ĐẢM HOẠT ĐỘNG CỦA CÔNG ĐOÀN
+Chương V GIẢI QUYẾT TRANH CHẤP VỀ QUYỀN CÔNG ĐOÀN,
+XỬ LÝ VI PHẠM PHÁP LUẬT VỀ CÔNG ĐOÀN
+Chương VI ĐIỀU KHOẢN THI HÀNH
