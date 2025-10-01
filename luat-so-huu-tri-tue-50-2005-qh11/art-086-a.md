@@ -1,8 +1,0 @@
-# Điều 86a. Quyền đăng ký sáng chế, kiểu dáng công nghiệp, thiết kế bố trí là kết quả của nhiệm vụ khoa học và công nghệ sử dụng ngân sách nhà nước
-1. Đối với sáng chế, kiểu dáng công nghiệp, thiết kế bố trí là kết quả của nhiệm vụ khoa học và công nghệ sử dụng toàn bộ ngân sách nhà nước, quyền đăng ký sáng chế, kiểu dáng công nghiệp, thiết kế bố trí được giao cho tổ chức chủ trì một cách tự động và không bồi hoàn, trừ trường hợp quy định tại khoản 3 Điều này.
-2. Đối với sáng chế, kiểu dáng công nghiệp, thiết kế bố trí là kết quả của nhiệm vụ khoa học và công nghệ được đầu tư bằng nhiều nguồn vốn, trong đó có một phần ngân sách nhà nước, phần quyền đăng ký sáng chế, kiểu dáng công nghiệp, thiết kế bố trí tương ứng với tỷ lệ phần ngân sách nhà nước được giao cho tổ chức chủ trì một cách tự động và không bồi hoàn, trừ trường hợp quy định tại khoản 3 Điều này.
-3. Quyền đăng ký sáng chế, kiểu dáng công nghiệp, thiết kế bố trí là kết quả của nhiệm vụ khoa học và công nghệ thuộc lĩnh vực quốc phòng và an ninh quốc gia được thực hiện như sau:
-a) Trường hợp nhiệm vụ khoa học và công nghệ sử dụng toàn bộ ngân sách nhà nước, quyền đăng ký sáng chế, kiểu dáng công nghiệp, thiết kế bố trí thuộc về Nhà nước;
-b) Trường hợp nhiệm vụ khoa học và công nghệ được đầu tư bằng nhiều nguồn vốn, trong đó có một phần ngân sách nhà nước, phần quyền đăng ký sáng chế, kiểu dáng công nghiệp, thiết kế bố trí tương ứng với tỷ lệ phần ngân sách nhà nước thuộc về Nhà nước;
-c) Đại diện chủ sở hữu nhà nước thực hiện quyền đăng ký quy định tại điểm a và điểm b khoản này.
-4. Chính phủ quy định chi tiết Điều này.
