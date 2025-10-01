@@ -1,0 +1,7 @@
+Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Chương II CĂN CỨ VÀ PHƯƠNG PHÁP TÍNH THUẾ
+Chương III
+ƯU ĐÃI THUẾ THU NHẬP DOANH NGHIỆP
+Chương IV
+ĐIỀU KHOẢN THI HÀNH
