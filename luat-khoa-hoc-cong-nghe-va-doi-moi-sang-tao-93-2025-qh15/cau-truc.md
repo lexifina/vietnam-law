@@ -1,0 +1,36 @@
+Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Chương II
+BIỆN PHÁP QUẢN LÝ CỦA NHÀ NƯỚC TRONG
+HOẠT ĐỘNG KHOA HỌC, CÔNG NGHỆ VÀ ĐỔI MỚI SÁNG TẠO
+Mục 1
+CHIẾN LƯỢC, KẾ HOẠCH, NHIỆM VỤ VÀ CHƯƠNG TRÌNH
+Mục 2
+THỬ NGHIỆM CÓ KIỂM SOÁT CÔNG NGHỆ,
+QUY TRÌNH, GIẢI PHÁP, SẢN PHẨM, DỊCH VỤ, MÔ HÌNH KINH DOANH MỚI
+Mục 3
+XỬ LÝ TÀI SẢN, QUẢN LÝ VÀ THƯƠNG MẠI HÓA KẾT QUẢ
+NHIỆM VỤ KHOA HỌC, CÔNG NGHỆ VÀ ĐỔI MỚI SÁNG TẠO
+Chương III
+NGHIÊN CỨU KHOA HỌC VÀ PHÁT TRIỂN CÔNG NGHỆ
+Chương IV
+THÚC ĐẨY ĐỔI MỚI SÁNG TẠO
+TRONG DOANH NGHIỆP VÀ NỀN KINH TẾ
+Chương V
+XÂY DỰNG TIỀM LỰC
+KHOA HỌC, CÔNG NGHỆ VÀ ĐỔI MỚI SÁNG TẠO
+Mục 1
+TỔ CHỨC CÓ HOẠT ĐỘNG TRONG LĨNH VỰC
+KHOA HỌC, CÔNG NGHỆ VÀ ĐỔI MỚI SÁNG TẠO
+Mục 2
+PHÁT TRIỂN NGUỒN NHÂN LỰC
+KHOA HỌC, CÔNG NGHỆ VÀ ĐỔI MỚI SÁNG TẠO
+Mục 3
+HẠ TẦNG CHO KHOA HỌC, CÔNG NGHỆ VÀ ĐỔI MỚI SÁNG TẠO
+Mục 4
+TÀI CHÍNH CHO KHOA HỌC, CÔNG NGHỆ VÀ ĐỔI MỚI SÁNG TẠO
+Chương VI
+HỘI NHẬP VÀ HỢP TÁC QUỐC TẾ
+VỀ KHOA HỌC, CÔNG NGHỆ VÀ ĐỔI MỚI SÁNG TẠO
+Chương VII
+ĐIỀU KHOẢN THI HÀNH
