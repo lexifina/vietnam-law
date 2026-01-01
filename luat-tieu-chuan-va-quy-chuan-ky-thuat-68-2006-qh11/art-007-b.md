@@ -1,0 +1,2 @@
+# Điều 7b. Hoạt động trong lĩnh vực tiêu chuẩn và hoạt động trong lĩnh vực quy chuẩn kỹ thuật đối với đối tượng thuộc danh mục bí mật nhà nước
+Chính phủ quy định về hoạt động trong lĩnh vực tiêu chuẩn và hoạt động trong lĩnh vực quy chuẩn kỹ thuật đối với đối tượng là sản phẩm, hàng hóa, dịch vụ, quá trình, môi trường thuộc danh mục bí mật nhà nước theo quy định của pháp luật về bảo vệ bí mật nhà nước.
