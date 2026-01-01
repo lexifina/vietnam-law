@@ -1,0 +1,20 @@
+Chương I
+QUY ĐỊNH CHUNG
+Chương II
+PHÁT TRIỂN NGÀNH CÔNG NGHIỆP HÓA CHẤT
+Chương III
+QUẢN LÝ HOẠT ĐỘNG HÓA CHẤT
+Chương IV
+THÔNG TIN HÓA CHẤT
+Chương V
+HÓA CHẤT NGUY HIỂM TRONG SẢN PHẨM, HÀNG HÓA
+Chương VI
+AN TOÀN, AN NINH HÓA CHẤT
+Mục 1
+YÊU CẦU BẢO ĐẢM AN TOÀN, AN NINH TRONG HOẠT ĐỘNG HÓA CHẤT
+Mục 2
+PHÒNG NGỪA, ỨNG PHÓ SỰ CỐ HÓA CHẤT
+Mục 3
+BẢO VỆ MÔI TRƯỜNG VÀ AN TOÀN CHO CỘNG ĐỒNG
+Chương VII
+ĐIỀU KHOẢN THI HÀNH
