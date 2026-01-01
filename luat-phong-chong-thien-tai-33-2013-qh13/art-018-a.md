@@ -1,7 +1,7 @@
 # Điều 18a. Bảo đảm yêu cầu phòng, chống thiên tai đối với việc quản lý, vận hành, sử dụng công trình
 1. Tổ chức, cá nhân quản lý, vận hành, sử dụng khu khai thác khoáng sản và khu khai thác tài nguyên thiên nhiên khác; khu đô thị; điểm du lịch, khu du lịch; khu công nghiệp; điểm dân cư nông thôn; công trình phòng, chống thiên tai, giao thông, điện lực và công trình hạ tầng kỹ thuật khác phải thực hiện nội dung bảo đảm yêu cầu phòng, chống thiên tai trong quy chuẩn kỹ thuật, quy định do cơ quan có thẩm quyền ban hành.
 2. Hộ gia đình, cá nhân sử dụng công trình, nhà ở thuộc quyền sở hữu của mình có trách nhiệm thực hiện các tiêu chí bảo đảm yêu cầu phòng, chống thiên tai do Ủy ban nhân dân cấp tỉnh ban hành.
-3. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn ban hành quy định chung bảo đảm yêu cầu phòng, chống thiên tai quy định tại khoản 1 Điều này.
+3. Bộ trưởng Bộ Nông nghiệp và Môi trường ban hành quy định chung bảo đảm yêu cầu phòng, chống thiên tai quy định tại khoản 1 Điều này.
 4. Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Ủy ban nhân dân các cấp, trong phạm vi nhiệm vụ, quyền hạn của mình, ban hành quy định cụ thể bảo đảm yêu cầu phòng, chống thiên tai quy định tại khoản 1 Điều này và tổ chức kiểm tra việc thực hiện.
 5. Ủy ban nhân dân các cấp kiểm tra việc thực hiện các tiêu chí bảo đảm yêu cầu phòng, chống thiên tai đối với hộ gia đình, cá nhân do Ủy ban nhân dân cấp tỉnh ban hành quy định tại khoản 2 Điều này.
 6. Quy chuẩn kỹ thuật phục vụ việc quản lý, vận hành, sử dụng công trình quy định tại khoản 1 Điều này phải có nội dung bảo đảm yêu cầu phòng, chống thiên tai.
