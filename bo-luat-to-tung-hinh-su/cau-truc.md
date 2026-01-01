@@ -42,7 +42,6 @@ Chương XXV THỦ TỤC GIÁM ĐỐC THẨM
 Chương XXVI THỦ TỤC TÁI THẨM
 Chương XXVII THỦ TỤC XEM XÉT LẠI QUYẾT ĐỊNH CỦA HỘI ĐỒNG THẨM PHÁN TÒA ÁN NHÂN DÂN TỐI CAO
 Phần thứ bảy THỦ TỤC ĐẶC BIỆT
-Chương XXVIII THỦ TỤC TỐ TỤNG ĐỐI VỚI NGƯỜI DƯỚI 18 TUỔI
 Chương XXIX THỦ TỤC TỐ TỤNG TRUY CỨU TRÁCH NHIỆM HÌNH SỰ PHÁP NHÂN
 Chương XXX THỦ TỤC ÁP DỤNG BIỆN PHÁP BẮT BUỘC CHỮA BỆNH
 Chương XXXI THỦ TỤC RÚT GỌN
