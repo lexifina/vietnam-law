@@ -1,0 +1,8 @@
+Chương I NHỮNG QUY ĐỊNH CHUNG
+Chương II TRUYỀN THÔNG, VẬN ĐỘNG, GIÁO DỤC VỀ DÂN SỐ
+Chương III DUY TRÌ MỨC SINH THAY THẾ VÀ GIẢM THIỂU MẤT CÂN BẰNG GIỚI TÍNH KHI SINH
+Chương IV THÍCH ỨNG VỚI GIÀ HÓA DÂN SỐ
+Chương V NÂNG CAO CHẤT LƯỢNG DÂN SỐ
+Chương VI ĐIỀU KIỆN BẢO ĐẢM THỰC HIỆN CÔNG TÁC DÂN SỐ
+Chương VII TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, GIA ĐÌNH, CÁ NHÂN VỀ CÔNG TÁC DÂN SỐ
+Chương VIII ĐIỀU KHOẢN THI HÀNH
