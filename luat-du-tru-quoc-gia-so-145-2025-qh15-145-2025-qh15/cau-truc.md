@@ -1,0 +1,9 @@
+CHƯƠNG I NHỮNG QUY ĐỊNH CHUNG
+Chương II NGÂN SÁCH NHÀ NƯỚC CHI DỰ TRỮ QUỐC GIA
+Chương III KHO DỰ TRỮ QUỐC GIA, NGHIÊN CỨU, ỨNG DỤNG KHOA HỌC, CÔNG NGHỆ, ĐỔI MỚI SÁNG TẠO VÀ CHUYỂN ĐỔI SỐ
+Chương IV QUẢN LÝ, SỬ DỤNG HÀNG DỰ TRỮ QUỐC GIA
+Mục 1
+Mục 2 BẢO QUẢN HÀNG DỰ TRỮ QUỐC GIA
+Mục 3 SỬ DỤNG HÀNG DỰ TRỮ QUỐC GIA
+Chương V QUẢN LÝ, SỬ DỤNG HÀNG DỰ TRỮ CHIẾN LƯỢC
+Chương VI ĐIỀU KHOẢN THI HÀNH
