@@ -1,0 +1,2 @@
+Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam đã được sửa đổi, bổ sung một số điều theo Nghị quyết số 203/2025/QH15;
+Quốc hội ban hành Luật sửa đổi, bổ sung một số điều của Luật Tiếp công dân số 42/2013/QH13, Luật Khiếu nại số 02/2011/QH13 đã được sửa đổi, bổ sung theo Luật số 42/2013/QH13, Luật số 81/2025/QH15 và Luật số 84/2025/QH15, Luật Tố cáo số 25/2018/QH14 đã được sửa đổi, bổ sung theo Luật số 59/2020/QH14, Luật số 81/2025/QH15 và Luật số 84/2025/QH15.
