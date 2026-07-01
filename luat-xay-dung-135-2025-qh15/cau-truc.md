@@ -1,0 +1,21 @@
+Chương I NHỮNG QUY ĐỊNH CHUNG
+Chương II GIẤY PHÉP XÂY DỰNG VÀ QUẢN LÝ TRẬT TỰ XÂY DỰNG
+Mục 1 QUY ĐỊNH CHUNG
+Mục 2 LẬP, THẨM ĐỊNH DỰ ÁN VÀ QUYẾT ĐỊNH ĐẦU TƯ XÂY DỰNG
+Mục 3. QUẢN LÝ THIẾT KẾ XÂY DỰNG TRIỂN KHAI SAU KHI DỰ ÁN ĐƯỢC PHÊ DUYỆT
+Mục 4. QUẢN LÝ THỰC HIỆN DỰ ÁN ĐẦU TƯ XÂY DỰNG
+Mục 5. QUYỀN, NGHĨA VỤ VÀ TRÁCH NHIỆM CỦA CÁC CHỦ THỂ TRONG QUẢN LÝ DỰ ÁN ĐẦU TƯ XÂY DỰNG
+Chương III GIẤY PHÉP XÂY DỰNG VÀ QUẢN LÝ TRẬT TỰ XÂY DỰNG
+Chương IV XÂY DỰNG CÔNG TRÌNH
+Mục 1. CHUẨN BỊ XÂY DỰNG CÔNG TRÌNH
+Mục 2. THI CÔNG XÂY DỰNG CÔNG TRÌNH
+Mục 3. QUẢN LÝ CHẤT LƯỢNG, NGHIỆM THU, BÀN GIAO CÔNG TRÌNH XÂY DỰNG
+Mục 4. QUYỀN VÀ NGHĨA VỤ CỦA CÁC CHỦ THỂ TRONG THI CÔNG XÂY DỰNG
+Mục 5. BẢO HÀNH, BẢO TRÌ VÀ DỪNG KHAI THÁC, SỬ DỤNG CÔNG TRÌNH XÂY DỰNG
+Mục 6. ĐẦU TƯ XÂY DỰNG CÔNG TRÌNH XÂY DỰNG ĐẶC THÙ
+Chương V CHI PHÍ ĐẦU TƯ XÂY DỰNG VÀ HỢP ĐỒNG XÂY DỰNG
+Mục 1. QUẢN LÝ CHI PHÍ ĐẦU TƯ XÂY DỰNG
+Mục 2. HỢP ĐỒNG XÂY DỰNG
+Chương VI ĐIỀU KIỆN NĂNG LỰC HOẠT ĐỘNG XÂY DỰNG
+Chương VII QUẢN LÝ NHÀ NƯỚC VỀ XÂY DỰNG
+Chương VIII ĐIỀU KHOẢN THI HÀNH
