@@ -1,0 +1,2 @@
+# Điều 6a. Khai thác và sử dụng thông tin trong cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành để giải quyết thủ tục hành chính
+Đối với giấy tờ, thông tin thuộc thành phần hồ sơ đề nghị giải quyết thủ tục hành chính trong lĩnh vực nhập cảnh, xuất cảnh, quá cảnh và cư trú của người nước ngoài tại Việt Nam đã có trong cơ sở dữ liệu quốc gia hoặc cơ sở dữ liệu chuyên ngành mà cơ quan tiếp nhận, giải quyết thủ tục có thể khai thác, sử dụng được thì không yêu cầu cơ quan, tổ chức, cá nhân phải cung cấp giấy tờ, thông tin đó.
