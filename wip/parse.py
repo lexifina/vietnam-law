@@ -270,11 +270,15 @@ def main():
         'label': 'Bộ luật Hình sự 100/2015/QH13', 'title': 'Bộ luật Hình sự', 'kind': 'law',
         'enacted': day(hs['doc']['issueDate']), 'published': None, 'url': hs['url'],
         'temporary_until': None, 'restores': None, 'note': None}
-    acts.append({
+    BUILD_BLHS = False  # as-enacted text never took force alone: Luật 12/2017 amended it before 2018-01-01
+    if BUILD_BLHS: acts.append({
         'slug': 'bo-luat-hinh-su', 'short': 'BLHS', 'title': 'Bộ luật Hình sự (Luật số 100/2015/QH13)',
         'url': hs['url'], 'first_law': 'blhs-100-2015-qh13', 'earlier_laws': [],
         'versions': [{'from': day(hs['doc']['effFrom']), 'source_url': hs['url'], 'sha256': hs['sha256'],
                       'units': units_from_html(hs['html'], r'^Căn cứ'), 'credits': {}}]})
+
+    if not BUILD_BLHS:
+        laws.pop('blhs-100-2015-qh13')
 
     corpus = {
         'country': {
