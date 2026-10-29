@@ -80,6 +80,10 @@ def units_from_html(html, preamble_start):
             continue
         if kind == 'prov-article':
             m = ART_RE.match(t)
+            if not m and cur is not None:
+                # vbpl sometimes tags a body paragraph as prov-article; keep it as text
+                units[cur]['lines'].append(t)
+                continue
             if not m:
                 raise ValueError(f'article heading not parsed: {t!r}')
             seen_struct = True
