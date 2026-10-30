@@ -1,0 +1,17 @@
+The legal texts are Vietnamese legislation as published by the Ministry of Justice national legal
+database (https://vbpl.vn), retrieved 29 October 2026.
+
+Legal normative documents are, under Vietnamese law, outside copyright protection. Law on Intellectual
+Property (Luật Sở hữu trí tuệ, Law No. 50/2005/QH11, as amended), Article 15: legal normative documents,
+administrative documents and other documents in the judicial field, and their official translations,
+are not subject to copyright protection. (Lexifina has not verified this wording against the official
+gazette copy of the Law; check the original before relying on it.)
+
+Changes made by Lexifina: the text of each version was converted to one Markdown file per provision
+(Điều), one clause or item per line; footnote numbers and page furniture were left out; and the versions
+were arranged as git commits credited to the law that made them. The wording of the law was not changed.
+Lexifina is not affiliated with the Ministry of Justice or the National Assembly of Vietnam.
+
+Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the
+tools) are dedicated to the public domain under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/legalcode

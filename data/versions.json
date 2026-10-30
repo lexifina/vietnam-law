@@ -1,0 +1,33 @@
+{
+ "country": "VN",
+ "acts": [
+  {
+   "slug": "hien-phap",
+   "short": "HP",
+   "title": "Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam (2013)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/hien-phap-nam-2013--32801",
+   "versions": [
+    {
+     "from": "2014-01-01",
+     "units": 123,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/hien-phap-nam-2013--32801",
+     "sha256": "768b479f40ea1abbeb84c352bf3144ae41d840f0f63aac2080e3861a9cb465d0"
+    }
+   ]
+  },
+  {
+   "slug": "bo-luat-dan-su",
+   "short": "BLDS",
+   "title": "Bộ luật Dân sự (Luật số 91/2015/QH13)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/bo-luat-dan-su-so-91-2015-qh13--95942",
+   "versions": [
+    {
+     "from": "2017-01-01",
+     "units": 692,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/bo-luat-dan-su-so-91-2015-qh13--95942",
+     "sha256": "b90d4e3998b75fd35c49b55d5bba928fe11208ad29b9f5886e2ea61ad86ad443"
+    }
+   ]
+  }
+ ]
+}
