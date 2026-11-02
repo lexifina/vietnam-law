@@ -11,7 +11,7 @@
      "from": "2014-01-01",
      "units": 123,
      "source_url": "https://vbpl.vn/van-ban/chi-tiet/hien-phap-nam-2013--32801",
-     "sha256": "768b479f40ea1abbeb84c352bf3144ae41d840f0f63aac2080e3861a9cb465d0"
+     "sha256": "eb4356965f2d9af38dc341ed929d688a24cd014ce680ac6ad64810a998b84f27"
     }
    ]
   },
@@ -25,7 +25,63 @@
      "from": "2017-01-01",
      "units": 692,
      "source_url": "https://vbpl.vn/van-ban/chi-tiet/bo-luat-dan-su-so-91-2015-qh13--95942",
-     "sha256": "b90d4e3998b75fd35c49b55d5bba928fe11208ad29b9f5886e2ea61ad86ad443"
+     "sha256": "ffef60a461f3f7dce94cb4757a2850380e0ca8ca1ae9e6db24644ac587673685"
+    }
+   ]
+  },
+  {
+   "slug": "bo-luat-to-tung-dan-su",
+   "short": "BLTTDS",
+   "title": "Bộ luật Tố tụng dân sự (Luật số 92/2015/QH13)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/bo-luat-to-tung-dan-su-so-92-2015-qh13--96115",
+   "versions": [
+    {
+     "from": "2016-07-01",
+     "units": 520,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/bo-luat-to-tung-dan-su-so-92-2015-qh13--96115",
+     "sha256": "224bb65f99c9e441238836be5947e18aba29c88724901c3e85b01c49d4971ffc"
+    }
+   ]
+  },
+  {
+   "slug": "bo-luat-to-tung-hinh-su",
+   "short": "BLTTHS",
+   "title": "Bộ luật Tố tụng hình sự (Luật số 101/2015/QH13)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/bo-luat-to-tung-hinh-su-so-101-2015-qh13--96172",
+   "versions": [
+    {
+     "from": "2018-01-01",
+     "units": 513,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/bo-luat-to-tung-hinh-su-so-101-2015-qh13--96172",
+     "sha256": "a95f57a615ac0a5b2e2f2e1d0ae91fea3c0025e48b1db6804a77e541fcf9d95a"
+    }
+   ]
+  },
+  {
+   "slug": "luat-doanh-nghiep",
+   "short": "LDN",
+   "title": "Luật Doanh nghiệp (Luật số 59/2020/QH14)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-doanh-nghiep-so-59-2020-qh14--142881",
+   "versions": [
+    {
+     "from": "2021-01-01",
+     "units": 221,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-doanh-nghiep-so-59-2020-qh14--142881",
+     "sha256": "cf5e51f0ac393079262b20c011bc45530547db49a8f45fe005247d92c69a35a5"
+    }
+   ]
+  },
+  {
+   "slug": "bo-luat-lao-dong",
+   "short": "BLLĐ",
+   "title": "Bộ luật Lao động (Luật số 45/2019/QH14)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/bo-luat-lao-dong-so-45-2019-qh14--139264",
+   "versions": [
+    {
+     "from": "2021-01-01",
+     "units": 223,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/bo-luat-lao-dong-so-45-2019-qh14--139264",
+     "sha256": "b8906c5636d80645eb28aa97ec44ae4496148eee7c7d2fb679a85984b0a7da4c"
     }
    ]
   }
