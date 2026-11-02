@@ -16,6 +16,38 @@
    ]
   },
   {
+   "slug": "bo-luat-hinh-su",
+   "short": "BLHS",
+   "title": "Bộ luật Hình sự (Luật số 100/2015/QH13)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/bo-luat-hinh-su-so-100-2015-qh13--96122",
+   "versions": [
+    {
+     "from": "2018-01-01",
+     "units": 429,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/bo-luat-hinh-su-so-100-2015-qh13--96122",
+     "sha256": "fa294b01d9f1b09061c2fc5e721108f6b1f576b85ec6a3d0a614270eba6fdf11"
+    },
+    {
+     "from": "2018-01-01",
+     "units": 429,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-01-vbhn-vpqh-24866.htm",
+     "sha256": "1b57966bcbcab7521b97f10026e9381b7b2786d750ca7e72c195951d2617df0c"
+    },
+    {
+     "from": "2025-07-01",
+     "units": 430,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-135-vbhn-vpqh-46165.htm",
+     "sha256": "848af46b0fc5c1b7ed20a104cfbdb5287f5565cf4603d9fbb3539b4f465712fd"
+    },
+    {
+     "from": "2026-01-01",
+     "units": 412,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-11-vbhn-vpqh-44425.htm",
+     "sha256": "33f9a91a7864403cc17569aef44c3d20250409255af389b45d2161354bff7a92"
+    }
+   ]
+  },
+  {
    "slug": "bo-luat-dan-su",
    "short": "BLDS",
    "title": "Bộ luật Dân sự (Luật số 91/2015/QH13)",
