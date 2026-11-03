@@ -1,6 +1,6 @@
 # Bộ luật Tố tụng dân sự (Luật số 92/2015/QH13)
 
-BLTTDS · 1 versions, from 2016-07-01 (latest in force: 2016-07-01) · <https://vbpl.vn/van-ban/chi-tiet/bo-luat-to-tung-dan-su-so-92-2015-qh13--96115>
+BLTTDS · 8 versions, from 2016-07-01 (latest in force: 2025-07-01) · <https://vbpl.vn/van-ban/chi-tiet/bo-luat-to-tung-dan-su-so-92-2015-qh13--96115>
 
 | Provision | File | Changes | Last changed |
 | --- | --- | ---: | --- |
@@ -19,9 +19,9 @@ BLTTDS · 1 versions, from 2016-07-01 (latest in force: 2016-07-01) · <https://
 | Điều 13 | [art-013.md](art-013.md) | 0 |  |
 | Điều 14 | [art-014.md](art-014.md) | 0 |  |
 | Điều 15 | [art-015.md](art-015.md) | 0 |  |
-| Điều 16 | [art-016.md](art-016.md) | 0 |  |
+| Điều 16 | [art-016.md](art-016.md) | 1 | 2025-07-01 |
 | Điều 17 | [art-017.md](art-017.md) | 0 |  |
-| Điều 18 | [art-018.md](art-018.md) | 0 |  |
+| Điều 18 | [art-018.md](art-018.md) | 1 | 2025-07-01 |
 | Điều 19 | [art-019.md](art-019.md) | 0 |  |
 | Điều 20 | [art-020.md](art-020.md) | 0 |  |
 | Điều 21 | [art-021.md](art-021.md) | 0 |  |
@@ -35,41 +35,41 @@ BLTTDS · 1 versions, from 2016-07-01 (latest in force: 2016-07-01) · <https://
 | Điều 29 | [art-029.md](art-029.md) | 0 |  |
 | Điều 30 | [art-030.md](art-030.md) | 0 |  |
 | Điều 31 | [art-031.md](art-031.md) | 0 |  |
-| Điều 32 | [art-032.md](art-032.md) | 0 |  |
+| Điều 32 | [art-032.md](art-032.md) | 1 | 2021-01-01 |
 | Điều 33 | [art-033.md](art-033.md) | 0 |  |
-| Điều 34 | [art-034.md](art-034.md) | 0 |  |
-| Điều 35 | [art-035.md](art-035.md) | 0 |  |
-| Điều 36 | [art-036.md](art-036.md) | 0 |  |
-| Điều 37 | [art-037.md](art-037.md) | 0 |  |
-| Điều 38 | [art-038.md](art-038.md) | 0 |  |
+| Điều 34 | [art-034.md](art-034.md) | 1 | 2025-07-01 |
+| Điều 35 | [art-035.md](art-035.md) | 1 | 2025-07-01 |
+| Điều 36 | [art-036.md](art-036.md) | 1 | 2025-07-01 |
+| Điều 37 | [art-037.md](art-037.md) | 1 | 2025-07-01 |
+| Điều 38 | [art-038.md](art-038.md) | 1 | 2025-07-01 |
 | Điều 39 | [art-039.md](art-039.md) | 0 |  |
 | Điều 40 | [art-040.md](art-040.md) | 0 |  |
-| Điều 41 | [art-041.md](art-041.md) | 0 |  |
+| Điều 41 | [art-041.md](art-041.md) | 1 | 2025-07-01 |
 | Điều 42 | [art-042.md](art-042.md) | 0 |  |
 | Điều 43 | [art-043.md](art-043.md) | 0 |  |
 | Điều 44 | [art-044.md](art-044.md) | 0 |  |
 | Điều 45 | [art-045.md](art-045.md) | 0 |  |
-| Điều 46 | [art-046.md](art-046.md) | 0 |  |
-| Điều 47 | [art-047.md](art-047.md) | 0 |  |
-| Điều 48 | [art-048.md](art-048.md) | 0 |  |
+| Điều 46 | [art-046.md](art-046.md) | 1 | 2025-07-01 |
+| Điều 47 | [art-047.md](art-047.md) | 1 | 2025-07-01 |
+| Điều 48 | [art-048.md](art-048.md) | 1 | 2025-07-01 |
 | Điều 49 | [art-049.md](art-049.md) | 0 |  |
-| Điều 50 | [art-050.md](art-050.md) | 0 |  |
+| Điều 50 | [art-050.md](art-050.md) | 1 | 2025-07-01 |
 | Điều 51 | [art-051.md](art-051.md) | 0 |  |
 | Điều 52 | [art-052.md](art-052.md) | 0 |  |
-| Điều 53 | [art-053.md](art-053.md) | 0 |  |
-| Điều 54 | [art-054.md](art-054.md) | 0 |  |
-| Điều 55 | [art-055.md](art-055.md) | 0 |  |
-| Điều 56 | [art-056.md](art-056.md) | 0 |  |
+| Điều 53 | [art-053.md](art-053.md) | 1 | 2025-07-01 |
+| Điều 54 | [art-054.md](art-054.md) | 1 | 2025-07-01 |
+| Điều 55 | [art-055.md](art-055.md) | 1 | 2025-07-01 |
+| Điều 56 | [art-056.md](art-056.md) | 1 | 2025-07-01 |
 | Điều 57 | [art-057.md](art-057.md) | 0 |  |
 | Điều 58 | [art-058.md](art-058.md) | 0 |  |
 | Điều 59 | [art-059.md](art-059.md) | 0 |  |
-| Điều 60 | [art-060.md](art-060.md) | 0 |  |
+| Điều 60 | [art-060.md](art-060.md) | 1 | 2025-07-01 |
 | Điều 61 | [art-061.md](art-061.md) | 0 |  |
 | Điều 62 | [art-062.md](art-062.md) | 0 |  |
 | Điều 63 | [art-063.md](art-063.md) | 0 |  |
 | Điều 64 | [art-064.md](art-064.md) | 0 |  |
 | Điều 65 | [art-065.md](art-065.md) | 0 |  |
-| Điều 66 | [art-066.md](art-066.md) | 0 |  |
+| Điều 66 | [art-066.md](art-066.md) | 1 | 2025-07-01 |
 | Điều 67 | [art-067.md](art-067.md) | 0 |  |
 | Điều 68 | [art-068.md](art-068.md) | 0 |  |
 | Điều 69 | [art-069.md](art-069.md) | 0 |  |
@@ -77,15 +77,15 @@ BLTTDS · 1 versions, from 2016-07-01 (latest in force: 2016-07-01) · <https://
 | Điều 71 | [art-071.md](art-071.md) | 0 |  |
 | Điều 72 | [art-072.md](art-072.md) | 0 |  |
 | Điều 73 | [art-073.md](art-073.md) | 0 |  |
-| Điều 74 | [art-074.md](art-074.md) | 0 |  |
+| Điều 74 | [art-074.md](art-074.md) | 1 | 2021-01-01 |
 | Điều 75 | [art-075.md](art-075.md) | 0 |  |
 | Điều 76 | [art-076.md](art-076.md) | 0 |  |
 | Điều 77 | [art-077.md](art-077.md) | 0 |  |
 | Điều 78 | [art-078.md](art-078.md) | 0 |  |
 | Điều 79 | [art-079.md](art-079.md) | 0 |  |
-| Điều 80 | [art-080.md](art-080.md) | 0 |  |
+| Điều 80 | [art-080.md](art-080.md) | 1 | 2025-07-01 |
 | Điều 81 | [art-081.md](art-081.md) | 0 |  |
-| Điều 82 | [art-082.md](art-082.md) | 0 |  |
+| Điều 82 | [art-082.md](art-082.md) | 1 | 2025-07-01 |
 | Điều 83 | [art-083.md](art-083.md) | 0 |  |
 | Điều 84 | [art-084.md](art-084.md) | 0 |  |
 | Điều 85 | [art-085.md](art-085.md) | 0 |  |
@@ -100,11 +100,11 @@ BLTTDS · 1 versions, from 2016-07-01 (latest in force: 2016-07-01) · <https://
 | Điều 94 | [art-094.md](art-094.md) | 0 |  |
 | Điều 95 | [art-095.md](art-095.md) | 0 |  |
 | Điều 96 | [art-096.md](art-096.md) | 0 |  |
-| Điều 97 | [art-097.md](art-097.md) | 0 |  |
-| Điều 98 | [art-098.md](art-098.md) | 0 |  |
+| Điều 97 | [art-097.md](art-097.md) | 1 | 2025-07-01 |
+| Điều 98 | [art-098.md](art-098.md) | 1 | 2025-07-01 |
 | Điều 99 | [art-099.md](art-099.md) | 0 |  |
 | Điều 100 | [art-100.md](art-100.md) | 0 |  |
-| Điều 101 | [art-101.md](art-101.md) | 0 |  |
+| Điều 101 | [art-101.md](art-101.md) | 1 | 2025-07-01 |
 | Điều 102 | [art-102.md](art-102.md) | 0 |  |
 | Điều 103 | [art-103.md](art-103.md) | 0 |  |
 | Điều 104 | [art-104.md](art-104.md) | 0 |  |
@@ -138,7 +138,7 @@ BLTTDS · 1 versions, from 2016-07-01 (latest in force: 2016-07-01) · <https://
 | Điều 132 | [art-132.md](art-132.md) | 0 |  |
 | Điều 133 | [art-133.md](art-133.md) | 0 |  |
 | Điều 134 | [art-134.md](art-134.md) | 0 |  |
-| Điều 135 | [art-135.md](art-135.md) | 0 |  |
+| Điều 135 | [art-135.md](art-135.md) | 1 | 2023-07-01 |
 | Điều 136 | [art-136.md](art-136.md) | 0 |  |
 | Điều 137 | [art-137.md](art-137.md) | 0 |  |
 | Điều 138 | [art-138.md](art-138.md) | 0 |  |
@@ -180,7 +180,7 @@ BLTTDS · 1 versions, from 2016-07-01 (latest in force: 2016-07-01) · <https://
 | Điều 174 | [art-174.md](art-174.md) | 0 |  |
 | Điều 175 | [art-175.md](art-175.md) | 0 |  |
 | Điều 176 | [art-176.md](art-176.md) | 0 |  |
-| Điều 177 | [art-177.md](art-177.md) | 0 |  |
+| Điều 177 | [art-177.md](art-177.md) | 1 | 2025-07-01 |
 | Điều 178 | [art-178.md](art-178.md) | 0 |  |
 | Điều 179 | [art-179.md](art-179.md) | 0 |  |
 | Điều 180 | [art-180.md](art-180.md) | 0 |  |
@@ -194,10 +194,10 @@ BLTTDS · 1 versions, from 2016-07-01 (latest in force: 2016-07-01) · <https://
 | Điều 188 | [art-188.md](art-188.md) | 0 |  |
 | Điều 189 | [art-189.md](art-189.md) | 0 |  |
 | Điều 190 | [art-190.md](art-190.md) | 0 |  |
-| Điều 191 | [art-191.md](art-191.md) | 0 |  |
+| Điều 191 | [art-191.md](art-191.md) | 1 | 2024-07-01 |
 | Điều 192 | [art-192.md](art-192.md) | 0 |  |
 | Điều 193 | [art-193.md](art-193.md) | 0 |  |
-| Điều 194 | [art-194.md](art-194.md) | 0 |  |
+| Điều 194 | [art-194.md](art-194.md) | 1 | 2025-07-01 |
 | Điều 195 | [art-195.md](art-195.md) | 0 |  |
 | Điều 196 | [art-196.md](art-196.md) | 0 |  |
 | Điều 197 | [art-197.md](art-197.md) | 0 |  |
@@ -211,7 +211,7 @@ BLTTDS · 1 versions, from 2016-07-01 (latest in force: 2016-07-01) · <https://
 | Điều 205 | [art-205.md](art-205.md) | 0 |  |
 | Điều 206 | [art-206.md](art-206.md) | 0 |  |
 | Điều 207 | [art-207.md](art-207.md) | 0 |  |
-| Điều 208 | [art-208.md](art-208.md) | 0 |  |
+| Điều 208 | [art-208.md](art-208.md) | 1 | 2025-07-01 |
 | Điều 209 | [art-209.md](art-209.md) | 0 |  |
 | Điều 210 | [art-210.md](art-210.md) | 0 |  |
 | Điều 211 | [art-211.md](art-211.md) | 0 |  |
@@ -237,7 +237,7 @@ BLTTDS · 1 versions, from 2016-07-01 (latest in force: 2016-07-01) · <https://
 | Điều 231 | [art-231.md](art-231.md) | 0 |  |
 | Điều 232 | [art-232.md](art-232.md) | 0 |  |
 | Điều 233 | [art-233.md](art-233.md) | 0 |  |
-| Điều 234 | [art-234.md](art-234.md) | 0 |  |
+| Điều 234 | [art-234.md](art-234.md) | 1 | 2025-01-01 |
 | Điều 235 | [art-235.md](art-235.md) | 0 |  |
 | Điều 236 | [art-236.md](art-236.md) | 0 |  |
 | Điều 237 | [art-237.md](art-237.md) | 0 |  |
@@ -318,9 +318,9 @@ BLTTDS · 1 versions, from 2016-07-01 (latest in force: 2016-07-01) · <https://
 | Điều 312 | [art-312.md](art-312.md) | 0 |  |
 | Điều 313 | [art-313.md](art-313.md) | 0 |  |
 | Điều 314 | [art-314.md](art-314.md) | 0 |  |
-| Điều 315 | [art-315.md](art-315.md) | 0 |  |
+| Điều 315 | [art-315.md](art-315.md) | 1 | 2025-07-01 |
 | Điều 316 | [art-316.md](art-316.md) | 0 |  |
-| Điều 317 | [art-317.md](art-317.md) | 0 |  |
+| Điều 317 | [art-317.md](art-317.md) | 1 | 2024-07-01 |
 | Điều 318 | [art-318.md](art-318.md) | 0 |  |
 | Điều 319 | [art-319.md](art-319.md) | 0 |  |
 | Điều 320 | [art-320.md](art-320.md) | 0 |  |
@@ -330,39 +330,39 @@ BLTTDS · 1 versions, from 2016-07-01 (latest in force: 2016-07-01) · <https://
 | Điều 324 | [art-324.md](art-324.md) | 0 |  |
 | Điều 325 | [art-325.md](art-325.md) | 0 |  |
 | Điều 326 | [art-326.md](art-326.md) | 0 |  |
-| Điều 327 | [art-327.md](art-327.md) | 0 |  |
+| Điều 327 | [art-327.md](art-327.md) | 1 | 2025-07-01 |
 | Điều 328 | [art-328.md](art-328.md) | 0 |  |
 | Điều 329 | [art-329.md](art-329.md) | 0 |  |
 | Điều 330 | [art-330.md](art-330.md) | 0 |  |
-| Điều 331 | [art-331.md](art-331.md) | 0 |  |
+| Điều 331 | [art-331.md](art-331.md) | 1 | 2025-07-01 |
 | Điều 332 | [art-332.md](art-332.md) | 0 |  |
 | Điều 333 | [art-333.md](art-333.md) | 0 |  |
 | Điều 334 | [art-334.md](art-334.md) | 0 |  |
 | Điều 335 | [art-335.md](art-335.md) | 0 |  |
-| Điều 336 | [art-336.md](art-336.md) | 0 |  |
-| Điều 337 | [art-337.md](art-337.md) | 0 |  |
+| Điều 336 | [art-336.md](art-336.md) | 1 | 2025-07-01 |
+| Điều 337 | [art-337.md](art-337.md) | 1 | 2025-07-01 |
 | Điều 338 | [art-338.md](art-338.md) | 0 |  |
 | Điều 339 | [art-339.md](art-339.md) | 0 |  |
 | Điều 340 | [art-340.md](art-340.md) | 0 |  |
-| Điều 341 | [art-341.md](art-341.md) | 0 |  |
+| Điều 341 | [art-341.md](art-341.md) | 1 | 2025-07-01 |
 | Điều 342 | [art-342.md](art-342.md) | 0 |  |
 | Điều 343 | [art-343.md](art-343.md) | 0 |  |
 | Điều 344 | [art-344.md](art-344.md) | 0 |  |
 | Điều 345 | [art-345.md](art-345.md) | 0 |  |
 | Điều 346 | [art-346.md](art-346.md) | 0 |  |
 | Điều 347 | [art-347.md](art-347.md) | 0 |  |
-| Điều 348 | [art-348.md](art-348.md) | 0 |  |
+| Điều 348 | [art-348.md](art-348.md) | 1 | 2025-07-01 |
 | Điều 349 | [art-349.md](art-349.md) | 0 |  |
 | Điều 350 | [art-350.md](art-350.md) | 0 |  |
 | Điều 351 | [art-351.md](art-351.md) | 0 |  |
 | Điều 352 | [art-352.md](art-352.md) | 0 |  |
 | Điều 353 | [art-353.md](art-353.md) | 0 |  |
-| Điều 354 | [art-354.md](art-354.md) | 0 |  |
+| Điều 354 | [art-354.md](art-354.md) | 1 | 2025-07-01 |
 | Điều 355 | [art-355.md](art-355.md) | 0 |  |
 | Điều 356 | [art-356.md](art-356.md) | 0 |  |
 | Điều 357 | [art-357.md](art-357.md) | 0 |  |
-| Điều 358 | [art-358.md](art-358.md) | 0 |  |
-| Điều 359 | [art-359.md](art-359.md) | 0 |  |
+| Điều 358 | [art-358.md](art-358.md) | 1 | 2025-07-01 |
+| Điều 359 | [art-359.md](art-359.md) | 1 | 2025-07-01 |
 | Điều 360 | [art-360.md](art-360.md) | 0 |  |
 | Điều 361 | [art-361.md](art-361.md) | 0 |  |
 | Điều 362 | [art-362.md](art-362.md) | 0 |  |
@@ -401,22 +401,22 @@ BLTTDS · 1 versions, from 2016-07-01 (latest in force: 2016-07-01) · <https://
 | Điều 395 | [art-395.md](art-395.md) | 0 |  |
 | Điều 396 | [art-396.md](art-396.md) | 0 |  |
 | Điều 397 | [art-397.md](art-397.md) | 0 |  |
-| Điều 398 | [art-398.md](art-398.md) | 0 |  |
+| Điều 398 | [art-398.md](art-398.md) | 1 | 2025-07-01 |
 | Điều 399 | [art-399.md](art-399.md) | 0 |  |
 | Điều 400 | [art-400.md](art-400.md) | 0 |  |
 | Điều 401 | [art-401.md](art-401.md) | 0 |  |
 | Điều 402 | [art-402.md](art-402.md) | 0 |  |
 | Điều 403 | [art-403.md](art-403.md) | 0 |  |
 | Điều 404 | [art-404.md](art-404.md) | 0 |  |
-| Điều 405 | [art-405.md](art-405.md) | 0 |  |
-| Điều 406 | [art-406.md](art-406.md) | 0 |  |
+| Điều 405 | [art-405.md](art-405.md) | 1 | 2025-07-01 |
+| Điều 406 | [art-406.md](art-406.md) | 1 | 2025-07-01 |
 | Điều 407 | [art-407.md](art-407.md) | 0 |  |
 | Điều 408 | [art-408.md](art-408.md) | 0 |  |
 | Điều 409 | [art-409.md](art-409.md) | 0 |  |
-| Điều 410 | [art-410.md](art-410.md) | 0 |  |
+| Điều 410 | [art-410.md](art-410.md) | 1 | 2025-07-01 |
 | Điều 411 | [art-411.md](art-411.md) | 0 |  |
 | Điều 412 | [art-412.md](art-412.md) | 0 |  |
-| Điều 413 | [art-413.md](art-413.md) | 0 |  |
+| Điều 413 | [art-413.md](art-413.md) | 1 | 2025-07-01 |
 | Điều 414 | [art-414.md](art-414.md) | 0 |  |
 | Điều 415 | [art-415.md](art-415.md) | 0 |  |
 | Điều 416 | [art-416.md](art-416.md) | 0 |  |
@@ -424,12 +424,12 @@ BLTTDS · 1 versions, from 2016-07-01 (latest in force: 2016-07-01) · <https://
 | Điều 418 | [art-418.md](art-418.md) | 0 |  |
 | Điều 419 | [art-419.md](art-419.md) | 0 |  |
 | Điều 420 | [art-420.md](art-420.md) | 0 |  |
-| Điều 421 | [art-421.md](art-421.md) | 0 |  |
+| Điều 421 | [art-421.md](art-421.md) | 1 | 2025-07-01 |
 | Điều 422 | [art-422.md](art-422.md) | 0 |  |
 | Điều 423 | [art-423.md](art-423.md) | 0 |  |
 | Điều 424 | [art-424.md](art-424.md) | 0 |  |
 | Điều 425 | [art-425.md](art-425.md) | 0 |  |
-| Điều 426 | [art-426.md](art-426.md) | 0 |  |
+| Điều 426 | [art-426.md](art-426.md) | 1 | 2025-07-01 |
 | Điều 427 | [art-427.md](art-427.md) | 0 |  |
 | Điều 428 | [art-428.md](art-428.md) | 0 |  |
 | Điều 429 | [art-429.md](art-429.md) | 0 |  |
@@ -438,15 +438,15 @@ BLTTDS · 1 versions, from 2016-07-01 (latest in force: 2016-07-01) · <https://
 | Điều 432 | [art-432.md](art-432.md) | 0 |  |
 | Điều 433 | [art-433.md](art-433.md) | 0 |  |
 | Điều 434 | [art-434.md](art-434.md) | 0 |  |
-| Điều 435 | [art-435.md](art-435.md) | 0 |  |
+| Điều 435 | [art-435.md](art-435.md) | 1 | 2025-07-01 |
 | Điều 436 | [art-436.md](art-436.md) | 0 |  |
 | Điều 437 | [art-437.md](art-437.md) | 0 |  |
 | Điều 438 | [art-438.md](art-438.md) | 0 |  |
 | Điều 439 | [art-439.md](art-439.md) | 0 |  |
 | Điều 440 | [art-440.md](art-440.md) | 0 |  |
 | Điều 441 | [art-441.md](art-441.md) | 0 |  |
-| Điều 442 | [art-442.md](art-442.md) | 0 |  |
-| Điều 443 | [art-443.md](art-443.md) | 0 |  |
+| Điều 442 | [art-442.md](art-442.md) | 1 | 2025-07-01 |
+| Điều 443 | [art-443.md](art-443.md) | 1 | 2025-07-01 |
 | Điều 444 | [art-444.md](art-444.md) | 0 |  |
 | Điều 445 | [art-445.md](art-445.md) | 0 |  |
 | Điều 446 | [art-446.md](art-446.md) | 0 |  |
@@ -464,8 +464,8 @@ BLTTDS · 1 versions, from 2016-07-01 (latest in force: 2016-07-01) · <https://
 | Điều 458 | [art-458.md](art-458.md) | 0 |  |
 | Điều 459 | [art-459.md](art-459.md) | 0 |  |
 | Điều 460 | [art-460.md](art-460.md) | 0 |  |
-| Điều 461 | [art-461.md](art-461.md) | 0 |  |
-| Điều 462 | [art-462.md](art-462.md) | 0 |  |
+| Điều 461 | [art-461.md](art-461.md) | 1 | 2025-07-01 |
+| Điều 462 | [art-462.md](art-462.md) | 1 | 2025-07-01 |
 | Điều 463 | [art-463.md](art-463.md) | 0 |  |
 | Điều 464 | [art-464.md](art-464.md) | 0 |  |
 | Điều 465 | [art-465.md](art-465.md) | 0 |  |
@@ -491,23 +491,22 @@ BLTTDS · 1 versions, from 2016-07-01 (latest in force: 2016-07-01) · <https://
 | Điều 485 | [art-485.md](art-485.md) | 0 |  |
 | Điều 486 | [art-486.md](art-486.md) | 0 |  |
 | Điều 487 | [art-487.md](art-487.md) | 0 |  |
-| Điều 488 | [art-488.md](art-488.md) | 0 |  |
+| Điều 488 | [art-488.md](art-488.md) | 1 | 2025-07-01 |
 | Điều 489 | [art-489.md](art-489.md) | 0 |  |
 | Điều 490 | [art-490.md](art-490.md) | 0 |  |
-| Điều 491 | [art-491.md](art-491.md) | 0 |  |
+| Điều 491 | [art-491.md](art-491.md) | 1 | 2025-01-01 |
 | Điều 492 | [art-492.md](art-492.md) | 0 |  |
 | Điều 493 | [art-493.md](art-493.md) | 0 |  |
 | Điều 494 | [art-494.md](art-494.md) | 0 |  |
 | Điều 495 | [art-495.md](art-495.md) | 0 |  |
 | Điều 496 | [art-496.md](art-496.md) | 0 |  |
-| Điều 497 | [art-497.md](art-497.md) | 0 |  |
 | Điều 498 | [art-498.md](art-498.md) | 0 |  |
 | Điều 499 | [art-499.md](art-499.md) | 0 |  |
 | Điều 500 | [art-500.md](art-500.md) | 0 |  |
 | Điều 501 | [art-501.md](art-501.md) | 0 |  |
 | Điều 502 | [art-502.md](art-502.md) | 0 |  |
 | Điều 503 | [art-503.md](art-503.md) | 0 |  |
-| Điều 504 | [art-504.md](art-504.md) | 0 |  |
+| Điều 504 | [art-504.md](art-504.md) | 1 | 2025-07-01 |
 | Điều 505 | [art-505.md](art-505.md) | 0 |  |
 | Điều 506 | [art-506.md](art-506.md) | 0 |  |
 | Điều 507 | [art-507.md](art-507.md) | 0 |  |

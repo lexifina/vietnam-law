@@ -11,7 +11,7 @@ import unicodedata
 import doc97
 from parse import norm, art_key
 
-ART = re.compile(r'^Điều (\d+)([a-zđ]?)\. ?(.*)$')
+ART = re.compile(r'^Điều (\d+)([a-zđ]?)(?:\. ?(.*)|)$')
 JUNK = re.compile(r'^\((?:Tiếp theo|Xem tiếp) Công báo số [\d +]+\)$')
 STRUCT = re.compile(r'^(Phần thứ|Chương [IVXLC]+|Mục \d+|PHẦN THỨ|CHƯƠNG)')
 
@@ -80,7 +80,7 @@ def read(paths):
 
 LAW_NUM = re.compile(r'(\d+/\d{4}/ ?QH\d+)')
 AMEND = re.compile(r'được (?:sửa đổi|bổ sung|thay thế|bãi bỏ|bỏ)|bị bãi bỏ|(?:sửa đổi|bổ sung|thay thế|bãi bỏ|bỏ) theo quy định tại')
-DATE = re.compile(r'có hiệu lực (?:thi hành )?kể từ ngày (\d{1,2}) tháng (\d{1,2}) năm (\d{4})')
+DATE = re.compile(r'có hiệu lực (?:thi hành )?(?:kể )?từ ngày (\d{1,2}) tháng (\d{1,2}) năm (\d{4})')
 
 
 def note_laws(text, own=None):
@@ -98,11 +98,19 @@ def note_laws(text, own=None):
 
 
 def header_laws(header):
-    """[(law number, in-force day)] from the consolidated text's list of amending laws."""
+    """[(law number, in-force day)] from the consolidated text's list of amending laws: the lines after
+    "... được sửa đổi, bổ sung bởi:" (the first line, the act itself, is included too) up to the recitals."""
     out = []
+    on = False
     for h in header:
+        if h.startswith('Căn cứ'):
+            break
+        if 'được sửa đổi, bổ sung bởi' in h:
+            on = True
+        if not on:
+            continue
         m = DATE.search(h)
         nums = LAW_NUM.findall(h)
-        if m and nums and ('sửa đổi' in h or re.match(r'^\d+\. ', h) or 'được sửa đổi, bổ sung bởi' in h):
+        if m and nums:
             out.append((nums[0].replace(' ', ''), f'{int(m.group(3)):04d}-{int(m.group(2)):02d}-{int(m.group(1)):02d}'))
     return out

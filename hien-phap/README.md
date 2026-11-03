@@ -1,6 +1,6 @@
 # Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam (2013)
 
-HP · 1 versions, from 2014-01-01 (latest in force: 2014-01-01) · <https://vbpl.vn/van-ban/chi-tiet/hien-phap-nam-2013--32801>
+HP · 2 versions, from 2014-01-01 (latest in force: 2025-06-16) · <https://vbpl.vn/van-ban/chi-tiet/hien-phap-nam-2013--32801>
 
 | Provision | File | Changes | Last changed |
 | --- | --- | ---: | --- |
@@ -12,8 +12,8 @@ HP · 1 versions, from 2014-01-01 (latest in force: 2014-01-01) · <https://vbpl
 | Điều 6 | [art-006.md](art-006.md) | 0 |  |
 | Điều 7 | [art-007.md](art-007.md) | 0 |  |
 | Điều 8 | [art-008.md](art-008.md) | 0 |  |
-| Điều 9 | [art-009.md](art-009.md) | 0 |  |
-| Điều 10 | [art-010.md](art-010.md) | 0 |  |
+| Điều 9 | [art-009.md](art-009.md) | 1 | 2025-06-16 |
+| Điều 10 | [art-010.md](art-010.md) | 1 | 2025-06-16 |
 | Điều 11 | [art-011.md](art-011.md) | 0 |  |
 | Điều 12 | [art-012.md](art-012.md) | 0 |  |
 | Điều 13 | [art-013.md](art-013.md) | 0 |  |
@@ -87,7 +87,7 @@ HP · 1 versions, from 2014-01-01 (latest in force: 2014-01-01) · <https://vbpl
 | Điều 81 | [art-081.md](art-081.md) | 0 |  |
 | Điều 82 | [art-082.md](art-082.md) | 0 |  |
 | Điều 83 | [art-083.md](art-083.md) | 0 |  |
-| Điều 84 | [art-084.md](art-084.md) | 0 |  |
+| Điều 84 | [art-084.md](art-084.md) | 1 | 2025-06-16 |
 | Điều 85 | [art-085.md](art-085.md) | 0 |  |
 | Điều 86 | [art-086.md](art-086.md) | 0 |  |
 | Điều 87 | [art-087.md](art-087.md) | 0 |  |
@@ -113,8 +113,8 @@ HP · 1 versions, from 2014-01-01 (latest in force: 2014-01-01) · <https://vbpl
 | Điều 107 | [art-107.md](art-107.md) | 0 |  |
 | Điều 108 | [art-108.md](art-108.md) | 0 |  |
 | Điều 109 | [art-109.md](art-109.md) | 0 |  |
-| Điều 110 | [art-110.md](art-110.md) | 0 |  |
-| Điều 111 | [art-111.md](art-111.md) | 0 |  |
+| Điều 110 | [art-110.md](art-110.md) | 1 | 2025-06-16 |
+| Điều 111 | [art-111.md](art-111.md) | 1 | 2025-06-16 |
 | Điều 112 | [art-112.md](art-112.md) | 0 |  |
 | Điều 113 | [art-113.md](art-113.md) | 0 |  |
 | Điều 114 | [art-114.md](art-114.md) | 0 |  |

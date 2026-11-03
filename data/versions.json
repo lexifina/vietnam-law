@@ -12,6 +12,12 @@
      "units": 123,
      "source_url": "https://vbpl.vn/van-ban/chi-tiet/hien-phap-nam-2013--32801",
      "sha256": "eb4356965f2d9af38dc341ed929d688a24cd014ce680ac6ad64810a998b84f27"
+    },
+    {
+     "from": "2025-06-16",
+     "units": 123,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-52-vbhn-vpqh-45714.htm",
+     "sha256": "e50c0233221ab49b80f4388b4887596383fd494522181120fdd6e6aa40b79947"
     }
    ]
   },
@@ -48,20 +54,6 @@
    ]
   },
   {
-   "slug": "bo-luat-dan-su",
-   "short": "BLDS",
-   "title": "Bộ luật Dân sự (Luật số 91/2015/QH13)",
-   "url": "https://vbpl.vn/van-ban/chi-tiet/bo-luat-dan-su-so-91-2015-qh13--95942",
-   "versions": [
-    {
-     "from": "2017-01-01",
-     "units": 692,
-     "source_url": "https://vbpl.vn/van-ban/chi-tiet/bo-luat-dan-su-so-91-2015-qh13--95942",
-     "sha256": "ffef60a461f3f7dce94cb4757a2850380e0ca8ca1ae9e6db24644ac587673685"
-    }
-   ]
-  },
-  {
    "slug": "bo-luat-to-tung-dan-su",
    "short": "BLTTDS",
    "title": "Bộ luật Tố tụng dân sự (Luật số 92/2015/QH13)",
@@ -72,6 +64,48 @@
      "units": 520,
      "source_url": "https://vbpl.vn/van-ban/chi-tiet/bo-luat-to-tung-dan-su-so-92-2015-qh13--96115",
      "sha256": "224bb65f99c9e441238836be5947e18aba29c88724901c3e85b01c49d4971ffc"
+    },
+    {
+     "from": "2021-01-01",
+     "units": 520,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-20-vbhn-vpqh-31011.htm",
+     "sha256": "72309deee9c28cf8102130f5507b84fcfbabe1d2084e4514566a9f09e75e493b"
+    },
+    {
+     "from": "2021-01-01",
+     "units": 520,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-24-vbhn-vpqh-38914.htm",
+     "sha256": "bb8a84d01c6939507d36e5d004239f1dac95685d9297c30994fcacb5180a2be5"
+    },
+    {
+     "from": "2023-07-01",
+     "units": 520,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-24-vbhn-vpqh-38914.htm",
+     "sha256": "bb8a84d01c6939507d36e5d004239f1dac95685d9297c30994fcacb5180a2be5"
+    },
+    {
+     "from": "2024-07-01",
+     "units": 520,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-11-vbhn-vpqh-42938.htm",
+     "sha256": "5c66932539706ef0f4cbe842a107bb381a9f89eeae24199d618fc51f051b3a50"
+    },
+    {
+     "from": "2025-01-01",
+     "units": 519,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-11-vbhn-vpqh-42938.htm",
+     "sha256": "5c66932539706ef0f4cbe842a107bb381a9f89eeae24199d618fc51f051b3a50"
+    },
+    {
+     "from": "2025-07-01",
+     "units": 519,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-12-vbhn-vpqh-44432.htm",
+     "sha256": "3b949cd9c411549cdf0f06fa1fb8ed6b438d2b858abf58079e1ab76b34b84baf"
+    },
+    {
+     "from": "2025-07-01",
+     "units": 519,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-99-vbhn-vpqh-46013.htm",
+     "sha256": "bd12449fbf9db8530de0b08d97577b585ba4461f317415b04de82d551a9c5aa9"
     }
    ]
   },
@@ -86,6 +120,30 @@
      "units": 513,
      "source_url": "https://vbpl.vn/van-ban/chi-tiet/bo-luat-to-tung-hinh-su-so-101-2015-qh13--96172",
      "sha256": "a95f57a615ac0a5b2e2f2e1d0ae91fea3c0025e48b1db6804a77e541fcf9d95a"
+    },
+    {
+     "from": "2021-12-01",
+     "units": 513,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-10-vbhn-vpqh-42934.htm",
+     "sha256": "ee2b7e1d9f91f16b7cc335daaf0d19491af2c23bf9405a4d41163623c8f80193"
+    },
+    {
+     "from": "2025-01-01",
+     "units": 513,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-10-vbhn-vpqh-42934.htm",
+     "sha256": "ee2b7e1d9f91f16b7cc335daaf0d19491af2c23bf9405a4d41163623c8f80193"
+    },
+    {
+     "from": "2025-07-01",
+     "units": 514,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-104-vbhn-vpqh-46029.htm",
+     "sha256": "12e9caabc62a3acb9042b797ab9c1debe10f84774bb8ce3a9bf1c2a3a3de9994"
+    },
+    {
+     "from": "2026-01-01",
+     "units": 496,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-46-vbhn-vpqh-44513.htm",
+     "sha256": "c6f41a631d3c7b43a44599d5d85b7516d2831348647f04dd52ce2d45c61be803"
     }
    ]
   },
@@ -100,6 +158,18 @@
      "units": 221,
      "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-doanh-nghiep-so-59-2020-qh14--142881",
      "sha256": "cf5e51f0ac393079262b20c011bc45530547db49a8f45fe005247d92c69a35a5"
+    },
+    {
+     "from": "2022-03-01",
+     "units": 221,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-07-vbhn-vpqh-38354.htm",
+     "sha256": "0611600b5c6cda014ba262862335d6e5f060d2b1b87f71c3b34d9be8bd887470"
+    },
+    {
+     "from": "2025-07-01",
+     "units": 221,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-67-vbhn-vpqh-45865.htm",
+     "sha256": "f07e918dfdfea5bfe63a0f9d3511f927c44f9fc97d3876ac37e92faf41693b93"
     }
    ]
   },
@@ -114,6 +184,26 @@
      "units": 223,
      "source_url": "https://vbpl.vn/van-ban/chi-tiet/bo-luat-lao-dong-so-45-2019-qh14--139264",
      "sha256": "b8906c5636d80645eb28aa97ec44ae4496148eee7c7d2fb679a85984b0a7da4c"
+    },
+    {
+     "from": "2026-01-01",
+     "units": 223,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-125-vbhn-vpqh-46084.htm",
+     "sha256": "9cfba3fafaf066c7b99050133fbc8839d0ffee27ce57f77712c811c7564791d6"
+    }
+   ]
+  },
+  {
+   "slug": "bo-luat-dan-su",
+   "short": "BLDS",
+   "title": "Bộ luật Dân sự (Luật số 91/2015/QH13)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/bo-luat-dan-su-so-91-2015-qh13--95942",
+   "versions": [
+    {
+     "from": "2017-01-01",
+     "units": 692,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/bo-luat-dan-su-so-91-2015-qh13--95942",
+     "sha256": "ffef60a461f3f7dce94cb4757a2850380e0ca8ca1ae9e6db24644ac587673685"
     }
    ]
   }

@@ -8,13 +8,13 @@ It follows the shared design of [lexifina/global-law](https://github.com/lexifin
 
 | Folder | Act | Versions | History |
 | --- | --- | ---: | --- |
-| `hien-phap/` | Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam (the Constitution, 2013) | 1 | As adopted 28 November 2013, in force 1 January 2014 |
+| `hien-phap/` | Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam (the Constitution, 2013) | 2 | As adopted, in force 1 January 2014; Nghị quyết 203/2025/QH15 (16 June 2025) |
 | `bo-luat-hinh-su/` | Bộ luật Hình sự (the Penal Code, Law 100/2015/QH13) | 4 | As enacted and as amended by Luật 12/2017/QH14, both 1 January 2018; Luật 86/2025/QH15 (1 July 2025); Luật Tư pháp người chưa thành niên 59/2024/QH15 (1 January 2026) |
 | `bo-luat-dan-su/` | Bộ luật Dân sự (the Civil Code, Law 91/2015/QH13) | 1 | As enacted, in force 1 January 2017 |
-| `bo-luat-to-tung-dan-su/` | Bộ luật Tố tụng dân sự (the Civil Procedure Code, Law 92/2015/QH13) | 1 | As enacted, in force 1 July 2016 |
-| `bo-luat-to-tung-hinh-su/` | Bộ luật Tố tụng hình sự (the Criminal Procedure Code, Law 101/2015/QH13) | 1 | As enacted, in force 1 January 2018 |
-| `luat-doanh-nghiep/` | Luật Doanh nghiệp (the Enterprise Law, Law 59/2020/QH14) | 1 | As enacted, in force 1 January 2021 |
-| `bo-luat-lao-dong/` | Bộ luật Lao động (the Labour Code, Law 45/2019/QH14) | 1 | As enacted, in force 1 January 2021 |
+| `bo-luat-to-tung-dan-su/` | Bộ luật Tố tụng dân sự (the Civil Procedure Code, Law 92/2015/QH13) | 8 | As enacted, in force 1 July 2016; seven amending laws, 2021 to 2025 |
+| `bo-luat-to-tung-hinh-su/` | Bộ luật Tố tụng hình sự (the Criminal Procedure Code, Law 101/2015/QH13) | 5 | As enacted, in force 1 January 2018; Luật 02/2021/QH15, 34/2024/QH15, 99/2025/QH15 and 59/2024/QH15, 2021 to 2026 |
+| `luat-doanh-nghiep/` | Luật Doanh nghiệp (the Enterprise Law, Law 59/2020/QH14) | 3 | As enacted, in force 1 January 2021; Luật 03/2022/QH15 (1 March 2022); Luật 76/2025/QH15 (1 July 2025) |
+| `bo-luat-lao-dong/` | Bộ luật Lao động (the Labour Code, Law 45/2019/QH14) | 2 | As enacted, in force 1 January 2021; Luật Công nghiệp công nghệ số 71/2025/QH15 (1 January 2026) |
 
 ## Dates
 
@@ -28,8 +28,8 @@ It follows the shared design of [lexifina/global-law](https://github.com/lexifin
 
 ## What it does not show
 
-- **The 2025 constitutional amendments** (Nghị quyết 203/2025/QH15 of 16 June 2025). The Constitution shown is the 2013 text as adopted, not the text in force today.
-- **Later amendments to the codes.** None are applied yet: each code is its text as enacted. Known amending laws not yet applied include Luật 02/2021/QH15 and 99/2025/QH15 (Criminal Procedure Code), 03/2022/QH15 and 76/2025/QH15 (Enterprise Law) and 85/2025/QH15 (Civil Procedure Code).
+- **The Civil Code's amendments by other laws**, if any: vbpl.vn and the Công báo list no consolidated text of the Civil Code, so it is shown as enacted.
+- **Three articles of the Criminal Procedure Code** (Điều 37, 42 and 45) were amended by Luật 99/2025/QH15 (1 July 2025) and again by Luật 59/2024/QH15 (1 January 2026); no consolidated text shows them between the two, so both changes are shown on 1 January 2026.
 - **The Penal Code's text as enacted** never applied by itself: Luật 12/2017/QH14 amended it with effect from the same day, 1 January 2018. Both are shown on that day, the amended text last.
 - All other laws are not included.
 
@@ -53,4 +53,4 @@ Vietnamese legal normative documents are not protected by copyright (Luật Sở
 
 ## Tiếng Việt
 
-Lịch sử pháp luật Việt Nam trong git: mỗi điều một tệp, mỗi luật một commit vào ngày có hiệu lực. Hiện có Hiến pháp 2013 (nguyên bản, hiệu lực 1/1/2014), Bộ luật Hình sự 2015 (1/1/2018, có các lần sửa đổi năm 2017, 2025 và 2024), Bộ luật Dân sự 2015 (hiệu lực 1/1/2017), Bộ luật Tố tụng dân sự 2015 (1/7/2016), Bộ luật Tố tụng hình sự 2015 (1/1/2018), Luật Doanh nghiệp 2020 và Bộ luật Lao động 2019 (1/1/2021). Các lần sửa đổi lấy từ văn bản hợp nhất đăng Công báo. Sửa đổi Hiến pháp năm 2025 chưa được đưa vào vì chưa đối chiếu được với văn bản hợp nhất chính thức.
+Lịch sử pháp luật Việt Nam trong git: mỗi điều một tệp, mỗi luật một commit vào ngày có hiệu lực. Hiện có Hiến pháp 2013 (cả lần sửa đổi năm 2025), Bộ luật Hình sự 2015, Bộ luật Dân sự 2015, Bộ luật Tố tụng dân sự 2015, Bộ luật Tố tụng hình sự 2015, Luật Doanh nghiệp 2020 và Bộ luật Lao động 2019, mỗi văn bản từ ngày có hiệu lực, cùng các lần sửa đổi đến năm 2026. Các lần sửa đổi lấy từ văn bản hợp nhất đăng Công báo.

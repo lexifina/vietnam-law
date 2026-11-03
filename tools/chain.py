@@ -85,7 +85,11 @@ def build_versions(base_units, base_from, own, consolidated, law_keys, label_of=
             else:
                 old = state.get(k)
                 changes[k] = {'label': (old or {}).get('label') or label_of(k), 'kind': 'art', 'text': new}
-            credits[k] = sorted({law_keys[L]} | {law_keys[x] for x in deferred.pop(k, set()) if x in law_keys})
+            late = deferred.pop(k, set())
+            if late:
+                decisions.append(f'{k}: the change by {", ".join(sorted(late))} is shown from {d}, with the change by {L}: '
+                                 f'no consolidated text gives the article between the two, so the day of the earlier law is not shown.')
+            credits[k] = sorted({law_keys[L]} | {law_keys[x] for x in late if x in law_keys})
         # whole chapters repealed: their articles are absent from the consolidated text
         for chap, ls in first['rem_chapters']:
             if L in ls:
@@ -96,6 +100,10 @@ def build_versions(base_units, base_from, own, consolidated, law_keys, label_of=
                     present |= set(v['per'])
                 gone = sorted(k for k in base_keys if k.startswith('art-') and k not in present
                               and changes.get(k, 0) is not None)
+                nums = [int(k.split('-')[1]) for k in gone]
+                if not gone or nums != list(range(nums[0], nums[0] + len(nums))):
+                    problems.append(f'{L}: Chương {chap}: removed articles are not one run: {gone[:5]}...')
+                    continue
                 for k in gone:
                     changes[k] = None
                     credits[k] = [law_keys[L]]

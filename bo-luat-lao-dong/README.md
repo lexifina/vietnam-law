@@ -1,6 +1,6 @@
 # Bộ luật Lao động (Luật số 45/2019/QH14)
 
-BLLĐ · 1 versions, from 2021-01-01 (latest in force: 2021-01-01) · <https://vbpl.vn/van-ban/chi-tiet/bo-luat-lao-dong-so-45-2019-qh14--139264>
+BLLĐ · 2 versions, from 2021-01-01 (latest in force: 2026-01-01) · <https://vbpl.vn/van-ban/chi-tiet/bo-luat-lao-dong-so-45-2019-qh14--139264>
 
 | Provision | File | Changes | Last changed |
 | --- | --- | ---: | --- |
@@ -157,7 +157,7 @@ BLLĐ · 1 versions, from 2021-01-01 (latest in force: 2021-01-01) · <https://v
 | Điều 151 | [art-151.md](art-151.md) | 0 |  |
 | Điều 152 | [art-152.md](art-152.md) | 0 |  |
 | Điều 153 | [art-153.md](art-153.md) | 0 |  |
-| Điều 154 | [art-154.md](art-154.md) | 0 |  |
+| Điều 154 | [art-154.md](art-154.md) | 1 | 2026-01-01 |
 | Điều 155 | [art-155.md](art-155.md) | 0 |  |
 | Điều 156 | [art-156.md](art-156.md) | 0 |  |
 | Điều 157 | [art-157.md](art-157.md) | 0 |  |
