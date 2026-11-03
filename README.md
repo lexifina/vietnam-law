@@ -32,7 +32,7 @@ It follows the shared design of [lexifina/global-law](https://github.com/lexifin
 - **Three articles of the Criminal Procedure Code** (Điều 37, 42 and 45) were amended by Luật 99/2025/QH15 (1 July 2025) and again by Luật 59/2024/QH15 (1 January 2026); no consolidated text shows them between the two, so both changes are shown on 1 January 2026.
 - **The Penal Code's text as enacted** never applied by itself: Luật 12/2017/QH14 amended it with effect from the same day, 1 January 2018. Both are shown on that day, the amended text last.
 - **A 2026 amendment to the Labour Code** (Luật 124/2025/QH15, in force 1 January 2026, and Luật 113/2025/QH15, 1 July 2026) is held: it falls on a day already published and needs a correction commit.
-- All other laws are not included.
+- **Other laws** are being added: every National Assembly law with an official consolidated text in the Công báo, each with its text as enacted and the dated amendments that text records. `data/laws.csv` lists those already in. A law is left out when a change cannot be dated from the consolidated texts available.
 
 ## How it is built
 

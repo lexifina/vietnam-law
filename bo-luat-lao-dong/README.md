@@ -1,6 +1,6 @@
 # Bộ luật Lao động (Luật số 45/2019/QH14)
 
-BLLĐ · 2 versions, from 2021-01-01 (latest in force: 2026-01-01) · <https://vbpl.vn/van-ban/chi-tiet/bo-luat-lao-dong-so-45-2019-qh14--139264>
+BLLĐ · 4 versions, from 2021-01-01 (latest in force: 2026-07-01) · <https://vbpl.vn/van-ban/chi-tiet/bo-luat-lao-dong-so-45-2019-qh14--139264>
 
 | Provision | File | Changes | Last changed |
 | --- | --- | ---: | --- |
@@ -62,9 +62,9 @@ BLLĐ · 2 versions, from 2021-01-01 (latest in force: 2026-01-01) · <https://v
 | Điều 56 | [art-056.md](art-056.md) | 0 |  |
 | Điều 57 | [art-057.md](art-057.md) | 0 |  |
 | Điều 58 | [art-058.md](art-058.md) | 0 |  |
-| Điều 59 | [art-059.md](art-059.md) | 0 |  |
+| Điều 59 | [art-059.md](art-059.md) | 1 | 2026-01-01 |
 | Điều 60 | [art-060.md](art-060.md) | 0 |  |
-| Điều 61 | [art-061.md](art-061.md) | 0 |  |
+| Điều 61 | [art-061.md](art-061.md) | 1 | 2026-01-01 |
 | Điều 62 | [art-062.md](art-062.md) | 0 |  |
 | Điều 63 | [art-063.md](art-063.md) | 0 |  |
 | Điều 64 | [art-064.md](art-064.md) | 0 |  |
@@ -142,7 +142,7 @@ BLLĐ · 2 versions, from 2021-01-01 (latest in force: 2026-01-01) · <https://v
 | Điều 136 | [art-136.md](art-136.md) | 0 |  |
 | Điều 137 | [art-137.md](art-137.md) | 0 |  |
 | Điều 138 | [art-138.md](art-138.md) | 0 |  |
-| Điều 139 | [art-139.md](art-139.md) | 0 |  |
+| Điều 139 | [art-139.md](art-139.md) | 1 | 2026-07-01 |
 | Điều 140 | [art-140.md](art-140.md) | 0 |  |
 | Điều 141 | [art-141.md](art-141.md) | 0 |  |
 | Điều 142 | [art-142.md](art-142.md) | 0 |  |

@@ -121,7 +121,8 @@ def build_versions(base_units, base_from, own, consolidated, law_keys, label_of=
                         problems.append(f'{L}: Chương {chap} found {len(i)} times in cau-truc')
                 decisions.append(f'Chương {chap} repealed by {L} from {d}: its articles {gone[0]}..{gone[-1]} ({len(gone)}) are removed.')
         if not changes:
-            problems.append(f'{L}: no change found'); continue
+            decisions.append(f'{L} (in force {d}) is listed by the consolidated text, but no footnote credits it with a change to an article; no version is made for it.')
+            continue
         for k, u in changes.items():
             if u is None:
                 state.pop(k, None)

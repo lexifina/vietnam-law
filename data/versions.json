@@ -218,8 +218,20 @@
     {
      "from": "2026-01-01",
      "units": 223,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm",
+     "sha256": "1386441b1f513defdd55186d7e65b8432dcac87c2e0d78676de25facb9c5e6ff"
+    },
+    {
+     "from": "2026-01-01",
+     "units": 223,
      "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-125-vbhn-vpqh-46084.htm",
      "sha256": "9cfba3fafaf066c7b99050133fbc8839d0ffee27ce57f77712c811c7564791d6"
+    },
+    {
+     "from": "2026-07-01",
+     "units": 223,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm",
+     "sha256": "1386441b1f513defdd55186d7e65b8432dcac87c2e0d78676de25facb9c5e6ff"
     }
    ]
   },
