@@ -160,30 +160,37 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 | `luat-giao-duc-nghe-nghiep-74-2014-qh13` | Luật Giáo dục nghề nghiệp (Luật số 74/2014/QH13) | 5 | 2015-07-01 to 2025-07-01 |
 | `luat-mat-tran-to-quoc-viet-nam-75-2015-qh13` | Luật Mặt trận Tổ quốc Việt Nam (Luật số 75/2015/QH13) | 2 | 2016-01-01 to 2025-07-01 |
 | `luat-the-duc-the-thao-77-2006-qh11` | Luật Thể dục, thể thao (Luật số 77/2006/QH11) | 3 | 2007-07-01 to 2025-07-01 |
+| `luat-kiem-toan-nha-nuoc-81-2015-qh13` | Luật Kiểm toán nhà nước (Luật số 81/2015/QH13) | 2 | 2016-01-01 to 2020-07-01 |
+| `luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-to-chuc-toa-an-nhan-dan-81-2025-qh15` | Luật sửa đổi, bổ sung một số điều của Luật Tổ chức Tòa án nhân dân (Luật số 81/2025/QH15) | 1 | 2025-07-01 to 2025-07-01 |
 | `luat-tai-nguyen-moi-truong-bien-va-hai-dao-82-2015-qh13` | Luật Tài nguyên, môi trường biển và hải đảo (Luật số 82/2015/QH13) | 4 | 2016-07-01 to 2026-01-01 |
 | `luat-an-toan-ve-sinh-lao-dong-84-2015-qh13` | Luật An toàn, vệ sinh lao động (Luật số 84/2015/QH13) | 3 | 2016-07-01 to 2025-07-01 |
 | `luat-bau-cu-dai-bieu-quoc-hoi-va-dai-bieu-hoi-dong-nhan-dan-85-2015-qh13` | Luật Bầu cử đại biểu Quốc hội và đại biểu Hội đồng nhân dân (Luật số 85/2015/QH13) | 3 | 2015-09-01 to 2026-07-01 |
+| `luat-an-toan-thong-tin-mang-86-2015-qh13` | Luật An toàn thông tin mạng (Luật số 86/2015/QH13) | 2 | 2016-07-01 to 2019-01-01 |
+| `luat-sua-doi-bo-sung-mot-so-dieu-cua-bo-luat-hinh-su-86-2025-qh15` | Luật Sửa đổi, bổ sung một số điều của Bộ Luật hình sự (Luật số 86/2025/QH15) | 1 | 2025-07-01 to 2025-07-01 |
+| `luat-hoat-dong-giam-sat-cua-quoc-hoi-va-hoi-dong-nhan-dan-87-2015-qh13` | Luật Hoạt động giám sát của Quốc hội và Hội đồng nhân dân (Luật số 87/2015/QH13) | 1 | 2016-07-01 to 2016-07-01 |
 | `luat-ke-toan-88-2015-qh13` | Luật Kế toán (Luật số 88/2015/QH13) | 4 | 2017-01-01 to 2026-07-01 |
 | `luat-thong-ke-89-2015-qh13` | Luật Thống kê (Luật số 89/2015/QH13) | 3 | 2016-07-01 to 2026-01-01 |
 | `luat-to-tung-hanh-chinh-93-2015-qh13` | Luật Tố tụng hành chính (Luật số 93/2015/QH13) | 5 | 2016-07-01 to 2026-07-01 |
+| `luat-khoa-hoc-cong-nghe-va-doi-moi-sang-tao-93-2025-qh15` | Luật Khoa học, Công nghệ và Đổi mới sáng tạo (Luật số 93/2025/QH15) | 3 | 2025-10-01 to 2026-07-01 |
 | `luat-nang-luong-nguyen-tu-94-2025-qh15` | Luật Năng lượng nguyên tử (Luật số 94/2025/QH15) | 4 | 2026-01-01 to 2026-07-01 |
 | `bo-luat-hang-hai-95-2015-qh13` | Bộ luật Hàng hải (Luật số 95/2015/QH13) | 5 | 2017-07-01 to 2026-03-01 |
+| `luat-duong-sat-95-2025-qh15` | Luật Đường sắt (Luật số 95/2025/QH15) | 4 | 2026-01-01 to 2026-07-01 |
 | `luat-quan-nhan-chuyen-nghiep-cong-nhan-va-vien-chuc-quoc-phong-98-2015-qh13` | Luật Quân nhân chuyên nghiệp, công nhân và viên chức quốc phòng (Luật số 98/2015/QH13) | 3 | 2016-07-01 to 2026-09-01 |
 | `luat-to-chuc-co-quan-dieu-tra-hinh-su-99-2015-qh13` | Luật Tổ chức cơ quan điều tra hình sự (Luật số 99/2015/QH13) | 3 | 2018-01-01 to 2027-03-01 |
 
-The build made 355 commits:
+The build made 369 commits:
 
 | Commits | Kind |
 | ---: | --- |
-| 155 | first version of an act |
-| 200 | one law on its in-force day |
+| 162 | first version of an act |
+| 207 | one law on its in-force day |
 | 0 | changes no amendment note explains, credited to the publisher |
 
 Other counts:
 - 0 commits on the branch `tuong-lai`: laws not yet in force on 2026-11-03.
 - 0 commits dated 1 January 1970: in force before 1970, with the real day in their `In-force` trailer.
-- 277 laws in the record.
-- 721 tags.
+- 280 laws in the record.
+- 737 tags.
 
 ## Dates
 
@@ -195,7 +202,7 @@ When a law gives no date of its own, the default rule applies: Luật Ban hành 
 
 `tools/build.py` turns the corpus into this history in one pass: one commit per law, on the day it took effect. The same corpus always gives the same commit hashes. `tools/check_repo.py` reads every version back from git and compares it with the corpus. `tools/on.py` shows the law as it stood on any date. The corpus format is described in `tools/SCHEMA.md`.
 
-- Corpus: sha256 `ba62cfb654d94f0eeb2150f629f687770cae88a4e51de9d237312f10f6f05d68` (32073637 bytes).
+- Corpus: sha256 `cf1ea9a58f51ec20fc5b0eda9d6f64cb5e4e81720af44ec56243e67549530eba` (33046869 bytes).
 - Builder blob hashes (`git hash-object`): `build.py` `a4faa25af85facb64b956b372f6b528aafdd7ec1`, `check.py` `3d00541d258745461ab52b1b0cb4e1716a27a95d`, `on.py` `644a6c0857fbcc72562032b58d57aa113fee0641`.
 - Python 3.14.4; git version 2.53.0.
 
@@ -437,15 +444,24 @@ No second build of this corpus has been compared yet.
 - Luật Giáo dục nghề nghiệp 74/2014/QH13: as enacted from vbpl.vn, in force 2015-07-01; 4 amendment version(s) from 3 consolidated text(s).
 - Luật Mặt trận Tổ quốc Việt Nam 75/2015/QH13: as enacted from vbpl.vn, in force 2016-01-01; 1 amendment version(s) from 1 consolidated text(s).
 - Luật Thể dục, thể thao 77/2006/QH11: as enacted from vbpl.vn, in force 2007-07-01; 2 amendment version(s) from 2 consolidated text(s).
+- Luật Kiểm toán nhà nước 81/2015/QH13: as enacted from vbpl.vn, in force 2016-01-01; 1 amendment version(s) from 1 consolidated text(s).
+- Luật sửa đổi, bổ sung một số điều của Luật Tổ chức Tòa án nhân dân 81/2025/QH15: as enacted from vbpl.vn, in force 2025-07-01; 0 amendment version(s) from 1 consolidated text(s).
 - Luật Tài nguyên, môi trường biển và hải đảo 82/2015/QH13: as enacted from vbpl.vn, in force 2016-07-01; 3 amendment version(s) from 3 consolidated text(s).
 - Luật Tài nguyên, môi trường biển và hải đảo 82/2015/QH13: 18/2023/QH15 (in force 2024-07-01) is listed by the consolidated text, but no footnote credits it with a change to an article; no version is made for it.
 - Luật An toàn, vệ sinh lao động 84/2015/QH13: as enacted from vbpl.vn, in force 2016-07-01; 2 amendment version(s) from 2 consolidated text(s).
 - Luật Bầu cử đại biểu Quốc hội và đại biểu Hội đồng nhân dân 85/2015/QH13: as enacted from vbpl.vn, in force 2015-09-01; 2 amendment version(s) from 2 consolidated text(s).
+- Luật An toàn thông tin mạng 86/2015/QH13: as enacted from vbpl.vn, in force 2016-07-01; 1 amendment version(s) from 1 consolidated text(s).
+- Luật Sửa đổi, bổ sung một số điều của Bộ Luật hình sự 86/2025/QH15: as enacted from vbpl.vn, in force 2025-07-01; 0 amendment version(s) from 1 consolidated text(s).
+- Luật Sửa đổi, bổ sung một số điều của Bộ Luật hình sự 86/2025/QH15: 05/2026/QH16 (in force 2027-01-01) is listed by the consolidated text, but no footnote credits it with a change to an article; no version is made for it.
+- Luật Hoạt động giám sát của Quốc hội và Hội đồng nhân dân 87/2015/QH13: as enacted from vbpl.vn, in force 2016-07-01; 0 amendment version(s) from 1 consolidated text(s).
+- Luật Hoạt động giám sát của Quốc hội và Hội đồng nhân dân 87/2015/QH13: 96/2023/QH15 (in force 2023-07-01) is listed by the consolidated text, but no footnote credits it with a change to an article; no version is made for it.
 - Luật Kế toán 88/2015/QH13: as enacted from vbpl.vn, in force 2017-01-01; 3 amendment version(s) from 3 consolidated text(s).
 - Luật Thống kê 89/2015/QH13: as enacted from vbpl.vn, in force 2016-07-01; 2 amendment version(s) from 2 consolidated text(s).
 - Luật Tố tụng hành chính 93/2015/QH13: as enacted from vbpl.vn, in force 2016-07-01; 4 amendment version(s) from 4 consolidated text(s).
+- Luật Khoa học, Công nghệ và Đổi mới sáng tạo 93/2025/QH15: as enacted from vbpl.vn, in force 2025-10-01; 2 amendment version(s) from 1 consolidated text(s).
 - Luật Năng lượng nguyên tử 94/2025/QH15: as enacted from vbpl.vn, in force 2026-01-01; 3 amendment version(s) from 3 consolidated text(s).
 - Bộ luật Hàng hải 95/2015/QH13: as enacted from vbpl.vn, in force 2017-07-01; 4 amendment version(s) from 4 consolidated text(s).
+- Luật Đường sắt 95/2025/QH15: as enacted from vbpl.vn, in force 2026-01-01; 3 amendment version(s) from 1 consolidated text(s).
 - Luật Quân nhân chuyên nghiệp, công nhân và viên chức quốc phòng 98/2015/QH13: as enacted from vbpl.vn, in force 2016-07-01; 2 amendment version(s) from 2 consolidated text(s).
 - Luật Tổ chức cơ quan điều tra hình sự 99/2015/QH13: as enacted from vbpl.vn, in force 2018-01-01; 2 amendment version(s) from 2 consolidated text(s).
 

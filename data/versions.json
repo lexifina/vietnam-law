@@ -4102,6 +4102,40 @@
    ]
   },
   {
+   "slug": "luat-kiem-toan-nha-nuoc-81-2015-qh13",
+   "short": "Luật Kiểm toán nhà nước 2015",
+   "title": "Luật Kiểm toán nhà nước (Luật số 81/2015/QH13)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-kiem-toan-nha-nuoc-so-81-2015-qh13--70801",
+   "versions": [
+    {
+     "from": "2016-01-01",
+     "units": 76,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-kiem-toan-nha-nuoc-so-81-2015-qh13--70801",
+     "sha256": "43b783ce4ded57ad3f877ed54e85c2fe89747c63e79deec8bffa5add02fdb32f"
+    },
+    {
+     "from": "2020-07-01",
+     "units": 79,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-29-vbhn-vpqh-31026.htm",
+     "sha256": "8906ac8ab2c44a044e1e628285d89d6f7353fc4c335b09cad511855001990d14"
+    }
+   ]
+  },
+  {
+   "slug": "luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-to-chuc-toa-an-nhan-dan-81-2025-qh15",
+   "short": "Luật sửa đổi, bổ sung một số điều của Luật Tổ chức Tòa án nhân dân 2025",
+   "title": "Luật sửa đổi, bổ sung một số điều của Luật Tổ chức Tòa án nhân dân (Luật số 81/2025/QH15)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-to-chuc-toa-an-nhan-dan-so-81-2025-qh15--179416",
+   "versions": [
+    {
+     "from": "2025-07-01",
+     "units": 5,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-to-chuc-toa-an-nhan-dan-so-81-2025-qh15--179416",
+     "sha256": "790fe6f9fb5c23ed8d01e35f674ca4a04543960042ebd2cb77884e518abc3957"
+    }
+   ]
+  },
+  {
    "slug": "luat-tai-nguyen-moi-truong-bien-va-hai-dao-82-2015-qh13",
    "short": "Luật Tài nguyên, môi trường biển và hải đảo 2015",
    "title": "Luật Tài nguyên, môi trường biển và hải đảo (Luật số 82/2015/QH13)",
@@ -4182,6 +4216,54 @@
      "units": 100,
      "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-83-vbhn-vpqh-469258.htm",
      "sha256": "efebff64cd9c5ff039d8cbc41ff1e1be5391af88c8303ab594ea0f5bc9b9c13b"
+    }
+   ]
+  },
+  {
+   "slug": "luat-an-toan-thong-tin-mang-86-2015-qh13",
+   "short": "Luật An toàn thông tin mạng 2015",
+   "title": "Luật An toàn thông tin mạng (Luật số 86/2015/QH13)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-an-toan-thong-tin-mang-so-86-2015-qh13--95908",
+   "versions": [
+    {
+     "from": "2016-07-01",
+     "units": 57,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-an-toan-thong-tin-mang-so-86-2015-qh13--95908",
+     "sha256": "e40c9af9fadd00d04a39b5c35d34152bd5cca0a3633d4747c2cfac5671a31b67"
+    },
+    {
+     "from": "2019-01-01",
+     "units": 57,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-29-vbhn-vpqh-28580.htm",
+     "sha256": "77d6e3cffc89d512c1ffa60196b087af28302160b9cafeee0e579497b79a707a"
+    }
+   ]
+  },
+  {
+   "slug": "luat-sua-doi-bo-sung-mot-so-dieu-cua-bo-luat-hinh-su-86-2025-qh15",
+   "short": "Luật Sửa đổi, bổ sung một số điều của Bộ Luật hình sự 2025",
+   "title": "Luật Sửa đổi, bổ sung một số điều của Bộ Luật hình sự (Luật số 86/2025/QH15)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-sua-doi-bo-sung-mot-so-dieu-cua-bo-luat-hinh-su-so-86-2025-qh15--179251",
+   "versions": [
+    {
+     "from": "2025-07-01",
+     "units": 6,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-sua-doi-bo-sung-mot-so-dieu-cua-bo-luat-hinh-su-so-86-2025-qh15--179251",
+     "sha256": "216a85667eddfdeca87db37b58de5828729132ec12d187840816d8d8c0f1b260"
+    }
+   ]
+  },
+  {
+   "slug": "luat-hoat-dong-giam-sat-cua-quoc-hoi-va-hoi-dong-nhan-dan-87-2015-qh13",
+   "short": "Luật Hoạt động giám sát của Quốc hội và Hội đồng nhân dân 2015",
+   "title": "Luật Hoạt động giám sát của Quốc hội và Hội đồng nhân dân (Luật số 87/2015/QH13)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-hoat-dong-giam-sat-cua-quoc-hoi-va-hoi-dong-nhan-dan-so-87-2015-qh13--95914",
+   "versions": [
+    {
+     "from": "2016-07-01",
+     "units": 94,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-hoat-dong-giam-sat-cua-quoc-hoi-va-hoi-dong-nhan-dan-so-87-2015-qh13--95914",
+     "sha256": "d1e48b844140a8ea8064d61386e9de84a22445a98b154c4924c96b2670c16f89"
     }
    ]
   },
@@ -4282,6 +4364,32 @@
    ]
   },
   {
+   "slug": "luat-khoa-hoc-cong-nghe-va-doi-moi-sang-tao-93-2025-qh15",
+   "short": "Luật Khoa học, Công nghệ và Đổi mới sáng tạo 2025",
+   "title": "Luật Khoa học, Công nghệ và Đổi mới sáng tạo (Luật số 93/2025/QH15)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-khoa-hoc-cong-nghe-va-doi-moi-sang-tao-so-93-2025-qh15--179265",
+   "versions": [
+    {
+     "from": "2025-10-01",
+     "units": 76,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-khoa-hoc-cong-nghe-va-doi-moi-sang-tao-so-93-2025-qh15--179265",
+     "sha256": "943c4e47f079a9ab4ca341a9a6ef7583728906b45cf5caf36d75c8d237efbada"
+    },
+    {
+     "from": "2026-07-01",
+     "units": 76,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-05-vbhn-vpqh-468934.htm",
+     "sha256": "8bd6f18c47f0d556b16652089129741a5e52042a53ff531c0a689182d6f78024"
+    },
+    {
+     "from": "2026-07-01",
+     "units": 76,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-05-vbhn-vpqh-468934.htm",
+     "sha256": "8bd6f18c47f0d556b16652089129741a5e52042a53ff531c0a689182d6f78024"
+    }
+   ]
+  },
+  {
    "slug": "luat-nang-luong-nguyen-tu-94-2025-qh15",
    "short": "Luật Năng lượng nguyên tử 2025",
    "title": "Luật Năng lượng nguyên tử (Luật số 94/2025/QH15)",
@@ -4348,6 +4456,38 @@
      "units": 343,
      "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-52-vbhn-vpqh-469182.htm",
      "sha256": "e553a0623bdddb291dc154064130cfd8cca852a3191eb7765eb8dc0828df999d"
+    }
+   ]
+  },
+  {
+   "slug": "luat-duong-sat-95-2025-qh15",
+   "short": "Luật Đường sắt 2025",
+   "title": "Luật Đường sắt (Luật số 95/2025/QH15)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-duong-sat-so-95-2025-qh15--179190",
+   "versions": [
+    {
+     "from": "2026-01-01",
+     "units": 62,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-duong-sat-so-95-2025-qh15--179190",
+     "sha256": "47aefbf5fc8b4fa9396140351a1a7ce00c4c17cf4f7509a9121235dc3d69ee2d"
+    },
+    {
+     "from": "2026-03-01",
+     "units": 62,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-75-vbhn-vpqh-469205.htm",
+     "sha256": "59e3cd734922293f0ff82a1e8a608e809b8b2018cfb38271b1d2ba26c0e11749"
+    },
+    {
+     "from": "2026-03-01",
+     "units": 62,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-75-vbhn-vpqh-469205.htm",
+     "sha256": "59e3cd734922293f0ff82a1e8a608e809b8b2018cfb38271b1d2ba26c0e11749"
+    },
+    {
+     "from": "2026-07-01",
+     "units": 62,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-75-vbhn-vpqh-469205.htm",
+     "sha256": "59e3cd734922293f0ff82a1e8a608e809b8b2018cfb38271b1d2ba26c0e11749"
     }
    ]
   },
