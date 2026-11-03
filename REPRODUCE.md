@@ -44,24 +44,38 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 | `luat-dan-so-so-113-2025-qh15-113-2025-qh15` | LUẬT DÂN SỐ SỐ 113/2025/QH15 (Luật số 113/2025/QH15) | 1 | 2026-07-01 to 2026-07-01 |
 | `luat-bao-ve-bi-mat-nha-nuoc-so-117-2025-qh15-117-2025-qh15` | LUẬT BẢO VỆ BÍ MẬT NHÀ NƯỚC SỐ 117/2025/QH15 (Luật số 117/2025/QH15) | 2 | 2026-03-01 to 2027-03-01 |
 | `luat-canh-ve-13-2017-qh14` | Luật Cảnh vệ (Luật số 13/2017/QH14) | 3 | 2018-07-01 to 2026-07-01 |
+| `luat-xay-dung-135-2025-qh15` | Luật Xây dựng (Luật số 135/2025/QH15) | 2 | 2026-07-01 to 2027-03-01 |
+| `luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-tiep-cong-dan-luat-khieu-nai-luat-to-cao-136-2025-qh15` | Luật sửa đổi, bổ sung một số điều của Luật Tiếp công dân, Luật Khiếu nại, Luật Tố cáo (Luật số 136/2025/QH15) | 1 | 2026-07-01 to 2026-07-01 |
 | `luat-thue-thu-nhap-doanh-nghiep-14-2008-qh12` | Luật Thuế thu nhập doanh nghiệp (Luật số 14/2008/QH12) | 6 | 2009-01-01 to 2024-01-01 |
+| `luat-phong-chong-rua-tien-14-2022-qh15` | Luật Phòng, chống rửa tiền (Luật số 14/2022/QH15) | 2 | 2022-11-15 to 2026-12-01 |
+| `luat-dau-tu-143-2025-qh15` | Luật Đầu tư (Luật số 143/2025/QH15) | 2 | 2026-03-01 to 2027-03-01 |
+| `luat-du-tru-quoc-gia-so-145-2025-qh15-145-2025-qh15` | LUẬT DỰ TRỮ QUỐC GIA SỐ 145/2025/QH15 (Luật số 145/2025/QH15) | 1 | 2026-07-01 to 2026-07-01 |
+| `luat-trung-mua-trung-dung-tai-san-15-2008-qh12` | Luật Trưng mua, trưng dụng tài sản (Luật số 15/2008/QH12) | 1 | 2009-01-01 to 2009-01-01 |
 | `luat-quan-ly-su-dung-tai-san-cong-15-2017-qh14` | Luật Quản lý, sử dụng tài sản công (Luật số 15/2017/QH14) | 7 | 2018-01-01 to 2025-07-01 |
+| `luat-kham-benh-chua-benh-2023-15-2023-qh15` | Luật khám bệnh, chữa bệnh 2023 (Luật số 15/2023/QH15) | 3 | 2023-02-19 to 2026-07-01 |
 | `luat-sy-quan-quan-doi-nhan-dan-viet-nam-16-1999-qh10` | Luật Sỹ quan quân đội nhân dân Việt Nam (Luật số 16/1999/QH10) | 7 | 2000-04-01 to 2026-09-01 |
 | `luat-quang-cao-16-2012-qh13` | Luật Quảng cáo (Luật số 16/2012/QH13) | 5 | 2013-01-01 to 2026-01-01 |
 | `luat-lam-nghiep-16-2017-qh14` | Luật Lâm nghiệp (Luật số 16/2017/QH14) | 4 | 2019-01-01 to 2026-01-01 |
 | `luat-gia-16-2023-qh15` | Luật Giá (Luật số 16/2023/QH15) | 2 | 2024-07-01 to 2026-01-01 |
+| `luat-hop-tac-xa-17-2023-qh15` | Luật Hợp tác xã (Luật số 17/2023/QH15) | 2 | 2024-07-01 to 2026-03-01 |
 | `luat-bien-viet-nam-18-2012-qh13` | Luật Biển Việt Nam (Luật số 18/2012/QH13) | 3 | 2013-01-01 to 2025-06-16 |
 | `luat-thuy-san-18-2017-qh14` | Luật Thủy sản (Luật số 18/2017/QH14) | 4 | 2019-01-01 to 2027-01-01 |
 | `luat-phong-thu-dan-su-18-2023-qh15` | Luật Phòng thủ dân sự (Luật số 18/2023/QH15) | 5 | 2024-07-01 to 2026-09-01 |
 | `luat-xuat-ban-19-2012-qh13` | Luật Xuất bản (Luật số 19/2012/QH13) | 4 | 2013-07-01 to 2027-03-01 |
+| `luat-bao-ve-quyen-loi-nguoi-tieu-dung-19-2023-qh15` | Luật Bảo vệ quyền lợi người tiêu dùng (Luật số 19/2023/QH15) | 2 | 2024-07-01 to 2026-07-01 |
+| `luat-da-dang-sinh-hoc-20-2008-qh12` | Luật Đa dạng sinh học (Luật số 20/2008/QH12) | 3 | 2009-07-01 to 2026-01-01 |
 | `luat-giao-dich-dien-tu-20-2023-qh15` | Luật Giao dịch điện tử (Luật số 20/2023/QH15) | 4 | 2024-07-01 to 2027-03-01 |
 | `luat-cong-nghe-cao-21-2008-qh12` | Luật Công nghệ cao (Luật số 21/2008/QH12) | 4 | 2009-07-01 to 2026-01-01 |
 | `luat-quy-hoach-21-2017-qh14` | Luật quy hoạch (Luật số 21/2017/QH14) | 6 | 2019-01-01 to 2026-01-01 |
 | `luat-quoc-phong-22-2018-qh14` | Luật Quốc phòng (Luật số 22/2018/QH14) | 5 | 2019-01-01 to 2026-09-01 |
 | `luat-dau-thau-22-2023-qh15` | Luật Đấu thầu (Luật số 22/2023/QH15) | 6 | 2024-01-01 to 2026-07-01 |
+| `luat-kinh-doanh-bao-hiem-24-2000-qh10` | Luật Kinh doanh bảo hiểm (Luật số 24/2000/QH10) | 3 | 2001-04-01 to 2019-11-01 |
+| `luat-quoc-tich-viet-nam-24-2008-qh12` | Luật Quốc tịch Việt Nam (Luật số 24/2008/QH12) | 2 | 2009-07-01 to 2025-07-01 |
 | `luat-vien-thong-24-2023-qh15` | Luật Viễn thông (Luật số 24/2023/QH15) | 5 | 2024-07-01 to 2027-03-01 |
 | `luat-bao-hiem-y-te-25-2008-qh12` | Luật Bảo hiểm y tế (Luật số 25/2008/QH12) | 8 | 2009-07-01 to 2026-07-01 |
 | `luat-to-cao-25-2018-qh14` | Luật Tố cáo (Luật số 25/2018/QH14) | 5 | 2019-01-01 to 2026-07-01 |
+| `luat-quan-ly-bao-ve-cong-trinh-quoc-phong-va-khu-quan-su-25-2023-qh15` | Luật Quản lý, bảo vệ công trình quốc phòng và khu quân sự (Luật số 25/2023/QH15) | 2 | 2025-01-01 to 2025-07-01 |
+| `luat-can-cuoc-26-2023-qh15` | Luật Căn cước (Luật số 26/2023/QH15) | 2 | 2024-07-01 to 2026-07-01 |
 | `luat-do-dac-va-ban-do-27-2018-qh14` | Luật Đo đạc và bản đồ (Luật số 27/2018/QH14) | 3 | 2019-01-01 to 2026-01-01 |
 | `luat-nha-o-27-2023-qh15` | Luật Nhà ở (Luật số 27/2023/QH15) | 8 | 2024-08-01 to 2026-07-01 |
 | `luat-ly-lich-tu-phap-28-2009-qh12` | Luật Lý lịch tư pháp (Luật số 28/2009/QH12) | 3 | 2010-07-01 to 2026-07-01 |
@@ -121,19 +135,19 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 | `luat-quan-nhan-chuyen-nghiep-cong-nhan-va-vien-chuc-quoc-phong-98-2015-qh13` | Luật Quân nhân chuyên nghiệp, công nhân và viên chức quốc phòng (Luật số 98/2015/QH13) | 3 | 2016-07-01 to 2026-09-01 |
 | `luat-to-chuc-co-quan-dieu-tra-hinh-su-99-2015-qh13` | Luật Tổ chức cơ quan điều tra hình sự (Luật số 99/2015/QH13) | 3 | 2018-01-01 to 2027-03-01 |
 
-The build made 261 commits:
+The build made 286 commits:
 
 | Commits | Kind |
 | ---: | --- |
-| 105 | first version of an act |
-| 156 | one law on its in-force day |
+| 119 | first version of an act |
+| 167 | one law on its in-force day |
 | 0 | changes no amendment note explains, credited to the publisher |
 
 Other counts:
 - 0 commits on the branch `tuong-lai`: laws not yet in force on 2026-11-03.
 - 0 commits dated 1 January 1970: in force before 1970, with the real day in their `In-force` trailer.
-- 232 laws in the record.
-- 580 tags.
+- 242 laws in the record.
+- 614 tags.
 
 ## Dates
 
@@ -145,8 +159,8 @@ When a law gives no date of its own, the default rule applies: Luật Ban hành 
 
 `tools/build.py` turns the corpus into this history in one pass: one commit per law, on the day it took effect. The same corpus always gives the same commit hashes. `tools/check_repo.py` reads every version back from git and compares it with the corpus. `tools/on.py` shows the law as it stood on any date. The corpus format is described in `tools/SCHEMA.md`.
 
-- Corpus: sha256 `4285f7e3e74837239671d9b676b940d2d0bef0d6d13779003c1459c35f2d0374` (25680278 bytes).
-- Builder blob hashes (`git hash-object`): `build.py` `a4faa25af85facb64b956b372f6b528aafdd7ec1`, `check.py` `3d00541d258745461ab52b1b0cb4e1716a27a95d`, `on.py` `644a6c0857fbcc72562032b58d57aa113fee0641`.
+- Corpus: sha256 `1c3219d0f542b7b9d32302d00c072969566cac5350e5a38fc0a8c0384fff2c3c` (27566923 bytes).
+- Builder blob hashes (`git hash-object`): `build.py` `a4faa25af85facb64b956b372f6b528aafdd7ec1`, `check.py` `5d719354ea4c62d240c93d2cae446307d81d9e81`, `on.py` `aff48cf1b68d50c7ba8f399ca32261871c301824`.
 - Python 3.14.4; git version 2.53.0.
 
 ## Checks
@@ -205,14 +219,22 @@ No second build of this corpus has been compared yet.
 - LUẬT DÂN SỐ SỐ 113/2025/QH15 113/2025/QH15: as enacted from vbpl.vn, in force 2026-07-01; 0 amendment version(s) from 1 consolidated text(s).
 - LUẬT BẢO VỆ BÍ MẬT NHÀ NƯỚC SỐ 117/2025/QH15 117/2025/QH15: as enacted from vbpl.vn, in force 2026-03-01; 1 amendment version(s) from 1 consolidated text(s).
 - Luật Cảnh vệ 13/2017/QH14: as enacted from vbpl.vn, in force 2018-07-01; 2 amendment version(s) from 2 consolidated text(s).
+- Luật Xây dựng 135/2025/QH15: as enacted from vbpl.vn, in force 2026-07-01; 1 amendment version(s) from 1 consolidated text(s).
+- Luật sửa đổi, bổ sung một số điều của Luật Tiếp công dân, Luật Khiếu nại, Luật Tố cáo 136/2025/QH15: as enacted from vbpl.vn, in force 2026-07-01; 0 amendment version(s) from 1 consolidated text(s).
 - Luật Thuế thu nhập doanh nghiệp 14/2008/QH12: as enacted from vbpl.vn, in force 2009-01-01; 5 amendment version(s) from 3 consolidated text(s).
 - Luật Thuế thu nhập doanh nghiệp 14/2008/QH12: art-003: the change by 32/2013/QH13 is shown from 2015-01-01, with the change by 71/2014/QH13: no consolidated text gives the article between the two, so the day of the earlier law is not shown.
 - Luật Thuế thu nhập doanh nghiệp 14/2008/QH12: art-004: the change by 32/2013/QH13 is shown from 2015-01-01, with the change by 71/2014/QH13: no consolidated text gives the article between the two, so the day of the earlier law is not shown.
 - Luật Thuế thu nhập doanh nghiệp 14/2008/QH12: art-009: the change by 32/2013/QH13 is shown from 2015-01-01, with the change by 71/2014/QH13: no consolidated text gives the article between the two, so the day of the earlier law is not shown.
 - Luật Thuế thu nhập doanh nghiệp 14/2008/QH12: art-013: the change by 32/2013/QH13, 71/2014/QH13 is shown from 2021-01-01, with the change by 61/2020/QH14: no consolidated text gives the article between the two, so the day of the earlier law is not shown.
 - Luật Thuế thu nhập doanh nghiệp 14/2008/QH12: art-014: the change by 32/2013/QH13 is shown from 2021-01-01, with the change by 61/2020/QH14: no consolidated text gives the article between the two, so the day of the earlier law is not shown.
+- Luật Phòng, chống rửa tiền 14/2022/QH15: as enacted from vbpl.vn, in force 2022-11-15; 1 amendment version(s) from 1 consolidated text(s).
+- Luật Đầu tư 143/2025/QH15: as enacted from vbpl.vn, in force 2026-03-01; 1 amendment version(s) from 1 consolidated text(s).
+- LUẬT DỰ TRỮ QUỐC GIA SỐ 145/2025/QH15 145/2025/QH15: as enacted from vbpl.vn, in force 2026-07-01; 0 amendment version(s) from 1 consolidated text(s).
+- Luật Trưng mua, trưng dụng tài sản 15/2008/QH12: as enacted from vbpl.vn, in force 2009-01-01; 0 amendment version(s) from 1 consolidated text(s).
+- Luật Trưng mua, trưng dụng tài sản 15/2008/QH12: 45/2013/QH13 (in force 2014-07-01) is listed by the consolidated text, but no footnote credits it with a change to an article; no version is made for it.
 - Luật Quản lý, sử dụng tài sản công 15/2017/QH14: as enacted from vbpl.vn, in force 2018-01-01; 6 amendment version(s) from 6 consolidated text(s).
 - Luật Quản lý, sử dụng tài sản công 15/2017/QH14: 43/2024/QH15 (in force 2024-08-01) is listed by the consolidated text, but no footnote credits it with a change to an article; no version is made for it.
+- Luật khám bệnh, chữa bệnh 2023 15/2023/QH15: as enacted from vbpl.vn, in force 2023-02-19; 2 amendment version(s) from 1 consolidated text(s).
 - Luật Sỹ quan quân đội nhân dân Việt Nam 16/1999/QH10: as enacted from vbpl.vn, in force 2000-04-01; 6 amendment version(s) from 4 consolidated text(s).
 - Luật Sỹ quan quân đội nhân dân Việt Nam 16/1999/QH10: art-011: the change by 19/2008/QH12 is shown from 2015-07-01, with the change by 72/2014/QH13: no consolidated text gives the article between the two, so the day of the earlier law is not shown.
 - Luật Sỹ quan quân đội nhân dân Việt Nam 16/1999/QH10: art-013: the change by 19/2008/QH12 is shown from 2015-07-01, with the change by 72/2014/QH13: no consolidated text gives the article between the two, so the day of the earlier law is not shown.
@@ -226,11 +248,18 @@ No second build of this corpus has been compared yet.
 - Luật Giá 16/2023/QH15: 61/2024/QH15 (in force 2025-02-01) is listed by the consolidated text, but no footnote credits it with a change to an article; no version is made for it.
 - Luật Giá 16/2023/QH15: 44/2024/QH15 (in force 2025-07-01) is listed by the consolidated text, but no footnote credits it with a change to an article; no version is made for it.
 - Luật Giá 16/2023/QH15: 95/2025/QH15 (in force 2026-01-01) is listed by the consolidated text, but no footnote credits it with a change to an article; no version is made for it.
+- Luật Hợp tác xã 17/2023/QH15: as enacted from vbpl.vn, in force 2024-07-01; 1 amendment version(s) from 1 consolidated text(s).
 - Luật Biển Việt Nam 18/2012/QH13: as enacted from vbpl.vn, in force 2013-01-01; 2 amendment version(s) from 2 consolidated text(s).
 - Luật Thủy sản 18/2017/QH14: as enacted from vbpl.vn, in force 2019-01-01; 3 amendment version(s) from 3 consolidated text(s).
 - Luật Thủy sản 18/2017/QH14: 43/2024/QH15 (in force 2024-08-01) is listed by the consolidated text, but no footnote credits it with a change to an article; no version is made for it.
 - Luật Phòng thủ dân sự 18/2023/QH15: as enacted from vbpl.vn, in force 2024-07-01; 4 amendment version(s) from 3 consolidated text(s).
 - Luật Xuất bản 19/2012/QH13: as enacted from vbpl.vn, in force 2013-07-01; 3 amendment version(s) from 3 consolidated text(s).
+- Luật Bảo vệ quyền lợi người tiêu dùng 19/2023/QH15: as enacted from vbpl.vn, in force 2024-07-01; 1 amendment version(s) from 1 consolidated text(s).
+- Luật Đa dạng sinh học 20/2008/QH12: as enacted from vbpl.vn, in force 2009-07-01; 2 amendment version(s) from 1 consolidated text(s).
+- Luật Đa dạng sinh học 20/2008/QH12: art-003: the change by 35/2018/QH14 is shown from 2026-01-01, with the change by 146/2025/QH15: no consolidated text gives the article between the two, so the day of the earlier law is not shown.
+- Luật Đa dạng sinh học 20/2008/QH12: art-008: the change by 35/2018/QH14 is shown from 2026-01-01, with the change by 146/2025/QH15: no consolidated text gives the article between the two, so the day of the earlier law is not shown.
+- Luật Đa dạng sinh học 20/2008/QH12: art-010: the change by 35/2018/QH14 is shown from 2026-01-01, with the change by 146/2025/QH15: no consolidated text gives the article between the two, so the day of the earlier law is not shown.
+- Luật Đa dạng sinh học 20/2008/QH12: art-011: the change by 35/2018/QH14 is shown from 2026-01-01, with the change by 146/2025/QH15: no consolidated text gives the article between the two, so the day of the earlier law is not shown.
 - Luật Giao dịch điện tử 20/2023/QH15: as enacted from vbpl.vn, in force 2024-07-01; 3 amendment version(s) from 3 consolidated text(s).
 - Luật Giao dịch điện tử 20/2023/QH15: 148/2025/QH15 (in force 2026-07-01) is listed by the consolidated text, but no footnote credits it with a change to an article; no version is made for it.
 - Luật Công nghệ cao 21/2008/QH12: as enacted from vbpl.vn, in force 2009-07-01; 3 amendment version(s) from 2 consolidated text(s).
@@ -244,12 +273,22 @@ No second build of this corpus has been compared yet.
 - Luật quy hoạch 21/2017/QH14: 94/2025/QH15 (in force 2026-01-01) is listed by the consolidated text, but no footnote credits it with a change to an article; no version is made for it.
 - Luật Quốc phòng 22/2018/QH14: as enacted from vbpl.vn, in force 2019-01-01; 4 amendment version(s) from 4 consolidated text(s).
 - Luật Đấu thầu 22/2023/QH15: as enacted from vbpl.vn, in force 2024-01-01; 5 amendment version(s) from 3 consolidated text(s).
+- Luật Kinh doanh bảo hiểm 24/2000/QH10: as enacted from vbpl.vn, in force 2001-04-01; 2 amendment version(s) from 1 consolidated text(s).
+- Luật Kinh doanh bảo hiểm 24/2000/QH10: art-003: the change by 61/2010/QH12 is shown from 2019-11-01, with the change by 42/2019/QH14: no consolidated text gives the article between the two, so the day of the earlier law is not shown.
+- Luật Kinh doanh bảo hiểm 24/2000/QH10: art-105: the change by 61/2010/QH12 is shown from 2019-11-01, with the change by 42/2019/QH14: no consolidated text gives the article between the two, so the day of the earlier law is not shown.
+- Luật Kinh doanh bảo hiểm 24/2000/QH10: art-120: the change by 61/2010/QH12 is shown from 2019-11-01, with the change by 42/2019/QH14: no consolidated text gives the article between the two, so the day of the earlier law is not shown.
+- Luật Quốc tịch Việt Nam 24/2008/QH12: as enacted from vbpl.vn, in force 2009-07-01; 1 amendment version(s) from 1 consolidated text(s).
+- Luật Quốc tịch Việt Nam 24/2008/QH12: 56/2014/QH13 (in force 2014-06-26) is listed by the consolidated text, but no footnote credits it with a change to an article; no version is made for it.
+- Luật Quốc tịch Việt Nam 24/2008/QH12: art-013: the change by 56/2014/QH13 is shown from 2025-07-01, with the change by 79/2025/QH15: no consolidated text gives the article between the two, so the day of the earlier law is not shown.
+- Luật Quốc tịch Việt Nam 24/2008/QH12: art-026: the change by 56/2014/QH13 is shown from 2025-07-01, with the change by 79/2025/QH15: no consolidated text gives the article between the two, so the day of the earlier law is not shown.
 - Luật Viễn thông 24/2023/QH15: as enacted from vbpl.vn, in force 2024-07-01; 4 amendment version(s) from 3 consolidated text(s).
 - Luật Bảo hiểm y tế 25/2008/QH12: as enacted from vbpl.vn, in force 2009-07-01; 7 amendment version(s) from 5 consolidated text(s).
 - Luật Bảo hiểm y tế 25/2008/QH12: 32/2013/QH13 (in force 2014-01-01) is listed by the consolidated text, but no footnote credits it with a change to an article; no version is made for it.
 - Luật Bảo hiểm y tế 25/2008/QH12: art-018: the change by 46/2014/QH13 is shown from 2017-01-01, with the change by 97/2015/QH13: no consolidated text gives the article between the two, so the day of the earlier law is not shown.
 - Luật Bảo hiểm y tế 25/2008/QH12: art-006: the change by 46/2014/QH13 is shown from 2019-01-01, with the change by 35/2018/QH14: no consolidated text gives the article between the two, so the day of the earlier law is not shown.
 - Luật Tố cáo 25/2018/QH14: as enacted from vbpl.vn, in force 2019-01-01; 4 amendment version(s) from 3 consolidated text(s).
+- Luật Quản lý, bảo vệ công trình quốc phòng và khu quân sự 25/2023/QH15: as enacted from vbpl.vn, in force 2025-01-01; 1 amendment version(s) from 1 consolidated text(s).
+- Luật Căn cước 26/2023/QH15: as enacted from vbpl.vn, in force 2024-07-01; 1 amendment version(s) from 1 consolidated text(s).
 - Luật Đo đạc và bản đồ 27/2018/QH14: as enacted from vbpl.vn, in force 2019-01-01; 2 amendment version(s) from 2 consolidated text(s).
 - Luật Nhà ở 27/2023/QH15: as enacted from vbpl.vn, in force 2024-08-01; 7 amendment version(s) from 3 consolidated text(s).
 - Luật Lý lịch tư pháp 28/2009/QH12: as enacted from vbpl.vn, in force 2010-07-01; 2 amendment version(s) from 2 consolidated text(s).

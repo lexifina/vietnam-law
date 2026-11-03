@@ -810,6 +810,40 @@
    ]
   },
   {
+   "slug": "luat-xay-dung-135-2025-qh15",
+   "short": "Luật Xây dựng 2025",
+   "title": "Luật Xây dựng (Luật số 135/2025/QH15)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-xay-dung-so-135-2025-qh15--185659",
+   "versions": [
+    {
+     "from": "2026-07-01",
+     "units": 98,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-xay-dung-so-135-2025-qh15--185659",
+     "sha256": "792944392f0249ef13719d1ff9ff7633712ae27e77532aad79da6c0719c2be73"
+    },
+    {
+     "from": "2027-03-01",
+     "units": 98,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-146-2026-vbhn-lq-vpqh-470559.htm",
+     "sha256": "734b065805c9c9c6b35212263f0d02b989daef41cd7871fb616390b64b495c62"
+    }
+   ]
+  },
+  {
+   "slug": "luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-tiep-cong-dan-luat-khieu-nai-luat-to-cao-136-2025-qh15",
+   "short": "Luật sửa đổi, bổ sung một số điều của Luật Tiếp công dân, Luật Khiếu nại, Luật Tố cáo 2025",
+   "title": "Luật sửa đổi, bổ sung một số điều của Luật Tiếp công dân, Luật Khiếu nại, Luật Tố cáo (Luật số 136/2025/QH15)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-tiep-cong-dan-luat-khieu-nai-luat-to-cao-so-136-2025-qh15--187809",
+   "versions": [
+    {
+     "from": "2026-07-01",
+     "units": 6,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-tiep-cong-dan-luat-khieu-nai-luat-to-cao-so-136-2025-qh15--187809",
+     "sha256": "fee32529bc7d034194baa2a5527135aa0b2dd48897455d924517b9f8a5453ee7"
+    }
+   ]
+  },
+  {
    "slug": "luat-thue-thu-nhap-doanh-nghiep-14-2008-qh12",
    "short": "Luật Thuế thu nhập doanh nghiệp 2008",
    "title": "Luật Thuế thu nhập doanh nghiệp (Luật số 14/2008/QH12)",
@@ -850,6 +884,74 @@
      "units": 23,
      "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-01-vbhn-vpqh-40222.htm",
      "sha256": "d324f9527d93426e87a20df2bbe350da1e73415c0edd3b1c4902ded54cc28ffa"
+    }
+   ]
+  },
+  {
+   "slug": "luat-phong-chong-rua-tien-14-2022-qh15",
+   "short": "Luật Phòng, chống rửa tiền 2022",
+   "title": "Luật Phòng, chống rửa tiền (Luật số 14/2022/QH15)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-phong-chong-rua-tien-so-14-2022-qh15--157721",
+   "versions": [
+    {
+     "from": "2022-11-15",
+     "units": 69,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-phong-chong-rua-tien-so-14-2022-qh15--157721",
+     "sha256": "95ad5d04a50a4dc3b183390322b52550e41645d05489ad664497784be513798a"
+    },
+    {
+     "from": "2026-12-01",
+     "units": 70,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-159-2026-vbhn-lq-vpqh-470656.htm",
+     "sha256": "fdd0789c911268660ebd1397b6e9e1b4a99ccfcc57abb0c2a4e9882ab4db3900"
+    }
+   ]
+  },
+  {
+   "slug": "luat-dau-tu-143-2025-qh15",
+   "short": "Luật Đầu tư 2025",
+   "title": "Luật Đầu tư (Luật số 143/2025/QH15)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-dau-tu-so-143-2025-qh15--187601",
+   "versions": [
+    {
+     "from": "2026-03-01",
+     "units": 55,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-dau-tu-so-143-2025-qh15--187601",
+     "sha256": "b43ceb55474f09d261314029618cb77923e952a2adcd59c8ca0acd09d1acaf3a"
+    },
+    {
+     "from": "2027-03-01",
+     "units": 55,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-142-2026-vbhn-lq-vpqh-470555.htm",
+     "sha256": "a0ee3c9fb4cecb23ab77c9ad81786f60b01e4e13f45ab80dbbb0da404c899336"
+    }
+   ]
+  },
+  {
+   "slug": "luat-du-tru-quoc-gia-so-145-2025-qh15-145-2025-qh15",
+   "short": "LUẬT DỰ TRỮ QUỐC GIA SỐ 145/2025/QH15 2025",
+   "title": "LUẬT DỰ TRỮ QUỐC GIA SỐ 145/2025/QH15 (Luật số 145/2025/QH15)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-du-tru-quoc-gia-so-145-2025-qh15--7fc33d70-63b8-11f1-a2aa-a17159c2f6ac",
+   "versions": [
+    {
+     "from": "2026-07-01",
+     "units": 39,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-du-tru-quoc-gia-so-145-2025-qh15--7fc33d70-63b8-11f1-a2aa-a17159c2f6ac",
+     "sha256": "f04dca2e5fe31bd8ad98073ceebb03130f88945a540c9540922b517563a4d6bb"
+    }
+   ]
+  },
+  {
+   "slug": "luat-trung-mua-trung-dung-tai-san-15-2008-qh12",
+   "short": "Luật Trưng mua, trưng dụng tài sản 2008",
+   "title": "Luật Trưng mua, trưng dụng tài sản (Luật số 15/2008/QH12)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-trung-mua-trung-dung-tai-san-so-15-2008-qh12--12811",
+   "versions": [
+    {
+     "from": "2009-01-01",
+     "units": 45,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-trung-mua-trung-dung-tai-san-so-15-2008-qh12--12811",
+     "sha256": "4e3ad0c81caa69d64fda266153d41f3a7ed2078cec0372fe6c859ca8782a9167"
     }
    ]
   },
@@ -900,6 +1002,32 @@
      "units": 138,
      "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-97-vbhn-vpqh-46006.htm",
      "sha256": "40cf1f788146546612538364423d42b896ea4ae6dde32f880a3ada7418c14ffc"
+    }
+   ]
+  },
+  {
+   "slug": "luat-kham-benh-chua-benh-2023-15-2023-qh15",
+   "short": "Luật khám bệnh, chữa bệnh 2023 2023",
+   "title": "Luật khám bệnh, chữa bệnh 2023 (Luật số 15/2023/QH15)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-kham-benh-chua-benh-2023-so-15-2023-qh15--168125",
+   "versions": [
+    {
+     "from": "2023-02-19",
+     "units": 124,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-kham-benh-chua-benh-2023-so-15-2023-qh15--168125",
+     "sha256": "1ce37bd840059b0b9531f74a39e54545711bc4ebaf2c3fbe2e285a7b790a4289"
+    },
+    {
+     "from": "2026-03-01",
+     "units": 124,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-26-vbhn-vpqh-469053.htm",
+     "sha256": "6462fb0e11c1616f84c7702da25e194007f225e2d377df509c3e5bb7482684fe"
+    },
+    {
+     "from": "2026-07-01",
+     "units": 124,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-26-vbhn-vpqh-469053.htm",
+     "sha256": "6462fb0e11c1616f84c7702da25e194007f225e2d377df509c3e5bb7482684fe"
     }
    ]
   },
@@ -1044,6 +1172,26 @@
    ]
   },
   {
+   "slug": "luat-hop-tac-xa-17-2023-qh15",
+   "short": "Luật Hợp tác xã 2023",
+   "title": "Luật Hợp tác xã (Luật số 17/2023/QH15)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-hop-tac-xa-so-17-2023-qh15--166269",
+   "versions": [
+    {
+     "from": "2024-07-01",
+     "units": 118,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-hop-tac-xa-so-17-2023-qh15--166269",
+     "sha256": "6bb4018116bc90de2c5d83399b198f63121936c3a86764f6c80b100bd140678d"
+    },
+    {
+     "from": "2026-03-01",
+     "units": 118,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-101-vbhn-vpqh-469443.htm",
+     "sha256": "a9ad0fe23fe0ce96508c3f7cf4b94c3c19029c549f02c59217c8864c9ecd5673"
+    }
+   ]
+  },
+  {
    "slug": "luat-bien-viet-nam-18-2012-qh13",
    "short": "Luật Biển Việt Nam 2012",
    "title": "Luật Biển Việt Nam (Luật số 18/2012/QH13)",
@@ -1168,6 +1316,52 @@
      "units": 50,
      "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-165-2026-vbhn-lq-vpqh-470662.htm",
      "sha256": "9471cc530bbb2aead1c3e5a21fff5becf8273f0397b9967df8206554357421df"
+    }
+   ]
+  },
+  {
+   "slug": "luat-bao-ve-quyen-loi-nguoi-tieu-dung-19-2023-qh15",
+   "short": "Luật Bảo vệ quyền lợi người tiêu dùng 2023",
+   "title": "Luật Bảo vệ quyền lợi người tiêu dùng (Luật số 19/2023/QH15)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15--161263",
+   "versions": [
+    {
+     "from": "2024-07-01",
+     "units": 83,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15--161263",
+     "sha256": "077ddeae8600dea0c28f610c5cbae728c36ed6cc821d249d3a32879d8ba4fa95"
+    },
+    {
+     "from": "2026-07-01",
+     "units": 83,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-47-vbhn-vpqh-469132.htm",
+     "sha256": "5b86785313a5bcad5e7af0e4e39ca3785eef1980a2529a03ac09ff12ded8bb98"
+    }
+   ]
+  },
+  {
+   "slug": "luat-da-dang-sinh-hoc-20-2008-qh12",
+   "short": "Luật Đa dạng sinh học 2008",
+   "title": "Luật Đa dạng sinh học (Luật số 20/2008/QH12)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-da-dang-sinh-hoc-so-20-2008-qh12--12356",
+   "versions": [
+    {
+     "from": "2009-07-01",
+     "units": 81,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-da-dang-sinh-hoc-so-20-2008-qh12--12356",
+     "sha256": "556fdf9bcbd7f38359ece5223e2e96db8ceb8c749b46742400328ddacb1c165e"
+    },
+    {
+     "from": "2019-01-01",
+     "units": 80,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-73-vbhn-vpqh-469203.htm",
+     "sha256": "6e1ad9728f7da77c086103538a127b13657c78e3de372331eb33f361f234511d"
+    },
+    {
+     "from": "2026-01-01",
+     "units": 75,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-73-vbhn-vpqh-469203.htm",
+     "sha256": "6e1ad9728f7da77c086103538a127b13657c78e3de372331eb33f361f234511d"
     }
    ]
   },
@@ -1362,6 +1556,52 @@
    ]
   },
   {
+   "slug": "luat-kinh-doanh-bao-hiem-24-2000-qh10",
+   "short": "Luật Kinh doanh bảo hiểm 2000",
+   "title": "Luật Kinh doanh bảo hiểm (Luật số 24/2000/QH10)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-kinh-doanh-bao-hiem-so-24-2000-qh10--5748",
+   "versions": [
+    {
+     "from": "2001-04-01",
+     "units": 132,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-kinh-doanh-bao-hiem-so-24-2000-qh10--5748",
+     "sha256": "458949b2469709d4403d518ec6a7e7bdf64165ebf7174ff914cb1b3c37daf808"
+    },
+    {
+     "from": "2011-07-01",
+     "units": 132,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-06-vbhn-vpqh-29466.htm",
+     "sha256": "8b3123d4322a7e22f58fe484a804efd96e659dfbb07f12befea53512a3026795"
+    },
+    {
+     "from": "2019-11-01",
+     "units": 132,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-06-vbhn-vpqh-29466.htm",
+     "sha256": "8b3123d4322a7e22f58fe484a804efd96e659dfbb07f12befea53512a3026795"
+    }
+   ]
+  },
+  {
+   "slug": "luat-quoc-tich-viet-nam-24-2008-qh12",
+   "short": "Luật Quốc tịch Việt Nam 2008",
+   "title": "Luật Quốc tịch Việt Nam (Luật số 24/2008/QH12)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-quoc-tich-viet-nam-so-24-2008-qh12--12331",
+   "versions": [
+    {
+     "from": "2009-07-01",
+     "units": 47,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-quoc-tich-viet-nam-so-24-2008-qh12--12331",
+     "sha256": "eca1971992faebe691a82b88ed9b763b1314d4898fca619f849d52a210957d15"
+    },
+    {
+     "from": "2025-07-01",
+     "units": 47,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-53-vbhn-vpqh-45697.htm",
+     "sha256": "4323d62f7dacdf87d311d10d85cb98ffbd2fff340cb75ca2a05977c45a1db2e0"
+    }
+   ]
+  },
+  {
    "slug": "luat-vien-thong-24-2023-qh15",
    "short": "Luật Viễn thông 2023",
    "title": "Luật Viễn thông (Luật số 24/2023/QH15)",
@@ -1490,6 +1730,46 @@
      "units": 70,
      "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-29-vbhn-vpqh-469114.htm",
      "sha256": "c2e3e73a158596b2072200797f1876a612717cab7f7e9c29d30190aab5731e56"
+    }
+   ]
+  },
+  {
+   "slug": "luat-quan-ly-bao-ve-cong-trinh-quoc-phong-va-khu-quan-su-25-2023-qh15",
+   "short": "Luật Quản lý, bảo vệ công trình quốc phòng và khu quân sự 2023",
+   "title": "Luật Quản lý, bảo vệ công trình quốc phòng và khu quân sự (Luật số 25/2023/QH15)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-quan-ly-bao-ve-cong-trinh-quoc-phong-va-khu-quan-su-so-25-2023-qh15--169571",
+   "versions": [
+    {
+     "from": "2025-01-01",
+     "units": 37,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-quan-ly-bao-ve-cong-trinh-quoc-phong-va-khu-quan-su-so-25-2023-qh15--169571",
+     "sha256": "d7958aa3da1c471206be4cca745d534dba50fd0516f84711c53c53125c0ab350"
+    },
+    {
+     "from": "2025-07-01",
+     "units": 37,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-142-vbhn-vpqh-46180.htm",
+     "sha256": "c4fdf43c07f43a4c7a3aff9861aad787cb5ceb602f50799d7e120ff58f9e41fe"
+    }
+   ]
+  },
+  {
+   "slug": "luat-can-cuoc-26-2023-qh15",
+   "short": "Luật Căn cước 2023",
+   "title": "Luật Căn cước (Luật số 26/2023/QH15)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-can-cuoc-so-26-2023-qh15--165958",
+   "versions": [
+    {
+     "from": "2024-07-01",
+     "units": 48,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-can-cuoc-so-26-2023-qh15--165958",
+     "sha256": "77213016fe3b5e0d6a99c554297bcbd5b222ffd435db66486813952390ab77a2"
+    },
+    {
+     "from": "2026-07-01",
+     "units": 48,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-09-vbhn-vpqh-468953.htm",
+     "sha256": "ad5501c484ccbbc798ad0f58d9311b2f22aed8d09fc8b762d553fbc3de9c2045"
     }
    ]
   },
