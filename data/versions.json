@@ -1882,6 +1882,26 @@
    ]
   },
   {
+   "slug": "luat-phong-chong-khung-bo-28-2013-qh13",
+   "short": "Luật Phòng, chống khủng bố 2013",
+   "title": "Luật Phòng, chống khủng bố (Luật số 28/2013/QH13)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-phong-chong-khung-bo-so-28-2013-qh13--32495",
+   "versions": [
+    {
+     "from": "2013-10-01",
+     "units": 54,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-phong-chong-khung-bo-so-28-2013-qh13--32495",
+     "sha256": "bbec241d0bba1522d2b2d0b5bc740b0338feee5c339b1f985cca6d038b17b177"
+    },
+    {
+     "from": "2023-03-01",
+     "units": 54,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-26-vbhn-vpqh-39021.htm",
+     "sha256": "e9fa5f00977912a6e09aafa056b3e42415d82032cf289efd0f1bf6aa2f7117b7"
+    }
+   ]
+  },
+  {
    "slug": "luat-tai-nguyen-nuoc-2023-28-2023-qh15",
    "short": "Luật Tài nguyên nước 2023 2023",
    "title": "Luật Tài nguyên nước 2023 (Luật số 28/2023/QH15)",
@@ -1946,6 +1966,26 @@
    ]
   },
   {
+   "slug": "luat-bao-ve-bi-mat-nha-nuoc-29-2018-qh14",
+   "short": "Luật Bảo vệ bí mật nhà nước 2018",
+   "title": "Luật Bảo vệ bí mật nhà nước (Luật số 29/2018/QH14)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-bao-ve-bi-mat-nha-nuoc-so-29-2018-qh14--141824",
+   "versions": [
+    {
+     "from": "2020-07-01",
+     "units": 30,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-bao-ve-bi-mat-nha-nuoc-so-29-2018-qh14--141824",
+     "sha256": "d99c9c7ba5d4b63353cbfdcb94329e44f4568db67c20a26eab2d43d556c64743"
+    },
+    {
+     "from": "2025-07-01",
+     "units": 30,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-100-vbhn-vpqh-46016.htm",
+     "sha256": "406bd1163c77f866ac36b24380a6b4c1075807b6fc686e0acb4ccc9c3dd74527"
+    }
+   ]
+  },
+  {
    "slug": "luat-kinh-doanh-bat-dong-san-29-2023-qh15",
    "short": "Luật Kinh doanh bất động sản 2023",
    "title": "Luật Kinh doanh bất động sản (Luật số 29/2023/QH15)",
@@ -2004,6 +2044,26 @@
    ]
   },
   {
+   "slug": "luat-dac-xa-30-2018-qh14",
+   "short": "Luật Đặc xá 2018",
+   "title": "Luật Đặc xá (Luật số 30/2018/QH14)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-dac-xa-so-30-2018-qh14--141383",
+   "versions": [
+    {
+     "from": "2019-07-01",
+     "units": 42,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-dac-xa-so-30-2018-qh14--141383",
+     "sha256": "4ec6ab7e8719c3e5542a59f9a76d1a5ecdb1f1a6721d3c823457844feab58986"
+    },
+    {
+     "from": "2025-07-01",
+     "units": 42,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-137-vbhn-vpqh-46172.htm",
+     "sha256": "4990fe80a5c53e6258e0aae599ec7e04ac179f4f43311ea21be2038ed2919b6c"
+    }
+   ]
+  },
+  {
    "slug": "luat-luc-luong-tham-gia-bao-ve-an-ninh-trat-tu-o-co-so-30-2023-qh15",
    "short": "Luật Lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở 2023",
    "title": "Luật Lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở (Luật số 30/2023/QH15)",
@@ -2052,6 +2112,20 @@
      "units": 83,
      "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-152-2026-vbhn-lq-vpqh-470649.htm",
      "sha256": "84bb017787e15af5ef2abbf857b3a02a69c4c9639dd3dbebc899dbd7346b9c3f"
+    }
+   ]
+  },
+  {
+   "slug": "luat-an-ninh-quoc-gia-32-2004-qh11",
+   "short": "Luật An ninh Quốc gia 2004",
+   "title": "Luật An ninh Quốc gia (Luật số 32/2004/QH11)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-an-ninh-quoc-gia-so-32-2004-qh11--18562",
+   "versions": [
+    {
+     "from": "2005-07-01",
+     "units": 38,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-an-ninh-quoc-gia-so-32-2004-qh11--18562",
+     "sha256": "3509240c39a10a520ed83c015bda3b6c10a7af45e3a0a1461ea687e6d48b387d"
     }
    ]
   },
@@ -2160,6 +2234,26 @@
      "units": 52,
      "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-85-vbhn-vpqh-469260.htm",
      "sha256": "41f17e08d8f429c3f9d940752fbd3184b88af5071a1132a7cce5279e0014af7d"
+    }
+   ]
+  },
+  {
+   "slug": "luat-luu-tru-33-2024-qh15",
+   "short": "Luật Lưu trữ 2024",
+   "title": "Luật Lưu trữ (Luật số 33/2024/QH15)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-luu-tru-so-33-2024-qh15--170517",
+   "versions": [
+    {
+     "from": "2025-07-01",
+     "units": 68,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-luu-tru-so-33-2024-qh15--170517",
+     "sha256": "97d0e9da41869b495dd227631d87ed508098947699c7a73f07a1764c9e725783"
+    },
+    {
+     "from": "2026-07-01",
+     "units": 68,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-34-vbhn-vpqh-469119.htm",
+     "sha256": "9b3d122d52e832a52fe6d2c4c84143242c25913b0946392fdbc0a079ac037a06"
     }
    ]
   },
@@ -2304,6 +2398,26 @@
    ]
   },
   {
+   "slug": "luat-trat-tu-an-toan-giao-thong-duong-bo-36-2024-qh15",
+   "short": "Luật Trật tự, an toàn giao thông đường bộ 2024",
+   "title": "Luật Trật tự, an toàn giao thông đường bộ (Luật số 36/2024/QH15)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-trat-tu-an-toan-giao-thong-duong-bo-so-36-2024-qh15--170620",
+   "versions": [
+    {
+     "from": "2025-01-01",
+     "units": 91,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-trat-tu-an-toan-giao-thong-duong-bo-so-36-2024-qh15--170620",
+     "sha256": "9095082965591f8af51d5f384ab0a2287c625d8fa561f5f70302e47c7e51e2ba"
+    },
+    {
+     "from": "2026-07-01",
+     "units": 91,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-55-vbhn-vpqh-469185.htm",
+     "sha256": "cc52a6e84d6bfb5dc1a0085559194775961663472e182adb990e4902cd1f94b3"
+    }
+   ]
+  },
+  {
    "slug": "luat-cong-an-nhan-dan-37-2018-qh14",
    "short": "Luật Công an nhân dân 2018",
    "title": "Luật Công an nhân dân (Luật số 37/2018/QH14)",
@@ -2350,6 +2464,46 @@
      "units": 49,
      "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-84-vbhn-vpqh-469259.htm",
      "sha256": "572aad845b265f7cf1e323f8ab913b27f951b1f7fbcf0f4085f86688550ba74f"
+    }
+   ]
+  },
+  {
+   "slug": "luat-quan-ly-thue-38-2019-qh14",
+   "short": "Luật Quản lý thuế 2019",
+   "title": "Luật Quản lý thuế (Luật số 38/2019/QH14)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-quan-ly-thue-so-38-2019-qh14--136036",
+   "versions": [
+    {
+     "from": "2019-07-01",
+     "units": 154,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-quan-ly-thue-so-38-2019-qh14--136036",
+     "sha256": "509cc3c8f7a5e190ffe201ef0be950608d9b42ce5f9f9be67964f68270775f40"
+    },
+    {
+     "from": "2025-01-01",
+     "units": 154,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-29-vbhn-vpqh-44473.htm",
+     "sha256": "c0346f434fa436b93678492ee6f5d3468440151978439d7088e79a4d22ce1f7b"
+    }
+   ]
+  },
+  {
+   "slug": "luat-cong-nghiep-quoc-phong-an-ninh-va-dong-vien-cong-nghiep-38-2024-qh15",
+   "short": "Luật Công nghiệp quốc phòng, an ninh và động viên công nghiệp 2024",
+   "title": "Luật Công nghiệp quốc phòng, an ninh và động viên công nghiệp (Luật số 38/2024/QH15)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-cong-nghiep-quoc-phong-an-ninh-va-dong-vien-cong-nghiep-so-38-2024-qh15--172437",
+   "versions": [
+    {
+     "from": "2025-07-01",
+     "units": 89,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-cong-nghiep-quoc-phong-an-ninh-va-dong-vien-cong-nghiep-so-38-2024-qh15--172437",
+     "sha256": "3360da3c984c7bf0b39a17e5b2c8dde10471a075171cab333d6114911f7d768f"
+    },
+    {
+     "from": "2026-01-01",
+     "units": 89,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-46-vbhn-vpqh-469131.htm",
+     "sha256": "9b100d4e2cb3b03bb64b7d5cc38f0838cf0a6a772e16f388e9dec636d594bb50"
     }
    ]
   },
@@ -2424,6 +2578,26 @@
    ]
   },
   {
+   "slug": "luat-kien-truc-40-2019-qh14",
+   "short": "Luật Kiến trúc 2019",
+   "title": "Luật Kiến trúc (Luật số 40/2019/QH14)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-kien-truc-so-40-2019-qh14--136039",
+   "versions": [
+    {
+     "from": "2020-07-01",
+     "units": 44,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-kien-truc-so-40-2019-qh14--136039",
+     "sha256": "8fe9fed5725d2f4c5636f50bd38858ffbd6bd9a52c3cfc7b9402039575271abd"
+    },
+    {
+     "from": "2027-03-01",
+     "units": 41,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-158-2026-vbhn-lq-vpqh-470655.htm",
+     "sha256": "149b80b821853bbb006f81bb9cc8841d17bbac8eb5f3202e67c85fc2a631c945"
+    }
+   ]
+  },
+  {
    "slug": "luat-bao-ve-va-kiem-dich-thuc-vat-41-2013-qh13",
    "short": "Luật Bảo vệ và kiểm dịch thực vật 2013",
    "title": "Luật Bảo vệ và kiểm dịch thực vật (Luật số 41/2013/QH13)",
@@ -2446,6 +2620,26 @@
      "units": 77,
      "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-151-2026-vbhn-lq-vpqh-470648.htm",
      "sha256": "c1f06e4cb1a636c3c6c85eb91cfbc4077231b0ff359c0e2008acd00603ea3322"
+    }
+   ]
+  },
+  {
+   "slug": "luat-thi-hanh-an-hinh-su-41-2019-qh14",
+   "short": "Luật Thi hành án hình sự 2019",
+   "title": "Luật Thi hành án hình sự (Luật số 41/2019/QH14)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-thi-hanh-an-hinh-su-so-41-2019-qh14--162690",
+   "versions": [
+    {
+     "from": "2020-01-01",
+     "units": 210,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-thi-hanh-an-hinh-su-so-41-2019-qh14--162690",
+     "sha256": "cc7aa5102d1d99e6c178cc29f77ea6529fefd1b16f82c179cc293c1662eb2c36"
+    },
+    {
+     "from": "2026-01-01",
+     "units": 210,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-13-vbhn-vpqh-44436.htm",
+     "sha256": "fcf13720421adb6fb664215782fc8bb95db517c711d0d4e4535d87ab4d44a4f3"
     }
    ]
   },
@@ -2526,6 +2720,72 @@
    ]
   },
   {
+   "slug": "luat-quan-ly-su-dung-vu-khi-vat-lieu-no-va-cong-cu-ho-tro-42-2024-qh15",
+   "short": "Luật Quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ 2024",
+   "title": "Luật Quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ (Luật số 42/2024/QH15)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-quan-ly-su-dung-vu-khi-vat-lieu-no-va-cong-cu-ho-tro-so-42-2024-qh15--170609",
+   "versions": [
+    {
+     "from": "2025-01-01",
+     "units": 78,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-quan-ly-su-dung-vu-khi-vat-lieu-no-va-cong-cu-ho-tro-so-42-2024-qh15--170609",
+     "sha256": "296e1321871d38ab61617b6629718e907332086b748719f5e93186690a63a3ad"
+    },
+    {
+     "from": "2026-07-01",
+     "units": 78,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-78-vbhn-vpqh-469208.htm",
+     "sha256": "72e193d7d53de0fa03616f55c5f0626f29c00acdcd9a91810f2d32e9114c7423"
+    }
+   ]
+  },
+  {
+   "slug": "luat-giao-duc-43-2019-qh14",
+   "short": "Luật Giáo dục 2019",
+   "title": "Luật Giáo dục (Luật số 43/2019/QH14)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-giao-duc-so-43-2019-qh14--136042",
+   "versions": [
+    {
+     "from": "2020-07-01",
+     "units": 118,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-giao-duc-so-43-2019-qh14--136042",
+     "sha256": "6f2b12c10e8a92586a6dc72ea663c5cf611ab4998f1e9608ce2417d40ee91a4d"
+    },
+    {
+     "from": "2026-01-01",
+     "units": 102,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-72-vbhn-vpqh-469202.htm",
+     "sha256": "bc03c71ad21e61ebdda12e01b01d810db1eca0ee33d307827e5e66ab153030ab"
+    }
+   ]
+  },
+  {
+   "slug": "luat-thue-tai-nguyen-45-2009-qh12",
+   "short": "Luật Thuế tài nguyên 2009",
+   "title": "Luật Thuế tài nguyên (Luật số 45/2009/QH12)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-thue-tai-nguyen-so-45-2009-qh12--23778",
+   "versions": [
+    {
+     "from": "2010-07-01",
+     "units": 14,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-thue-tai-nguyen-so-45-2009-qh12--23778",
+     "sha256": "93b44b96b61e5ec9ed9c22775271eab7ae86c9ac3481ab6bc0696eaa1c8865d2"
+    },
+    {
+     "from": "2015-01-01",
+     "units": 14,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-23-vbhn-vpqh-39014.htm",
+     "sha256": "0d9eff816d5d163e62e0e306e695c26df287b60bce972b01a617bcb18b8bfce3"
+    },
+    {
+     "from": "2023-07-01",
+     "units": 14,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-23-vbhn-vpqh-39014.htm",
+     "sha256": "0d9eff816d5d163e62e0e306e695c26df287b60bce972b01a617bcb18b8bfce3"
+    }
+   ]
+  },
+  {
    "slug": "luat-di-san-van-hoa-45-2024-qh15",
    "short": "Luật Di sản văn hóa 2024",
    "title": "Luật Di sản văn hóa (Luật số 45/2024/QH15)",
@@ -2580,6 +2840,26 @@
      "units": 69,
      "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-141-2026-vbhn-lq-vpqh-470554.htm",
      "sha256": "171a8aceb24789235e13eee9ebf2132fb97deddd9cdb33002d2c6adef33e3b3f"
+    }
+   ]
+  },
+  {
+   "slug": "luat-thu-vien-46-2019-qh14",
+   "short": "Luật Thư viện 2019",
+   "title": "Luật Thư viện (Luật số 46/2019/QH14)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-thu-vien-so-46-2019-qh14--139877",
+   "versions": [
+    {
+     "from": "2020-07-01",
+     "units": 55,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-thu-vien-so-46-2019-qh14--139877",
+     "sha256": "fdef44efeb0af1c9a67e4eddf17adbaf1b7c558116832fa5944816478d474eb3"
+    },
+    {
+     "from": "2026-07-01",
+     "units": 55,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-39-vbhn-vpqh-469124.htm",
+     "sha256": "eabbf90f047df85dddd82a8752dbbab76872ecb3c4883e2e7b935f0fc32ae4bd"
     }
    ]
   },
@@ -2648,6 +2928,26 @@
    ]
   },
   {
+   "slug": "luat-thue-su-dung-dat-phi-nong-nghiep-48-2010-qh12",
+   "short": "Luật Thuế sử dụng đất phi nông nghiệp 2010",
+   "title": "Luật Thuế sử dụng đất phi nông nghiệp (Luật số 48/2010/QH12)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-thue-su-dung-dat-phi-nong-nghiep-so-48-2010-qh12--25819",
+   "versions": [
+    {
+     "from": "2012-01-01",
+     "units": 16,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-thue-su-dung-dat-phi-nong-nghiep-so-48-2010-qh12--25819",
+     "sha256": "1f17da40c2d4c67e5b81886e0f91112fc84243a8d447f765e199ede9c063f291"
+    },
+    {
+     "from": "2024-08-01",
+     "units": 16,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-05-vbhn-vpqh-42914.htm",
+     "sha256": "92413e93b81c8d2528d2564be10cb39c9a44ecf2ad653c3d9ec4a416831de560"
+    }
+   ]
+  },
+  {
    "slug": "luat-dan-quan-tu-ve-48-2019-qh14",
    "short": "Luật Dân quân tự vệ 2019",
    "title": "Luật Dân quân tự vệ (Luật số 48/2019/QH14)",
@@ -2696,6 +2996,26 @@
      "units": 21,
      "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-114-vbhn-vpqh-469597.htm",
      "sha256": "9a0993acc8c40876654287bdc12dc0791168d473b222ee9d26b953966bf28e0a"
+    }
+   ]
+  },
+  {
+   "slug": "luat-buu-chinh-49-2010-qh12",
+   "short": "Luật Bưu chính 2010",
+   "title": "Luật Bưu chính (Luật số 49/2010/QH12)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-buu-chinh-so-49-2010-qh12--25701",
+   "versions": [
+    {
+     "from": "2011-01-01",
+     "units": 49,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-buu-chinh-so-49-2010-qh12--25701",
+     "sha256": "f77905e94f8ed00ea56e09f01d17673b5f3a4e531b59f9bb5999734f3648126b"
+    },
+    {
+     "from": "2026-03-01",
+     "units": 49,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-01-vbhn-vpqh-468930.htm",
+     "sha256": "0407ad4c4314f8180f6ab0fee216fbcc44add1bfc09a933d4a1471ca1c3e6b1f"
     }
    ]
   },
@@ -2804,6 +3124,26 @@
      "units": 51,
      "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-38-vbhn-vpqh-469123.htm",
      "sha256": "122add51cdbd7a4fdf7bddd7eb9efad58bfc75622a2a6a685d5a5382ea11c671"
+    }
+   ]
+  },
+  {
+   "slug": "luat-cong-doan-50-2024-qh15",
+   "short": "Luật Công đoàn 2024",
+   "title": "Luật Công đoàn (Luật số 50/2024/QH15)",
+   "url": "https://vbpl.vn/van-ban/chi-tiet/luat-cong-doan-so-50-2024-qh15--172553",
+   "versions": [
+    {
+     "from": "2025-07-01",
+     "units": 39,
+     "source_url": "https://vbpl.vn/van-ban/chi-tiet/luat-cong-doan-so-50-2024-qh15--172553",
+     "sha256": "3426860ffe401eebde496c8a2f879fc13954a3566cf975682b246c088e24e805"
+    },
+    {
+     "from": "2025-07-01",
+     "units": 39,
+     "source_url": "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-90-vbhn-vpqh-45984.htm",
+     "sha256": "3b53e064e5d00085847d5187a08f678a2b2cbea7601e86b5c82e561bc6be5b04"
     }
    ]
   },
