@@ -30,3 +30,233 @@ day,kind,law,acts,files,branch
 2026-07-01,law,luat-106-2025-qh15,bo-luat-to-tung-hinh-su,1,main
 2026-07-01,law,luat-128-2025-qh15,bo-luat-to-tung-hinh-su,1,main
 2026-07-01,law,luat-113-2025-qh15,bo-luat-lao-dong,1,main
+2000-04-01,start,luat-16-1999-qh10,luat-sy-quan-quan-doi-nhan-dan-viet-nam-16-1999-qh10,54,main
+2004-01-01,start,luat-6-2003-qh11,luat-bien-gioi-quoc-gia-06-2003-qh11,43,main
+2006-01-01,start,luat-36-2005-qh11,luat-thuong-mai-36-2005-qh11,327,main
+2006-07-01,start,luat-50-2005-qh11,luat-so-huu-tri-tue-50-2005-qh11,225,main
+2007-01-01,start,luat-66-2006-qh11,luat-hang-khong-dan-dung-viet-nam-66-2006-qh11,205,main
+2007-01-01,start,luat-68-2006-qh11,luat-tieu-chuan-va-quy-chuan-ky-thuat-68-2006-qh11,74,main
+2007-07-01,start,luat-77-2006-qh11,luat-the-duc-the-thao-77-2006-qh11,82,main
+2008-07-01,law,luat-19-2008-qh12,luat-sy-quan-quan-doi-nhan-dan-viet-nam-16-1999-qh10,11,main
+2009-01-01,start,luat-14-2008-qh12,luat-thue-thu-nhap-doanh-nghiep-14-2008-qh12,23,main
+2009-07-01,start,luat-25-2008-qh12,luat-bao-hiem-y-te-25-2008-qh12,55,main
+2009-07-01,start,luat-21-2008-qh12,luat-cong-nghe-cao-21-2008-qh12,38,main
+2010-01-01,law,luat-36-2009-qh12,luat-so-huu-tri-tue-50-2005-qh11,29,main
+2010-07-01,start,luat-28-2009-qh12,luat-ly-lich-tu-phap-28-2009-qh12,60,main
+2010-07-01,start,luat-39-2009-qh12,luat-nguoi-cao-tuoi-39-2009-qh12,33,main
+2010-07-01,start,luat-42-2009-qh12,luat-tan-so-vo-tuyen-dien-42-2009-qh12,52,main
+2011-01-01,start,luat-46-2010-qh12,luat-ngan-hang-nha-nuoc-viet-nam-46-2010-qh12,69,main
+2011-01-01,start,luat-51-2010-qh12,luat-nguoi-khuyet-tat-51-2010-qh12,56,main
+2011-01-01,start,luat-50-2010-qh12,luat-su-dung-nang-luong-tiet-kiem-va-hieu-qua-50-2010-qh12,50,main
+2012-07-01,start,luat-4-2011-qh13,luat-do-luong-04-2011-qh13,61,main
+2012-07-01,start,luat-2-2011-qh13,luat-khieu-nai-02-2011-qh13,73,main
+2013-01-01,start,luat-18-2012-qh13,luat-bien-viet-nam-18-2012-qh13,58,main
+2013-01-01,start,luat-16-2012-qh13,luat-quang-cao-16-2012-qh13,46,main
+2013-05-01,start,luat-9-2012-qh13,luat-phong-chong-tac-hai-cua-thuoc-la-09-2012-qh13,38,main
+2013-07-01,start,luat-19-2012-qh13,luat-xuat-ban-19-2012-qh13,57,main
+2014-01-01,start,luat-30-2013-qh13,luat-giao-duc-quoc-phong-va-an-ninh-30-2013-qh13,50,main
+2014-01-01,start,luat-29-2013-qh13,luat-khoa-hoc-va-cong-nghe-29-2013-qh13,84,main
+2014-01-01,law,luat-32-2013-qh13,luat-thue-thu-nhap-doanh-nghiep-14-2008-qh12 luat-cong-nghe-cao-21-2008-qh12,8,main
+2014-05-01,start,luat-33-2013-qh13,luat-phong-chong-thien-tai-33-2013-qh13,50,main
+2014-07-01,law,nq-45-2013-qh13,luat-hang-khong-dan-dung-viet-nam-66-2006-qh11,1,main
+2015-01-01,start,luat-41-2013-qh13,luat-bao-ve-va-kiem-dich-thuc-vat-41-2013-qh13,80,main
+2015-01-01,start,luat-54-2014-qh13,luat-hai-quan-so-54-2014-qh13-54-2014-qh13,107,main
+2015-01-01,start,luat-47-2014-qh13,luat-nhap-canh-xuat-canh-qua-canh-cu-tru-cua-nguoi-nuoc-ngoai-tai-viet-nam-47-2014-qh13,58,main
+2015-01-01,law,luat-46-2014-qh13,luat-bao-hiem-y-te-25-2008-qh12,28,main
+2015-01-01,law,luat-71-2014-qh13,luat-thue-thu-nhap-doanh-nghiep-14-2008-qh12,3,main
+2015-06-01,start,luat-63-2014-qh13,luat-to-chuc-vien-kiem-sat-nhan-dan-63-2014-qh13,104,main
+2015-07-01,start,luat-74-2014-qh13,luat-giao-duc-nghe-nghiep-74-2014-qh13,82,main
+2015-07-01,law,luat-61-2014-qh13,luat-hang-khong-dan-dung-viet-nam-66-2006-qh11,52,main
+2015-07-01,law,luat-67-2014-qh13,luat-cong-nghe-cao-21-2008-qh12,1,main
+2015-07-01,law,luat-72-2014-qh13,luat-sy-quan-quan-doi-nhan-dan-viet-nam-16-1999-qh10,7,main
+2015-09-01,start,luat-85-2015-qh13,luat-bau-cu-dai-bieu-quoc-hoi-va-dai-bieu-hoi-dong-nhan-dan-85-2015-qh13,100,main
+2016-01-01,start,luat-57-2014-qh13,luat-to-chuc-quoc-hoi-57-2014-qh13,105,main
+2016-07-01,start,luat-84-2015-qh13,luat-an-toan-ve-sinh-lao-dong-84-2015-qh13,96,main
+2016-07-01,start,luat-108-2016-qh13,luat-dieu-uoc-quoc-te-108-2016-qh13,87,main
+2016-07-01,start,luat-98-2015-qh13,luat-quan-nhan-chuyen-nghiep-cong-nhan-va-vien-chuc-quoc-phong-98-2015-qh13,54,main
+2016-07-01,start,luat-82-2015-qh13,luat-tai-nguyen-moi-truong-bien-va-hai-dao-82-2015-qh13,83,main
+2016-07-01,start,luat-89-2015-qh13,luat-thong-ke-89-2015-qh13,75,main
+2016-07-01,start,luat-93-2015-qh13,luat-to-tung-hanh-chinh-93-2015-qh13,375,main
+2016-09-01,start,luat-107-2016-qh13,luat-thue-xuat-khau-thue-nhap-khau-107-2016-qh13,24,main
+2017-01-01,start,luat-103-2016-qh13,luat-bao-chi-103-2016-qh13,64,main
+2017-01-01,start,luat-105-2016-qh13,luat-duoc-105-2016-qh13,112,main
+2017-01-01,start,luat-88-2015-qh13,luat-ke-toan-88-2015-qh13,77,main
+2017-01-01,law,luat-97-2015-qh13,luat-bao-hiem-y-te-25-2008-qh12 luat-giao-duc-nghe-nghiep-74-2014-qh13,3,main
+2017-06-01,start,luat-102-2016-qh13,luat-tre-em-102-2016-qh13,8,main
+2017-07-01,start,luat-95-2015-qh13,bo-luat-hang-hai-95-2015-qh13,344,main
+2017-07-01,start,luat-1-2016-qh14,luat-dau-gia-tai-san-01-2016-qh14,84,main
+2018-01-01,start,luat-4-2017-qh14,luat-ho-tro-doanh-nghiep-nho-va-vua-04-2017-qh14,38,main
+2018-01-01,start,luat-15-2017-qh14,luat-quan-ly-su-dung-tai-san-cong-15-2017-qh14,137,main
+2018-01-01,start,luat-2-2016-qh14,luat-tin-nguong-ton-giao-02-2016-qh14,71,main
+2018-01-01,start,luat-99-2015-qh13,luat-to-chuc-co-quan-dieu-tra-hinh-su-99-2015-qh13,76,main
+2018-01-01,start,luat-11-2017-qh14,luat-tro-giup-phap-ly-11-2017-qh14,51,main
+2018-01-01,law,luat-5-2017-qh14,luat-thuong-mai-36-2005-qh11,11,main
+2018-07-01,start,luat-13-2017-qh14,luat-canh-ve-13-2017-qh14,36,main
+2018-07-01,start,luat-7-2017-qh14,luat-chuyen-giao-cong-nghe-07-2017-qh14,63,main
+2018-07-01,start,luat-10-2017-qh14,luat-trach-nhiem-boi-thuong-cua-nha-nuoc-10-2017-qh14,81,main
+2019-01-01,start,luat-27-2018-qh14,luat-do-dac-va-ban-do-27-2018-qh14,64,main
+2019-01-01,start,luat-16-2017-qh14,luat-lam-nghiep-16-2017-qh14,111,main
+2019-01-01,start,luat-22-2018-qh14,luat-quoc-phong-22-2018-qh14,43,main
+2019-01-01,start,luat-21-2017-qh14,luat-quy-hoach-21-2017-qh14,61,main
+2019-01-01,start,luat-18-2017-qh14,luat-thuy-san-18-2017-qh14,108,main
+2019-01-01,start,luat-25-2018-qh14,luat-to-cao-25-2018-qh14,70,main
+2019-01-01,law,luat-21-2017-qh14,luat-giao-duc-nghe-nghiep-74-2014-qh13,1,main
+2019-01-01,law,luat-26-2018-qh14,luat-the-duc-the-thao-77-2006-qh11,41,main
+2019-01-01,law,luat-28-2018-qh14,luat-phong-chong-tac-hai-cua-thuoc-la-09-2012-qh13 luat-tre-em-102-2016-qh13 luat-duoc-105-2016-qh13 luat-khoa-hoc-va-cong-nghe-29-2013-qh13 luat-su-dung-nang-luong-tiet-kiem-va-hieu-qua-50-2010-qh12,20,main
+2019-01-01,law,luat-35-2018-qh14,luat-do-luong-04-2011-qh13 luat-bao-chi-103-2016-qh13 luat-quang-cao-16-2012-qh13 luat-xuat-ban-19-2012-qh13 luat-bao-hiem-y-te-25-2008-qh12 luat-giao-duc-quoc-phong-va-an-ninh-30-2013-qh13 luat-hai-quan-so-54-2014-qh13-54-2014-qh13 luat-tieu-chuan-va-quy-chuan-ky-thuat-68-2006-qh11 luat-tai-nguyen-moi-truong-bien-va-hai-dao-82-2015-qh13 luat-an-toan-ve-sinh-lao-dong-84-2015-qh13 bo-luat-hang-hai-95-2015-qh13,53,main
+2019-07-01,start,luat-37-2018-qh14,luat-cong-an-nhan-dan-37-2018-qh14,49,main
+2019-07-01,start,luat-36-2018-qh14,luat-phong-chong-tham-nhung-36-2018-qh14,99,main
+2019-11-01,law,luat-42-2019-qh14,luat-so-huu-tri-tue-50-2005-qh11,11,main
+2020-01-01,start,luat-32-2018-qh14,luat-chan-nuoi-32-2018-qh14,86,main
+2020-01-01,start,luat-39-2019-qh14,luat-dau-tu-cong-39-2019-qh14,104,main
+2020-01-01,start,luat-31-2018-qh14,luat-trong-trot-31-2018-qh14,88,main
+2020-01-01,law,luat-44-2019-qh14,luat-thuong-mai-36-2005-qh11,2,main
+2020-07-01,start,luat-48-2019-qh14,luat-dan-quan-tu-ve-48-2019-qh14,53,main
+2020-07-01,start,luat-53-2019-qh14,luat-luc-luong-du-bi-dong-vien-53-2019-qh14,44,main
+2020-07-01,law,luat-38-2019-qh14,luat-ke-toan-88-2015-qh13,1,main
+2020-07-01,law,luat-43-2019-qh14,luat-giao-duc-nghe-nghiep-74-2014-qh13,2,main
+2020-07-01,law,luat-48-2019-qh14,luat-sy-quan-quan-doi-nhan-dan-viet-nam-16-1999-qh10,1,main
+2020-07-01,law,luat-51-2019-qh14,luat-nhap-canh-xuat-canh-qua-canh-cu-tru-cua-nguoi-nuoc-ngoai-tai-viet-nam-47-2014-qh13,20,main
+2020-07-01,law,luat-55-2019-qh14,luat-to-tung-hanh-chinh-93-2015-qh13,18,main
+2021-01-01,start,luat-54-2019-qh14,luat-chung-khoan-54-2019-qh14,137,main
+2021-01-01,start,luat-64-2020-qh14,luat-dau-tu-theo-phuong-thuc-doi-tac-cong-tu-64-2020-qh14,104,main
+2021-01-01,law,ldn-59-2020-qh14,luat-to-cao-25-2018-qh14 luat-phong-chong-tham-nhung-36-2018-qh14,7,main
+2021-01-01,law,luat-61-2020-qh14,luat-thue-thu-nhap-doanh-nghiep-14-2008-qh12,2,main
+2021-01-01,law,luat-64-2020-qh14,luat-ho-tro-doanh-nghiep-nho-va-vua-04-2017-qh14 luat-quan-ly-su-dung-tai-san-cong-15-2017-qh14 luat-dau-tu-cong-39-2019-qh14,5,main
+2021-01-01,law,luat-65-2020-qh14,luat-to-chuc-quoc-hoi-57-2014-qh13,17,main
+2021-07-01,start,luat-68-2020-qh14,luat-cu-tru-68-2020-qh14,41,main
+2021-07-01,law,luat-60-2020-qh14,luat-phong-chong-thien-tai-33-2013-qh13,22,main
+2021-07-01,law,luat-68-2020-qh14,luat-bao-hiem-y-te-25-2008-qh12 luat-ly-lich-tu-phap-28-2009-qh12,2,main
+2021-12-01,law,luat-2-2021-qh15,luat-to-chuc-co-quan-dieu-tra-hinh-su-99-2015-qh13,1,main
+2022-01-01,start,luat-72-2020-qh14,luat-bao-ve-moi-truong-72-2020-qh14,174,main
+2022-01-01,start,luat-66-2020-qh14,luat-bien-phong-viet-nam-66-2020-qh14,39,main
+2022-01-01,start,luat-69-2020-qh14,luat-nguoi-lao-dong-viet-nam-di-lam-viec-o-nuoc-ngoai-theo-hop-dong-69-2020-qh14,77,main
+2022-01-01,law,luat-66-2020-qh14,luat-bien-gioi-quoc-gia-06-2003-qh11,1,main
+2022-01-01,law,luat-72-2020-qh14,luat-dau-tu-cong-39-2019-qh14,2,main
+2022-01-01,law,luat-1-2021-qh15,luat-thong-ke-89-2015-qh13,2,main
+2022-03-01,law,luat-3-2022-qh15,luat-dau-tu-cong-39-2019-qh14 luat-dau-tu-theo-phuong-thuc-doi-tac-cong-tu-64-2020-qh14,5,main
+2023-01-01,start,luat-8-2022-qh15,luat-kinh-doanh-bao-hiem-08-2022-qh15,160,main
+2023-01-01,law,luat-7-2022-qh15,luat-quan-ly-su-dung-tai-san-cong-15-2017-qh14 luat-khoa-hoc-va-cong-nghe-29-2013-qh13 luat-so-huu-tri-tue-50-2005-qh11 luat-hai-quan-so-54-2014-qh13-54-2014-qh13,122,main
+2023-03-01,law,luat-14-2022-qh15,luat-ngan-hang-nha-nuoc-viet-nam-46-2010-qh12,1,main
+2023-07-01,start,luat-10-2022-qh15,luat-thuc-hien-dan-chu-o-co-so-10-2022-qh15,94,main
+2023-07-01,law,luat-9-2022-qh15,luat-tan-so-vo-tuyen-dien-42-2009-qh12,28,main
+2023-07-01,law,luat-11-2022-qh15,luat-bao-ve-moi-truong-72-2020-qh14,1,main
+2023-07-01,law,luat-12-2022-qh15,luat-thue-thu-nhap-doanh-nghiep-14-2008-qh12,1,main
+2023-08-15,law,luat-21-2023-qh15,luat-cong-an-nhan-dan-37-2018-qh14,6,main
+2023-08-15,law,luat-23-2023-qh15,luat-nhap-canh-xuat-canh-qua-canh-cu-tru-cua-nguoi-nuoc-ngoai-tai-viet-nam-47-2014-qh13,9,main
+2024-01-01,start,luat-22-2023-qh15,luat-dau-thau-22-2023-qh15,99,main
+2024-01-01,law,luat-15-2023-qh15,luat-thue-thu-nhap-doanh-nghiep-14-2008-qh12 luat-quy-hoach-21-2017-qh14,2,main
+2024-07-01,start,luat-32-2024-qh15,luat-cac-to-chuc-tin-dung-32-2024-qh15,212,main
+2024-07-01,start,luat-16-2023-qh15,luat-gia-16-2023-qh15,78,main
+2024-07-01,start,luat-20-2023-qh15,luat-giao-dich-dien-tu-20-2023-qh15,56,main
+2024-07-01,start,luat-30-2023-qh15,luat-luc-luong-tham-gia-bao-ve-an-ninh-trat-tu-o-co-so-30-2023-qh15,35,main
+2024-07-01,start,luat-18-2023-qh15,luat-phong-thu-dan-su-18-2023-qh15,58,main
+2024-07-01,start,luat-28-2023-qh15,luat-tai-nguyen-nuoc-2023-28-2023-qh15,88,main
+2024-07-01,start,luat-6-2022-qh15,luat-thi-dua-khen-thuong-06-2022-qh15,99,main
+2024-07-01,start,luat-24-2023-qh15,luat-vien-thong-24-2023-qh15,76,main
+2024-07-01,law,luat-16-2023-qh15,luat-dau-gia-tai-san-01-2016-qh14 luat-chuyen-giao-cong-nghe-07-2017-qh14 luat-phong-chong-tac-hai-cua-thuoc-la-09-2012-qh13 luat-lam-nghiep-16-2017-qh14 luat-quy-hoach-21-2017-qh14 luat-hang-khong-dan-dung-viet-nam-66-2006-qh11 luat-nguoi-lao-dong-viet-nam-di-lam-viec-o-nuoc-ngoai-theo-hop-dong-69-2020-qh14 luat-bao-ve-moi-truong-72-2020-qh14 bo-luat-hang-hai-95-2015-qh13,17,main
+2024-07-01,law,luat-18-2023-qh15,luat-quoc-phong-22-2018-qh14 luat-phong-chong-thien-tai-33-2013-qh13,13,main
+2024-07-01,law,luat-24-2023-qh15,luat-quan-ly-su-dung-tai-san-cong-15-2017-qh14 luat-tan-so-vo-tuyen-dien-42-2009-qh12,5,main
+2024-07-01,law,luat-28-2023-qh15,luat-dau-tu-theo-phuong-thuc-doi-tac-cong-tu-64-2020-qh14,1,main
+2024-07-01,law,luat-30-2023-qh15,luat-bao-hiem-y-te-25-2008-qh12 luat-cong-an-nhan-dan-37-2018-qh14,3,main
+2024-07-01,law,luat-18-2023-qh15,luat-hang-khong-dan-dung-viet-nam-66-2006-qh11 luat-bao-ve-moi-truong-72-2020-qh14,4,main
+2024-08-01,start,luat-29-2023-qh15,luat-kinh-doanh-bat-dong-san-29-2023-qh15,86,main
+2024-08-01,start,luat-27-2023-qh15,luat-nha-o-27-2023-qh15,201,main
+2024-08-01,law,luat-31-2024-qh15,luat-quan-ly-su-dung-tai-san-cong-15-2017-qh14 luat-lam-nghiep-16-2017-qh14 luat-thuy-san-18-2017-qh14 luat-quy-hoach-21-2017-qh14,15,main
+2024-08-01,law,luat-43-2024-qh15,luat-cac-to-chuc-tin-dung-32-2024-qh15,1,main
+2024-08-01,law,luat-43-2024-qh15,luat-nha-o-27-2023-qh15 luat-kinh-doanh-bat-dong-san-29-2023-qh15,2,main
+2024-12-01,law,luat-52-2024-qh15,luat-sy-quan-quan-doi-nhan-dan-viet-nam-16-1999-qh10 luat-cong-an-nhan-dan-37-2018-qh14,21,main
+2025-01-01,start,luat-35-2024-qh15,luat-duong-bo-35-2024-qh15,89,main
+2025-01-01,start,luat-34-2024-qh15,luat-to-chuc-toa-an-nhan-dan-so-34-2024-qh15-34-2024-qh15,154,main
+2025-01-01,law,luat-27-2023-qh15,luat-dau-tu-cong-39-2019-qh14,1,main
+2025-01-01,law,luat-34-2024-qh15,luat-to-tung-hanh-chinh-93-2015-qh13,3,main
+2025-01-01,law,luat-35-2024-qh15,luat-dau-tu-theo-phuong-thuc-doi-tac-cong-tu-64-2020-qh14,3,main
+2025-01-01,law,luat-37-2024-qh15,luat-dau-gia-tai-san-01-2016-qh14,69,main
+2025-01-01,law,luat-40-2024-qh15,luat-canh-ve-13-2017-qh14,15,main
+2025-01-01,law,luat-42-2024-qh15,luat-quang-cao-16-2012-qh13,1,main
+2025-01-01,law,luat-56-2024-qh15,luat-quan-ly-su-dung-tai-san-cong-15-2017-qh14 luat-chung-khoan-54-2019-qh14 luat-ke-toan-88-2015-qh13,67,main
+2025-01-15,law,luat-57-2024-qh15,luat-quy-hoach-21-2017-qh14 luat-dau-thau-22-2023-qh15 luat-dau-tu-theo-phuong-thuc-doi-tac-cong-tu-64-2020-qh14,63,main
+2025-02-01,law,luat-61-2024-qh15,luat-tai-nguyen-moi-truong-bien-va-hai-dao-82-2015-qh13,1,main
+2025-02-17,law,luat-62-2025-qh15,luat-to-chuc-quoc-hoi-57-2014-qh13,39,main
+2025-03-01,law,luat-65-2025-qh15,luat-bien-viet-nam-18-2012-qh13,1,main
+2025-06-16,law,luat-72-2025-qh15,luat-bien-viet-nam-18-2012-qh13,1,main
+2025-06-25,law,luat-84-2025-qh15,luat-khieu-nai-02-2011-qh13,1,main
+2025-07-01,start,luat-41-2024-qh15,luat-bao-hiem-xa-hoi-41-2024-qh15,142,main
+2025-07-01,start,luat-46-2024-qh15,luat-cong-chung-46-2024-qh15,79,main
+2025-07-01,start,luat-45-2024-qh15,luat-di-san-van-hoa-45-2024-qh15,98,main
+2025-07-01,start,luat-54-2024-qh15,luat-dia-chat-va-khoang-san-54-2024-qh15,114,main
+2025-07-01,start,luat-49-2024-qh15,luat-phong-khong-nhan-dan-49-2024-qh15,50,main
+2025-07-01,start,luat-48-2024-qh15,luat-thue-gia-tri-gia-tang-48-2024-qh15,21,main
+2025-07-01,law,luat-38-2024-qh15,luat-quoc-phong-22-2018-qh14 luat-cong-an-nhan-dan-37-2018-qh14 luat-dau-tu-cong-39-2019-qh14,4,main
+2025-07-01,law,luat-41-2024-qh15,luat-nguoi-cao-tuoi-39-2009-qh12 luat-an-toan-ve-sinh-lao-dong-84-2015-qh13,6,main
+2025-07-01,law,luat-44-2024-qh15,luat-duoc-105-2016-qh13,48,main
+2025-07-01,law,luat-47-2024-qh15,luat-thuc-hien-dan-chu-o-co-so-10-2022-qh15 luat-quang-cao-16-2012-qh13 luat-vien-thong-24-2023-qh15 luat-nha-o-27-2023-qh15 luat-kinh-doanh-bat-dong-san-29-2023-qh15 luat-phong-chong-thien-tai-33-2013-qh13 luat-bao-ve-moi-truong-72-2020-qh14,30,main
+2025-07-01,law,luat-49-2024-qh15,luat-hang-khong-dan-dung-viet-nam-66-2006-qh11,4,main
+2025-07-01,law,luat-51-2024-qh15,luat-bao-hiem-y-te-25-2008-qh12 luat-luc-luong-tham-gia-bao-ve-an-ninh-trat-tu-o-co-so-30-2023-qh15,45,main
+2025-07-01,law,luat-60-2024-qh15,luat-giao-dich-dien-tu-20-2023-qh15,3,main
+2025-07-01,law,luat-81-2025-qh15,luat-khieu-nai-02-2011-qh13 luat-trach-nhiem-boi-thuong-cua-nha-nuoc-10-2017-qh14 luat-tre-em-102-2016-qh13 luat-to-cao-25-2018-qh14 luat-to-chuc-toa-an-nhan-dan-so-34-2024-qh15-34-2024-qh15 luat-phong-chong-tham-nhung-36-2018-qh14 bo-luat-hang-hai-95-2015-qh13,32,main
+2025-07-01,law,luat-82-2025-qh15,luat-to-chuc-vien-kiem-sat-nhan-dan-63-2014-qh13,41,main
+2025-07-01,law,luat-83-2025-qh15,luat-bau-cu-dai-bieu-quoc-hoi-va-dai-bieu-hoi-dong-nhan-dan-85-2015-qh13,52,main
+2025-07-01,law,luat-84-2025-qh15,luat-tin-nguong-ton-giao-02-2016-qh14 luat-do-luong-04-2011-qh13 luat-do-dac-va-ban-do-27-2018-qh14 luat-tai-nguyen-nuoc-2023-28-2023-qh15 luat-tan-so-vo-tuyen-dien-42-2009-qh12 luat-giao-duc-nghe-nghiep-74-2014-qh13 luat-the-duc-the-thao-77-2006-qh11,12,main
+2025-07-01,law,luat-85-2025-qh15,luat-to-tung-hanh-chinh-93-2015-qh13,44,main
+2025-07-01,law,luat-90-2025-qh15,luat-thue-xuat-khau-thue-nhap-khau-107-2016-qh13 luat-quan-ly-su-dung-tai-san-cong-15-2017-qh14 luat-dau-thau-22-2023-qh15 luat-hai-quan-so-54-2014-qh13-54-2014-qh13 luat-dau-tu-theo-phuong-thuc-doi-tac-cong-tu-64-2020-qh14,149,main
+2025-07-01,law,luat-98-2025-qh15,luat-sy-quan-quan-doi-nhan-dan-viet-nam-16-1999-qh10 luat-phong-thu-dan-su-18-2023-qh15 luat-giao-duc-quoc-phong-va-an-ninh-30-2013-qh13 luat-dan-quan-tu-ve-48-2019-qh14 luat-luc-luong-du-bi-dong-vien-53-2019-qh14 luat-bien-phong-viet-nam-66-2020-qh14 luat-quan-nhan-chuyen-nghiep-cong-nhan-va-vien-chuc-quoc-phong-98-2015-qh13,72,main
+2025-07-01,law,luat-54-2024-qh15,luat-bao-ve-moi-truong-72-2020-qh14,3,main
+2025-07-01,law,luat-55-2024-qh15,luat-phong-chong-thien-tai-33-2013-qh13,1,main
+2025-07-01,law,luat-81-2025-qh15,luat-hang-khong-dan-dung-viet-nam-66-2006-qh11,1,main
+2025-07-01,law,luat-84-2025-qh15,luat-to-cao-25-2018-qh14 luat-nha-o-27-2023-qh15 luat-bao-hiem-xa-hoi-41-2024-qh15 luat-di-san-van-hoa-45-2024-qh15,9,main
+2025-07-01,law,luat-86-2025-qh15,luat-cong-an-nhan-dan-37-2018-qh14,7,main
+2025-07-01,law,luat-97-2025-qh15,luat-thuc-hien-dan-chu-o-co-so-10-2022-qh15,30,main
+2025-07-01,law,luat-98-2025-qh15,luat-quoc-phong-22-2018-qh14 luat-phong-khong-nhan-dan-49-2024-qh15,15,main
+2025-07-01,law,luat-90-2025-qh15,luat-nha-o-27-2023-qh15,1,main
+2025-10-01,start,luat-67-2025-qh15,luat-thue-thu-nhap-doanh-nghiep-67-2025-qh15,23,main
+2025-10-01,law,luat-93-2025-qh15,luat-chuyen-giao-cong-nghe-07-2017-qh14 luat-bao-chi-103-2016-qh13 luat-nha-o-27-2023-qh15 luat-so-huu-tri-tue-50-2005-qh11,19,main
+2025-10-15,law,luat-96-2025-qh15,luat-cac-to-chuc-tin-dung-32-2024-qh15,9,main
+2026-01-01,start,luat-94-2025-qh15,luat-nang-luong-nguyen-tu-94-2025-qh15,76,main
+2026-01-01,law,luat-59-2024-qh15,luat-tre-em-102-2016-qh13 luat-cu-tru-68-2020-qh14,2,main
+2026-01-01,law,luat-70-2025-qh15,luat-tieu-chuan-va-quy-chuan-ky-thuat-68-2006-qh11,62,main
+2026-01-01,law,luat-71-2025-qh15,luat-cong-nghe-cao-21-2008-qh12,1,main
+2026-01-01,law,luat-73-2025-qh15,luat-bao-hiem-xa-hoi-41-2024-qh15,1,main
+2026-01-01,law,luat-75-2025-qh15,luat-quang-cao-16-2012-qh13 luat-thuong-mai-36-2005-qh11,28,main
+2026-01-01,law,luat-77-2025-qh15,luat-su-dung-nang-luong-tiet-kiem-va-hieu-qua-50-2010-qh12,20,main
+2026-01-01,law,luat-95-2025-qh15,luat-quy-hoach-21-2017-qh14,1,main
+2026-01-01,law,luat-137-2025-qh15,luat-dieu-uoc-quoc-te-108-2016-qh13,27,main
+2026-01-01,law,luat-138-2025-qh15,luat-thong-ke-89-2015-qh13,38,main
+2026-01-01,law,luat-139-2025-qh15,luat-kinh-doanh-bao-hiem-08-2022-qh15,29,main
+2026-01-01,law,luat-140-2025-qh15,luat-gia-16-2023-qh15,6,main
+2026-01-01,law,luat-146-2025-qh15,luat-lam-nghiep-16-2017-qh14 luat-thuy-san-18-2017-qh14 luat-do-dac-va-ban-do-27-2018-qh14 luat-tai-nguyen-nuoc-2023-28-2023-qh15 luat-trong-trot-31-2018-qh14 luat-chan-nuoi-32-2018-qh14 luat-phong-chong-thien-tai-33-2013-qh13 luat-bao-ve-va-kiem-dich-thuc-vat-41-2013-qh13 luat-bao-ve-moi-truong-72-2020-qh14 luat-tai-nguyen-moi-truong-bien-va-hai-dao-82-2015-qh13,474,main
+2026-01-01,law,luat-147-2025-qh15,luat-dia-chat-va-khoang-san-54-2024-qh15,53,main
+2026-01-01,law,luat-149-2025-qh15,luat-thue-gia-tri-gia-tang-48-2024-qh15,4,main
+2026-01-01,law,luat-150-2025-qh15,luat-to-chuc-toa-an-nhan-dan-so-34-2024-qh15-34-2024-qh15,1,main
+2026-03-01,start,luat-117-2025-qh15,luat-bao-ve-bi-mat-nha-nuoc-so-117-2025-qh15-117-2025-qh15,31,main
+2026-03-01,law,luat-112-2025-qh15,luat-duoc-105-2016-qh13 luat-xuat-ban-19-2012-qh13 luat-vien-thong-24-2023-qh15 luat-giao-duc-quoc-phong-va-an-ninh-30-2013-qh13 luat-nguoi-cao-tuoi-39-2009-qh12 luat-di-san-van-hoa-45-2024-qh15 luat-su-dung-nang-luong-tiet-kiem-va-hieu-qua-50-2010-qh12 luat-nguoi-khuyet-tat-51-2010-qh12 luat-nang-luong-nguyen-tu-94-2025-qh15 bo-luat-hang-hai-95-2015-qh13,35,main
+2026-03-01,law,luat-142-2025-qh15,luat-dau-gia-tai-san-01-2016-qh14 luat-dau-thau-22-2023-qh15 luat-nha-o-27-2023-qh15 luat-cac-to-chuc-tin-dung-32-2024-qh15 luat-to-chuc-toa-an-nhan-dan-so-34-2024-qh15-34-2024-qh15 luat-bao-hiem-xa-hoi-41-2024-qh15 luat-chung-khoan-54-2019-qh14 luat-dau-tu-theo-phuong-thuc-doi-tac-cong-tu-64-2020-qh14,13,main
+2026-03-01,law,luat-143-2025-qh15,luat-duoc-105-2016-qh13,1,main
+2026-04-01,law,luat-115-2025-qh15,luat-chuyen-giao-cong-nghe-07-2017-qh14,31,main
+2026-04-01,law,luat-131-2025-qh15,luat-so-huu-tri-tue-50-2005-qh11,86,main
+2026-04-24,law,luat-9-2026-qh16,luat-thue-gia-tri-gia-tang-48-2024-qh15,1,main
+2026-07-01,start,luat-113-2025-qh15,luat-dan-so-so-113-2025-qh15-113-2025-qh15,33,main
+2026-07-01,start,luat-108-2025-qh15,luat-quan-ly-thue-108-2025-qh15,55,main
+2026-07-01,law,luat-102-2025-qh15,luat-to-tung-hanh-chinh-93-2015-qh13,1,main
+2026-07-01,law,luat-103-2025-qh15,luat-nhap-canh-xuat-canh-qua-canh-cu-tru-cua-nguoi-nuoc-ngoai-tai-viet-nam-47-2014-qh13 luat-to-chuc-vien-kiem-sat-nhan-dan-63-2014-qh13,2,main
+2026-07-01,law,luat-106-2025-qh15,luat-to-chuc-toa-an-nhan-dan-so-34-2024-qh15-34-2024-qh15 luat-cong-chung-46-2024-qh15,5,main
+2026-07-01,law,luat-107-2025-qh15,luat-ly-lich-tu-phap-28-2009-qh12,42,main
+2026-07-01,law,luat-108-2025-qh15,luat-ke-toan-88-2015-qh13,1,main
+2026-07-01,law,luat-113-2025-qh15,luat-nha-o-27-2023-qh15 luat-bao-hiem-xa-hoi-41-2024-qh15,5,main
+2026-07-01,law,luat-114-2025-qh15,luat-phong-chong-tac-hai-cua-thuoc-la-09-2012-qh13 luat-duoc-105-2016-qh13 luat-bao-hiem-y-te-25-2008-qh12,13,main
+2026-07-01,law,luat-116-2025-qh15,luat-phong-thu-dan-su-18-2023-qh15 luat-giao-dich-dien-tu-20-2023-qh15 luat-dau-thau-22-2023-qh15 luat-vien-thong-24-2023-qh15 luat-cong-an-nhan-dan-37-2018-qh14 luat-di-san-van-hoa-45-2024-qh15 luat-bau-cu-dai-bieu-quoc-hoi-va-dai-bieu-hoi-dong-nhan-dan-85-2015-qh13 luat-nang-luong-nguyen-tu-94-2025-qh15,22,main
+2026-07-01,law,luat-118-2025-qh15,luat-canh-ve-13-2017-qh14 luat-luc-luong-tham-gia-bao-ve-an-ninh-trat-tu-o-co-so-30-2023-qh15 luat-duong-bo-35-2024-qh15 luat-cu-tru-68-2020-qh14,50,main
+2026-07-01,law,luat-132-2025-qh15,luat-phong-chong-tham-nhung-36-2018-qh14,26,main
+2026-07-01,law,luat-133-2025-qh15,luat-thue-xuat-khau-thue-nhap-khau-107-2016-qh13 luat-hai-quan-so-54-2014-qh13-54-2014-qh13 luat-dau-tu-theo-phuong-thuc-doi-tac-cong-tu-64-2020-qh14,6,main
+2026-07-01,law,luat-136-2025-qh15,luat-khieu-nai-02-2011-qh13 luat-to-cao-25-2018-qh14,30,main
+2026-07-01,law,luat-143-2025-qh15,luat-thue-thu-nhap-doanh-nghiep-67-2025-qh15,1,main
+2026-07-01,law,luat-146-2025-qh15,luat-tai-nguyen-nuoc-2023-28-2023-qh15,1,main
+2026-07-01,law,luat-116-2025-qh15,luat-to-chuc-toa-an-nhan-dan-so-34-2024-qh15-34-2024-qh15,1,main
+2026-07-01,law,luat-118-2025-qh15,luat-nhap-canh-xuat-canh-qua-canh-cu-tru-cua-nguoi-nuoc-ngoai-tai-viet-nam-47-2014-qh13,20,main
+2026-07-01,law,luat-133-2025-qh15,luat-dau-thau-22-2023-qh15,2,main
+2026-07-01,law,luat-135-2025-qh15,luat-nang-luong-nguyen-tu-94-2025-qh15,1,main
+2026-07-01,law,luat-145-2025-qh15,luat-phong-thu-dan-su-18-2023-qh15,2,main
+2026-07-01,law,luat-9-2026-qh16,luat-thue-thu-nhap-doanh-nghiep-67-2025-qh15,1,main
+2026-07-01,law,luat-133-2025-qh15,luat-thue-thu-nhap-doanh-nghiep-67-2025-qh15,3,main
+2026-09-01,law,luat-14-2026-qh16,luat-sy-quan-quan-doi-nhan-dan-viet-nam-16-1999-qh10 luat-phong-thu-dan-su-18-2023-qh15 luat-quoc-phong-22-2018-qh14 luat-dan-quan-tu-ve-48-2019-qh14 luat-phong-khong-nhan-dan-49-2024-qh15 luat-luc-luong-du-bi-dong-vien-53-2019-qh14 luat-bien-phong-viet-nam-66-2020-qh14 luat-quan-nhan-chuyen-nghiep-cong-nhan-va-vien-chuc-quoc-phong-98-2015-qh13,41,main
+2026-10-01,law,luat-6-2026-qh16,luat-thi-dua-khen-thuong-06-2022-qh15,50,main
