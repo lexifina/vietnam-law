@@ -23,7 +23,7 @@ def read(paths):
     cur = None
     ended = False
     for pi, path in enumerate(paths):
-        paras, fn = doc97.read(path)
+        paras, fn = doc97.read_any(path)
         paras = [unicodedata.normalize('NFC', x).replace('Ð', 'Đ') for x in paras]
         fn = [unicodedata.normalize('NFC', x).replace('Ð', 'Đ') for x in fn]
         refs = sum(p.count('\x02') for p in paras)

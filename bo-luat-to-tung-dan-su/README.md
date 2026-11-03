@@ -1,6 +1,6 @@
 # Bộ luật Tố tụng dân sự (Luật số 92/2015/QH13)
 
-BLTTDS · 8 versions, from 2016-07-01 (latest in force: 2025-07-01) · <https://vbpl.vn/van-ban/chi-tiet/bo-luat-to-tung-dan-su-so-92-2015-qh13--96115>
+BLTTDS · 9 versions, from 2016-07-01 (latest in force: 2026-03-01) · <https://vbpl.vn/van-ban/chi-tiet/bo-luat-to-tung-dan-su-so-92-2015-qh13--96115>
 
 | Provision | File | Changes | Last changed |
 | --- | --- | ---: | --- |
@@ -217,7 +217,7 @@ BLTTDS · 8 versions, from 2016-07-01 (latest in force: 2025-07-01) · <https://
 | Điều 211 | [art-211.md](art-211.md) | 0 |  |
 | Điều 212 | [art-212.md](art-212.md) | 0 |  |
 | Điều 213 | [art-213.md](art-213.md) | 0 |  |
-| Điều 214 | [art-214.md](art-214.md) | 0 |  |
+| Điều 214 | [art-214.md](art-214.md) | 1 | 2026-03-01 |
 | Điều 215 | [art-215.md](art-215.md) | 0 |  |
 | Điều 216 | [art-216.md](art-216.md) | 0 |  |
 | Điều 217 | [art-217.md](art-217.md) | 0 |  |

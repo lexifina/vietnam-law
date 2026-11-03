@@ -1,6 +1,6 @@
 # Bộ luật Tố tụng hình sự (Luật số 101/2015/QH13)
 
-BLTTHS · 5 versions, from 2018-01-01 (latest in force: 2026-01-01) · <https://vbpl.vn/van-ban/chi-tiet/bo-luat-to-tung-hinh-su-so-101-2015-qh13--96172>
+BLTTHS · 9 versions, from 2018-01-01 (latest in force: 2026-07-01) · <https://vbpl.vn/van-ban/chi-tiet/bo-luat-to-tung-hinh-su-so-101-2015-qh13--96172>
 
 | Provision | File | Changes | Last changed |
 | --- | --- | ---: | --- |
@@ -93,7 +93,7 @@ BLTTHS · 5 versions, from 2018-01-01 (latest in force: 2026-01-01) · <https://
 | Điều 87 | [art-087.md](art-087.md) | 0 |  |
 | Điều 88 | [art-088.md](art-088.md) | 0 |  |
 | Điều 89 | [art-089.md](art-089.md) | 0 |  |
-| Điều 90 | [art-090.md](art-090.md) | 1 | 2025-07-01 |
+| Điều 90 | [art-090.md](art-090.md) | 2 | 2026-07-01 |
 | Điều 91 | [art-091.md](art-091.md) | 0 |  |
 | Điều 92 | [art-092.md](art-092.md) | 0 |  |
 | Điều 93 | [art-093.md](art-093.md) | 0 |  |
@@ -126,7 +126,7 @@ BLTTHS · 5 versions, from 2018-01-01 (latest in force: 2026-01-01) · <https://
 | Điều 120 | [art-120.md](art-120.md) | 1 | 2025-07-01 |
 | Điều 121 | [art-121.md](art-121.md) | 1 | 2025-07-01 |
 | Điều 122 | [art-122.md](art-122.md) | 1 | 2025-07-01 |
-| Điều 123 | [art-123.md](art-123.md) | 1 | 2025-07-01 |
+| Điều 123 | [art-123.md](art-123.md) | 2 | 2026-07-01 |
 | Điều 124 | [art-124.md](art-124.md) | 1 | 2025-07-01 |
 | Điều 125 | [art-125.md](art-125.md) | 0 |  |
 | Điều 126 | [art-126.md](art-126.md) | 0 |  |
@@ -139,7 +139,7 @@ BLTTHS · 5 versions, from 2018-01-01 (latest in force: 2026-01-01) · <https://
 | Điều 133 | [art-133.md](art-133.md) | 0 |  |
 | Điều 134 | [art-134.md](art-134.md) | 1 | 2025-07-01 |
 | Điều 135 | [art-135.md](art-135.md) | 1 | 2025-07-01 |
-| Điều 136 | [art-136.md](art-136.md) | 0 |  |
+| Điều 136 | [art-136.md](art-136.md) | 1 | 2026-05-01 |
 | Điều 137 | [art-137.md](art-137.md) | 1 | 2025-07-01 |
 | Điều 138 | [art-138.md](art-138.md) | 1 | 2025-07-01 |
 | Điều 139 | [art-139.md](art-139.md) | 0 |  |
@@ -151,7 +151,7 @@ BLTTHS · 5 versions, from 2018-01-01 (latest in force: 2026-01-01) · <https://
 | Điều 145 | [art-145.md](art-145.md) | 0 |  |
 | Điều 146 | [art-146.md](art-146.md) | 2 | 2025-07-01 |
 | Điều 147 | [art-147.md](art-147.md) | 1 | 2025-07-01 |
-| Điều 148 | [art-148.md](art-148.md) | 2 | 2025-07-01 |
+| Điều 148 | [art-148.md](art-148.md) | 3 | 2026-07-01 |
 | Điều 149 | [art-149.md](art-149.md) | 1 | 2025-07-01 |
 | Điều 150 | [art-150.md](art-150.md) | 1 | 2025-07-01 |
 | Điều 151 | [art-151.md](art-151.md) | 0 |  |
@@ -188,7 +188,7 @@ BLTTHS · 5 versions, from 2018-01-01 (latest in force: 2026-01-01) · <https://
 | Điều 182 | [art-182.md](art-182.md) | 1 | 2025-07-01 |
 | Điều 183 | [art-183.md](art-183.md) | 0 |  |
 | Điều 184 | [art-184.md](art-184.md) | 0 |  |
-| Điều 185 | [art-185.md](art-185.md) | 1 | 2025-07-01 |
+| Điều 185 | [art-185.md](art-185.md) | 2 | 2026-07-01 |
 | Điều 186 | [art-186.md](art-186.md) | 0 |  |
 | Điều 187 | [art-187.md](art-187.md) | 0 |  |
 | Điều 188 | [art-188.md](art-188.md) | 0 |  |
@@ -232,7 +232,7 @@ BLTTHS · 5 versions, from 2018-01-01 (latest in force: 2026-01-01) · <https://
 | Điều 226 | [art-226.md](art-226.md) | 0 |  |
 | Điều 227 | [art-227.md](art-227.md) | 0 |  |
 | Điều 228 | [art-228.md](art-228.md) | 0 |  |
-| Điều 229 | [art-229.md](art-229.md) | 2 | 2025-07-01 |
+| Điều 229 | [art-229.md](art-229.md) | 3 | 2026-07-01 |
 | Điều 230 | [art-230.md](art-230.md) | 0 |  |
 | Điều 231 | [art-231.md](art-231.md) | 1 | 2025-07-01 |
 | Điều 232 | [art-232.md](art-232.md) | 1 | 2025-07-01 |
@@ -250,7 +250,7 @@ BLTTHS · 5 versions, from 2018-01-01 (latest in force: 2026-01-01) · <https://
 | Điều 244 | [art-244.md](art-244.md) | 0 |  |
 | Điều 245 | [art-245.md](art-245.md) | 0 |  |
 | Điều 246 | [art-246.md](art-246.md) | 0 |  |
-| Điều 247 | [art-247.md](art-247.md) | 1 | 2021-12-01 |
+| Điều 247 | [art-247.md](art-247.md) | 2 | 2026-07-01 |
 | Điều 248 | [art-248.md](art-248.md) | 0 |  |
 | Điều 249 | [art-249.md](art-249.md) | 0 |  |
 | Điều 250 | [art-250.md](art-250.md) | 0 |  |
@@ -428,7 +428,7 @@ BLTTHS · 5 versions, from 2018-01-01 (latest in force: 2026-01-01) · <https://
 | Điều 440 | [art-440.md](art-440.md) | 1 | 2025-07-01 |
 | Điều 441 | [art-441.md](art-441.md) | 0 |  |
 | Điều 442 | [art-442.md](art-442.md) | 0 |  |
-| Điều 443 | [art-443.md](art-443.md) | 0 |  |
+| Điều 443 | [art-443.md](art-443.md) | 1 | 2026-07-01 |
 | Điều 444 | [art-444.md](art-444.md) | 0 |  |
 | Điều 445 | [art-445.md](art-445.md) | 0 |  |
 | Điều 446 | [art-446.md](art-446.md) | 0 |  |
@@ -481,7 +481,7 @@ BLTTHS · 5 versions, from 2018-01-01 (latest in force: 2026-01-01) · <https://
 | Điều 493 | [art-493.md](art-493.md) | 0 |  |
 | Điều 494 | [art-494.md](art-494.md) | 0 |  |
 | Điều 495 | [art-495.md](art-495.md) | 0 |  |
-| Điều 496 | [art-496.md](art-496.md) | 0 |  |
+| Điều 496 | [art-496.md](art-496.md) | 1 | 2026-07-01 |
 | Điều 497 | [art-497.md](art-497.md) | 0 |  |
 | Điều 498 | [art-498.md](art-498.md) | 0 |  |
 | Điều 499 | [art-499.md](art-499.md) | 0 |  |

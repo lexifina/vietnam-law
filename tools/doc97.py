@@ -79,3 +79,45 @@ if __name__ == '__main__':
     for x in p[:40]:
         print(repr(x[:150]))
     print(n[:3])
+
+
+# ---------------------------------------------------------------- .docx (Office Open XML), same result shape
+
+W = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
+
+
+def _docx_paras(root, refs=None):
+    out = []
+    for p in root.iter(W + 'p'):
+        buf = []
+        for el in p.iter():
+            if el.tag == W + 't' and el.text:
+                buf.append(el.text)
+            elif el.tag in (W + 'tab',):
+                buf.append(' ')
+            elif el.tag in (W + 'br', W + 'cr'):
+                buf.append(' ')
+            elif el.tag == W + 'footnoteReference' and refs is not None:
+                refs.append(el.get(W + 'id'))
+                buf.append('\x02')
+        out.append(''.join(buf))
+    return out
+
+
+def read_docx(path):
+    import zipfile
+    import xml.etree.ElementTree as ET
+    z = zipfile.ZipFile(path)
+    refs = []
+    paras = _docx_paras(ET.fromstring(z.read('word/document.xml')), refs)
+    notes_by_id = {}
+    if 'word/footnotes.xml' in z.namelist():
+        for fn in ET.fromstring(z.read('word/footnotes.xml')).iter(W + 'footnote'):
+            notes_by_id[fn.get(W + 'id')] = ' '.join(x for x in _docx_paras(fn) if x).strip()
+    return paras, [notes_by_id.get(i, '') for i in refs]
+
+
+def read_any(path):
+    with open(path, 'rb') as f:
+        head = f.read(4)
+    return read_docx(path) if head[:2] == b'PK' else read(path)

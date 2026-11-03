@@ -17,25 +17,25 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 | --- | --- | ---: | --- |
 | `hien-phap` | Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam (2013) | 2 | 2014-01-01 to 2025-06-16 |
 | `bo-luat-hinh-su` | Bộ luật Hình sự (Luật số 100/2015/QH13) | 4 | 2018-01-01 to 2026-01-01 |
-| `bo-luat-to-tung-dan-su` | Bộ luật Tố tụng dân sự (Luật số 92/2015/QH13) | 8 | 2016-07-01 to 2025-07-01 |
-| `bo-luat-to-tung-hinh-su` | Bộ luật Tố tụng hình sự (Luật số 101/2015/QH13) | 5 | 2018-01-01 to 2026-01-01 |
+| `bo-luat-to-tung-dan-su` | Bộ luật Tố tụng dân sự (Luật số 92/2015/QH13) | 9 | 2016-07-01 to 2026-03-01 |
+| `bo-luat-to-tung-hinh-su` | Bộ luật Tố tụng hình sự (Luật số 101/2015/QH13) | 9 | 2018-01-01 to 2026-07-01 |
 | `luat-doanh-nghiep` | Luật Doanh nghiệp (Luật số 59/2020/QH14) | 3 | 2021-01-01 to 2025-07-01 |
 | `bo-luat-lao-dong` | Bộ luật Lao động (Luật số 45/2019/QH14) | 2 | 2021-01-01 to 2026-01-01 |
 | `bo-luat-dan-su` | Bộ luật Dân sự (Luật số 91/2015/QH13) | 1 | 2017-01-01 to 2017-01-01 |
 
-The build made 25 commits:
+The build made 30 commits:
 
 | Commits | Kind |
 | ---: | --- |
 | 7 | first version of an act |
-| 18 | one law on its in-force day |
+| 23 | one law on its in-force day |
 | 0 | changes no amendment note explains, credited to the publisher |
 
 Other counts:
 - 0 commits on the branch `tuong-lai`: laws not yet in force on 2026-11-03.
 - 0 commits dated 1 January 1970: in force before 1970, with the real day in their `In-force` trailer.
-- 21 laws in the record.
-- 43 tags.
+- 26 laws in the record.
+- 51 tags.
 
 ## Dates
 
@@ -47,7 +47,7 @@ When a law gives no date of its own, the default rule applies: Luật Ban hành 
 
 `tools/build.py` turns the corpus into this history in one pass: one commit per law, on the day it took effect. The same corpus always gives the same commit hashes. `tools/check_repo.py` reads every version back from git and compares it with the corpus. `tools/on.py` shows the law as it stood on any date. The corpus format is described in `tools/SCHEMA.md`.
 
-- Corpus: sha256 `9ac7a69414a8ac471ed340bdc34ec41411203c6b760c6dd91196c8e3938ef600` (4896780 bytes).
+- Corpus: sha256 `12ccb15af51edd7937334bb1da6d862893510997343a951c7997fee37a6263ff` (4925399 bytes).
 - Builder blob hashes (`git hash-object`): `build.py` `a4faa25af85facb64b956b372f6b528aafdd7ec1`, `check.py` `3d00541d258745461ab52b1b0cb4e1716a27a95d`, `on.py` `644a6c0857fbcc72562032b58d57aa113fee0641`.
 - Python 3.12.10; git version 2.46.0.windows.1.
 
