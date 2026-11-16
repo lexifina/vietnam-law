@@ -89,7 +89,13 @@ Văn bản này là bản dịch của bản tiếng Anh ([README.en.md](README.
 
 ## Trực quan hóa
 
-- [visualisations/](visualisations/): biểu đồ vẽ từ kho này. Chưa vẽ.
+[visualisations/](visualisations/): Pháp luật Việt Nam qua 20 biểu đồ, vẽ từ kho lưu trữ này.
+
+Bao gồm:
+
+- Số luật mỗi kỳ họp Quốc hội thông qua và thời điểm luật có hiệu lực
+- Cách luật được sửa, những luật sửa nhiều luật cùng lúc và ai đã viết văn bản hiện hành
+- Hiến pháp, Bộ luật Hình sự và hình phạt tử hình, và việc sắp xếp lại bộ máy nhà nước năm 2025
 
 ## Thông tin thêm
 

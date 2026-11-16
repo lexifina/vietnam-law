@@ -87,7 +87,13 @@ No AI model wrote, translated or corrected legal text, and none runs at build ti
 
 ## Visualisations
 
-- [visualisations/](visualisations/README.en.md): charts drawn from this repository. Not drawn yet.
+[visualisations/](visualisations/): Vietnamese law in 20 charts, drawn from this repository.
+
+Including:
+
+- How many laws each session of the National Assembly adopts, and when they take effect
+- How laws are amended, laws that amend many others at once, and who wrote the text in force
+- The Constitution, the Penal Code and the death penalty, and the reorganisation of the state in 2025
 
 ## More
 

@@ -1,0 +1,1384 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pháp luật Việt Nam qua 20 biểu đồ</title>
+<meta name="description" content="Hai mươi biểu đồ về pháp luật Việt Nam từ kho lưu trữ vietnam-law / Twenty charts on Vietnamese law from the vietnam-law repository">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&family=Noto+Serif:wght@500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<style>
+:root {
+  color-scheme: light;
+  --bg: #f7f6f3; --surface: #fcfcfb; --surface-2: #f1f0ec; --line: #e4e2dc; --grid: #ebe9e4;
+  --text: #0b0b0b; --text-2: #52514e; --text-3: #7a7974; --accent: #2a78d6;
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4; --s6: #008300; --s7: #6250d6; --s8: #e34948;
+  --muted-mark: #b9b7b0;
+  --seq-lo: #eef4fc; --seq-hi: #0d366b;
+  --sans: "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --serif: "Noto Serif", Georgia, serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #131312; --surface: #1a1a19; --surface-2: #222220; --line: #33322f; --grid: #2a2a28;
+    --text: #f0efec; --text-2: #c3c2b7; --text-3: #8f8e86; --accent: #3987e5;
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #0ca30c; --s7: #9085e9; --s8: #e66767;
+    --muted-mark: #55544f;
+    --seq-lo: #1f2a38; --seq-hi: #9ec5f4;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #131312; --surface: #1a1a19; --surface-2: #222220; --line: #33322f; --grid: #2a2a28;
+  --text: #f0efec; --text-2: #c3c2b7; --text-3: #8f8e86; --accent: #3987e5;
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #0ca30c; --s7: #9085e9; --s8: #e66767;
+  --muted-mark: #55544f;
+  --seq-lo: #1f2a38; --seq-hi: #9ec5f4;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.6 var(--sans); }
+a { color: var(--accent); }
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+header.top { padding: 28px 0 8px; }
+.bar { display: flex; justify-content: flex-end; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 18px; }
+.toggles { display: inline-flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 2px; background: var(--surface); }
+.seg button { border: 0; background: transparent; color: var(--text-2); font: 500 13px/1 var(--sans); padding: 7px 12px; border-radius: 999px; cursor: pointer; min-height: 30px; }
+.seg button[aria-pressed="true"] { background: var(--text); color: var(--surface); }
+.seg button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+h1 { font: 600 clamp(28px, 5vw, 44px)/1.25 var(--serif); margin: 0 0 14px; letter-spacing: -.01em; }
+.lede { font-size: 17px; color: var(--text-2); max-width: 780px; margin: 0 0 8px; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin: 26px 0 10px; }
+.tile { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px 14px 12px; }
+.tile b { display: block; font: 600 24px/1.2 var(--sans); font-variant-numeric: tabular-nums; }
+.tile span { font-size: 12px; color: var(--text-2); line-height: 1.5; display: block; margin-top: 2px; }
+details.profile { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; margin: 10px 0 0; }
+details.profile > summary, details.tbl > summary { cursor: pointer; padding: 12px 14px; font-weight: 500; font-size: 14px; list-style: none; }
+details.profile > summary::-webkit-details-marker, details.tbl > summary::-webkit-details-marker { display: none; }
+details.profile > summary::before, details.tbl > summary::before { content: "▸"; display: inline-block; width: 1.1em; color: var(--text-3); transition: transform .15s; }
+details[open].profile > summary::before, details[open].tbl > summary::before { transform: rotate(90deg); }
+.scroll { overflow-x: auto; padding: 0 14px 14px; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-weight: 600; color: var(--text-2); font-size: 12px; }
+td.n, th.n { text-align: right; white-space: nowrap; }
+code { font: 12px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace; background: var(--surface-2); padding: 1px 5px; border-radius: 5px; word-break: break-all; }
+nav.toc { margin: 30px 0 10px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 6px 22px; font-size: 13px; }
+nav.toc a { color: var(--text-2); text-decoration: none; display: block; padding: 3px 0; line-height: 1.5; }
+nav.toc a:hover { color: var(--text); text-decoration: underline; }
+nav.toc .p { font-weight: 600; color: var(--text); margin-top: 6px; }
+section.part { padding-top: 34px; }
+section.part > h2 { font: 600 26px/1.35 var(--serif); margin: 0 0 6px; }
+section.part > p.pd { color: var(--text-2); margin: 0 0 6px; max-width: 780px; }
+figure.chart { margin: 22px 0 0; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px 18px 6px; }
+figure.chart h3 { font: 600 19px/1.45 var(--serif); margin: 0 0 6px; }
+figure.chart h3 .no { color: var(--text-3); font-weight: 500; margin-right: .35em; }
+.dek { color: var(--text-2); margin: 0 0 12px; max-width: 840px; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 12px; color: var(--text-2); margin: 0 0 8px; line-height: 1.5; }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+.legend i.dot { border-radius: 50%; }
+.legend i.ring { background: transparent !important; border: 2px solid var(--text-3); border-radius: 50%; }
+.legend i.line { height: 2px; width: 14px; border-radius: 1px; vertical-align: 3px; }
+.legend i.dash { height: 0; width: 14px; border-radius: 0; border-top: 2px dashed; background: transparent !important; vertical-align: 3px; }
+.legend i.hatch { background-image: repeating-linear-gradient(135deg, var(--muted-mark) 0 2px, transparent 2px 5px) !important; background-color: var(--surface-2) !important; }
+.legend i.outline { background: transparent !important; border: 1.5px dashed var(--text-3); border-radius: 3px; }
+.legend i.square { background: transparent !important; border: 2px solid var(--text); border-radius: 2px; }
+.plot { width: 100%; position: relative; }
+.plot svg { display: block; width: 100%; height: auto; overflow: visible; }
+.axis text, .lbl { fill: var(--text-2); font: 11px var(--sans); font-variant-numeric: tabular-nums; }
+.lbl.strong { fill: var(--text); font-weight: 500; }
+.lbl.mut { fill: var(--text-3); }
+.lbl.big { font-size: 13px; font-weight: 600; fill: var(--text); }
+.axis path { display: none; }
+.axis line, .grid line { stroke: var(--grid); }
+.base { stroke: var(--text-3); stroke-width: 1; }
+.note { font-size: 12px; color: var(--text-3); margin: 10px 0 4px; line-height: 1.6; }
+.note b { color: var(--text-2); font-weight: 500; }
+details.tbl { border-top: 1px solid var(--line); margin: 10px -18px 0; }
+details.tbl > summary { font-size: 12px; color: var(--text-2); padding: 10px 18px; }
+details.tbl .scroll { max-height: 360px; overflow: auto; padding: 0 18px 12px; }
+.tip { position: fixed; pointer-events: none; z-index: 10; background: var(--surface); color: var(--text); border: 1px solid var(--line); border-radius: 10px; padding: 8px 10px; font-size: 12px; line-height: 1.5; box-shadow: 0 6px 24px rgba(0,0,0,.12); max-width: 340px; opacity: 0; transition: opacity .08s; }
+.tip b { font-weight: 600; }
+.tip .r { display: flex; justify-content: space-between; gap: 14px; }
+.tip .r span:last-child { font-variant-numeric: tabular-nums; text-align: right; }
+.tip .sw { display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 6px; }
+.tip .q { margin-top: 4px; color: var(--text-2); }
+.hit { fill: transparent; cursor: default; }
+.mini { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+.mini h4 { margin: 0 0 2px; font: 600 13px/1.4 var(--sans); }
+.mini p { margin: 0 0 6px; font-size: 12px; color: var(--text-2); }
+.multi { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px 18px; }
+.multi h4 { margin: 0; font: 600 13px/1.4 var(--sans); overflow-wrap: anywhere; }
+.multi p { margin: 0 0 2px; font-size: 12px; color: var(--text-2); }
+.ptiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; margin: 4px 0 14px; }
+.ptile { background: var(--surface-2); border-radius: 10px; padding: 10px 12px; }
+.ptile .pn { font: 500 12px/1.4 var(--sans); color: var(--text-2); overflow-wrap: anywhere; }
+.ptile .pv { font-size: 12px; color: var(--text-2); margin: 2px 0; }
+.ptile .pv b { font: 600 22px/1.2 var(--sans); color: var(--text); font-variant-numeric: tabular-nums; margin-right: 2px; }
+.ptile .ps { font-size: 12px; color: var(--text-3); line-height: 1.5; }
+.ptile .pbar { display: flex; gap: 2px; height: 6px; margin-top: 8px; border-radius: 3px; overflow: hidden; }
+.ptile .pbar i { display: block; }
+.sub { margin: 18px 0 4px; font: 600 13px/1.4 var(--sans); }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 10px; margin: 4px 0 10px; }
+.card { background: var(--surface-2); border-radius: 12px; padding: 12px 14px 10px; min-width: 0; }
+.card .cn { font: 600 13px/1.4 var(--sans); color: var(--text); }
+.card .cs { font-size: 12px; color: var(--text-3); line-height: 1.5; }
+.card .cv { font-size: 12px; color: var(--text-2); margin: 4px 0 2px; }
+.card .cv b { font: 600 24px/1.2 var(--sans); color: var(--text); margin-right: 3px; font-variant-numeric: tabular-nums; }
+.card .cbar { display: flex; height: 6px; margin: 8px 0 4px; border-radius: 3px; overflow: hidden; background: var(--line); }
+.card .cbar i { display: block; height: 100%; }
+.crimes { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 8px; margin: 6px 0 4px; }
+.crime { border-radius: 10px; padding: 9px 11px 9px 13px; position: relative; background: var(--surface-2); min-width: 0; }
+.crime::before { content: ""; position: absolute; left: 0; top: 8px; bottom: 8px; width: 4px; border-radius: 0 3px 3px 0; background: var(--cc); }
+.crime .ca { font-size: 11px; color: var(--text-3); font-variant-numeric: tabular-nums; }
+.crime .ct { font: 500 13px/1.4 var(--sans); color: var(--text); margin: 1px 0 3px; }
+.crime.gone .ct { color: var(--text-2); }
+.crime .cx { font-size: 11px; color: var(--text-3); line-height: 1.45; }
+.crime .chip { display: inline-block; font-size: 11px; line-height: 1.6; padding: 0 8px; border-radius: 999px; margin-right: 6px; }
+.crime .chip.strike { text-decoration: line-through; color: var(--text-3); background: var(--line); }
+.crime.kept { background: color-mix(in srgb, var(--s8) 9%, var(--surface-2)); }
+.grp { font: 600 12px/1.4 var(--sans); color: var(--text-2); margin: 12px 0 2px; }
+footer { color: var(--text-3); font-size: 12px; padding: 40px 0 60px; line-height: 1.6; }
+@media (max-width: 560px) {
+  figure.chart { padding: 14px 12px 4px; border-radius: 12px; }
+  details.tbl { margin: 10px -12px 0; }
+  details.tbl > summary { padding: 10px 12px; }
+  details.tbl .scroll { padding: 0 12px 12px; }
+  .lede { font-size: 15px; }
+  .multi { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 10px; }
+  .ptiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .card { padding: 10px 11px 8px; }
+  .card .cv b { font-size: 20px; }
+  .crimes { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
+  .crime { padding: 8px 8px 8px 11px; }
+  .crime .ct { font-size: 12px; }
+  .crime .cx span:not(.chip) { display: block; margin-top: 2px; }
+  .ptiles.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .ptiles.three .pv b { font-size: 19px; }
+}
+@media (forced-colors: active) { .seg button[aria-pressed="true"] { outline: 2px solid CanvasText; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <div class="bar">
+    <span class="toggles">
+      <span class="seg" role="group" aria-label="Ngôn ngữ / Language"><button data-lang="vi">VI</button><button data-lang="en">EN</button></span>
+      <span class="seg" role="group" aria-label="Giao diện / Theme"><button data-theme-set="auto">Auto</button><button data-theme-set="light">☀</button><button data-theme-set="dark">☾</button></span>
+    </span>
+  </div>
+  <h1 data-i="title"></h1>
+  <p class="lede" data-i="lede"></p>
+  <p class="note" id="gl-link"></p>
+  <div class="tiles" id="tiles"></div>
+  <details class="profile"><summary data-i="profile_h"></summary><div class="scroll" id="profile"></div></details>
+  <nav class="toc" id="toc"></nav>
+</header>
+<main id="main"></main>
+<footer id="foot"></footer>
+</div>
+<div class="tip" id="tip" role="status" aria-live="polite"></div>
+<script>
+const DATA = /*DATA*/null;
+</script>
+<script>
+"use strict";
+const D = DATA.charts, PF = DATA.profile, ACTS = DATA.acts, LAWS = DATA.laws;
+const LANGS = ['vi', 'en'];
+let LANG = 'vi';
+try { const q = new URLSearchParams(location.search).get('lang'); if (LANGS.includes(q)) LANG = q; else { const s = localStorage.getItem('vn-viz-lang'); if (LANGS.includes(s)) LANG = s; } } catch (e) {}
+let THEME = 'auto';
+try { const tt = localStorage.getItem('vn-viz-theme'); if (tt === 'light' || tt === 'dark') THEME = tt; } catch (e) {}
+
+// ------------------------------------------------------------------ strings
+const GL = '<a href="https://github.com/lexifina/global-law/tree/main/visualisations">global-law visualisations/</a>';
+const S = {
+vi: {
+  title: 'Pháp luật Việt Nam qua 20 biểu đồ',
+  lede: 'Hai mươi biểu đồ vẽ hoàn toàn từ dữ liệu của kho lưu trữ này: {acts} văn bản của Quốc hội (Hiến pháp năm 2013, sáu bộ luật và {laws} luật), mỗi điều một tệp, cùng mọi lần sửa đổi, bổ sung đã có hiệu lực đến ngày 1 tháng 10 năm 2026, và danh sách {named} luật mà hồ sơ nêu tên.',
+  profile_h: 'Hồ sơ dữ liệu: những gì đã dùng và mức độ đầy đủ',
+  tbl: 'Bảng dữ liệu', src: 'Nguồn trong kho lưu trữ', n: 'Bản ghi', cover: 'Phạm vi', caveat: 'Giới hạn',
+  ds: 'Dữ liệu', foot: 'Dựng từ kho lưu trữ lexifina/vietnam-law ({built}). Văn bản pháp luật lấy từ vbpl.vn (Cơ sở dữ liệu quốc gia về pháp luật) và Công báo (congbao.chinhphu.vn), dữ liệu đến ngày {record}. Các con số do visualisations/src/prep.py tính từ lịch sử git, văn bản của từng điều và các bảng trong data/; build.py dựng trang. Mọi biểu đồ chỉ mô tả hồ sơ ghi lại những gì, không giải thích vì sao.',
+  total: 'Tổng', share: 'Tỷ lệ', partial: 'chưa hết năm',
+  gl: 'Biểu đồ về pháp luật của mọi quốc gia, từ toàn bộ global-law: ' + GL + '. Trang này chỉ gồm các biểu đồ về Việt Nam.',
+},
+en: {
+  title: 'Vietnamese law in 20 charts',
+  lede: 'Twenty charts drawn only from the data in this repository: {acts} acts of the National Assembly (the Constitution of 2013, six codes and {laws} laws), one file per article, with every amendment in force up to 1 October 2026, and the list of the {named} laws the record names.',
+  profile_h: 'Data profile: what was used and how complete it is',
+  tbl: 'Data table', src: 'Source in the repository', n: 'Records', cover: 'Coverage', caveat: 'Limit',
+  ds: 'Dataset', foot: 'Built from the lexifina/vietnam-law repository ({built}). The legal text is from vbpl.vn (the national legal database) and the Official Gazette (congbao.chinhphu.vn), data as of {record}. The numbers are computed by visualisations/src/prep.py from the git history, the text of every article and the tables in data/; build.py assembles the page. All charts are descriptive: they show what the record holds, not why.',
+  total: 'Total', share: 'Share', partial: 'partial year',
+  gl: 'Charts on every country’s law, from the whole of global-law: ' + GL + '. These are the charts on Vietnam alone.',
+}};
+const t = k => S[LANG][k];
+const L = (vi, en) => LANG === 'vi' ? vi : en;
+const LA = a => Array.isArray(a) ? L(a[0], a[1]) : a;
+const grp = s => s.replace(/\B(?=(\d{3})+(?!\d))/g, LANG === 'vi' ? '.' : ',');
+const dec = (v, d = 1) => { const s = Math.abs(+v).toFixed(d); const [a, b] = s.split('.'); return (+v < 0 && +s !== 0 ? '−' : '') + grp(a) + (b ? (LANG === 'vi' ? ',' : '.') + b : ''); };
+const fmt = n => (n == null ? '–' : Number.isInteger(+n) ? (+n < 0 ? '−' : '') + grp(String(Math.abs(Math.round(+n)))) : dec(+n, 1));
+const pv = (v, d = 0) => dec(v, d) + '%';
+const pct = (a, b, d = 0) => b ? pv(100 * a / b, d) : '–';
+const MEN = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+const MON = { vi: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12'], en: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'] };
+const dateTxt = s => { const [y, m, d] = s.split('-').map(Number); return LANG === 'vi' ? `${d} tháng ${m} năm ${y}` : `${d} ${MEN[m - 1]} ${y}`; };
+const dateShort = s => { const [y, m, d] = s.split('-').map(Number); return LANG === 'vi' ? `${d}/${m}/${y}` : `${d} ${MON.en[m - 1]} ${y}`; };
+const monthTxt = s => { const [y, m] = s.split('-').map(Number); return LANG === 'vi' ? `tháng ${m}/${y}` : `${MEN[m - 1]} ${y}`; };
+const monShort = s => { const [y, m] = s.split('-').map(Number); return LANG === 'vi' ? `${m}/${y}` : `${MON.en[m - 1]} ${y}`; };
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const S8 = () => [1, 2, 3, 4, 5, 6, 7, 8].map(i => css('--s' + i));
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const sum = (a, f) => a.reduce((s, d) => s + (f ? f(d) : d), 0);
+const PD = s => d3.timeParse('%Y-%m-%d')(s);
+const DAYS = (a, b) => Math.round((PD(b) - PD(a)) / 864e5);
+const Cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+const yrs = d => d / 365.25;
+const NUMW = { vi: ['không', 'một', 'hai', 'ba', 'bốn', 'năm', 'sáu', 'bảy', 'tám', 'chín', 'mười'], en: ['no', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'] };
+const numW = n => n <= 10 ? NUMW[LANG][n] : fmt(n);
+const andL = a => a.length < 2 ? a.join('') : a.slice(0, -1).join(', ') + (LANG === 'vi' ? ' và ' : ' and ') + a[a.length - 1];
+const theL = a => LANG === 'en' ? a.map(s => 'the ' + s) : a;
+const yrTxt = d => LANG === 'vi' ? `${dec(yrs(d), 1)} năm` : `${dec(yrs(d), 1)} years`;
+
+// ------------------------------------------------------------------ names
+const ROM = { QH10: 'X', QH11: 'XI', QH12: 'XII', QH13: 'XIII', QH14: 'XIV', QH15: 'XV', QH16: 'XVI' };
+const ORD = { QH10: '10th', QH11: '11th', QH12: '12th', QH13: '13th', QH14: '14th', QH15: '15th', QH16: '16th' };
+const SPAN = () => D.c02.span;
+const termShort = q => L(`Khóa ${ROM[q]}`, ORD[q]);
+const termName = q => L(`khóa ${ROM[q]}`, `the ${ORD[q]} National Assembly`);
+const termYears = q => { const s = SPAN()[q]; return s ? (s[0] === s[1] ? s[0] : `${s[0]}–${s[1]}`) : ''; };
+const FN = { state: ['Tổ chức nhà nước', 'State organisation'], justice: ['Dân sự, hình sự và tư pháp', 'Civil, criminal and judicial'],
+  security: ['Quốc phòng và an ninh', 'Defence and security'], economy: ['Kinh tế, tài chính và đầu tư', 'Economy, finance and investment'],
+  tax: ['Thuế và hải quan', 'Tax and customs'], build: ['Xây dựng và giao thông', 'Construction and transport'],
+  env: ['Tài nguyên, môi trường và nông nghiệp', 'Resources, environment and agriculture'], social: ['Lao động, y tế, giáo dục và xã hội', 'Labour, health, education and welfare'],
+  culture: ['Văn hóa, báo chí và tôn giáo', 'Culture, press and religion'], tech: ['Khoa học và công nghệ', 'Science and technology'] };
+const FNS = { state: ['Nhà nước', 'State'], justice: ['Tư pháp', 'Justice'], security: ['Quốc phòng, an ninh', 'Defence, security'], economy: ['Kinh tế, tài chính', 'Economy, finance'],
+  tax: ['Thuế, hải quan', 'Tax, customs'], build: ['Xây dựng, giao thông', 'Building, transport'], env: ['Tài nguyên, môi trường', 'Environment'],
+  social: ['Xã hội, y tế, giáo dục', 'Welfare, health, education'], culture: ['Văn hóa, báo chí', 'Culture, press'], tech: ['Khoa học, công nghệ', 'Science, technology'] };
+const fieldName = (f, short) => LA((short ? FNS : FN)[f]);
+const FIELDS = DATA.fields;
+// an act: [vi, en, number, term, enacted, in force, field, kind, words, articles, versions, folder]
+const actName = i => L(ACTS[i][0], ACTS[i][1]);
+const actNum = i => ACTS[i][2] || '';
+const lawName = lab => LAWS[lab] ? L(LAWS[lab][3], LAWS[lab][4]) : lab;
+const lawFull = lab => { const n = lawName(lab); return n.includes(lab) ? n : `${n} · ${lab}`; };
+const REPL = new Map(PF.replaced.map(r => [r[0], r]));   // act -> [act, successor, day]
+
+// ------------------------------------------------------------------ tooltip
+const tip = document.getElementById('tip');
+function showTip(ev, html) { tip.innerHTML = html; tip.style.opacity = 1; moveTip(ev); }
+function moveTip(ev) {
+  const r = tip.getBoundingClientRect(), pad = 14;
+  let x = ev.clientX + pad, y = ev.clientY + pad;
+  if (x + r.width > innerWidth - 8) x = ev.clientX - r.width - pad;
+  if (y + r.height > innerHeight - 8) y = ev.clientY - r.height - pad;
+  tip.style.left = Math.max(8, x) + 'px'; tip.style.top = Math.max(8, y) + 'px';
+}
+function hideTip() { tip.style.opacity = 0; }
+function bindTip(sel, fn) {
+  sel.on('mouseenter', (ev, d) => showTip(ev, fn(d))).on('mousemove', moveTip).on('mouseleave', hideTip)
+     .on('touchstart', (ev, d) => { const tt = ev.touches[0]; showTip({ clientX: tt.clientX, clientY: tt.clientY }, fn(d)); }, { passive: true });
+}
+const trow = (sw, k, v) => `<div class="r"><span>${sw ? `<i class="sw" style="background:${sw}"></i>` : ''}${esc(k)}</span><span>${v}</span></div>`;
+
+// ------------------------------------------------------------------ chart scaffolding
+function legend(el, items) {
+  const lg = el.append('div').attr('class', 'legend');
+  items.forEach(it => { const s = lg.append('span'); s.append('i').attr('class', it.shape || '').style('background', it.c).style('border-color', it.c); s.append('span').text(it.l); });
+}
+function svgIn(el, w, h) { return el.append('div').attr('class', 'plot').append('svg').attr('viewBox', `0 0 ${w} ${h}`).attr('width', w).attr('height', h).attr('role', 'img'); }
+function table(el, head, rows) {
+  const d = el.append('details').attr('class', 'tbl');
+  d.append('summary').text(t('tbl'));
+  const tb = d.append('div').attr('class', 'scroll').append('table');
+  tb.append('thead').append('tr').selectAll('th').data(head).join('th').attr('class', (h, i) => i ? 'n' : null).text(h => h);
+  tb.append('tbody').selectAll('tr').data(rows).join('tr').selectAll('td').data(r => r).join('td').attr('class', (v, i) => i ? 'n' : null).text(v => typeof v === 'number' ? fmt(v) : v);
+  return d;
+}
+function subTable(el, heading, head, rows, numeric) {
+  const nd = el.select('details.tbl:last-of-type .scroll');
+  nd.append('h4').style('margin', '14px 0 6px').style('font', '600 13px/1.4 var(--sans)').text(heading);
+  const tb = nd.append('table');
+  tb.append('thead').append('tr').selectAll('th').data(head).join('th').attr('class', (h, i) => numeric && numeric[i] ? 'n' : null).text(x => x);
+  tb.append('tbody').selectAll('tr').data(rows).join('tr').selectAll('td').data(r => r).join('td').attr('class', (v, i) => numeric && numeric[i] ? 'n' : null).text(v => typeof v === 'number' ? fmt(v) : v);
+}
+const PH = { '<KIND>': ['<loại>', '<kind>'], '<YEAR>': ['<năm>', '<year>'], '<NUMBER>': ['<số>', '<number>'] };
+function note(el, src, n, extra) {
+  const p = el.append('p').attr('class', 'note');
+  const tr = s => Object.entries(PH).reduce((a, [x, y]) => a.split(x).join(LA(y)), s);
+  p.html(`<b>${t('src')}:</b> ${src.map(s => `<code>${esc(tr(s))}</code>`).join(' ')} · <b>${t('n')}:</b> ${n}${extra ? ' · ' + esc(extra) : ''}`);
+}
+function yAxis(g, y, w, ticks = 5, f = fmt) {
+  const ax = g.append('g').attr('class', 'axis grid');
+  y.ticks(ticks).forEach(v => {
+    ax.append('line').attr('x1', 0).attr('x2', w).attr('y1', y(v)).attr('y2', y(v));
+    ax.append('text').attr('x', -6).attr('y', y(v)).attr('dy', '0.32em').attr('text-anchor', 'end').text(f(v));
+  });
+}
+const W = el => Math.max(300, Math.min(1000, el.node().getBoundingClientRect().width || 900));
+const WR = el => Math.max(120, el.node().getBoundingClientRect().width || 300);
+const narrow = w => w < 560;
+function colPath(x, y0, w, y1, r = 4) {
+  const h = y0 - y1; if (h <= 0) return '';
+  r = Math.min(r, h, w / 2);
+  return `M${x},${y0}V${y1 + r}Q${x},${y1} ${x + r},${y1}H${x + w - r}Q${x + w},${y1} ${x + w},${y1 + r}V${y0}Z`;
+}
+function barPath(x0, y, x1, h, r = 4) {
+  const w = x1 - x0; if (w <= 0) return '';
+  r = Math.min(r, w, h / 2);
+  return `M${x0},${y}H${x1 - r}Q${x1},${y} ${x1},${y + r}V${y + h - r}Q${x1},${y + h} ${x1 - r},${y + h}H${x0}Z`;
+}
+let HATCH = 0;
+function hatch(svg) {
+  const id = 'hatch' + (++HATCH);
+  const p = svg.append('defs').append('pattern').attr('id', id).attr('patternUnits', 'userSpaceOnUse').attr('width', 6).attr('height', 6).attr('patternTransform', 'rotate(45)');
+  p.append('rect').attr('width', 6).attr('height', 6).attr('fill', css('--surface-2'));
+  p.append('line').attr('x1', 0).attr('y1', 0).attr('x2', 0).attr('y2', 6).attr('stroke', css('--muted-mark')).attr('stroke-width', 1.4);
+  return `url(#${id})`;
+}
+const inkOn = c => d3.hsl(c).l > 0.6 ? '#0b0b0b' : '#fff';
+// rows of 100% bands with rounded ends and the shares inside; the label column is sized to its labels
+function bands(el, rows, keys, colors, names, opt) {
+  const w = W(el), nw = narrow(w), lneed = textW(el, rows.map(r => opt.label(r, nw))) + 12, cap = nw ? (opt.lcap || 150) : 400;
+  const above = lneed > cap, rowH = (opt.rowH || 34) + (above ? 14 : 0), lw = above ? 0 : lneed;
+  const rw = Math.min(nw ? 80 : 120, textW(el, rows.map(r => opt.right(r, nw))) + 12);
+  const m = { t: 4, r: rw, b: 22, l: lw };
+  const h = m.t + m.b + rowH * rows.length, svg = svgIn(el, w, h), g = svg.append('g').attr('transform', `translate(${m.l},${m.t})`);
+  const iw = w - m.l - m.r, x = d3.scaleLinear().domain([0, 1]).range([0, iw]);
+  [0, .25, .5, .75, 1].forEach(v => g.append('text').attr('class', 'lbl mut').attr('x', x(v)).attr('y', rowH * rows.length + 14).attr('text-anchor', 'middle').text(pv(100 * v)));
+  const id0 = 'bd' + (++HATCH);
+  rows.forEach((r, i) => {
+    const y0 = i * rowH + 6 + (above ? 14 : 0), bh = rowH - 12 - (above ? 14 : 0), tot = sum(keys, k => r[k] || 0), id = id0 + '_' + i;
+    if (!tot) return;
+    g.append('clipPath').attr('id', id).append('rect').attr('x', 0).attr('y', y0).attr('width', iw).attr('height', bh).attr('rx', bh / 2);
+    const row = g.append('g').attr('clip-path', `url(#${id})`).attr('opacity', opt.partial && opt.partial(r) ? .55 : 1);
+    let acc = 0;
+    keys.forEach((k, j) => {
+      const v = r[k] || 0; if (!v) return;
+      const x0 = x(acc / tot), x1 = x((acc + v) / tot); acc += v;
+      row.append('rect').attr('x', x0).attr('width', Math.max(0, x1 - x0 - (acc < tot ? 1.5 : 0))).attr('y', y0).attr('height', bh).attr('fill', colors[j]);
+      if (x1 - x0 > (opt.minIn || (nw ? 30 : 34))) row.append('text').attr('class', 'lbl').attr('x', (x0 + x1) / 2).attr('y', y0 + bh / 2 + 4).attr('text-anchor', 'middle')
+        .style('fill', inkOn(colors[j])).style('pointer-events', 'none').text(pct(v, tot));
+    });
+    if (above) g.append('text').attr('class', 'lbl strong').attr('x', 0).attr('y', y0 - 4).text(opt.label(r, nw));
+    else g.append('text').attr('class', 'lbl strong').attr('x', -10).attr('y', y0 + bh / 2 + 4).attr('text-anchor', 'end').text(opt.label(r, nw));
+    g.append('text').attr('class', 'lbl strong').attr('x', iw + 10).attr('y', y0 + bh / 2 + 4).text(opt.right(r, nw));
+    bindTip(g.append('rect').attr('class', 'hit').attr('x', -m.l).attr('width', w).attr('y', i * rowH).attr('height', rowH).datum(r),
+      d => `<b>${esc(opt.label(d, false))}</b>` + (opt.tipHead ? opt.tipHead(d) : '') + keys.map((k, j) => d[k] ? trow(colors[j], names[j], `${fmt(d[k])} · ${pct(d[k], tot)}`) : '').join('') + (opt.tipExtra ? opt.tipExtra(d) : trow(null, t('total'), fmt(tot))));
+  });
+  return { svg, g, iw };
+}
+const grad = (svg, id, color, a = .3) => { const lg = svg.append('defs').append('linearGradient').attr('id', id).attr('x1', 0).attr('x2', 0).attr('y1', 0).attr('y2', 1);
+  lg.append('stop').attr('offset', '0%').attr('stop-color', color).attr('stop-opacity', a); lg.append('stop').attr('offset', '100%').attr('stop-color', color).attr('stop-opacity', .02); return `url(#${id})`; };
+const seqRamp = () => d3.interpolateRgb(css('--seq-lo'), css('--seq-hi'));
+// the widest of these strings in a chart's label style, in pixels (measured as drawn: the page draws again once the web fonts have loaded)
+const textW = (el, strs, cls = 'lbl strong') => { const sv = el.append('svg').attr('width', 0).attr('height', 0).style('position', 'absolute'), tx = sv.append('text').attr('class', cls);
+  const w = d3.max(strs, q => { tx.text(q); return tx.node().getComputedTextLength(); }) || 0; sv.remove(); return w; };
+const halo = (g, x, y, txt, anchor = 'start', cls = 'lbl strong', fill = null) => g.append('text').attr('class', cls).attr('x', x).attr('y', y).attr('text-anchor', anchor)
+  .style('fill', fill).style('paint-order', 'stroke').style('stroke', css('--surface')).style('stroke-width', 4).style('stroke-linejoin', 'round').text(txt);
+// split a label into lines no wider than `room` (words kept whole)
+function wrapLines(el, s, room, cls = 'lbl strong') {
+  const words = s.split(' '), out = []; let cur = '';
+  words.forEach(wd => { const tryS = cur ? cur + ' ' + wd : wd; if (!cur || textW(el, [tryS], cls) <= room) cur = tryS; else { out.push(cur); cur = wd; } });
+  if (cur) out.push(cur);
+  return out;
+}
+const TERMC = () => { const r = seqRamp(), V = { QH10: .1, QH11: .26, QH12: .42, QH13: .6, QH14: .8, QH15: 1, QH16: 1 }; return q => r(V[q]); };
+
+// ------------------------------------------------------------------ the charts
+const CH = [];
+const part = (id, vi, en, dvi, den) => CH.push({ part: true, id, vi, en, dvi, den });
+const chart = (id, fn) => CH.push({ id, fn });
+
+part('p1', 'I. Quốc hội làm luật', 'I. How the National Assembly makes law',
+  'Luật được thông qua tại các kỳ họp của Quốc hội, được đánh số trong mỗi khóa và có hiệu lực vào ngày do chính luật ấn định. Bốn biểu đồ về kích thước của hồ sơ và nhịp làm luật.',
+  'Laws are adopted at the sessions of the National Assembly, numbered within each term, and take effect on the day the law itself sets. Four charts on the size of the record and the rhythm of lawmaking.');
+
+// 1. the record at a glance
+chart('c01', el => {
+  const c = D.c01, T = c.by_term, tot = c.total, q15 = T.QH15;
+  const big = c.acts.filter(a => a[3] > 100000).sort((a, b) => b[3] - a[3]);
+  const q13codes = c.acts.filter(a => a[1] === 'QH13' && a[2] !== 'law').length;
+  return {
+    title: L(`${dec(tot / 1e6, 1)} triệu từ luật: ${pct(q15, tot)} do Quốc hội khóa XV thông qua`, `${dec(tot / 1e6, 1)} million words of law: ${pct(q15, tot)} adopted by the 15th National Assembly`),
+    dek: L(`Mỗi ô là một trong ${fmt(c.acts.length)} văn bản của hồ sơ, diện tích theo số từ của các điều đang có hiệu lực, màu theo khóa Quốc hội đã thông qua. ${andL(big.map(a => actName(a[0])))} là những văn bản duy nhất dài hơn 100.000 từ. Khóa XIII thông qua Hiến pháp năm 2013 và ${numW(q13codes - 1)} trong sáu bộ luật, chiếm ${pct(T.QH13, tot)} số từ.`,
+      `Each tile is one of the ${fmt(c.acts.length)} acts of the record, its area the number of words in its articles in force, its colour the term of the National Assembly that adopted it. ${Cap(andL(theL(big.map(a => actName(a[0])))))} are the only acts longer than 100,000 words. The 13th National Assembly adopted the Constitution of 2013 and ${numW(q13codes - 1)} of the six codes, ${pct(T.QH13, tot)} of the words.`),
+    draw(el) {
+      const terms = ['QH10', 'QH11', 'QH12', 'QH13', 'QH14', 'QH15'], col = TERMC();
+      legend(el, terms.map(q => ({ c: col(q), l: `${termShort(q)} · ${termYears(q)}` })));
+      const w = W(el), nw = narrow(w), h = nw ? 560 : 500;
+      const root = d3.hierarchy({ children: terms.map(q => ({ q, children: c.acts.filter(a => a[1] === q).map(a => ({ a })) })) })
+        .sum(d => d.a ? d.a[3] : 0).sort((a, b) => b.value - a.value);
+      d3.treemap().size([w, h]).paddingOuter(2).paddingTop(d => d.depth === 1 ? 20 : 0).paddingInner(2).round(true)(root);
+      const svg = svgIn(el, w, h);
+      root.children.forEach(gp => {
+        const q = gp.data.q, lab = `${termShort(q)} · ${pct(gp.value, tot)}`;
+        svg.append('rect').attr('x', gp.x0).attr('y', gp.y0).attr('width', gp.x1 - gp.x0).attr('height', gp.y1 - gp.y0).attr('rx', 6).attr('fill', css('--surface-2'));
+        if (textW(el, [lab]) < gp.x1 - gp.x0 - 8) svg.append('text').attr('class', 'lbl strong').attr('x', gp.x0 + 5).attr('y', gp.y0 + 14).text(lab);
+        else if (textW(el, [ROM[q]]) < gp.x1 - gp.x0 - 6) svg.append('text').attr('class', 'lbl strong').attr('x', gp.x0 + 4).attr('y', gp.y0 + 14).text(ROM[q]);
+      });
+      const leaves = root.leaves();
+      leaves.forEach(n => {
+        const a = n.data.a, fill = col(a[1]), cw = n.x1 - n.x0, ch = n.y1 - n.y0;
+        svg.append('rect').attr('x', n.x0).attr('y', n.y0).attr('width', cw).attr('height', ch).attr('rx', 3).attr('fill', fill);
+        if (cw < 46 || ch < 26) return;
+        const ink = inkOn(fill), name = actName(a[0]), lines = wrapLines(el, name, cw - 10, 'lbl strong'), maxL = Math.floor((ch - 20) / 13);
+        if (maxL < 1 || lines.length > maxL || lines.some(l => textW(el, [l]) > cw - 8)) return;
+        const tg = svg.append('g').style('pointer-events', 'none');
+        lines.forEach((l, i) => tg.append('text').attr('class', 'lbl strong').style('fill', ink).attr('x', n.x0 + 5).attr('y', n.y0 + 14 + i * 13).text(l));
+        if (ch - 20 - lines.length * 13 >= 13 && textW(el, [L(`${fmt(a[3])} từ`, `${fmt(a[3])} words`)], 'lbl') <= cw - 10) tg.append('text').attr('class', 'lbl').style('fill', ink).style('opacity', .8).attr('x', n.x0 + 5).attr('y', n.y0 + 14 + lines.length * 13).text(L(`${fmt(a[3])} từ`, `${fmt(a[3])} words`));
+      });
+      bindTip(svg.selectAll('.hit').data(leaves).join('rect').attr('class', 'hit').attr('x', n => n.x0).attr('y', n => n.y0).attr('width', n => n.x1 - n.x0).attr('height', n => n.y1 - n.y0),
+        n => { const a = n.data.a, A = ACTS[a[0]]; return `<b>${esc(actName(a[0]))}</b>` + trow(null, L('Số hiệu', 'Number'), esc(A[2] || L('không có số', 'no number'))) + trow(null, L('Thông qua', 'Adopted'), dateShort(A[4]) + ' · ' + termShort(a[1]))
+          + trow(null, L('Số từ', 'Words'), fmt(a[3])) + trow(null, L('Số điều', 'Articles'), fmt(a[4])) + trow(null, L('Phiên bản', 'Versions'), fmt(A[10])) + (REPL.has(a[0]) ? `<div class="q">${L('Đã được thay thế bởi ', 'Replaced by ')}${esc(actName(REPL.get(a[0])[1]))} (${dateShort(REPL.get(a[0])[2])})</div>` : ''); });
+      note(el, ['<KIND>/<YEAR>/<NUMBER>/art-*.md', 'data/laws.csv'], L(`${fmt(c.acts.length)} văn bản, ${fmt(PF.articles)} điều`, `${fmt(c.acts.length)} acts, ${fmt(PF.articles)} articles`),
+        L(`số từ đếm theo khoảng trắng trong các điều đang có hiệu lực, kể cả dòng tiêu đề của điều. ${fmt(PF.replaced.length)} văn bản đã được một văn bản sau trong hồ sơ thay thế vẫn giữ văn bản cuối cùng và được tính ở đây.`,
+          `words counted by spaces in the articles in force, the article heading included. ${fmt(PF.replaced.length)} acts replaced by a later act of the record keep their last text and are counted here.`));
+      table(el, [L('Văn bản', 'Act'), L('Số hiệu', 'Number'), L('Khóa', 'Term'), L('Số từ', 'Words'), L('Số điều', 'Articles')],
+        c.acts.slice().sort((a, b) => b[3] - a[3]).map(a => [actName(a[0]), ACTS[a[0]][2] || '–', termShort(a[1]), a[3], a[4]]));
+    }
+  };
+});
+
+// 2. laws per session, from the law numbers
+chart('c02', el => {
+  const S0 = D.c02.sessions, top = S0.slice().sort((a, b) => b.definite - a.definite)[0], second = S0.slice().sort((a, b) => b.definite - a.definite)[1];
+  const sesName = s => s.label ? (s.label[0] ? L(`kỳ họp bất thường lần thứ ${s.label[1]}`, `extraordinary session ${s.label[1]}`) : L(`kỳ họp thứ ${s.label[1]}`, `session ${s.label[1]}`)) : L(`kỳ họp ${monShort(s.d0)}`, `session of ${monShort(s.d0)}`);
+  const ordEn = n => n + (n % 10 === 1 && n !== 11 ? 'st' : n % 10 === 2 && n !== 12 ? 'nd' : n % 10 === 3 && n !== 13 ? 'rd' : 'th');
+  const sesTitle = s => s.label && !s.label[0] ? L(`Kỳ họp thứ ${s.label[1]} khóa ${ROM[s.term]}`, `The ${ordEn(s.label[1])} session of the ${ORD[s.term]} National Assembly`) : L(Cap(sesName(s)) + ` khóa ${ROM[s.term]}`, Cap(sesName(s)));
+  const yr = s => s.d0.slice(0, 4);
+  return {
+    title: L(`${sesTitle(top)} thông qua ít nhất ${fmt(top.definite)} luật, nhiều nhất trong hồ sơ`, `${sesTitle(top)} adopted at least ${fmt(top.definite)} laws, more than any other session in the record`),
+    dek: L(`Số hiệu luật tăng dần trong mỗi khóa (…/2025/QH15) và bắt đầu lại ở khóa sau, nên số hiệu của các luật mà hồ sơ nêu tên cho biết mỗi kỳ họp đã thông qua bao nhiêu luật. Kỳ họp cuối năm ${yr(top)} thông qua các luật số ${top.lo} đến ${top.hi}; kỳ họp giữa năm ${yr(second)}, các luật số ${second.lo} đến ${second.hi}. Luật Tổ chức Quốc hội (Điều 90) quy định Quốc hội họp thường lệ mỗi năm hai kỳ; ngoài ra có các kỳ họp bất thường.`,
+      `Law numbers rise within each term (…/2025/QH15) and start again with the next, so the numbers of the laws the record names show how many laws each session adopted. The session at the end of ${yr(top)} adopted laws Nos. ${top.lo} to ${top.hi}; the mid-year session of ${yr(second)}, Nos. ${second.lo} to ${second.hi}. The Law on the Organisation of the National Assembly (Article 90) has the Assembly meet in two regular sessions a year; there are extraordinary sessions besides.`),
+    draw(el) {
+      const ink = css('--s1'), ink2 = css('--s2');
+      legend(el, [{ c: ink + '33', l: L('Luật thông qua tại kỳ họp (theo số hiệu)', 'Laws adopted at the session (by number)') }, { c: '', l: L('Số hiệu có thể thuộc kỳ họp trước', 'Numbers that may belong to the session before'), shape: 'hatch' },
+        { c: ink, l: L('Văn bản có trong hồ sơ', 'Acts held in the record') }, { c: ink2, l: L('Luật sửa đổi mà hồ sơ nêu tên', 'Amending laws the record names') }]);
+      const w = W(el), nw = narrow(w), h = nw ? 250 : 300, m = { t: 34, r: 6, b: 26, l: 30 };
+      const svg = svgIn(el, w, h), g = svg.append('g').attr('transform', `translate(${m.l},${m.t})`), hp = hatch(svg);
+      const iw = w - m.l - m.r, ih = h - m.t - m.b, terms = [...new Set(S0.map(s => s.term))];
+      const pos = []; let k = 0; S0.forEach((s, i) => { if (i && s.term !== S0[i - 1].term) k += .9; pos.push(k); k += 1; });
+      const x = d3.scaleLinear().domain([-.5, k - .5]).range([0, iw]), step = x(1) - x(0), bw = Math.max(3, step * .72);
+      const y = d3.scaleLinear().domain([0, d3.max(S0, s => s.definite + Math.max(0, s.unsure))]).nice().range([ih, 0]);
+      terms.forEach((q, i) => {
+        const idx = S0.map((s, j) => s.term === q ? j : -1).filter(j => j >= 0), x0 = x(pos[idx[0]] - .5), x1 = x(pos[idx[idx.length - 1]] + .5);
+        g.append('rect').attr('x', x0).attr('width', x1 - x0).attr('y', -m.t + 4).attr('height', ih + m.t - 4).attr('rx', 6).attr('fill', i % 2 ? 'transparent' : css('--surface-2'));
+        g.append('text').attr('class', 'lbl strong').attr('x', (x0 + x1) / 2).attr('y', -18).attr('text-anchor', 'middle').text(nw ? ROM[q] : termShort(q));
+      });
+      yAxis(g, y, iw, 4);
+      g.append('line').attr('class', 'base').attr('x1', 0).attr('x2', iw).attr('y1', ih).attr('y2', ih);
+      const best = new Set(S0.slice().sort((a, b) => b.definite - a.definite).slice(0, nw ? 2 : 6));
+      let lastLX = -1e9; const yW = textW(el, ['2026'], 'lbl') + 8;
+      S0.forEach((s, i) => {
+        const cx = x(pos[i]), x0 = cx - bw / 2, un = Math.max(0, s.unsure);
+        g.append('path').attr('d', colPath(x0, ih, bw, y(s.definite))).attr('fill', ink).attr('fill-opacity', .2);
+        if (un) g.append('path').attr('d', colPath(x0, y(s.definite), bw, y(s.definite + un), 3)).attr('fill', hp);
+        const iw2 = Math.max(2, bw * .56), xi = cx - iw2 / 2;
+        if (s.acts) g.append('rect').attr('x', xi).attr('width', iw2).attr('y', y(s.acts)).attr('height', ih - y(s.acts)).attr('fill', ink);
+        if (s.amend) g.append('rect').attr('x', xi).attr('width', iw2).attr('y', y(s.acts + s.amend)).attr('height', y(s.acts) - y(s.acts + s.amend) - (s.acts ? 1 : 0)).attr('fill', ink2);
+        if (best.has(s)) g.append('text').attr('class', 'lbl strong').attr('x', cx).attr('y', y(s.definite + un) - 5).attr('text-anchor', 'middle').text(un ? `${s.definite}–${s.definite + un}` : s.definite);
+        const y0 = s.d0.slice(0, 4), prevY = i ? S0[i - 1].d0.slice(0, 4) : null;
+        if (y0 !== prevY && cx - lastLX >= (nw ? yW * .7 : yW)) { g.append('text').attr('class', 'lbl mut').attr('x', cx).attr('y', ih + 15).attr('text-anchor', 'middle').text(nw ? `’${y0.slice(2)}` : y0); lastLX = cx; }
+        bindTip(g.append('rect').attr('class', 'hit').attr('x', cx - step / 2).attr('width', step).attr('y', 0).attr('height', ih).datum(s),
+          d => `<b>${esc(Cap(sesName(d)))} · ${termShort(d.term)}</b><div class="q">${d.d0 === d.d1 ? dateShort(d.d0) : `${dateShort(d.d0)} – ${dateShort(d.d1)}`}</div>`
+            + trow(null, L('Luật số', 'Law Nos.'), `${d.lo}–${d.hi}/${d.d0.slice(0, 4)}/${d.term}`) + trow(ink + '55', L('Thông qua tại kỳ họp', 'Adopted at the session'), fmt(d.definite))
+            + (d.unsure > 0 ? trow(null, L('Có thể thuộc kỳ họp trước', 'May belong to the session before'), `${L('số', 'Nos.')} ${d.prev + 1}–${d.lo - 1} (${d.unsure})`) : '')
+            + trow(ink, L('Văn bản trong hồ sơ', 'Acts in the record'), fmt(d.acts)) + trow(ink2, L('Luật sửa đổi trong hồ sơ', 'Amending laws in the record'), fmt(d.amend))
+            + (d.res ? trow(null, L('Nghị quyết (không đánh số luật)', 'Resolutions (not law numbers)'), fmt(d.res)) : ''));
+      });
+      note(el, ['data/laws.csv', '<KIND>/<YEAR>/<NUMBER>/ket-thuc.md'], L(`${fmt(sum(S0, s => s.nums.length))} luật có số hiệu, ${fmt(S0.length)} kỳ họp`, `${fmt(sum(S0, s => s.nums.length))} numbered laws, ${fmt(S0.length)} sessions`),
+        L('các luật thông qua cách nhau dưới 40 ngày được coi là một kỳ họp; số thứ tự của kỳ họp lấy từ dòng kết thúc của các văn bản (“… khóa XV, kỳ họp thứ 9 thông qua …”), kỳ họp không có văn bản nào trong hồ sơ được gọi theo tháng. Cột nhạt là các số hiệu từ luật đầu tiên đến luật cuối cùng của kỳ họp có trong hồ sơ; phần gạch chéo là các số nằm giữa hai kỳ họp. Nghị quyết có số hiệu riêng và không được tính. Các khóa X–XII có quá ít luật trong hồ sơ.',
+          'laws adopted less than 40 days apart count as one session; the number of a session is taken from the closing line of the acts (“… khóa XV, kỳ họp thứ 9 thông qua …”), and a session with no act in the record is named by its month. The light column runs from the first to the last law number of the session the record holds; the hatched part is the numbers that fall between two sessions. Resolutions have numbers of their own and are not counted. The 10th–12th terms have too few laws in the record.'));
+      table(el, [L('Kỳ họp', 'Session'), L('Khóa', 'Term'), L('Thông qua', 'Adopted'), L('Luật số', 'Law Nos.'), L('Số luật', 'Laws'), L('Có thể thêm', 'Possibly more'), L('Văn bản trong hồ sơ', 'Acts in record'), L('Luật sửa đổi', 'Amending laws')],
+        S0.map(s => [Cap(sesName(s)), termShort(s.term), s.d0 === s.d1 ? dateShort(s.d0) : `${dateShort(s.d0)} – ${dateShort(s.d1)}`, `${s.lo}–${s.hi}`, s.definite, Math.max(0, s.unsure), s.acts, s.amend]));
+    }
+  };
+});
+
+// 3. the calendar: adoption days and in-force days
+chart('c03', el => {
+  const c = D.c03, both = c.jan1 + c.jul1, am = c.adopt_months;
+  return {
+    title: L(`Hai ngày trong năm: ${pct(both, c.n_inforce)} phiên bản có hiệu lực vào ngày 1 tháng 1 hoặc 1 tháng 7`, `Two days a year: ${pct(both, c.n_inforce)} of versions took effect on 1 January or 1 July`),
+    dek: L(`Bên trái là ngày thông qua của ${fmt(c.n_adopt)} luật và nghị quyết mà hồ sơ nêu tên: ${fmt(am[6])} vào tháng 6 và ${fmt(am[11] + am[12])} vào tháng 11 và tháng 12, hai kỳ họp thường lệ mỗi năm. Bên phải là ngày có hiệu lực của ${fmt(c.n_inforce)} phiên bản: ${fmt(c.jul1)} vào ngày 1 tháng 7 và ${fmt(c.jan1)} vào ngày 1 tháng 1.`,
+      `Left, the adoption days of the ${fmt(c.n_adopt)} laws and resolutions the record names: ${fmt(am[6])} in June and ${fmt(am[11] + am[12])} in November and December, the two regular sessions of each year. Right, the days the ${fmt(c.n_inforce)} versions took effect: ${fmt(c.jul1)} on 1 July and ${fmt(c.jan1)} on 1 January.`),
+    draw(el) {
+      const box = el.append('div').attr('class', 'mini');
+      const panes = [box.append('div'), box.append('div')];
+      [['adopt', L('Ngày thông qua', 'Adoption day'), c.n_adopt, L('luật và nghị quyết', 'laws and resolutions')], ['inforce', L('Ngày có hiệu lực', 'Day in force'), c.n_inforce, L('phiên bản', 'versions')]].forEach(([k, head, n, unit], pi) => {
+        const p = panes[pi], cells = new Map(c[k].map(([m, d, v]) => [m + '-' + d, v])), max = d3.max(c[k], r => r[2]);
+        p.append('h4').text(head);
+        p.append('p').text(`${fmt(n)} ${unit}`);
+        const w = WR(p), lw = Math.ceil(textW(p, MON[LANG], 'lbl')) + 8, nwid = Math.ceil(textW(p, ['000'], 'lbl')), tw = 26 + nwid + 10, cs = Math.min(15, (w - lw - tw - 6) / 31), gap = Math.max(1, cs * .14);
+        const rh = Math.max(cs, 13), h = 18 + 12 * rh + 4, svg = svgIn(p, w, h), g = svg.append('g').attr('transform', `translate(${lw},16)`);
+        const col = d3.scaleSqrt().domain([0, max]).range([0, 1]), ramp = seqRamp();
+        [1, 10, 20, 31].forEach(d => g.append('text').attr('class', 'lbl mut').attr('x', (d - 1) * cs + cs / 2).attr('y', -5).attr('text-anchor', 'middle').text(d));
+        const mt = d3.range(12).map(() => 0);
+        for (let m = 1; m <= 12; m++) {
+          g.append('text').attr('class', 'lbl').attr('x', -6).attr('y', (m - 1) * rh + rh / 2 + 4).attr('text-anchor', 'end').text(MON[LANG][m - 1]);
+          const nd = new Date(2024, m, 0).getDate();
+          for (let d = 1; d <= nd; d++) {
+            const v = cells.get(m + '-' + d) || 0; mt[m - 1] += v;
+            const r = g.append('rect').attr('x', (d - 1) * cs + gap / 2).attr('y', (m - 1) * rh + gap / 2).attr('width', cs - gap).attr('height', rh - gap).attr('rx', Math.min(3, cs / 4))
+              .attr('fill', v ? ramp(.15 + .85 * col(v)) : css('--surface-2')).datum({ m, d, v });
+            if (v) bindTip(r, q => `<b>${L(`Ngày ${q.d} tháng ${q.m}`, `${q.d} ${MEN[q.m - 1]}`)}</b>` + trow(null, head, `${fmt(q.v)} ${unit}`));
+          }
+        }
+        const xb = d3.scaleLinear().domain([0, d3.max(mt)]).range([0, 26]), bx = 31 * cs + 8;
+        mt.forEach((v, i) => { if (!v) return; g.append('rect').attr('x', bx).attr('y', i * rh + rh * .25).attr('width', Math.max(1, xb(v))).attr('height', rh * .5).attr('rx', 2).attr('fill', css('--muted-mark'));
+          g.append('text').attr('class', 'lbl mut').attr('x', bx + xb(v) + 4).attr('y', i * rh + rh / 2 + 4).text(fmt(v)); });
+      });
+      note(el, ['data/laws.csv (enacted)', 'data/versions.json (from)'], L(`${fmt(c.n_adopt)} luật và nghị quyết · ${fmt(c.n_inforce)} phiên bản`, `${fmt(c.n_adopt)} laws and resolutions · ${fmt(c.n_inforce)} versions`),
+        L(`phiên bản là văn bản của một văn bản vào một ngày có hiệu lực, từ ${dateTxt(PF.record_from)} đến ${dateTxt(PF.record_to)}; thanh nhỏ bên phải là tổng theo tháng. ${fmt(PF.future)} phiên bản chưa có hiệu lực không được tính.`,
+          `a version is the text of an act from one day in force, ${dateTxt(PF.record_from)} to ${dateTxt(PF.record_to)}; the small bars on the right are the monthly totals. The ${fmt(PF.future)} versions not yet in force are not counted.`));
+      const rows = []; for (let m = 1; m <= 12; m++) rows.push([MON[LANG][m - 1], sum(c.adopt.filter(r => r[0] === m), r => r[2]), sum(c.inforce.filter(r => r[0] === m), r => r[2]), (c.inforce.find(r => r[0] === m && r[1] === 1) || [0, 0, 0])[2]]);
+      table(el, [L('Tháng', 'Month'), L('Luật thông qua', 'Laws adopted'), L('Phiên bản có hiệu lực', 'Versions in force'), L('trong đó vào ngày 1', 'of which on the 1st')], rows);
+    }
+  };
+});
+
+// 4. days from adoption to entry into force
+chart('c04', el => {
+  const Lw = D.c04.laws, pre = Lw.filter(r => r[1] < '2025'), post = Lw.filter(r => r[1] >= '2025');
+  const med = a => d3.median(a, r => r[3]), u45 = a => a.filter(r => r[3] < 45).length, wk = post.filter(r => r[3] <= 7).length;
+  const BK = [[0, 0], [1, 7], [8, 30], [31, 44], [45, 90], [91, 180], [181, 365], [366, 730], [731, 1e9]];
+  const BN = () => [L('cùng ngày', 'same day'), L('1–7 ngày', '1–7 days'), L('8–30 ngày', '8–30 days'), L('31–44 ngày', '31–44 days'), L('45–90 ngày', '45–90 days'),
+    L('3–6 tháng', '3–6 months'), L('6–12 tháng', '6–12 months'), L('1–2 năm', '1–2 years'), L('trên 2 năm', 'over 2 years')];
+  const bin = d => BK.findIndex(([a, b]) => d >= a && d <= b);
+  return {
+    title: L(`Dưới 45 ngày: ${fmt(u45(post))} trong ${fmt(post.length)} luật thông qua từ năm 2025, so với ${fmt(u45(pre))} trong ${fmt(pre.length)} luật trước đó`, `Under 45 days: ${fmt(u45(post))} of the ${fmt(post.length)} laws adopted since 2025, against ${fmt(u45(pre))} of the ${fmt(pre.length)} before`),
+    dek: L(`Số ngày từ khi Quốc hội thông qua đến ngày đầu tiên phần văn bản của luật trong hồ sơ có hiệu lực, cho ${fmt(Lw.length)} luật có cả hai ngày. Luật Ban hành văn bản quy phạm pháp luật năm 2025 (Điều 53) quy định thời điểm có hiệu lực không sớm hơn 45 ngày kể từ ngày thông qua, trừ văn bản theo trình tự, thủ tục rút gọn và trường hợp đặc biệt. Trung vị là ${fmt(med(pre))} ngày với các luật thông qua trước năm 2025 và ${fmt(Math.round(med(post)))} ngày từ năm 2025; ${fmt(wk)} luật từ năm 2025 có hiệu lực trong vòng 7 ngày.`,
+      `Days from the National Assembly’s vote to the first day the law’s text in the record took effect, for the ${fmt(Lw.length)} laws with both dates. The Law on the Promulgation of Legal Documents of 2025 (Article 53) sets entry into force no earlier than 45 days after adoption, except for documents made by the shortened procedure and in special cases. The median is ${fmt(med(pre))} days for laws adopted before 2025 and ${fmt(Math.round(med(post)))} days since 2025; ${fmt(wk)} laws since 2025 took effect within 7 days.`),
+    draw(el) {
+      const cA = css('--s1'), cB = css('--s2');
+      legend(el, [{ c: cA, l: L('Thông qua trước năm 2025', 'Adopted before 2025') }, { c: cB, l: L('Thông qua từ năm 2025', 'Adopted since 2025') }]);
+      const rows = BN().map((n, i) => ({ i, n, a: pre.filter(r => bin(r[3]) === i), b: post.filter(r => bin(r[3]) === i) }));
+      const w = W(el), nw = narrow(w), h = nw ? 260 : 300, m = { t: 26, r: 6, b: nw ? 44 : 30, l: 34 };
+      const svg = svgIn(el, w, h), g = svg.append('g').attr('transform', `translate(${m.l},${m.t})`);
+      const iw = w - m.l - m.r, ih = h - m.t - m.b;
+      const x = d3.scaleBand().domain(rows.map(r => r.i)).range([0, iw]).padding(.24), y = d3.scaleLinear().domain([0, d3.max(rows, r => r.a.length + r.b.length)]).nice().range([ih, 0]);
+      yAxis(g, y, iw, 4);
+      const xl = x(4) - x.step() * x.paddingInner() / 2;
+      g.append('rect').attr('x', 0).attr('y', -m.t + 6).attr('width', xl).attr('height', ih + m.t - 6).attr('rx', 6).attr('fill', css('--surface-2')).lower();
+      g.append('line').attr('x1', xl).attr('x2', xl).attr('y1', -m.t + 6).attr('y2', ih).attr('stroke', css('--text-3')).attr('stroke-dasharray', '4 3');
+      halo(g, xl - 6, -8, L('dưới 45 ngày', 'under 45 days'), 'end', 'lbl strong'); halo(g, xl + 6, -8, L('45 ngày trở lên', '45 days or more'), 'start', 'lbl mut');
+      g.append('line').attr('class', 'base').attr('x1', 0).attr('x2', iw).attr('y1', ih).attr('y2', ih);
+      rows.forEach(r => {
+        const x0 = x(r.i), bw = x.bandwidth(), na = r.a.length, nb = r.b.length;
+        if (na) g.append('path').attr('d', nb ? `M${x0},${ih}V${y(na)}H${x0 + bw}V${ih}Z` : colPath(x0, ih, bw, y(na))).attr('fill', cA);
+        if (nb) g.append('path').attr('d', colPath(x0, y(na) - (na ? 1 : 0), bw, y(na + nb))).attr('fill', cB);
+        if (na + nb) g.append('text').attr('class', 'lbl strong').attr('x', x0 + bw / 2).attr('y', y(na + nb) - 5).attr('text-anchor', 'middle').text(na + nb);
+        const lab = g.append('text').attr('class', 'lbl').attr('x', x0 + bw / 2).attr('y', ih + 15).attr('text-anchor', 'middle').style('font-size', nw ? '9.5px' : null);
+        if (nw) { const pz = r.n.split(' '); lab.append('tspan').attr('x', x0 + bw / 2).text(pz[0]); if (pz.length > 1) lab.append('tspan').attr('x', x0 + bw / 2).attr('dy', 12).text(pz.slice(1).join(' ')); }
+        else lab.text(r.n);
+        bindTip(g.append('rect').attr('class', 'hit').attr('x', x0 - x.step() * x.paddingInner() / 2).attr('width', x.step()).attr('y', 0).attr('height', ih).datum(r),
+          d => `<b>${esc(Cap(d.n))}</b>` + trow(cA, L('Trước năm 2025', 'Before 2025'), fmt(d.a.length)) + trow(cB, L('Từ năm 2025', 'Since 2025'), fmt(d.b.length))
+            + (d.i <= 1 ? `<div class="q">${d.a.concat(d.b).slice(0, 8).map(q => esc(lawName(q[0])) + ' · ' + dateShort(q[2])).join('<br>')}${d.a.length + d.b.length > 8 ? '<br>…' : ''}</div>` : ''));
+      });
+      note(el, ['data/laws.csv (enacted, in_force_days)'], L(`${fmt(Lw.length)} luật; ${fmt(D.c04.no_day)} luật chưa có ngày có hiệu lực trong hồ sơ`, `${fmt(Lw.length)} laws; ${fmt(D.c04.no_day)} laws have no day in force in the record`),
+        L('với luật sửa đổi, ngày có hiệu lực là ngày mà văn bản hợp nhất ghi cho lần sửa đổi các văn bản của hồ sơ, có thể khác ngày có hiệu lực chung của luật. Luật có hai ngày có hiệu lực được tính theo ngày sớm hơn.',
+          'for an amending law, the day in force is the day the consolidated text gives for its changes to the acts of the record, which can differ from the law’s general day in force. A law with two days in force counts by the earlier.'));
+      table(el, [L('Khoảng thời gian', 'Interval'), L('Trước năm 2025', 'Before 2025'), L('Từ năm 2025', 'Since 2025')], rows.map(r => [r.n, r.a.length, r.b.length]));
+      subTable(el, L('Các luật có hiệu lực dưới 45 ngày sau khi thông qua', 'The laws in force less than 45 days after adoption'), [L('Luật', 'Law'), L('Thông qua', 'Adopted'), L('Có hiệu lực', 'In force'), L('Số ngày', 'Days')],
+        Lw.filter(r => r[3] < 45).map(r => [lawFull(r[0]), dateShort(r[1]), dateShort(r[2]), r[3]]), [0, 1, 1, 1]);
+    }
+  };
+});
+
+part('p2', 'II. Luật được sửa như thế nào', 'II. How laws are amended',
+  'Mỗi lần sửa đổi, bổ sung là một commit vào ngày có hiệu lực, ghi công cho luật đã sửa. Hồ sơ ghi {chg} lần một điều được sửa, bổ sung hoặc bãi bỏ, bởi {laws} luật.',
+  'Each amendment is a commit on the day it took effect, credited to the law that made it. The record holds {chg} changes to an article (rewritten, inserted or repealed), made by {laws} laws.');
+
+const INS = () => [['own', L('Luật sửa đổi riêng văn bản đó', 'The act’s own amending law'), css('--s1')], ['omnibus', L('Luật sửa đổi nhiều luật cùng lúc', 'A law amending several laws at once'), css('--s2')],
+  ['other', L('Luật khác (sửa trong điều khoản thi hành)', 'Another law (in its final provisions)'), css('--s4')], ['resolution', L('Nghị quyết của Quốc hội', 'Resolution of the National Assembly'), css('--s7')]];
+
+// 5. article changes by year and instrument
+chart('c05', el => {
+  const Y = D.c05.years, tot = sum(Y, r => r[1] + r[2] + r[3] + r[4]), last2 = Y.filter(r => r[0] >= '2025'), t2 = sum(last2, r => r[1] + r[2] + r[3] + r[4]);
+  const y26 = Y.find(r => r[0] === '2026'), t26 = y26[1] + y26[2] + y26[3] + y26[4], y25 = Y.find(r => r[0] === '2025');
+  return {
+    title: L(`${pct(t2, tot)} số lần sửa một điều có hiệu lực trong hai năm 2025 và 2026`, `${pct(t2, tot)} of all changes to an article took effect in 2025 and 2026`),
+    dek: L(`Số lần một điều được sửa, bổ sung hoặc bãi bỏ trong mỗi năm có hiệu lực, theo loại luật đã sửa: luật sửa đổi riêng cho văn bản đó, luật sửa đổi nhiều luật cùng lúc, một luật khác (thường là luật mới sửa các luật liên quan trong điều khoản thi hành), hoặc nghị quyết của Quốc hội. Năm 2025 có ${fmt(y25[1] + y25[2] + y25[3] + y25[4])} lần; năm 2026, đến ngày 1 tháng 10, có ${fmt(t26)} lần, ${pct(y26[2], t26)} trong số đó do luật sửa đổi nhiều luật.`,
+      `The changes to an article (rewritten, inserted or repealed) in each year they took effect, by the kind of law that made them: the act’s own amending law, a law amending several laws at once, another law (usually a new law amending related laws in its final provisions), or a resolution of the National Assembly. 2025 had ${fmt(y25[1] + y25[2] + y25[3] + y25[4])}; 2026, to 1 October, ${fmt(t26)}, ${pct(y26[2], t26)} of them made by laws amending several laws.`),
+    draw(el) {
+      const I = INS();
+      legend(el, I.map(([k, n, c]) => ({ c, l: n })));
+      const rows = Y.map(r => ({ y: r[0], own: r[1], omnibus: r[2], other: r[3], resolution: r[4] }));
+      const w = W(el), nw = narrow(w);
+      const st = stackedColumns(el, rows, ['own', 'omnibus', 'other', 'resolution'], I.map(q => q[2]), I.map(q => q[1]), { h: nw ? 260 : 320, bw: 30, pad: .2, every: nw ? 3 : 2,
+        partial: r => r.y === '2026', topLabel: r => { const v = r.own + r.omnibus + r.other + r.resolution; return v >= (nw ? 200 : 60) ? fmt(v) : ''; }, xf: v => nw ? `’${v.slice(2)}` : v });
+      const ann = rows.find(r => r.y === '2018');
+      if (ann && !nw) { const cx = st.x('2018') + st.x.bandwidth() / 2, yy = st.y(ann.own + ann.other) - 22; halo(st.g, cx, yy, L('Bộ luật Hình sự', 'Penal Code'), 'middle', 'lbl mut'); }
+      note(el, ['git log (In-force, Law)', 'art-*.md (A, M, D)', 'data/laws.csv (title)'], L(`${fmt(tot)} lần sửa một điều trong ${fmt(PF.am_events)} lần một văn bản được sửa`, `${fmt(tot)} changes to an article in ${fmt(PF.am_events)} amendments of an act`),
+        L('loại luật đọc từ tên của luật đã sửa: “sửa đổi, bổ sung một số điều của” một văn bản là luật sửa đổi riêng; của nhiều luật (hoặc “của N luật”) là luật sửa đổi nhiều luật; mọi luật khác là “luật khác” (quy tắc trong src/prep.py). Năm 2026 tính đến ngày 1 tháng 10 (nhạt hơn).',
+          'the kind of law is read from the amending law’s title: “sửa đổi, bổ sung một số điều của” one act is the act’s own amending law; of several laws (or “of N laws”), a law amending several laws; any other law is “another law” (rules in src/prep.py). 2026 runs to 1 October (lighter).'));
+      table(el, [L('Năm', 'Year'), ...I.map(q => q[1]), t('total')], Y.map(r => [r[0], r[1], r[2], r[3], r[4], r[1] + r[2] + r[3] + r[4]]));
+    }
+  };
+});
+
+// stacked columns, keys bottom-up; the top segment gets the rounded end, 1px surface gaps
+function stackedColumns(el, rows, keys, colors, names, opt = {}) {
+  const w = W(el), h = opt.h || 300, m = { t: 18, r: 8, b: 26, l: 40 };
+  const svg = svgIn(el, w, h), g = svg.append('g').attr('transform', `translate(${m.l},${m.t})`);
+  const iw = w - m.l - m.r, ih = h - m.t - m.b;
+  const x = d3.scaleBand().domain(rows.map(r => r.y)).range([0, iw]).padding(opt.pad == null ? 0.25 : opt.pad);
+  const tot = r => keys.reduce((s, k) => s + (r[k] || 0), 0);
+  const y = d3.scaleLinear().domain([0, opt.max || d3.max(rows, tot)]).nice().range([ih, 0]);
+  yAxis(g, y, iw, opt.ticks || 5, opt.yf);
+  const bw = Math.min(opt.bw || 24, x.bandwidth());
+  rows.forEach(r => {
+    let acc = 0; const segs = keys.map((k, i) => ({ k, i, v: r[k] || 0 })).filter(s => s.v > 0);
+    const gx = x(r.y) + (x.bandwidth() - bw) / 2;
+    segs.forEach((s, j) => {
+      const y0 = y(Math.min(acc, y.domain()[1])), y1 = y(Math.min(acc + s.v, y.domain()[1])); acc += s.v;
+      const gap = j ? 1 : 0, top = j === segs.length - 1;
+      const yy0 = y0 - gap, yy1 = top ? y1 : y1 + 1;
+      if (yy0 - yy1 < 0.5) return;
+      g.append('path').attr('d', top ? colPath(gx, yy0, bw, yy1) : `M${gx},${yy0}V${yy1}H${gx + bw}V${yy0}Z`).attr('fill', colors[s.i]).attr('opacity', opt.partial && opt.partial(r) ? 0.55 : 1);
+    });
+    if (opt.topLabel) g.append('text').attr('class', 'lbl').attr('x', gx + bw / 2).attr('y', y(Math.min(tot(r), y.domain()[1])) - 5).attr('text-anchor', 'middle').text(opt.topLabel(r));
+  });
+  g.append('line').attr('class', 'base').attr('x1', 0).attr('x2', iw).attr('y1', ih).attr('y2', ih);
+  const every = opt.every || Math.ceil(rows.length / Math.max(4, Math.floor(iw / 44)));
+  rows.forEach((r, i) => { if (i % every === 0 || i === rows.length - 1) g.append('text').attr('class', 'lbl').attr('x', x(r.y) + x.bandwidth() / 2).attr('y', ih + 16).attr('text-anchor', 'middle').text(opt.xf ? opt.xf(r.y) : r.y); });
+  bindTip(g.selectAll('.hit').data(rows).join('rect').attr('class', 'hit').attr('x', r => x(r.y)).attr('width', x.bandwidth()).attr('y', 0).attr('height', ih),
+    r => `<b>${r.y}${opt.partial && opt.partial(r) ? ' (' + t('partial') + ')' : ''}</b>` + keys.map((k, i) => (r[k] ? trow(colors[i], names[i], fmt(r[k]) + (opt.noShare ? '' : ` · ${pct(r[k], tot(r))}`)) : '')).reverse().join('') + trow(null, t('total'), fmt(tot(r))));
+  return { svg, g, x, y, iw, ih, bw };
+}
+
+// 6. the laws that changed the most acts
+chart('c06', el => {
+  const Lw = D.c06.laws, top = Lw[0];
+  const omni = Lw.filter(r => r[2] === 'omnibus' && r[3]).sort((a, b) => b[3] - a[3])[0], most = Lw.slice().sort((a, b) => b[5] - a[5])[0];
+  return {
+    title: L(`${lawName(top[0])} sửa ${fmt(top[4])} văn bản khác trong hồ sơ`, `The ${lawName(top[0])} changed ${fmt(top[4])} other acts in the record`),
+    dek: L(`${fmt(Lw.length)} luật đã sửa nhiều văn bản nhất của hồ sơ, theo số văn bản (thanh) và số điều (nhãn). ${lawName(omni[0])} nêu ${fmt(omni[3])} luật trong tên và sửa ${fmt(omni[4])} văn bản của hồ sơ (phần nhạt là các luật còn lại trong tên); ${lawName(most[0])} sửa ${fmt(most[5])} điều trong ${fmt(most[4])} văn bản. ${fmt(D.c06.multi)} trong ${fmt(D.c06.n_laws)} luật sửa đổi đã sửa hơn một văn bản.`,
+      `The ${fmt(Lw.length)} laws that changed the most acts of the record, by number of acts (bar) and of articles (label). The ${lawName(omni[0])} names ${fmt(omni[3])} laws in its title and changed ${fmt(omni[4])} acts of the record (the light part is the rest of the laws in its title); the ${lawName(most[0])} changed ${fmt(most[5])} articles in ${fmt(most[4])} acts. ${fmt(D.c06.multi)} of the ${fmt(D.c06.n_laws)} amending laws changed more than one act.`),
+    draw(el) {
+      const KC = { amending: [L('Luật sửa đổi một luật', 'A law amending one law'), css('--s1')], omnibus: [L('Luật sửa đổi nhiều luật', 'A law amending several laws'), css('--s2')], other: [L('Luật khác, sửa trong điều khoản thi hành', 'Another law, in its final provisions'), css('--s4')] };
+      legend(el, Object.values(KC).map(([l, c]) => ({ c, l })).concat([{ c: css('--s2') + '40', l: L('Luật khác được nêu trong tên', 'Other laws named in the title') }]));
+      const w = W(el), nw = narrow(w), rowH = nw ? 36 : 25;
+      const lab = r => lawName(r[0]), sub = r => `${r[0]} · ${dateShort(r[1])}`;
+      const lw = nw ? 0 : Math.min(470, textW(el, Lw.map(lab)) + 14);
+      const rr = Math.ceil(textW(el, Lw.map(r => L(`${r[4]} văn bản · ${fmt(r[5])} điều`, `${r[4]} acts · ${fmt(r[5])} articles`)), 'lbl')) + 10;
+      const m = { t: nw ? 14 : 2, r: rr, b: 6, l: lw };
+      const h = m.t + m.b + rowH * Lw.length, svg = svgIn(el, w, h), g = svg.append('g').attr('transform', `translate(${m.l},${m.t})`);
+      const iw = w - m.l - m.r, x = d3.scaleLinear().domain([0, d3.max(Lw, r => Math.max(r[4], r[3] || 0))]).range([0, iw]);
+      Lw.forEach((r, i) => {
+        const cy = i * rowH + (nw ? 14 : 0), bh = Math.min(14, rowH - 10), y0 = cy + (rowH - (nw ? 14 : 0) - bh) / 2, c = KC[r[2]][1];
+        if (nw) g.append('text').attr('class', 'lbl strong').attr('x', 0).attr('y', cy - 2).text(lab(r));
+        else g.append('text').attr('class', 'lbl strong').attr('x', -8).attr('y', y0 + bh / 2 + 4).attr('text-anchor', 'end').text(lab(r));
+        if (r[3] && r[3] > r[4]) g.append('path').attr('d', barPath(0, y0, x(r[3]), bh, 3)).attr('fill', c).attr('fill-opacity', .25);
+        g.append('path').attr('d', barPath(0, y0, x(r[4]), bh, 3)).attr('fill', c);
+        g.append('text').attr('class', 'lbl').attr('x', x(Math.max(r[4], r[3] || 0)) + 6).attr('y', y0 + bh / 2 + 4).text(L(`${r[4]} văn bản · ${fmt(r[5])} điều`, `${r[4]} acts · ${fmt(r[5])} articles`));
+        bindTip(g.append('rect').attr('class', 'hit').attr('x', -m.l).attr('width', w).attr('y', i * rowH).attr('height', rowH).datum(r),
+          d => `<b>${esc(lab(d))}</b><div class="q">${esc(sub(d))}</div>` + (LANG === 'vi' ? `<div class="q">${esc(d[7])}</div>` : '') + trow(KC[d[2]][1], L('Văn bản của hồ sơ được sửa', 'Acts of the record changed'), fmt(d[4])) + (d[3] ? trow(null, L('Số luật nêu trong tên', 'Laws named in the title'), fmt(d[3])) : '')
+            + trow(null, L('Số điều được sửa', 'Articles changed'), fmt(d[5])) + `<div class="q">${d[6].slice(0, 12).map(i => esc(actName(i))).join('<br>')}${d[6].length > 12 ? '<br>…' : ''}</div>`);
+      });
+      note(el, ['git log (Law, art-*.md)', 'data/laws.csv (title)'], L(`${fmt(D.c06.n_laws)} luật sửa đổi`, `${fmt(D.c06.n_laws)} amending laws`),
+        L('chỉ tính các văn bản của hồ sơ; một luật sửa đổi nhiều luật có thể sửa những luật không có trong hồ sơ. Số luật nêu trong tên đọc từ “của N luật” hoặc từ danh sách các luật trong tên.',
+          'only the acts of the record count; a law amending several laws can amend laws the record does not hold. The number of laws named in the title is read from “của N luật” (of N laws) or from the list of laws in the title.'));
+      table(el, [L('Luật', 'Law'), L('Số hiệu', 'Number'), L('Thông qua', 'Adopted'), L('Văn bản được sửa', 'Acts changed'), L('Điều', 'Articles'), L('Luật nêu trong tên', 'Laws in title')], Lw.map(r => [lab(r), r[0], dateShort(r[1]), r[4], r[5], r[3] || '–']));
+    }
+  };
+});
+
+// 7. time to the first amendment
+chart('c07', el => {
+  const K = D.c07.km, G = ['QH15', 'QH14', 'QH13', 'g12'], d0 = D.c07.day0;
+  const mo = d => Math.round(d / 30.44);
+  return {
+    title: L(`Văn bản khóa XV được sửa lần đầu sau ${dec(yrs(K.QH15.median), 1)} năm (trung vị), văn bản khóa XIV sau ${dec(yrs(K.QH14.median), 1)} năm`, `Acts of the 15th National Assembly were first amended after a median of ${dec(yrs(K.QH15.median), 1)} year${Math.abs(yrs(K.QH15.median) - 1) < .05 ? '' : 's'}; those of the 14th after ${dec(yrs(K.QH14.median), 1)}`),
+    dek: L(`Tỷ lệ văn bản chưa từng được sửa, theo số năm kể từ ngày có hiệu lực, cho từng khóa đã thông qua văn bản; văn bản chưa được sửa được tính đến ngày ${dateTxt(D.c07.censor)}. ${fmt(d0.length)} văn bản bị sửa ngay trong ngày đầu tiên có hiệu lực: Bộ luật Hình sự (bởi Luật 12/2017/QH14) và ${fmt(d0.length - 1)} luật của khóa XV.`,
+      `The share of acts never yet amended, by years since they took effect, for each term that adopted them; an act not yet amended counts until ${dateTxt(D.c07.censor)}. ${fmt(d0.length)} acts were amended on their very first day in force: the Penal Code (by Law 12/2017/QH14) and ${fmt(d0.length - 1)} laws of the 15th term.`),
+    draw(el) {
+      const cols = { QH15: css('--s2'), QH14: css('--s1'), QH13: css('--s3'), g12: css('--muted-mark') };
+      const gname = g => g === 'g12' ? L('Khóa X–XII', '10th–12th') : termShort(g);
+      legend(el, G.map(g => ({ c: cols[g], l: `${gname(g)} · ${fmt(K[g].n)} ${L('văn bản', 'acts')} · ${L('trung vị', 'median')} ${K[g].median != null ? yrTxt(K[g].median) : '–'}`, shape: 'line' })));
+      const w = W(el), nw = narrow(w), h = nw ? 270 : 330, m = { t: 14, r: nw ? 10 : 20, b: 28, l: 40 };
+      const svg = svgIn(el, w, h), g = svg.append('g').attr('transform', `translate(${m.l},${m.t})`);
+      const iw = w - m.l - m.r, ih = h - m.t - m.b, maxT = 20 * 365.25;
+      const x = d3.scaleLinear().domain([0, maxT]).range([0, iw]), y = d3.scaleLinear().domain([0, 1]).range([ih, 0]);
+      yAxis(g, y, iw, 4, v => pv(100 * v));
+      [0, 5, 10, 15, 20].forEach(v => g.append('text').attr('class', 'lbl mut').attr('x', x(v * 365.25)).attr('y', ih + 16).attr('text-anchor', 'middle').text(L(`${v} năm`, `${v} yr`)));
+      g.append('line').attr('x1', 0).attr('x2', iw).attr('y1', y(.5)).attr('y2', y(.5)).attr('stroke', css('--text-3')).attr('stroke-dasharray', '3 3');
+      halo(g, iw, y(.5) - 6, L('một nửa đã được sửa', 'half amended'), 'end', 'lbl mut');
+      G.slice().reverse().forEach(gk => {
+        const k = K[gk], st = k.steps, pts = [];
+        st.forEach(([tt, s], i) => { if (i) pts.push([tt, pts[pts.length - 1][1]]); pts.push([tt, s]); });
+        pts.push([Math.min(k.maxt, maxT), pts[pts.length - 1][1]]);
+        const line = d3.line().x(p => x(Math.min(p[0], maxT))).y(p => y(p[1]));
+        if (gk === 'QH15') g.append('path').attr('d', d3.area().x(p => x(Math.min(p[0], maxT))).y0(ih).y1(p => y(p[1]))(pts)).attr('fill', grad(svg, 'c07g', cols[gk], .22));
+        g.append('path').attr('d', line(pts)).attr('fill', 'none').attr('stroke', cols[gk]).attr('stroke-width', gk === 'QH15' ? 2.4 : 2);
+        if (k.median != null) {
+          g.append('circle').attr('cx', x(k.median)).attr('cy', y(.5)).attr('r', 4).attr('fill', cols[gk]).attr('stroke', css('--surface')).attr('stroke-width', 1.5);
+        }
+      });
+      // the drop on day one: a bracket at the axis and a short count beside it, between the curves
+      const s0 = K.QH15.steps.filter(s => s[0] === 0).pop();
+      if (s0 && s0[1] < 1) {
+        g.append('path').attr('d', `M${x(0) + 3},${y(1) + 2}H${x(0) + 6}V${y(s0[1]) - 1}H${x(0) + 3}`).attr('fill', 'none').attr('stroke', cols.QH15).attr('stroke-width', 1.4);
+        halo(g, x(0) + 10, (y(1) + y(s0[1])) / 2 + 8, L(`${fmt(K.QH15.day0.length)} luật`, `${fmt(K.QH15.day0.length)} laws`), 'start', 'lbl strong', cols.QH15);
+      }
+      bindTip(g.append('rect').attr('class', 'hit').attr('width', iw).attr('height', ih).datum(0), () => G.map(gk => trow(cols[gk], gname(gk), K[gk].median != null ? L(`trung vị ${yrTxt(K[gk].median)}`, `median ${yrTxt(K[gk].median)}`) : '–')).join('')
+        + `<div class="q">${L('Sửa ngay ngày có hiệu lực', 'Amended on day one')}: ${d0.map(r => esc(actName(r[0]))).join(', ')}</div>`);
+      note(el, ['git log (In-force)'], L(`${fmt(PF.acts)} văn bản; ${fmt(sum(G, gk => K[gk].events))} đã được sửa ít nhất một lần`, `${fmt(PF.acts)} acts; ${fmt(sum(G, gk => K[gk].events))} amended at least once`),
+        L('ước lượng Kaplan–Meier. Hồ sơ chỉ gồm văn bản được ghi là đang có hiệu lực, nên văn bản cũ là những văn bản chưa bị thay thế. Khóa X–XII gộp lại (29 văn bản). Lần sửa đầu tiên là lần đầu tiên một điều của văn bản thay đổi.',
+          'Kaplan–Meier estimate. The record holds only acts it gives as in force, so the old ones are those not yet replaced. The 10th–12th terms are grouped (29 acts). The first amendment is the first change to any article of the act.'));
+      table(el, [L('Khóa', 'Term'), L('Văn bản', 'Acts'), L('Đã được sửa', 'Amended'), L('Trung vị (năm)', 'Median (years)'), L('Sửa ngay ngày đầu', 'On day one')], G.map(gk => [gname(gk), K[gk].n, K[gk].events, K[gk].median != null ? dec(yrs(K[gk].median), 1) : '–', K[gk].day0.length]));
+      subTable(el, L('Văn bản bị sửa ngay trong ngày có hiệu lực', 'Acts amended on their first day in force'), [L('Văn bản', 'Act'), L('Luật sửa đổi', 'Amending law'), L('Ngày', 'Day')], d0.map(r => [actName(r[0]), lawFull(r[1]), dateShort(r[2])]), [0, 0, 1]);
+    }
+  };
+});
+
+// 8. changes by field and year
+chart('c08', el => {
+  const c = D.c08, Y = c.years, tots = FIELDS.map(f => sum(c.rows[f])), yt = Y.map((y, j) => sum(FIELDS, f => c.rows[f][j]));
+  let best = { v: 0 }; FIELDS.forEach(f => c.rows[f].forEach((v, j) => { if (v > best.v) best = { v, f, y: Y[j] }; }));
+  const j25 = Y.indexOf('2025'), top25 = FIELDS.slice().sort((a, b) => c.rows[b][j25] - c.rows[a][j25])[0], om = D.c06.laws.slice().sort((a, b) => b[5] - a[5])[0];
+  return {
+    title: L(`Năm ${best.y}: ${fmt(best.v)} lần sửa một điều trong lĩnh vực ${fieldName(best.f).toLowerCase()}`, `${best.y}: ${fmt(best.v)} changes to articles in ${fieldName(best.f).toLowerCase()}`),
+    dek: L(`Số lần một điều được sửa, bổ sung hoặc bãi bỏ, theo lĩnh vực của văn bản và năm có hiệu lực. Lĩnh vực do trang này gán cho từng văn bản theo tên của văn bản. Năm 2025, nhiều nhất là ${fieldName(top25).toLowerCase()} (${fmt(c.rows[top25][j25])} lần); năm 2026, riêng ${lawName(om[0])} đã sửa ${fmt(om[5])} điều.`,
+      `Changes to an article (rewritten, inserted or repealed), by the field of the act and the year they took effect. This page gives each act a field from its title. In 2025 the most were in ${fieldName(top25).toLowerCase()} (${fmt(c.rows[top25][j25])}); in 2026, the ${lawName(om[0])} alone changed ${fmt(om[5])} articles.`),
+    draw(el) {
+      const w = W(el), nw = narrow(w), ramp = seqRamp(), max = d3.max(FIELDS, f => d3.max(c.rows[f]));
+      const lw = Math.ceil(textW(el, FIELDS.map(f => fieldName(f, nw)))) + 10, tw = nw ? 42 : 70;
+      const cw = (w - lw - tw) / Y.length, ch = nw ? 22 : 26, m = { t: 6, l: lw };
+      const h = m.t + ch * FIELDS.length + 22, svg = svgIn(el, w, h), g = svg.append('g').attr('transform', `translate(${m.l},${m.t})`);
+      const col = d3.scaleSqrt().domain([0, max]).range([0, 1]), xb = d3.scaleLinear().domain([0, d3.max(tots)]).range([0, tw - (nw ? 26 : 38)]);
+      FIELDS.forEach((f, i) => {
+        g.append('text').attr('class', 'lbl strong').attr('x', -8).attr('y', i * ch + ch / 2 + 4).attr('text-anchor', 'end').text(fieldName(f, nw));
+        Y.forEach((y, j) => {
+          const v = c.rows[f][j], fill = v ? ramp(.12 + .88 * col(v)) : css('--surface-2');
+          const r = g.append('rect').attr('x', j * cw + 1).attr('y', i * ch + 1).attr('width', cw - 2).attr('height', ch - 2).attr('rx', Math.min(5, cw / 4)).attr('fill', fill).attr('opacity', y === '2026' ? .8 : 1).datum({ f, y, v });
+          if (v && cw > 30 && !nw) g.append('text').attr('class', 'lbl').attr('x', j * cw + cw / 2).attr('y', i * ch + ch / 2 + 4).attr('text-anchor', 'middle').style('fill', inkOn(fill)).style('pointer-events', 'none').text(v);
+          bindTip(r, d => `<b>${esc(fieldName(d.f))} · ${d.y}${d.y === '2026' ? ' (' + t('partial') + ')' : ''}</b>` + trow(null, L('Lần sửa một điều', 'Changes to an article'), fmt(d.v)));
+        });
+        const bx = Y.length * cw + 6;
+        g.append('path').attr('d', barPath(bx, i * ch + ch * .3, bx + Math.max(1, xb(tots[i])), ch * .4, 2)).attr('fill', css('--muted-mark'));
+        g.append('text').attr('class', 'lbl').attr('x', bx + xb(tots[i]) + 4).attr('y', i * ch + ch / 2 + 4).text(fmt(tots[i]));
+      });
+      Y.forEach((y, j) => { if (!nw || j % 3 === 0 || j === Y.length - 1) g.append('text').attr('class', 'lbl mut').attr('x', j * cw + cw / 2).attr('y', FIELDS.length * ch + 14).attr('text-anchor', 'middle').text(nw ? `’${y.slice(2)}` : y); });
+      note(el, ['git log (In-force)', 'art-*.md (A, M, D)'], L(`${fmt(sum(tots))} lần sửa một điều, ${fmt(PF.acts)} văn bản trong ${FIELDS.length} lĩnh vực`, `${fmt(sum(tots))} changes to an article, ${fmt(PF.acts)} acts in ${FIELDS.length} fields`),
+        L('mỗi văn bản thuộc một lĩnh vực, gán theo tên (danh sách trong src/prep.py, bảng bên dưới). Năm 2026 tính đến ngày 1 tháng 10.', 'each act belongs to one field, given by its title (the list is in src/prep.py and the table below). 2026 runs to 1 October.'));
+      table(el, [L('Lĩnh vực', 'Field'), L('Văn bản', 'Acts'), ...Y, t('total')], FIELDS.map((f, i) => [fieldName(f), c.acts[f], ...c.rows[f], tots[i]]));
+      subTable(el, L('Lĩnh vực của từng văn bản', 'The field of each act'), [L('Văn bản', 'Act'), L('Lĩnh vực', 'Field')], ACTS.map((a, i) => [actName(i), fieldName(a[6])]));
+    }
+  };
+});
+
+// 9. who wrote the text in force
+chart('c09', el => {
+  const c = D.c09, R = c.acts, top = R[0];
+  return {
+    title: L(`${actName(top[0])}: ${pct(top[1] - top[2], top[1])} câu chữ hiện hành do các luật sau này viết`, `${actName(top[0])}: ${pct(top[1] - top[2], top[1])} of its wording in force was written by later laws`),
+    dek: L(`Với mỗi dòng trong các điều đang có hiệu lực, luật đã viết ra dòng đó (như git blame), tính theo số từ: phần nhạt là văn bản khi được thông qua, các phần đậm là các luật sửa đổi theo thời gian có hiệu lực. Đây là ${fmt(R.length)} văn bản có tỷ lệ cao nhất. Trên toàn hồ sơ, ${pct(c.amended, c.total)} số từ đang có hiệu lực do luật sửa đổi viết; ${fmt(c.over_half)} văn bản có hơn một nửa câu chữ do luật sau viết, ${fmt(PF.never_amended)} văn bản chưa từng được sửa.`,
+      `For every line of the articles in force, the law that wrote it (as git blame), counted in words: the light part is the text as adopted, the darker parts the amending laws by when they took effect. These are the ${fmt(R.length)} acts with the highest share. Across the record, ${pct(c.amended, c.total)} of the words in force were written by amending laws; ${fmt(c.over_half)} acts have more than half of their wording from later laws, and ${fmt(PF.never_amended)} acts were never amended.`),
+    draw(el) {
+      const ramp = seqRamp(), colors = [css('--muted-mark'), ramp(.4), ramp(.65), css('--s2')];
+      const names = [L('Văn bản khi thông qua', 'Text as adopted'), L('Luật sửa đổi có hiệu lực trước 2021', 'Amending laws in force before 2021'), L('2021–2024', '2021–2024'), L('2025–2026', '2025–2026')];
+      legend(el, names.map((l, i) => ({ c: colors[i], l })));
+      const rows = R.map(r => ({ i: r[0], orig: r[2], p1: r[3], p2: r[4], p3: r[5], tot: r[1], top: r[6] }));
+      bands(el, rows, ['orig', 'p1', 'p2', 'p3'], colors, names, { rowH: 32, label: (r, nw) => actName(r.i), lcap: 150, right: (r, nw) => nw ? fmt(r.tot) : L(`${fmt(r.tot)} từ`, `${fmt(r.tot)} words`),
+        tipHead: d => `<div class="q">${esc(actNum(d.i))}</div>`, tipExtra: d => trow(null, t('total'), L(`${fmt(d.tot)} từ`, `${fmt(d.tot)} words`)) + `<div class="q">${d.top.map(q => esc(lawFull(q[0])) + ': ' + L(`${fmt(q[1])} từ`, `${fmt(q[1])} words`)).join('<br>')}</div>` });
+      note(el, ['art-*.md', 'git log'], L(`${fmt(PF.acts)} văn bản, ${fmt(c.total)} từ`, `${fmt(PF.acts)} acts, ${fmt(c.total)} words`),
+        L('mỗi dòng (một khoản, điểm hay đoạn) được ghi cho luật đã đưa nó vào văn bản: khi một điều được sửa, các dòng giữ nguyên giữ tác giả cũ (so sánh từng dòng, như git blame). Luật Trẻ em và Luật Dân quân tự vệ không được xếp hạng vì hồ sơ giữ một phần văn bản của văn bản khác (xem vulnerabilities/).',
+          'each line (a clause, point or paragraph) is credited to the law that brought it into the text: when an article is amended, lines kept unchanged keep their author (a line-by-line comparison, as git blame). The Law on Children and the Law on Militia are not ranked because the record holds part of another document’s text in them (see vulnerabilities/).'));
+      table(el, [L('Văn bản', 'Act'), L('Số từ', 'Words'), ...names, L('Do luật sửa đổi viết', 'Written by amending laws')], rows.map(r => [actName(r.i), r.tot, r.orig, r.p1, r.p2, r.p3, pct(r.tot - r.orig, r.tot, 1)]));
+      subTable(el, L('Hiến pháp và các bộ luật', 'The Constitution and the codes'), [L('Văn bản', 'Act'), L('Số từ', 'Words'), L('Do luật sửa đổi viết', 'Written by amending laws')], c.codes.map(r => [actName(r[0]), r[1], pct(r[1] - r[2], r[1], 1)]), [0, 1, 1]);
+    }
+  };
+});
+
+part('p3', 'III. Hiến pháp và các bộ luật', 'III. The Constitution and the codes',
+  'Hiến pháp năm 2013 và sáu bộ luật: Dân sự, Hình sự, Tố tụng dân sự, Tố tụng hình sự, Lao động và Hàng hải. Năm trong sáu bộ luật được thông qua tại một kỳ họp, tháng 11 năm 2015.',
+  'The Constitution of 2013 and the six codes: Civil, Penal, Civil Procedure, Criminal Procedure, Labour and Maritime. Five of the six codes were adopted at one session, in November 2015.');
+
+// 10. the Constitution, article by article
+chart('c10', el => {
+  const c = D.c10, A = c.arts, am = A.filter(r => r[3]);
+  const CHN = { I: ['Chế độ chính trị', 'The political regime'], II: ['Quyền con người, quyền và nghĩa vụ cơ bản của công dân', 'Human rights and the basic rights and duties of citizens'],
+    III: ['Kinh tế, xã hội, văn hóa, giáo dục, khoa học, công nghệ và môi trường', 'Economy, society, culture, education, science, technology and environment'], IV: ['Bảo vệ Tổ quốc', 'Defence of the Fatherland'],
+    V: ['Quốc hội', 'The National Assembly'], VI: ['Chủ tịch nước', 'The State President'], VII: ['Chính phủ', 'The Government'], VIII: ['Tòa án nhân dân, Viện kiểm sát nhân dân', 'People’s Courts and People’s Procuracies'],
+    IX: ['Chính quyền địa phương', 'Local government'], X: ['Hội đồng bầu cử quốc gia, Kiểm toán nhà nước', 'National Election Council and State Audit'], XI: ['Hiệu lực của Hiến pháp và việc sửa đổi Hiến pháp', 'Effect and amendment of the Constitution'] };
+  const CHS = { I: ['Chế độ chính trị', 'Political regime'], II: ['Quyền con người, quyền công dân', 'Human and citizens’ rights'], III: ['Kinh tế, xã hội, văn hóa, môi trường', 'Economy, society, culture'],
+    IV: ['Bảo vệ Tổ quốc', 'Defence of the Fatherland'], V: ['Quốc hội', 'National Assembly'], VI: ['Chủ tịch nước', 'State President'], VII: ['Chính phủ', 'Government'],
+    VIII: ['Tòa án, Viện kiểm sát', 'Courts and procuracies'], IX: ['Chính quyền địa phương', 'Local government'], X: ['Hội đồng bầu cử, Kiểm toán nhà nước', 'Election Council, State Audit'],
+    XI: ['Hiệu lực và sửa đổi Hiến pháp', 'Effect and amendment'] };
+  const ART = { 9: ['Mặt trận Tổ quốc Việt Nam', 'the Vietnam Fatherland Front'], 10: ['Công đoàn Việt Nam', 'the Trade Union'], 84: ['quyền trình dự án luật', 'who may submit bills'], 110: ['đơn vị hành chính', 'administrative units'], 111: ['chính quyền địa phương', 'local government'] };
+  const chs = c.chapters.map(x => x[0]), per = chs.map(ch => ({ ch, arts: A.filter(r => r[1] === ch), words: sum(A.filter(r => r[1] === ch), r => r[2]) }));
+  const most = per.slice().sort((a, b) => b.arts.length - a.arts.length)[0], longest = per.slice().sort((a, b) => b.words - a.words)[0];
+  const artList = am.map(r => L(`Điều ${r[0]} (${ART[r[0]] ? ART[r[0]][0] : ''})`, `Article ${r[0]} (${ART[r[0]] ? ART[r[0]][1] : ''})`));
+  return {
+    title: L(`Hiến pháp năm 2013: ${fmt(A.length)} điều, năm 2025 sửa ${fmt(am.length)} điều`, `The Constitution of 2013: ${fmt(A.length)} articles, ${fmt(am.length)} amended in 2025`),
+    dek: L(`Mỗi ô là một điều của Hiến pháp, xếp theo ${fmt(chs.length)} chương; ô màu cam là ${fmt(am.length)} điều được Nghị quyết ${c.law} sửa đổi, có hiệu lực từ ngày ${dateTxt(c.day)} trong hồ sơ: ${artList.join(', ').replace(/, ([^,]*)$/, ' và $1')}. Điều 110 nay quy định đơn vị hành chính tổ chức thành hai cấp. Chương ${most.ch} có nhiều điều nhất (${fmt(most.arts.length)}); chương ${longest.ch} về Quốc hội dài nhất (${fmt(longest.words)} từ).`,
+      `Each square is an article of the Constitution, by its ${fmt(chs.length)} chapters; the orange squares are the ${fmt(am.length)} articles amended by Resolution ${c.law}, in force from ${dateTxt(c.day)} in the record: ${artList.join(', ').replace(/, ([^,]*)$/, ' and $1')}. Article 110 now organises administrative units in two levels. Chapter ${most.ch} has the most articles (${fmt(most.arts.length)}); chapter ${longest.ch}, on the National Assembly, is the longest (${fmt(longest.words)} words).`),
+    draw(el) {
+      const hi = css('--s2');
+      legend(el, [{ c: seqRamp()(.45), l: L('Điều giữ văn bản năm 2013 (màu càng đậm, điều càng dài)', 'Article as adopted in 2013 (darker: longer)') }, { c: hi, l: L(`Điều được sửa năm 2025 (Nghị quyết ${c.law})`, `Article amended in 2025 (Resolution ${c.law})`) }]);
+      const w = W(el), nw = narrow(w), ramp = seqRamp();
+      const lab = (p, n) => n ? `${p.ch}` : `${p.ch} · ${LA(CHS[p.ch])}`;
+      const lw = Math.ceil(textW(el, per.map(p => lab(p, nw)))) + 12, tw = nw ? 44 : 84;
+      const cs = Math.min(20, (w - lw - tw) / 36), gap = Math.max(1.5, cs * .16), rowH = Math.max(cs + 8, 22);
+      const h = per.length * rowH + 6, svg = svgIn(el, w, h), g = svg.append('g').attr('transform', `translate(${lw},2)`);
+      const maxW = d3.max(per, p => p.words), xb = d3.scaleLinear().domain([0, maxW]).range([0, tw - (nw ? 30 : 44)]);
+      per.forEach((p, i) => {
+        const y0 = i * rowH + (rowH - cs) / 2;
+        g.append('text').attr('class', 'lbl strong').attr('x', -8).attr('y', y0 + cs / 2 + 4).attr('text-anchor', 'end').text(lab(p, nw));
+        p.arts.forEach((r, j) => {
+          const shade = ramp(.25 + .5 * Math.min(1, r[2] / 250));
+          const sq = g.append('rect').attr('x', j * cs + gap / 2).attr('y', y0 + gap / 2).attr('width', cs - gap).attr('height', cs - gap).attr('rx', Math.min(4, cs / 4)).attr('fill', r[3] ? hi : shade).datum(r);
+          bindTip(sq, d => `<b>${L('Điều', 'Article')} ${d[0]}</b><div class="q">${L('Chương', 'Chapter')} ${d[1]} · ${esc(LA(CHN[d[1]]))}</div>` + trow(null, L('Số từ', 'Words'), fmt(d[2])) + (d[3] ? trow(hi, L('Sửa đổi', 'Amended'), `${c.law} · ${dateShort(c.day)}`) : ''));
+        });
+        const bx = 36 * cs + 8;
+        g.append('path').attr('d', barPath(bx, y0 + cs * .3, bx + Math.max(1, xb(p.words)), cs * .4, 2)).attr('fill', css('--muted-mark'));
+        g.append('text').attr('class', 'lbl').attr('x', bx + xb(p.words) + 4).attr('y', y0 + cs / 2 + 4).text(fmt(p.words));
+      });
+      note(el, ['constitution/hien-phap/art-*.md', 'constitution/hien-phap/cau-truc.md'], L(`${fmt(A.length)} điều, ${fmt(c.words)} từ`, `${fmt(A.length)} articles, ${fmt(c.words)} words`),
+        L(`màu của ô theo độ dài của điều; thanh bên phải là số từ của chương. Ranh giới các chương lấy theo điều đầu tiên của mỗi chương (kiểm tra trong src/prep.py). Hồ sơ ghi ngày ${dateTxt(c.day)}, ngày Nghị quyết được thông qua, cho văn bản sửa đổi.`,
+          `the shade of a square follows the article’s length; the bar on the right is the chapter’s words. Chapter boundaries follow the first article of each chapter (checked in src/prep.py). The record dates the amended text ${dateTxt(c.day)}, the day the Resolution was adopted.`));
+      table(el, [L('Chương', 'Chapter'), L('Tên chương', 'Title'), L('Điều', 'Articles'), L('Từ', 'Words'), L('Điều được sửa năm 2025', 'Amended in 2025')], per.map(p => [p.ch, LA(CHN[p.ch]), p.arts.length, p.words, p.arts.filter(r => r[3]).map(r => r[0]).join(', ') || '–']));
+    }
+  };
+});
+
+// 11. the constitution each preamble cites
+chart('c11', el => {
+  const A = D.c11.acts, BC = ['c1992', 'c2001', 'c2013', 'c2025'];
+  const n92 = A.filter(r => (r[2] === 'c1992' || r[2] === 'c2001')), live92 = n92.filter(r => !REPL.has(r[0])), n25 = A.filter(r => r[2] === 'c2025');
+  const first25 = n25.map(r => r[1]).sort()[0];
+  return {
+    title: L(`${fmt(live92.length)} văn bản mà hồ sơ ghi là đang có hiệu lực vẫn căn cứ Hiến pháp năm 1992`, `${fmt(live92.length)} acts the record gives as in force still rest on the Constitution of 1992`),
+    dek: L(`Mỗi chấm là một văn bản, theo năm thông qua và theo hiến pháp mà phần căn cứ của văn bản viện dẫn. Các văn bản thông qua đến tháng 6 năm 2013 căn cứ Hiến pháp năm 1992 (phần lớn là Hiến pháp năm 1992 đã được sửa đổi theo Nghị quyết 51/2001/QH10); từ cuối năm 2013 là Hiến pháp năm 2013; từ ngày ${dateTxt(first25)}, ${fmt(n25.length)} văn bản căn cứ Hiến pháp năm 2013 đã được sửa đổi theo Nghị quyết 203/2025/QH15. Chấm rỗng là văn bản đã được văn bản sau trong hồ sơ thay thế.`,
+      `Each dot is an act, by the year it was adopted and the constitution its preamble cites. Acts adopted up to June 2013 rest on the Constitution of 1992 (most of them on the 1992 Constitution as amended by Resolution 51/2001/QH10); from late 2013, on the Constitution of 2013; from ${dateTxt(first25)}, ${fmt(n25.length)} acts on the 2013 Constitution as amended by Resolution 203/2025/QH15. Hollow dots are acts replaced by a later act of the record.`),
+    draw(el) {
+      const ramp = seqRamp(), cols = { c1992: css('--s4'), c2001: css('--s2'), c2013: css('--s1'), c2025: css('--s3'), self: css('--text') };
+      const names = { c1992: L('Hiến pháp năm 1992', 'Constitution of 1992'), c2001: L('Hiến pháp năm 1992, sửa đổi năm 2001', 'Constitution of 1992, as amended in 2001'), c2013: L('Hiến pháp năm 2013', 'Constitution of 2013'), c2025: L('Hiến pháp năm 2013, sửa đổi năm 2025', 'Constitution of 2013, as amended in 2025'), self: L('Hiến pháp năm 2013', 'The Constitution of 2013') };
+      legend(el, BC.map(b => ({ c: cols[b], l: names[b], shape: 'dot' })).concat([{ c: css('--text'), l: L('Bản thân Hiến pháp năm 2013', 'The Constitution of 2013 itself'), shape: 'square' }]));
+      const w = W(el), nw = narrow(w), years = d3.range(1999, 2027), by = new Map(years.map(y => [y, []]));
+      const ordB = { c1992: 0, c2001: 1, self: 2, c2013: 3, c2025: 4 };
+      A.slice().sort((a, b) => ordB[a[2]] - ordB[b[2]] || (a[1] < b[1] ? -1 : 1)).forEach(r => by.get(+r[1].slice(0, 4)).push(r));
+      const maxN = d3.max([...by.values()], v => v.length), m = { t: 30, r: 8, b: 26, l: 8 };
+      const iw = w - m.l - m.r, step = iw / years.length, r0 = Math.min(nw ? 3.6 : 6.4, step * .42), dy = r0 * 2 + (nw ? 1.4 : 2.4);
+      const ih = maxN * dy + 6, h = m.t + m.b + ih, svg = svgIn(el, w, h), g = svg.append('g').attr('transform', `translate(${m.l},${m.t})`);
+      const x = y => (y - years[0]) * step + step / 2;
+      const ERA = [[1999, 2013.9, L('Hiến pháp năm 1992', 'Constitution of 1992'), '1992'], [2013.9, 2025.46, L('Hiến pháp năm 2013', 'Constitution of 2013'), '2013'], [2025.46, 2027, L('sửa đổi 2025', 'amended 2025'), L('sửa đổi', 'amended')]];
+      ERA.forEach(([a, b, lab, short], i) => {
+        const x0 = (a - years[0]) * step, x1 = (b - years[0]) * step, fit = s => x1 - x0 > textW(el, [s], 'lbl strong') + 6;
+        g.append('rect').attr('x', x0).attr('width', x1 - x0).attr('y', -m.t + 4).attr('height', ih + m.t - 4).attr('rx', 6).attr('fill', i % 2 ? 'transparent' : css('--surface-2'));
+        const s = fit(lab) ? lab : fit(short) ? short : null;
+        if (s) g.append('text').attr('class', 'lbl strong').attr('x', (x0 + x1) / 2).attr('y', -12).attr('text-anchor', 'middle').text(s);
+      });
+      g.append('line').attr('class', 'base').attr('x1', 0).attr('x2', iw).attr('y1', ih).attr('y2', ih);
+      years.forEach(y => { if (nw ? y % 5 === 0 : y % 2 === 1) g.append('text').attr('class', 'lbl mut').attr('x', x(y)).attr('y', ih + 16).attr('text-anchor', 'middle').text(y); });
+      const pts = [];
+      by.forEach((v, y) => v.forEach((r, k) => {
+        const cx = x(y), cy = ih - r0 - 3 - k * dy, c = cols[r[2]] || css('--muted-mark');
+        const node = r[2] === 'self' ? g.append('rect').attr('x', cx - r0).attr('y', cy - r0).attr('width', 2 * r0).attr('height', 2 * r0).attr('rx', 2).attr('fill', 'none').attr('stroke', c).attr('stroke-width', 2)
+          : REPL.has(r[0]) ? g.append('circle').attr('cx', cx).attr('cy', cy).attr('r', r0 - 1).attr('fill', css('--surface')).attr('stroke', c).attr('stroke-width', 2)
+          : g.append('circle').attr('cx', cx).attr('cy', cy).attr('r', r0).attr('fill', c);
+        pts.push({ r, cx, cy });
+      }));
+      bindTip(g.selectAll('.hit').data(pts).join('rect').attr('class', 'hit').attr('x', p => p.cx - step / 2).attr('y', p => p.cy - dy / 2).attr('width', step).attr('height', dy),
+        p => `<b>${esc(actName(p.r[0]))}</b><div class="q">${esc(actNum(p.r[0]))} · ${dateShort(p.r[1])}</div>` + trow(cols[p.r[2]], L('Căn cứ', 'Rests on'), esc(names[p.r[2]] || '–')) + (REPL.has(p.r[0]) ? `<div class="q">${L('Đã được thay thế bởi ', 'Replaced by ')}${esc(actName(REPL.get(p.r[0])[1]))}</div>` : ''));
+      note(el, ['<KIND>/<YEAR>/<NUMBER>/loi-mo-dau.md'], L(`${fmt(A.length)} văn bản`, `${fmt(A.length)} acts`),
+        L('hiến pháp đọc từ phần “Căn cứ …” của văn bản: có “1992” và “51/2001” là Hiến pháp năm 1992 đã sửa đổi; chỉ có “1992” là Hiến pháp năm 1992; có “203/2025” là Hiến pháp năm 2013 đã sửa đổi năm 2025; các văn bản khác căn cứ “Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam” (năm 2013).',
+          'the constitution is read from the act’s “Căn cứ …” (pursuant to) preamble: “1992” with “51/2001” is the 1992 Constitution as amended; “1992” alone the 1992 Constitution; “203/2025” the 2013 Constitution as amended in 2025; the other acts cite the “Constitution of the Socialist Republic of Vietnam” (of 2013).'));
+      table(el, [L('Hiến pháp được viện dẫn', 'Constitution cited'), L('Văn bản', 'Acts'), L('trong đó đã được thay thế', 'of which replaced')], ['c1992', 'c2001', 'c2013', 'c2025'].map(b => [names[b], A.filter(r => r[2] === b).length, A.filter(r => r[2] === b && REPL.has(r[0])).length]));
+      subTable(el, L('Các văn bản căn cứ Hiến pháp năm 1992', 'The acts resting on the 1992 Constitution'), [L('Văn bản', 'Act'), L('Số hiệu', 'Number'), L('Thông qua', 'Adopted')], n92.map(r => [actName(r[0]), actNum(r[0]), dateShort(r[1])]), [0, 0, 1]);
+    }
+  };
+});
+
+// 12. the six codes and the Constitution
+chart('c12', el => {
+  const OR = ['Hiến pháp năm 2013', 'Bộ luật Dân sự', 'Bộ luật Hình sự', 'Bộ luật Tố tụng dân sự', 'Bộ luật Tố tụng hình sự', 'Bộ luật Lao động', 'Bộ luật Hàng hải'];
+  const C12 = D.c12.slice().sort((a, b) => OR.indexOf(ACTS[a.i][0]) - OR.indexOf(ACTS[b.i][0]));
+  const mv = d3.max(C12, r => r.versions), most = C12.filter(r => r.versions === mv), none = C12.filter(r => r.laws === 0);
+  const blhs = C12.find(r => ACTS[r.i][0] === 'Bộ luật Hình sự'), s0 = blhs.steps[0];
+  return {
+    title: L(`${andL(none.map(r => actName(r.i)))} chưa được sửa lần nào; ${andL(most.map(r => actName(r.i)))} đã có ${fmt(mv)} phiên bản`,
+      `${Cap(andL(theL(none.map(r => actName(r.i)))))} has never been amended; ${andL(theL(most.map(r => actName(r.i))))} have had ${fmt(mv)} versions each`),
+    dek: L(`Hiến pháp năm 2013 và sáu bộ luật: số phiên bản, số luật đã sửa, số điều được sửa, bổ sung hoặc bãi bỏ, và tỷ lệ câu chữ hiện hành do luật sửa đổi viết; các cột nhỏ là các lần sửa theo thời gian, cao theo số điều. Luật ${s0[1]} sửa ${fmt(s0[2])} điều của Bộ luật Hình sự đúng vào ngày bộ luật có hiệu lực, ${dateTxt(s0[0])}.`,
+      `The Constitution of 2013 and the six codes: versions, amending laws, articles rewritten, inserted or repealed, and the share of the wording in force written by amending laws; the small columns are the amendments over time, their height the articles changed. Law ${s0[1]} amended ${fmt(s0[2])} articles of the Penal Code on the very day the Code took effect, ${dateTxt(s0[0])}.`),
+    draw(el) {
+      const box = el.append('div').attr('class', 'cards'), cA = css('--s2');
+      const sparks = C12.map(r => {
+        const d = box.append('div').attr('class', 'card');
+        d.append('div').attr('class', 'cn').text(actName(r.i));
+        d.append('div').attr('class', 'cs').text(actNum(r.i) ? `${actNum(r.i)} · ${L('có hiệu lực', 'in force')} ${dateShort(r.inforce)}` : `${L('thông qua', 'adopted')} ${dateShort(r.enacted)} · ${L('có hiệu lực', 'in force')} ${dateShort(r.inforce)}`);
+        d.append('div').attr('class', 'cv').html(`<b>${fmt(r.versions)}</b> ${L('phiên bản', r.versions === 1 ? 'version' : 'versions')}`);
+        d.append('div').attr('class', 'cs').text(L(`${fmt(r.arts)} điều · ${fmt(r.words)} từ`, `${fmt(r.arts)} articles · ${fmt(r.words)} words`));
+        const parts = [];
+        if (r.modified) parts.push(L(`sửa ${fmt(r.modified)} điều`, `${fmt(r.modified)} rewritten`));
+        if (r.inserted) parts.push(L(`bổ sung ${fmt(r.inserted)}`, `${fmt(r.inserted)} inserted`));
+        if (r.removed) parts.push(L(`bãi bỏ ${fmt(r.removed)}`, `${fmt(r.removed)} repealed`));
+        d.append('div').attr('class', 'cs').text(r.laws ? L(`${fmt(r.laws)} luật sửa đổi: `, `${fmt(r.laws)} amending law${r.laws === 1 ? '' : 's'}: `) + parts.join(', ') : L('chưa có luật sửa đổi', 'no amending law'));
+        const bar = d.append('div').attr('class', 'cbar'); bar.append('i').style('width', (100 * r.amended_share) + '%').style('background', cA);
+        d.append('div').attr('class', 'cs').text(L(`${pct(r.amended_share, 1, r.amended_share > 0 && r.amended_share < .01 ? 1 : 0)} câu chữ hiện hành do luật sửa đổi viết`, `${pct(r.amended_share, 1, r.amended_share > 0 && r.amended_share < .01 ? 1 : 0)} of the wording in force by amending laws`));
+        return { r, d };
+      });
+      // the amendments over time, 2014-2026: drawn once every card has its width
+      const ym = d3.max(C12, q => d3.max(q.steps, s => s[2]) || 0);
+      sparks.forEach(({ r, d }) => {
+        const sw = WR(d) - 28, sh = 38, svg = svgIn(d, sw, sh), x = d3.scaleTime().domain([new Date(2014, 0, 1), new Date(2027, 0, 1)]).range([4, sw - 4]);
+        d.select('.plot').style('margin-top', '6px');
+        const yy = d3.scaleSqrt().domain([0, ym]).range([0, sh - 14]);
+        svg.append('line').attr('x1', 0).attr('x2', sw).attr('y1', sh - 12).attr('y2', sh - 12).attr('stroke', css('--line'));
+        (sw < 200 ? [2014, 2020, 2026] : [2014, 2018, 2022, 2026]).forEach(y => svg.append('text').attr('class', 'lbl mut').style('font-size', '10px').attr('x', x(new Date(y, 0, 1))).attr('y', sh - 1).attr('text-anchor', y === 2014 ? 'start' : y === 2026 ? 'end' : 'middle').text(y));
+        r.steps.forEach(s => {
+          const cx = x(PD(s[0])), hh = Math.max(2, yy(s[2]));
+          const bb = svg.append('path').attr('d', colPath(cx - 3, sh - 12, 6, sh - 12 - hh, 2)).attr('fill', cA).datum(s);
+          bindTip(bb, q => `<b>${esc(actName(r.i))}</b>` + trow(null, L('Có hiệu lực', 'In force'), dateShort(q[0])) + trow(null, L('Luật sửa đổi', 'Amending law'), esc(lawFull(q[1]))) + trow(cA, L('Điều', 'Articles'), fmt(q[2])));
+        });
+        if (!r.steps.length) svg.append('text').attr('class', 'lbl mut').attr('x', sw / 2).attr('y', sh - 17).attr('text-anchor', 'middle').text(L('chưa sửa lần nào', 'never amended'));
+      });
+      note(el, ['bo-luat/2015/*', 'bo-luat/2019/45-2019-qh14', 'constitution/hien-phap', 'data/versions.json'], L(`7 văn bản, ${fmt(sum(C12, r => r.arts))} điều`, `7 acts, ${fmt(sum(C12, r => r.arts))} articles`),
+        L('Bộ luật Dân sự: vbpl.vn không liệt kê văn bản sửa đổi và không có văn bản hợp nhất nào cho bộ luật này, nên hồ sơ giữ văn bản khi thông qua. Bộ luật Hình sự và Bộ luật Tố tụng hình sự mỗi bộ bỏ một chương (18 điều) từ ngày 1 tháng 1 năm 2026 (Luật Tư pháp người chưa thành niên).',
+          'Civil Code: vbpl.vn lists no amending act and no consolidated text for it, so the record keeps the text as adopted. The Penal Code and the Criminal Procedure Code each lost one chapter (18 articles) from 1 January 2026 (Law on Juvenile Justice).'));
+      table(el, [L('Văn bản', 'Act'), L('Phiên bản', 'Versions'), L('Luật sửa đổi', 'Amending laws'), L('Điều (khi thông qua)', 'Articles (as adopted)'), L('Điều (nay)', 'Articles (now)'), L('Điều được sửa', 'Rewritten'), L('Bổ sung', 'Inserted'), L('Bãi bỏ', 'Repealed'), L('Do luật sửa đổi viết', 'By amending laws')],
+        C12.map(r => [actName(r.i), r.versions, r.laws, r.arts0, r.arts, r.modified, r.inserted, r.removed, pct(r.amended_share, 1, 1)]));
+      subTable(el, L('Các lần sửa', 'The amendments'), [L('Văn bản', 'Act'), L('Có hiệu lực', 'In force'), L('Luật sửa đổi', 'Amending law'), L('Điều', 'Articles')], C12.flatMap(r => r.steps.map(s => [actName(r.i), dateShort(s[0]), lawFull(s[1]), s[2]])), [0, 0, 0, 1]);
+    }
+  };
+});
+
+const PCH = { XIII: ['An ninh quốc gia', 'National security'], XIV: ['Tính mạng, sức khỏe, nhân phẩm, danh dự', 'Life, health, dignity and honour'], XV: ['Quyền tự do, dân chủ', 'Freedom and democratic rights'],
+  XVI: ['Sở hữu', 'Property'], XVII: ['Hôn nhân và gia đình', 'Marriage and family'], XVIII: ['Trật tự quản lý kinh tế', 'Economic management'], XIX: ['Môi trường', 'Environment'],
+  XX: ['Ma túy', 'Narcotics'], XXI: ['An toàn, trật tự công cộng', 'Public safety and order'], XXII: ['Trật tự quản lý hành chính', 'Administrative order'], XXIII: ['Chức vụ', 'Abuse of office'],
+  XXIV: ['Hoạt động tư pháp', 'Administration of justice'], XXV: ['Nghĩa vụ, trách nhiệm của quân nhân', 'Military duties'], XXVI: ['Hòa bình, loài người, chiến tranh', 'Peace, humanity and war'] };
+const PEN = () => [L('Không phạt tù', 'No prison'), L('Tù đến 3 năm', 'Up to 3 years'), L('Đến 7 năm', 'Up to 7 years'), L('Đến 15 năm', 'Up to 15 years'), L('Đến 20 năm', 'Up to 20 years'), L('Trên 20 năm', 'Over 20 years'), L('Tù chung thân', 'Life'), L('Tử hình', 'Death')];
+
+// 13. the Penal Code: the highest penalty of each crime, by chapter
+chart('c13', el => {
+  const c = D.c13, R = c.rows, tot = d3.range(8).map(k => sum(R, r => r[1][k])), heavy = tot[6] + tot[7];
+  const share = r => (r[1][6] + r[1][7]) / sum(r[1]), top = R.slice().sort((a, b) => share(b) - share(a));
+  const PEN_EN = { XIII: 'crimes against national security', XIV: 'crimes against life, health, dignity and honour', XV: 'crimes against freedom and democratic rights', XVI: 'crimes against property',
+    XVII: 'crimes against marriage and the family', XVIII: 'crimes against economic management', XIX: 'environmental crimes', XX: 'drug crimes', XXI: 'crimes against public safety and order',
+    XXII: 'crimes against administrative order', XXIII: 'crimes of office', XXIV: 'crimes against the administration of justice', XXV: 'crimes against military duties', XXVI: 'crimes against peace and humanity, and war crimes' };
+  const chLong = ch => L((c.chapters[ch] || '').toLowerCase(), PEN_EN[ch]);
+  const top3 = top.slice(0, 3).map(r => `${chLong(r[0])} (${L('chương', 'chapter')} ${r[0]}, ${pct(r[1][6] + r[1][7], sum(r[1]))})`);
+  return {
+    title: L(`Bộ luật Hình sự: ${fmt(heavy)} trong ${fmt(c.n)} tội có mức hình phạt cao nhất là tù chung thân hoặc tử hình`, `The Penal Code: ${fmt(heavy)} of its ${fmt(c.n)} crimes carry life imprisonment or death at most`),
+    dek: L(`Hình phạt cao nhất mà mỗi điều về một tội quy định cho người phạm tội, theo chương của Phần thứ hai, theo văn bản đang có hiệu lực. ${fmt(tot[3])} tội có mức cao nhất là tù đến 15 năm, nhóm đông nhất. Tỷ lệ tù chung thân và tử hình cao nhất ở ${top3[0]}, ${top3[1]} và ${top3[2]}.`,
+      `The highest penalty each article on a crime sets for a natural person, by chapter of Part Two, in the text in force. ${fmt(tot[3])} crimes carry up to 15 years at most, the largest group. Life imprisonment and death are most common among ${top3[0]}, ${top3[1]} and ${top3[2]}.`),
+    draw(el) {
+      const ramp = seqRamp(), keys = [0, 1, 2, 3, 4, 6, 7], colors = [ramp(.1), ramp(.28), ramp(.46), ramp(.64), ramp(.82), css('--s2'), css('--s8')], names = keys.map(k => PEN()[k]);
+      legend(el, names.map((l, i) => ({ c: colors[i], l })));
+      const rows = R.map(r => { const o = { ch: r[0] }; keys.forEach(k => o[k] = r[1][k]); return o; });
+      bands(el, rows, keys, colors, names, { rowH: 30, label: (r, nw) => nw ? `${r.ch}` : `${r.ch} · ${LA(PCH[r.ch])}`, lcap: 44, right: r => L(`${fmt(sum(keys, k => r[k]))} tội`, `${fmt(sum(keys, k => r[k]))} crimes`),
+        tipHead: d => `<div class="q">${esc(c.chapters[d.ch] ? Cap(c.chapters[d.ch].toLowerCase()) : '')}</div>` });
+      note(el, ['bo-luat/2015/100-2015-qh13/art-*.md', 'bo-luat/2015/100-2015-qh13/cau-truc.md'], L(`${fmt(c.n)} điều về tội phạm (tiêu đề bắt đầu bằng “Tội”), Điều 108 đến Điều 425`, `${fmt(c.n)} articles on a crime (headed “Tội…”), Articles 108 to 425`),
+        L('mức cao nhất đọc từ các khoản của điều: “tử hình”, “tù chung thân”, rồi số năm tù lớn nhất (“phạt tù từ … đến N năm”); hình phạt dành cho pháp nhân thương mại không được tính. Ranh giới các chương lấy theo tội đầu tiên của mỗi chương (kiểm tra trong src/prep.py).',
+          'the highest penalty is read from the clauses of the article: “tử hình” (death), “tù chung thân” (life), then the longest prison term (“phạt tù từ … đến N năm”); penalties for commercial legal entities are not counted. Chapter boundaries follow the first crime of each chapter (checked in src/prep.py).'));
+      table(el, [L('Chương', 'Chapter'), ...names, t('total')], R.map(r => [`${r[0]} · ${LA(PCH[r[0]])}`, ...keys.map(k => r[1][k]), sum(r[1])]).concat([[t('total'), ...keys.map(k => tot[k]), sum(tot)]]));
+    }
+  };
+});
+
+// 14. the death penalty, crime by crime
+chart('c14', el => {
+  const c = D.c14, kept = c.crimes.filter(r => r[3]), gone = c.crimes.filter(r => !r[3]);
+  const CR = { 108: 'High treason', 109: 'Activities aimed at overthrowing the people’s government', 110: 'Espionage', 112: 'Rebellion', 113: 'Terrorism against the people’s government',
+    114: 'Sabotage of the material and technical facilities of the State', 123: 'Murder', 142: 'Rape of a person under 16', 194: 'Making or trading fake medicines',
+    248: 'Illegal production of narcotics', 250: 'Illegal transport of narcotics', 251: 'Illegal trading in narcotics', 299: 'Terrorism', 353: 'Embezzlement', 354: 'Taking bribes',
+    421: 'Undermining peace, waging a war of aggression', 422: 'Crimes against humanity', 423: 'War crimes' };
+  const crName = r => LANG === 'vi' ? r[2].replace(/ của nước Cộng hòa xã hội chủ nghĩa Việt Nam$/, '') : (CR[r[0]] || r[2]);
+  const ex = gone.filter(r => [353, 354, 250].includes(r[0])).map(r => { const s = crName(r); return LANG === 'vi' ? s.charAt(0).toLowerCase() + s.slice(1) : s.charAt(0).toLowerCase() + s.slice(1); });
+  return {
+    title: L(`Tử hình: từ ${fmt(c.crimes.length)} tội còn ${fmt(kept.length)} tội kể từ ngày ${dateTxt(c.day)}`, `The death penalty: from ${fmt(c.crimes.length)} crimes to ${fmt(kept.length)} since ${dateTxt(c.day)}`),
+    dek: L(`Các tội mà Bộ luật Hình sự quy định hình phạt tử hình khi có hiệu lực ngày 1 tháng 1 năm 2018. Luật ${c.law}, thông qua ngày ${dateTxt(c.enacted)}, bỏ hình phạt tử hình ở ${fmt(gone.length)} tội, trong đó có ${ex.join(', ').replace(/, ([^,]*)$/, ' và $1')}; mức cao nhất của các tội này nay là tù chung thân. Số tội có mức cao nhất là tù chung thân tăng từ ${fmt(c.life_before)} lên ${fmt(c.life_now)}.`,
+      `The crimes for which the Penal Code set the death penalty when it took effect on 1 January 2018. Law ${c.law}, adopted on ${dateTxt(c.enacted)}, removed the death penalty for ${fmt(gone.length)} of them, among them ${ex.join(', ').replace(/, ([^,]*)$/, ' and $1')}; their highest penalty is now life imprisonment. The crimes whose highest penalty is life imprisonment rose from ${fmt(c.life_before)} to ${fmt(c.life_now)}.`),
+    draw(el) {
+      const cK = css('--s8'), cG = css('--muted-mark');
+      const k = el.append('div').attr('class', 'ptiles three');
+      [[fmt(c.crimes.length), L('tội có hình phạt tử hình ngày 1/1/2018', 'crimes punishable by death on 1 Jan 2018'), cK, c.crimes.length],
+       [fmt(kept.length), L(`tội có hình phạt tử hình từ ${dateShort(c.day)}`, `crimes punishable by death from ${dateShort(c.day)}`), cK, kept.length],
+       [fmt(gone.length), L('tội nay cao nhất là tù chung thân', 'crimes now carrying life at most'), cG, gone.length]].forEach(([v, l, col, n]) => {
+        const t_ = k.append('div').attr('class', 'ptile'); t_.append('div').attr('class', 'pv').html(`<b>${v}</b>`); t_.append('div').attr('class', 'ps').text(l);
+        const bar = t_.append('div').attr('class', 'pbar'); bar.append('i').style('flex', n).style('background', col); if (n < c.crimes.length) bar.append('i').style('flex', c.crimes.length - n).style('background', css('--line'));
+      });
+      legend(el, [{ c: cK, l: L('Vẫn có hình phạt tử hình', 'Still punishable by death') }, { c: cG, l: L(`Bỏ tử hình từ ${dateShort(c.day)}`, `Death penalty removed from ${dateShort(c.day)}`) }]);
+      const box = el.append('div').attr('class', 'crimes');
+      c.crimes.forEach(r => {
+        const d = box.append('div').attr('class', 'crime' + (r[3] ? ' kept' : ' gone')).style('--cc', r[3] ? cK : cG);
+        d.append('div').attr('class', 'ca').text(L(`Chương ${r[1]} · Điều ${r[0]}`, `Chapter ${r[1]} · Article ${r[0]}`));
+        d.append('div').attr('class', 'ct').text(crName(r));
+        const x = d.append('div').attr('class', 'cx');
+        if (r[3]) x.append('span').attr('class', 'chip').style('background', cK).style('color', '#fff').text(L('tử hình', 'death penalty'));
+        else { x.append('span').attr('class', 'chip strike').text(L('tử hình', 'death penalty')); x.append('span').text(L(`→ tù chung thân từ ${dateShort(c.day)}`, `→ life imprisonment from ${dateShort(c.day)}`)); }
+      });
+      note(el, ['bo-luat/2015/100-2015-qh13/art-*.md', 'git log -- bo-luat/2015/100-2015-qh13'], L(`${fmt(c.crimes.length)} tội có hình phạt tử hình trong văn bản có hiệu lực ngày 1/1/2018`, `${fmt(c.crimes.length)} crimes punishable by death in the text in force on 1 Jan 2018`),
+        L('một tội có hình phạt tử hình khi một khoản của điều quy định “… hoặc tử hình”; Điều 387 chỉ nhắc đến người bị kết án tử hình và không được tính. Hồ sơ không có số liệu về các bản án.',
+          'a crime is punishable by death when a clause of its article reads “… hoặc tử hình” (or death); Article 387 only mentions persons sentenced to death and is not counted. The record holds no figures on sentences.'));
+      table(el, [L('Điều', 'Article'), L('Tội', 'Crime'), L('Chương', 'Chapter'), L('Nay', 'Now')], c.crimes.map(r => [r[0], crName(r), r[1], r[3] ? L('tử hình', 'death') : L('tù chung thân', 'life')]));
+    }
+  };
+});
+
+part('p4', 'IV. Năm 2025: sắp xếp lại bộ máy', 'IV. 2025: reorganising the state',
+  'Năm 2025, Hiến pháp sửa đổi tổ chức đơn vị hành chính thành hai cấp (Điều 110), và hàng chục văn bản được sửa trong cùng một ngày. Ba biểu đồ về những ngày thay đổi và những tên gọi cũ còn lại trong văn bản.',
+  'In 2025 the amended Constitution organised administrative units in two levels (Article 110), and dozens of acts were amended on a single day. Three charts on the days of change and the old names still in the text.');
+
+// 15. the days that changed most of the record
+chart('c15', el => {
+  const c = D.c15, d1 = c.by_day[c.days[0]], cnt = (d, s) => d.status.filter(x => x === s).length;
+  const n1 = cnt(d1, 'new'), a1 = cnt(d1, 'amended'), active1 = d1.status.filter(x => x !== 'later' && x !== 'replaced').length, d2 = c.by_day[c.days[1]];
+  return {
+    title: L(`Ngày ${dateTxt(c.days[0])}: ${fmt(n1 + a1)} văn bản được sửa hoặc bắt đầu có hiệu lực trong một ngày`, `${dateTxt(c.days[0])}: ${fmt(n1 + a1)} acts amended or taking effect on a single day`),
+    dek: L(`Mỗi ô là một trong ${fmt(PF.acts)} văn bản của hồ sơ, nhóm theo lĩnh vực, vào ba ngày có nhiều thay đổi nhất. Ngày ${dateTxt(c.days[0])}, ${fmt(a1)} văn bản được sửa và ${fmt(n1)} văn bản bắt đầu có hiệu lực, ${pct(n1 + a1, active1)} số văn bản đang có hiệu lực; ${fmt(d1.laws)} luật sửa ${fmt(d1.arts)} điều. Ngày ${dateTxt(c.days[1])}, ${fmt(cnt(d2, 'amended'))} văn bản được sửa (${fmt(d2.arts)} điều).`,
+      `Each square is one of the ${fmt(PF.acts)} acts of the record, by field, on the three days with the most change. On ${dateTxt(c.days[0])}, ${fmt(a1)} acts were amended and ${fmt(n1)} took effect, ${pct(n1 + a1, active1)} of the acts in force; ${fmt(d1.laws)} laws changed ${fmt(d1.arts)} articles. On ${dateTxt(c.days[1])}, ${fmt(cnt(d2, 'amended'))} acts were amended (${fmt(d2.arts)} articles).`),
+    draw(el) {
+      const ST = { new: [L('Bắt đầu có hiệu lực', 'Took effect'), css('--s3')], amended: [L('Được sửa', 'Amended'), css('--s2')], same: [L('Không đổi', 'Unchanged'), css('--muted-mark')],
+        later: [L('Chưa có hiệu lực', 'Not yet in force'), 'none'], replaced: [L('Đã được thay thế', 'Replaced'), 'hatch'] };
+      legend(el, Object.entries(ST).map(([k, [l, c]]) => ({ c: c === 'none' || c === 'hatch' ? '' : c, l, shape: c === 'none' ? 'outline' : c === 'hatch' ? 'hatch' : '' })));
+      const w = W(el), nw = narrow(w), byF = FIELDS.map(f => ({ f, idx: c.fields.map((x, i) => x === f ? i : -1).filter(i => i >= 0) }));
+      const maxN = d3.max(byF, r => r.idx.length), lw = nw ? 0 : Math.ceil(textW(el, FIELDS.map(f => fieldName(f, true)))) + 10;
+      const panes = nw ? 1 : 3, gapP = 18, pw = (w - lw - gapP * (panes - 1)) / panes;
+      const cols = nw ? Math.min(maxN, Math.floor((w - 4) / 14)) : Math.ceil(maxN / 2), cs = Math.min(nw ? 14 : 19, pw / cols), rowsPer = r => Math.ceil(r.idx.length / cols);
+      const SO = { new: 0, amended: 1, same: 2, later: 3, replaced: 4 };
+      const fieldH = r => rowsPer(r) * cs + (nw ? 16 : 8);
+      const panelH = sum(byF, fieldH) + 26;
+      const draw1 = (svg, ox, oy, day, withLabels) => {
+        const d = c.by_day[day], g = svg.append('g').attr('transform', `translate(${ox},${oy})`), hp = hatch(svg);
+        g.append('text').attr('class', 'lbl big').attr('x', 0).attr('y', 12).text(dateShort(day));
+        g.append('text').attr('class', 'lbl').attr('x', textW(el, [dateShort(day)], 'lbl big') + 8).attr('y', 12).text(L(`${cnt(d, 'amended')} được sửa · ${cnt(d, 'new')} mới`, `${cnt(d, 'amended')} amended · ${cnt(d, 'new')} new`));
+        let yy = 24;
+        byF.forEach(r => {
+          if (nw) { g.append('text').attr('class', 'lbl mut').attr('x', 0).attr('y', yy + 10).text(fieldName(r.f, true)); yy += 14; }
+          else if (withLabels) svg.append('text').attr('class', 'lbl strong').attr('x', lw - 8).attr('y', oy + yy + (rowsPer(r) * cs) / 2 + 4).attr('text-anchor', 'end').text(fieldName(r.f, true));
+          r.idx.slice().sort((a, b) => SO[d.status[a]] - SO[d.status[b]] || a - b).forEach((i, k) => {
+            const s = d.status[i], col = ST[s][1], x0 = (k % cols) * cs, y0 = yy + Math.floor(k / cols) * cs;
+            const q = g.append('rect').attr('x', x0 + 1.5).attr('y', y0 + 1.5).attr('width', cs - 3).attr('height', cs - 3).attr('rx', 3)
+              .attr('fill', col === 'none' ? 'none' : col === 'hatch' ? hp : col).attr('stroke', col === 'none' ? css('--text-3') : null).attr('stroke-dasharray', col === 'none' ? '2 1.5' : null).attr('stroke-width', col === 'none' ? 1 : null).datum({ i, s });
+            bindTip(q, z => `<b>${esc(actName(z.i))}</b><div class="q">${esc(actNum(z.i))}</div>` + trow(ST[z.s][1] === 'none' || ST[z.s][1] === 'hatch' ? null : ST[z.s][1], dateShort(day), ST[z.s][0]));
+          });
+          yy += rowsPer(r) * cs + (nw ? 2 : 8);
+        });
+      };
+      if (nw) c.days.forEach(day => { const svg = svgIn(el, w, panelH + 4); draw1(svg, 2, 2, day, false); });
+      else { const svg = svgIn(el, w, panelH + 4); c.days.forEach((day, i) => draw1(svg, lw + i * (pw + gapP), 2, day, i === 0)); }
+      note(el, ['git log (In-force)', 'art-*.md'], L(`${fmt(PF.acts)} văn bản, 3 ngày`, `${fmt(PF.acts)} acts, 3 days`),
+        L('một văn bản “được sửa” khi ít nhất một điều của nó thay đổi trong ngày đó; văn bản có hiệu lực và được sửa cùng ngày tính là “bắt đầu có hiệu lực”. Văn bản đã được một văn bản sau trong hồ sơ thay thế được gạch chéo.',
+          'an act is “amended” when at least one of its articles changes that day; an act that took effect and was amended on the same day counts as “took effect”. Acts replaced by a later act of the record are hatched.'));
+      table(el, [L('Ngày', 'Day'), L('Được sửa', 'Amended'), L('Bắt đầu có hiệu lực', 'Took effect'), L('Không đổi', 'Unchanged'), L('Chưa có hiệu lực', 'Not yet in force'), L('Đã được thay thế', 'Replaced'), L('Luật sửa đổi', 'Amending laws'), L('Điều thay đổi', 'Articles changed')],
+        c.days.map(day => { const d = c.by_day[day]; return [dateShort(day), cnt(d, 'amended'), cnt(d, 'new'), cnt(d, 'same'), cnt(d, 'later'), cnt(d, 'replaced'), d.laws, d.arts]; }));
+    }
+  };
+});
+
+// 16. "cấp huyện" in the law in force
+chart('c16', el => {
+  const S0 = D.c16.series, peak = S0.reduce((a, r) => r[1] > a[1] ? r : a), last = S0[S0.length - 1], amendDay = D.c16.amend_day;
+  const pre = S0.filter(r => r[0] < '2025-07-01').pop();
+  return {
+    title: L(`“Cấp huyện” vẫn còn trong ${fmt(last[1])} điều luật của hồ sơ, giảm từ ${fmt(peak[1])} điều năm 2025`, `“District level” is still written in ${fmt(last[1])} articles of the record, down from ${fmt(peak[1])} in 2025`),
+    dek: L(`Số điều đang có hiệu lực trong hồ sơ có cụm từ “cấp huyện”, sau mỗi ngày có văn bản thay đổi. Hiến pháp sửa đổi năm 2025 (Điều 110) tổ chức đơn vị hành chính thành hai cấp: tỉnh và dưới tỉnh. Từ ngày 1 tháng 7 năm 2025, số điều có cụm từ này giảm ${fmt(pre[1] - last[1])}, nhưng ${fmt(D.c16.acts_huyen_now)} văn bản vẫn còn cụm từ. Đường nét đứt là “cấp xã”, nay có trong ${fmt(last[2])} điều.`,
+      `The articles in force in the record that contain the phrase “cấp huyện” (district level), after each day an act changed. The Constitution as amended in 2025 (Article 110) organises administrative units in two levels: the province and the units below it. From 1 July 2025 the articles holding the phrase fell by ${fmt(pre[1] - last[1])}, but ${fmt(D.c16.acts_huyen_now)} acts still hold it. The dashed line is “cấp xã” (commune level), now in ${fmt(last[2])} articles.`),
+    draw(el) {
+      const cH = css('--s2'), cX = css('--s1');
+      legend(el, [{ c: cH, l: L('Điều có “cấp huyện”', 'Articles with “cấp huyện” (district level)'), shape: 'line' }, { c: cX, l: L('Điều có “cấp xã”', 'Articles with “cấp xã” (commune level)'), shape: 'dash' }]);
+      const w = W(el), nw = narrow(w), h = nw ? 280 : 330, m = { t: 26, r: nw ? 40 : 70, b: 26, l: 40 };
+      const svg = svgIn(el, w, h), g = svg.append('g').attr('transform', `translate(${m.l},${m.t})`);
+      const iw = w - m.l - m.r, ih = h - m.t - m.b;
+      const x = d3.scaleTime().domain([new Date(2014, 0, 1), new Date(2026, 11, 31)]).range([0, iw]), y = d3.scaleLinear().domain([0, d3.max(S0, r => Math.max(r[1], r[2]))]).nice().range([ih, 0]);
+      yAxis(g, y, iw, 5);
+      d3.range(2014, 2027, nw ? 3 : 2).forEach(yy => g.append('text').attr('class', 'lbl mut').attr('x', x(new Date(yy, 0, 1))).attr('y', ih + 16).attr('text-anchor', 'middle').text(yy));
+      const xa = x(PD(amendDay));
+      g.append('line').attr('x1', xa).attr('x2', xa).attr('y1', -10).attr('y2', ih).attr('stroke', css('--text-3')).attr('stroke-dasharray', '3 3');
+      halo(g, xa - 6, -14, L('Hiến pháp sửa đổi 2025', 'Constitution amended 2025'), 'end', 'lbl mut');
+      const stepPts = k => { const p = []; S0.forEach((r, i) => { if (i) p.push([PD(r[0]), S0[i - 1][k]]); p.push([PD(r[0]), r[k]]); }); p.push([PD(PF.retrieved), S0[S0.length - 1][k]]); return p; };
+      const pH = stepPts(1), pX = stepPts(2);
+      // the gap between the two series, shaded
+      g.append('path').attr('d', d3.area().x(p => x(p[0])).y0((p, i) => y(pX[i][1])).y1(p => y(p[1]))(pH)).attr('fill', cX).attr('fill-opacity', .07);
+      g.append('path').attr('d', d3.area().x(p => x(p[0])).y0(ih).y1(p => y(p[1]))(pH)).attr('fill', grad(svg, 'c16g', cH, .28));
+      g.append('path').attr('d', d3.line().x(p => x(p[0])).y(p => y(p[1]))(pX)).attr('fill', 'none').attr('stroke', cX).attr('stroke-width', 1.8).attr('stroke-dasharray', '5 4');
+      g.append('path').attr('d', d3.line().x(p => x(p[0])).y(p => y(p[1]))(pH)).attr('fill', 'none').attr('stroke', cH).attr('stroke-width', 2.4);
+      const changes = S0.filter((r, i) => !i || r[1] !== S0[i - 1][1]);
+      changes.forEach(r => g.append('circle').attr('cx', x(PD(r[0]))).attr('cy', y(r[1])).attr('r', 2.6).attr('fill', cH).attr('stroke', css('--surface')).attr('stroke-width', 1));
+      // labels: first, peak, last of each
+      g.append('circle').attr('cx', x(PD(peak[0]))).attr('cy', y(peak[1])).attr('r', 4).attr('fill', cH).attr('stroke', css('--surface')).attr('stroke-width', 1.5);
+      const xaAt = S0.filter(r => r[0] <= peak[0]).pop()[2], ylab = y(Math.max(peak[1], xaAt)) - 9;
+      halo(g, x(PD(peak[0])) - 6, ylab, L(`${fmt(peak[1])} điều (${dateShort(peak[0])})`, `${fmt(peak[1])} (${dateShort(peak[0])})`), 'end', 'lbl strong', cH);
+      const xl = x(PD(PF.retrieved));
+      halo(g, xl + 5, y(last[1]) + 4, fmt(last[1]), 'start', 'lbl strong', cH);
+      halo(g, xl + 5, y(last[2]) + 4, fmt(last[2]), 'start', 'lbl strong', cX);
+      bindTip(g.selectAll('.hit').data(S0).join('rect').attr('class', 'hit').attr('x', (r, i) => x(PD(r[0]))).attr('width', (r, i) => Math.max(2, (i < S0.length - 1 ? x(PD(S0[i + 1][0])) : xl) - x(PD(r[0])))).attr('y', 0).attr('height', ih),
+        r => `<b>${L('Từ ngày', 'From')} ${dateShort(r[0])}</b>` + trow(cH, L('Điều có “cấp huyện”', 'Articles with “cấp huyện”'), fmt(r[1])) + trow(null, L('Số lần xuất hiện', 'Occurrences'), fmt(r[4])) + trow(cX, L('Điều có “cấp xã”', 'Articles with “cấp xã”'), fmt(r[2])) + trow(null, L('Điều có “Tòa án nhân dân khu vực”', 'Articles with “Tòa án nhân dân khu vực”'), fmt(r[3])));
+      note(el, ['art-*.md', 'git log (In-force)'], L(`${fmt(S0.length)} ngày thay đổi từ 2014`, `${fmt(S0.length)} days of change since 2014`),
+        L(`đếm các điều có cụm từ, không phân biệt chữ hoa; mỗi văn bản được tính từ ngày có hiệu lực. ${fmt(PF.replaced.length)} văn bản đã được một văn bản sau trong hồ sơ thay thế không còn được tính từ ngày văn bản sau có hiệu lực; văn bản bị một luật ngoài hồ sơ thay thế vẫn được tính. Từ ngày 1 tháng 7 năm 2025, “Tòa án nhân dân khu vực” xuất hiện trong ${fmt(last[3])} điều.`,
+          `articles containing the phrase, in any case; each act counts from its day in force. The ${fmt(PF.replaced.length)} acts replaced by a later act of the record stop counting on the day the later act took effect; an act replaced by a law outside the record still counts. From 1 July 2025, “Tòa án nhân dân khu vực” (regional people’s court) appears in ${fmt(last[3])} articles.`));
+      table(el, [L('Từ ngày', 'From'), L('“cấp huyện” (điều)', '“cấp huyện” (articles)'), L('“cấp xã” (điều)', '“cấp xã” (articles)'), L('“Tòa án nhân dân khu vực” (điều)', '“Tòa án nhân dân khu vực” (articles)')], S0.map(r => [dateShort(r[0]), r[1], r[2], r[3]]).reverse());
+    }
+  };
+});
+
+// 17. the ministries named in the law in force
+chart('c17', el => {
+  const c = D.c17, K = c.keys, S0 = c.series, last = S0[S0.length - 1], idx = k => K.indexOf(k) + 1;
+  const MIN = { MONRE: ['Bộ Tài nguyên và Môi trường', 'Ministry of Natural Resources and Environment'], MARD: ['Bộ Nông nghiệp và Phát triển nông thôn', 'Ministry of Agriculture and Rural Development'],
+    MOT: ['Bộ Giao thông vận tải', 'Ministry of Transport'], MPI: ['Bộ Kế hoạch và Đầu tư', 'Ministry of Planning and Investment'],
+    MOLISA: ['Bộ Lao động - Thương binh và Xã hội', 'Ministry of Labour, Invalids and Social Affairs'], MIC: ['Bộ Thông tin và Truyền thông', 'Ministry of Information and Communications'],
+    MAE: ['Bộ Nông nghiệp và Môi trường', 'Ministry of Agriculture and Environment'] };
+  const old = ['MONRE', 'MARD', 'MOT', 'MPI', 'MOLISA', 'MIC'], peak = k => d3.max(S0, r => r[idx(k)]);
+  const sw = D.c20.swaps, swN = k => (sw.find(s => s[0] === k) || [0, 0, 0, 0, 0, 0])[5];
+  const most = old.slice().sort((a, b) => last[idx(b)] - last[idx(a)])[0];
+  return {
+    title: L(`“${MIN[most][0]}” vẫn có trong ${fmt(last[idx(most)])} điều; “${MIN.MONRE[0]}” chỉ còn trong ${fmt(last[idx('MONRE')])} điều`, `The ${MIN[most][1]} is still named in ${fmt(last[idx(most)])} articles; the ${MIN.MONRE[1]} in only ${fmt(last[idx('MONRE')])}`),
+    dek: L(`Số điều đang có hiệu lực nêu tên sáu bộ mà các luật sửa đổi từ năm 2025 đã thay bằng tên bộ khác ở một số điều. Từ ngày 1 tháng 1 năm 2026, “${MIN.MAE[0]}” thay cho “${MIN.MONRE[0]}” và “${MIN.MARD[0]}”, và nay có trong ${fmt(last[idx('MAE')])} điều. “${MIN.MOT[0]}” được thay bằng “Bộ Xây dựng” ở ${fmt(swN('MOT'))} điều và “${MIN.MPI[0]}” bằng “Bộ Tài chính” ở ${fmt(swN('MPI'))} điều; tên “${MIN.MOLISA[0]}” chỉ được thay ở ${fmt(swN('MOLISA'))} điều.`,
+      `The articles in force that name six ministries whose names amending laws since 2025 have replaced with another ministry’s in some articles. From 1 January 2026 the ${MIN.MAE[1]} takes the place of the Ministries of Natural Resources and Environment and of Agriculture and Rural Development, and is now named in ${fmt(last[idx('MAE')])} articles. The Ministry of Transport gave way to the Ministry of Construction in ${fmt(swN('MOT'))} articles and the Ministry of Planning and Investment to the Ministry of Finance in ${fmt(swN('MPI'))}; the ${MIN.MOLISA[1]} was replaced in only ${fmt(swN('MOLISA'))}.`),
+    draw(el) {
+      const box = el.append('div').attr('class', 'multi'), cO = css('--s2'), cN = css('--s3');
+      const ymax = d3.max(S0, r => d3.max(old, k => r[idx(k)]));
+      const panes = old.concat(['MAE']).map(k => ({ k, p: box.append('div') }));
+      panes.forEach(({ k, p }) => {
+        const isNew = k === 'MAE', col = isNew ? cN : cO, lv = last[idx(k)];
+        p.append('h4').style('min-height', '2.8em').text(LA(MIN[k]));
+        p.append('p').html(isNew ? L(`<b>${fmt(lv)}</b> điều, từ ${dateShort('2026-01-01')}`, `<b>${fmt(lv)}</b> articles, from ${dateShort('2026-01-01')}`) : L(`<b>${fmt(lv)}</b> điều, cao nhất ${fmt(peak(k))}`, `<b>${fmt(lv)}</b> articles, at most ${fmt(peak(k))}`));
+        const w = WR(p), h = 96, m = { t: 6, r: 6, b: 16, l: 28 }, svg = svgIn(p, w, h), g = svg.append('g').attr('transform', `translate(${m.l},${m.t})`);
+        const iw = w - m.l - m.r, ih = h - m.t - m.b;
+        const x = d3.scaleTime().domain([new Date(2014, 0, 1), PD(PF.retrieved)]).range([0, iw]), y = d3.scaleLinear().domain([0, isNew ? d3.max(S0, r => r[idx(k)]) : ymax]).nice().range([ih, 0]);
+        yAxis(g, y, iw, 2);
+        [2014, 2020, 2026].forEach(yy => g.append('text').attr('class', 'lbl mut').style('font-size', '10px').attr('x', x(new Date(yy, 0, 1))).attr('y', ih + 13).attr('text-anchor', yy === 2014 ? 'start' : yy === 2026 ? 'end' : 'middle').text(yy));
+        const xa = x(new Date(2025, 6, 1));
+        g.append('line').attr('x1', xa).attr('x2', xa).attr('y1', 0).attr('y2', ih).attr('stroke', css('--text-3')).attr('stroke-dasharray', '2 3');
+        const pts = []; S0.forEach((r, i) => { if (i) pts.push([PD(r[0]), S0[i - 1][idx(k)]]); pts.push([PD(r[0]), r[idx(k)]]); }); pts.push([PD(PF.retrieved), lv]);
+        const first = pts.findIndex(q => q[1] > 0), P = first > 0 ? pts.slice(first) : pts;   // no line at zero before the name appears
+        g.append('path').attr('d', d3.area().x(q => x(q[0])).y0(ih).y1(q => y(q[1]))(P)).attr('fill', grad(svg, 'c17' + k, col, .25));
+        g.append('path').attr('d', d3.line().x(q => x(q[0])).y(q => y(q[1]))(P)).attr('fill', 'none').attr('stroke', col).attr('stroke-width', 2);
+        g.append('circle').attr('cx', x(PD(PF.retrieved))).attr('cy', y(lv)).attr('r', 3.2).attr('fill', col);
+        bindTip(g.append('rect').attr('class', 'hit').attr('width', iw).attr('height', ih).datum(k), kk => `<b>${esc(LA(MIN[kk]))}</b>` + S0.filter(r => r[0] >= '2024-01-01').map(r => trow(null, dateShort(r[0]), fmt(r[idx(kk)]))).filter((s, i, a) => !i || s !== a[i - 1]).slice(-9).join(''));
+      });
+      note(el, ['art-*.md', 'git log (In-force)'], L(`7 tên bộ, ${fmt(S0.length)} ngày thay đổi`, `7 ministry names, ${fmt(S0.length)} days of change`),
+        L('đếm các điều có đúng tên bộ (với “Bộ Lao động - Thương binh và Xã hội”, dấu gạch ngang, gạch dài hoặc dấu phẩy); đường chấm là ngày 1 tháng 7 năm 2025. Số điều được thay tên đọc từ các thay đổi trong biểu đồ 20. Văn bản đã được văn bản sau trong hồ sơ thay thế không còn được tính.',
+          'articles containing the exact name (for the Ministry of Labour, Invalids and Social Affairs, with a hyphen, a dash or a comma); the dotted line is 1 July 2025. The number of articles renamed is read from the changes in chart 20. Acts replaced by a later act of the record stop counting.'));
+      table(el, [L('Từ ngày', 'From'), ...K.map(k => LA(MIN[k]))], S0.filter(r => r[0] >= '2024-01-01').map(r => [dateShort(r[0]), ...K.map((k, i) => r[i + 1])]).reverse());
+    }
+  };
+});
+
+part('p5', 'V. Câu chữ của luật', 'V. The wording of the law',
+  'Điều luật ngày càng dài và giao ngày càng nhiều việc cho Chính phủ; phần lớn các lần sửa một điều chỉ thay vài chữ.',
+  'Articles grow longer and leave more to the Government; most changes to an article replace only a few words.');
+
+const TROWS = () => Object.entries(D.c18).filter(([q]) => q !== 'QH16');
+
+// 18. the length of articles as adopted, by term
+chart('c18', el => {
+  const R = TROWS(), a11 = D.c18.QH11, a15 = D.c18.QH15, long = r => (r.bins[3] + r.bins[4]) / r.arts;
+  return {
+    title: L(`Điều luật dài gấp đôi: trung vị ${fmt(a15.median)} từ ở các văn bản khóa XV, ${fmt(a11.median)} từ ở khóa XI`, `Articles have doubled in length: a median of ${fmt(a15.median)} words in the acts of the 15th National Assembly, ${fmt(a11.median)} in the 11th`),
+    dek: L(`Độ dài các điều khi văn bản được thông qua, theo khóa Quốc hội đã thông qua. Ở khóa XV, ${pct(long(a15), 1)} số điều dài từ 400 từ trở lên; ở khóa XI là ${pct(long(a11), 1)}. Bên phải là trung vị số từ của một điều.`,
+      `The length of articles when their act was adopted, by the term of the National Assembly that adopted it. In the 15th term, ${pct(long(a15), 1)} of articles run to 400 words or more; in the 11th, ${pct(long(a11), 1)}. On the right, the median words of an article.`),
+    draw(el) {
+      const ramp = seqRamp(), colors = [.12, .3, .5, .72, .95].map(v => ramp(v));
+      const names = [L('dưới 100 từ', 'under 100 words'), L('100–199 từ', '100–199 words'), L('200–399 từ', '200–399 words'), L('400–799 từ', '400–799 words'), L('800 từ trở lên', '800 words or more')];
+      legend(el, names.map((l, i) => ({ c: colors[i], l })));
+      const rows = R.map(([q, v]) => ({ q, v, 0: v.bins[0], 1: v.bins[1], 2: v.bins[2], 3: v.bins[3], 4: v.bins[4] }));
+      bands(el, rows, [0, 1, 2, 3, 4], colors, names, { rowH: 36, label: (r, nw) => nw ? ROM[r.q] : `${termShort(r.q)} · ${termYears(r.q)}`, lcap: 46, right: (r, nw) => nw ? fmt(r.v.median) : L(`${fmt(r.v.median)} từ`, `${fmt(r.v.median)} words`),
+        tipHead: d => `<div class="q">${L(`${fmt(d.v.acts)} văn bản, ${fmt(d.v.arts)} điều`, `${fmt(d.v.acts)} acts, ${fmt(d.v.arts)} articles`)}</div>`, tipExtra: d => trow(null, L('Trung vị', 'Median'), L(`${fmt(d.v.median)} từ`, `${fmt(d.v.median)} words`)) + trow(null, L('Trung bình', 'Mean'), L(`${fmt(Math.round(d.v.mean))} từ`, `${fmt(Math.round(d.v.mean))} words`)) });
+      note(el, ['<KIND>/<YEAR>/<NUMBER>/art-*.md (first version)'], L(`${fmt(sum(R, ([q, v]) => v.arts))} điều của ${fmt(sum(R, ([q, v]) => v.acts))} văn bản`, `${fmt(sum(R, ([q, v]) => v.arts))} articles of ${fmt(sum(R, ([q, v]) => v.acts))} acts`),
+        L('số từ của nội dung điều, không kể dòng tiêu đề, trong phiên bản đầu tiên của văn bản. Không tính ba luật sửa đổi mà hồ sơ giữ như văn bản riêng (các điều của chúng là các điều sửa đổi), Luật Trẻ em và Luật Dân quân tự vệ (văn bản sai, xem vulnerabilities/). Khóa X chỉ có 2 văn bản.',
+          'words in the body of each article, heading excluded, in the act’s first version. The three amending laws the record holds as acts (their articles are amendments), the Law on Children and the Law on Militia (wrong text, see vulnerabilities/) are left out. The 10th term has only 2 acts.'));
+      table(el, [L('Khóa', 'Term'), L('Văn bản', 'Acts'), L('Điều', 'Articles'), ...names, L('Trung vị (từ)', 'Median (words)')], rows.map(r => [termShort(r.q), r.v.acts, r.v.arts, ...r.v.bins, r.v.median]));
+    }
+  };
+});
+
+// 19. delegation to the Government and to ministers
+chart('c19', el => {
+  const R = TROWS(), a11 = D.c18.QH11, a15 = D.c18.QH15;
+  const noCodes = q => { const l = D.c18[q].acts_list.filter(a => ACTS[a[0]][7] === 'law'); return [sum(l, a => a[2]), sum(l, a => a[1])]; };
+  const n13 = noCodes('QH13');
+  return {
+    title: L(`Giao Chính phủ quy định: ${pct(a15.gov, a15.arts)} số điều ở văn bản khóa XV, ${pct(a11.gov, a11.arts)} ở khóa XI`, `Left to the Government: ${pct(a15.gov, a15.arts)} of articles in the 15th term’s acts, ${pct(a11.gov, a11.arts)} in the 11th`),
+    dek: L(`Tỷ lệ điều (khi văn bản được thông qua) giao cho Chính phủ hoặc Thủ tướng Chính phủ quy định (“Chính phủ quy định”, “theo quy định của Chính phủ”) và giao cho bộ trưởng (“Bộ trưởng … quy định”), theo khóa Quốc hội đã thông qua văn bản. Khóa XIII thấp vì năm bộ luật lớn ít giao việc: không tính các bộ luật và Hiến pháp, tỷ lệ giao Chính phủ của khóa XIII là ${pct(n13[0], n13[1])}.`,
+      `The share of articles (when their act was adopted) that leave a matter for the Government or the Prime Minister to regulate (“Chính phủ quy định”, “theo quy định của Chính phủ”) and for a minister (“Bộ trưởng … quy định”), by the term that adopted the act. The 13th term is low because its five big codes delegate little: leaving out the codes and the Constitution, its share left to the Government is ${pct(n13[0], n13[1])}.`),
+    draw(el) {
+      const cG = css('--s1'), cM = css('--s7'), K = [['gov', L('Giao Chính phủ, Thủ tướng quy định', 'Left to the Government or Prime Minister'), cG], ['min', L('Giao bộ trưởng quy định', 'Left to a minister'), cM]];
+      legend(el, K.map(([k, l, c]) => ({ c, l })));
+      const w = W(el), nw = narrow(w), h = nw ? 250 : 290, m = { t: 20, r: 6, b: nw ? 40 : 40, l: 40 };
+      const svg = svgIn(el, w, h), g = svg.append('g').attr('transform', `translate(${m.l},${m.t})`);
+      const iw = w - m.l - m.r, ih = h - m.t - m.b;
+      const x = d3.scaleBand().domain(R.map(r => r[0])).range([0, iw]).padding(.26), xi = d3.scaleBand().domain(['gov', 'min']).range([0, x.bandwidth()]).padding(.08);
+      const y = d3.scaleLinear().domain([0, d3.max(R, ([q, v]) => v.gov / v.arts)]).nice().range([ih, 0]);
+      yAxis(g, y, iw, 4, v => pv(100 * v));
+      g.append('line').attr('class', 'base').attr('x1', 0).attr('x2', iw).attr('y1', ih).attr('y2', ih);
+      R.forEach(([q, v]) => {
+        K.forEach(([k, l, c]) => {
+          const x0 = x(q) + xi(k), bw = xi.bandwidth(), s = v[k] / v.arts;
+          g.append('path').attr('d', colPath(x0, ih, bw, y(s))).attr('fill', c);
+          g.append('text').attr('class', 'lbl strong').attr('x', x0 + bw / 2).attr('y', y(s) - 5).attr('text-anchor', 'middle').text(pct(v[k], v.arts));
+        });
+        g.append('text').attr('class', 'lbl strong').attr('x', x(q) + x.bandwidth() / 2).attr('y', ih + 16).attr('text-anchor', 'middle').text(nw ? ROM[q] : termShort(q));
+        g.append('text').attr('class', 'lbl mut').attr('x', x(q) + x.bandwidth() / 2).attr('y', ih + 30).attr('text-anchor', 'middle').text(nw ? `${fmt(v.arts)}` : L(`${fmt(v.arts)} điều`, `${fmt(v.arts)} articles`));
+        bindTip(g.append('rect').attr('class', 'hit').attr('x', x(q) - x.step() * x.paddingInner() / 2).attr('width', x.step()).attr('y', 0).attr('height', ih).datum([q, v]),
+          ([qq, vv]) => `<b>${termShort(qq)} · ${termYears(qq)}</b>` + trow(null, L('Văn bản', 'Acts'), fmt(vv.acts)) + trow(null, L('Điều', 'Articles'), fmt(vv.arts)) + K.map(([k, l, c]) => trow(c, l, `${fmt(vv[k])} · ${pct(vv[k], vv.arts, 1)}`)).join(''));
+      });
+      note(el, ['<KIND>/<YEAR>/<NUMBER>/art-*.md (first version)'], L(`${fmt(sum(R, ([q, v]) => v.arts))} điều của ${fmt(sum(R, ([q, v]) => v.acts))} văn bản`, `${fmt(sum(R, ([q, v]) => v.arts))} articles of ${fmt(sum(R, ([q, v]) => v.acts))} acts`),
+        L('một điều được tính một lần dù có nhiều cụm từ; “Bộ trưởng … quy định” không tính khi theo sau là “tại” hoặc “của” (dẫn chiếu, không giao việc). Cùng các văn bản như biểu đồ 18; khóa X chỉ có 2 văn bản.',
+          'an article counts once however many phrases it holds; “Bộ trưởng … quy định” does not count when followed by “tại” or “của” (a reference, not a delegation). The same acts as chart 18; the 10th term has only 2 acts.'));
+      table(el, [L('Khóa', 'Term'), L('Văn bản', 'Acts'), L('Điều', 'Articles'), L('Giao Chính phủ', 'To the Government'), L('Tỷ lệ', 'Share'), L('Giao bộ trưởng', 'To a minister'), L('Tỷ lệ', 'Share')],
+        R.map(([q, v]) => [termShort(q), v.acts, v.arts, v.gov, pct(v.gov, v.arts, 1), v.min, pct(v.min, v.arts, 1)]));
+      subTable(el, L('Từng văn bản', 'Each act'), [L('Văn bản', 'Act'), L('Khóa', 'Term'), L('Điều', 'Articles'), L('Giao Chính phủ', 'To the Government'), L('Giao bộ trưởng', 'To a minister'), L('Trung vị số từ', 'Median words')],
+        R.flatMap(([q, v]) => v.acts_list.map(a => [actName(a[0]), termShort(q), a[1], a[2], a[3], a[4]])), [0, 0, 1, 1, 1, 1]);
+    }
+  };
+});
+
+// 20. the edits amendments make
+chart('c20', el => {
+  const c = D.c20, B = c.bins, n = c.n, under10 = B[0] + B[1] + B[2], mr = sum(c.money_ratio, r => r[1]), dbl = (c.money_ratio.find(r => r[0] === 2) || [2, 0])[1];
+  return {
+    title: L(`Sửa vài chữ: ${pct(under10, n)} số lần sửa một điều thay chưa đến 10% số từ của điều`, `A few words at a time: ${pct(under10, n)} of the changes to an article replace less than 10% of its words`),
+    dek: L(`Bên trái: tỷ lệ số từ thay đổi trong ${fmt(n)} lần một điều được viết lại (không tính điều được thêm hoặc bãi bỏ). Trung vị là ${pv(100 * c.by_period.early)} với các lần sửa trước năm 2025 và ${pv(100 * c.by_period.late)} từ năm 2025. Bên phải: những thay đổi lặp lại nhiều nhất, theo số lần một điều có thay đổi đó: tên bộ, cấp huyện, thị trấn thành đặc khu, tòa án cấp cao và cấp huyện, số tiền tăng (${pct(dbl, mr)} gấp đôi), và cách đặt dấu thanh kiểu mới (“hoá” thành “hóa”).`,
+      `Left: the share of words changed in the ${fmt(n)} times an article was rewritten (articles inserted or repealed are left out). The median is ${pv(100 * c.by_period.early)} for changes before 2025 and ${pv(100 * c.by_period.late)} since. Right: the edits that recur most, by the number of article changes that contain them: ministry names, the district level, townships becoming special zones, high and district courts, amounts raised (${pct(dbl, mr)} of them doubled), and tone marks placed the newer way (“hoá” to “hóa”).`),
+    draw(el) {
+      const box = el.append('div').attr('class', 'mini').style('grid-template-columns', narrow(W(el)) ? '1fr' : '1fr 1.55fr');
+      const p1 = box.append('div'), p2 = box.append('div');
+      // (a) the share of words changed
+      const nwp = narrow(W(el)), BN = nwp ? ['<2', '2–5', '5–10', '10–25', '25–50', '50–75', '>75'] : ['<2%', '2–5%', '5–10%', '10–25%', '25–50%', '50–75%', '>75%'];
+      p1.append('h4').text(L('Tỷ lệ số từ thay đổi', 'Share of words changed'));
+      p1.append('p').text(L(`${fmt(n)} lần một điều được viết lại` + (nwp ? ' (%)' : ''), `${fmt(n)} rewritten articles` + (nwp ? ' (%)' : '')));
+      { const w = WR(p1), h = 230, m = { t: 18, r: 4, b: 24, l: 36 }, svg = svgIn(p1, w, h), g = svg.append('g').attr('transform', `translate(${m.l},${m.t})`);
+        const iw = w - m.l - m.r, ih = h - m.t - m.b, x = d3.scaleBand().domain(d3.range(7)).range([0, iw]).padding(.2), y = d3.scaleLinear().domain([0, d3.max(B)]).nice().range([ih, 0]);
+        yAxis(g, y, iw, 4); g.append('line').attr('class', 'base').attr('x1', 0).attr('x2', iw).attr('y1', ih).attr('y2', ih);
+        B.forEach((v, i) => { const x0 = x(i), bw = x.bandwidth(), col = i < 3 ? css('--s2') : css('--s1');
+          g.append('path').attr('d', colPath(x0, ih, bw, y(v))).attr('fill', col).attr('fill-opacity', i < 3 ? 1 : .55);
+          g.append('text').attr('class', 'lbl strong').attr('x', x0 + bw / 2).attr('y', y(v) - 5).attr('text-anchor', 'middle').text(pct(v, n));
+          g.append('text').attr('class', 'lbl').style('font-size', '10px').attr('x', x0 + bw / 2).attr('y', ih + 15).attr('text-anchor', 'middle').text(BN[i]);
+          bindTip(g.append('rect').attr('class', 'hit').attr('x', x0).attr('width', bw).attr('y', 0).attr('height', ih).datum(i), j => `<b>${BN[j]}</b>` + trow(null, L('Lần sửa một điều', 'Article changes'), `${fmt(B[j])} · ${pct(B[j], n, 1)}`)); }); }
+      // (b) the edits that recur
+      const TH = { ministry: [L('Tên bộ', 'Ministry names'), css('--s1')], local: [L('Chính quyền địa phương và tòa án', 'Local government and courts'), css('--s2')], spelling: [L('Chính tả', 'Spelling'), css('--s7')], amount: [L('Số tiền', 'Amounts'), css('--s4')] };
+      const LBL = { MONRE: ['Bộ Tài nguyên và Môi trường → Bộ Nông nghiệp và Môi trường', 'Natural Resources and Environment → Agriculture and Environment'],
+        MARD: ['Bộ Nông nghiệp và Phát triển nông thôn → Bộ Nông nghiệp và Môi trường', 'Agriculture and Rural Development → Agriculture and Environment'],
+        MOT: ['Bộ Giao thông vận tải → Bộ Xây dựng', 'Transport → Construction'], MPI: ['Bộ Kế hoạch và Đầu tư → Bộ Tài chính', 'Planning and Investment → Finance'],
+        MOLISA: ['Bộ Lao động - Thương binh và Xã hội → Bộ Nội vụ', 'Labour, Invalids and Social Affairs → Home Affairs'], MIC: ['Bộ Thông tin và Truyền thông → bộ khác', 'Information and Communications → another ministry'],
+        'huyen-xa': ['cấp huyện → cấp xã', 'district level → commune level'], 'huyen-tinh': ['cấp huyện → cấp tỉnh', 'district level → provincial level'],
+        'court-kv': ['Tòa án, Viện kiểm sát cấp huyện → khu vực', 'district courts and procuracies → regional'], 'court-cao': ['Tòa án, Viện kiểm sát cấp cao → cấp tỉnh, tối cao', 'high courts and procuracies → provincial, supreme'],
+        thitran: ['thị trấn → đặc khu', 'township → special zone'], tone: ['hoá → hóa, Uỷ → Ủy (dấu thanh)', 'hoá → hóa, Uỷ → Ủy (tone marks)'], money: [`số tiền tăng, ${pct(dbl, mr)} gấp đôi (100.000.000 → 200.000.000 đồng)`, `amounts raised, ${pct(dbl, mr)} doubled (100,000,000 → 200,000,000 đồng)`] };
+      const LBS = { MONRE: ['Bộ TN&MT → Bộ NN&MT', 'MONRE → MAE'], MARD: ['Bộ NN&PTNT → Bộ NN&MT', 'MARD → MAE'], MOT: ['Bộ GTVT → Bộ Xây dựng', 'Transport → Construction'],
+        MPI: ['Bộ KH&ĐT → Bộ Tài chính', 'Planning → Finance'], MOLISA: ['Bộ LĐ-TB&XH → Bộ Nội vụ', 'MOLISA → Home Affairs'], MIC: ['Bộ TT&TT → bộ khác', 'MIC → other ministries'],
+        'court-kv': ['Tòa án, VKS cấp huyện → khu vực', 'district courts → regional'], 'court-cao': ['Tòa án, VKS cấp cao → tỉnh, tối cao', 'high courts → provincial, supreme'],
+        money: [`số tiền tăng (${pct(dbl, mr)} gấp đôi)`, `amounts raised (${pct(dbl, mr)} doubled)`], tone: ['hoá → hóa, Uỷ → Ủy', 'hoá → hóa, Uỷ → Ủy'] };
+      const R = c.swaps.filter(s => s[2] > 0).sort((a, b) => b[2] - a[2]);
+      p2.append('h4').text(L('Những thay đổi lặp lại nhiều nhất', 'The edits that recur most'));
+      legend(p2, Object.values(TH).map(([l, cc]) => ({ c: cc, l })));
+      { const w = WR(p2), nw = w < 420, rowH = nw ? 34 : 22, lw = nw ? 0 : Math.min(w * .6, textW(p2, R.map(r => LA(LBL[r[0]])), 'lbl') + 10);
+        const svg = svgIn(p2, w, rowH * R.length + 4), g = svg.append('g').attr('transform', `translate(${lw},2)`);
+        const rr = Math.ceil(textW(p2, R.map(r => fmt(r[2])), 'lbl')) + 8, iw = w - lw - rr, x = d3.scaleLinear().domain([0, d3.max(R, r => r[2])]).range([0, iw]);
+        R.forEach((r, i) => {
+          const cy = i * rowH, bh = 10, y0 = cy + rowH - bh - 5, col = TH[r[1]][1];
+          if (nw) g.append('text').attr('class', 'lbl').attr('x', 0).attr('y', cy + 11).text(LA(textW(p2, [LA(LBL[r[0]])], 'lbl') > w - 8 && LBS[r[0]] ? LBS[r[0]] : LBL[r[0]]));
+          else g.append('text').attr('class', 'lbl').attr('x', -8).attr('y', y0 + bh / 2 + 4).attr('text-anchor', 'end').text(LA(LBL[r[0]]));
+          g.append('path').attr('d', barPath(0, y0, Math.max(2, x(r[2])), bh, 3)).attr('fill', col);
+          g.append('text').attr('class', 'lbl strong').attr('x', Math.max(2, x(r[2])) + 5).attr('y', y0 + bh / 2 + 4).text(fmt(r[2]));
+          bindTip(g.append('rect').attr('class', 'hit').attr('x', -lw).attr('width', w).attr('y', cy).attr('height', rowH).datum(r),
+            d => `<b>${esc(LA(LBL[d[0]]))}</b>` + trow(TH[d[1]][1], L('Lần sửa một điều', 'Article changes'), fmt(d[2])) + trow(null, L('Văn bản', 'Acts'), fmt(d[3])) + `<div class="q">${d[4].map(([pr, k]) => `“${esc(pr[0])}” → “${esc(pr[1])}” (${fmt(k)})`).join('<br>')}</div>`);
+        }); }
+      note(el, ['git log -p (art-*.md)'], L(`${fmt(n)} lần một điều được viết lại`, `${fmt(n)} rewritten articles`),
+        L('so sánh từng từ của điều trước và sau khi sửa (difflib); một thay đổi được tính khi cụm từ cũ ở phần bị thay và cụm từ mới ở phần thay vào, kể cả 5 từ chung quanh. Một điều được tính một lần cho mỗi loại thay đổi trong một lần sửa.',
+          'each article compared word by word before and after the change (difflib); an edit counts when the old phrase lies in the replaced words and the new phrase in the words put in, with 5 words around. An article counts once per kind of edit per amendment.'));
+      table(el, [L('Thay đổi', 'Edit'), L('Nhóm', 'Group'), L('Lần sửa một điều', 'Article changes'), L('Văn bản', 'Acts')], R.map(r => [LA(LBL[r[0]]), TH[r[1]][0], r[2], r[3]]));
+      subTable(el, L('Tỷ lệ số từ thay đổi', 'Share of words changed'), [L('Tỷ lệ', 'Share'), L('Lần sửa một điều', 'Article changes'), t('share')], B.map((v, i) => [BN[i], v, pct(v, n, 1)]), [0, 1, 1]);
+    }
+  };
+});
+
+// ------------------------------------------------------------------ page
+// the short names in the table of contents
+const TOCN = { c01: ['Kích thước của hồ sơ', 'The record at a glance'], c02: ['Số luật mỗi kỳ họp', 'Laws per session'], c03: ['Ngày thông qua và ngày có hiệu lực', 'Days of adoption and entry into force'],
+  c04: ['Từ thông qua đến có hiệu lực', 'From adoption to entry into force'], c05: ['Số lần sửa mỗi năm', 'Amendments per year'], c06: ['Một luật sửa nhiều văn bản', 'One law, many acts'],
+  c07: ['Bao lâu thì được sửa lần đầu', 'Time to the first amendment'], c08: ['Lĩnh vực và năm', 'Fields and years'], c09: ['Ai viết văn bản hiện hành', 'Who wrote the text in force'],
+  c10: ['Hiến pháp năm 2013', 'The Constitution of 2013'], c11: ['Hiến pháp được viện dẫn', 'The constitution cited'], c12: ['Hiến pháp và sáu bộ luật', 'The Constitution and the six codes'],
+  c13: ['Hình phạt trong Bộ luật Hình sự', 'Penalties in the Penal Code'], c14: ['Tử hình', 'The death penalty'], c15: ['Những ngày thay đổi', 'The days of change'],
+  c16: ['“Cấp huyện”', '“District level”'], c17: ['Tên các bộ', 'Ministry names'], c18: ['Độ dài của điều luật', 'The length of articles'], c19: ['Giao Chính phủ quy định', 'Left to the Government'],
+  c20: ['Những chữ được sửa', 'The words amended'] };
+function profileTable() {
+  const P = PF, el = d3.select('#profile').html('');
+  const rows = [
+    [L('Văn bản và điều', 'Acts and articles'), '<KIND>/<YEAR>/<NUMBER>/art-*.md', fmt(P.acts), L(`Hiến pháp năm 2013, ${P.codes} bộ luật và ${P.laws_only} luật của Quốc hội; mỗi điều một tệp, ${fmt(P.articles)} điều đang có hiệu lực, ${fmt(P.words)} từ`, `the Constitution of 2013, ${P.codes} codes and ${P.laws_only} laws of the National Assembly; one file per article, ${fmt(P.articles)} articles in force, ${fmt(P.words)} words`),
+      L(`không có pháp lệnh, nghị quyết, nghị định, thông tư; ${fmt(P.replaced.length)} văn bản đã được văn bản sau trong hồ sơ thay thế vẫn giữ văn bản cuối cùng`, `no ordinances, resolutions, decrees or circulars; ${fmt(P.replaced.length)} acts replaced by a later act of the record keep their last text`)],
+    [L('Lịch sử git', 'Git history'), 'git log origin/main', fmt(P.law_commits), L(`mỗi luật một commit vào ngày có hiệu lực (In-force:), tác giả là luật đã sửa; ${fmt(P.am_events)} lần một văn bản được sửa, ${fmt(P.art_changes)} lần một điều được sửa (${fmt(P.modified)} viết lại, ${fmt(P.inserted)} thêm, ${fmt(P.removed)} bãi bỏ)`,
+      `one commit per law on the day it took effect (In-force:), the amending law as author; ${fmt(P.am_events)} amendments of an act, ${fmt(P.art_changes)} changes to an article (${fmt(P.modified)} rewritten, ${fmt(P.inserted)} inserted, ${fmt(P.removed)} repealed)`),
+      L('khi hai luật cùng sửa một điều mà không có văn bản hợp nhất ở giữa, cả hai thay đổi hiện vào ngày của luật sau (46 điều, REPRODUCE.md)', 'where two laws changed an article and no consolidated text shows it between them, both changes appear on the later law’s day (46 articles, REPRODUCE.md)')],
+    [L('Danh sách luật', 'The laws named'), 'data/laws.csv', fmt(P.laws), L('các văn bản và các luật đã sửa chúng, với ngày thông qua, ngày có hiệu lực và tên', 'the acts and the laws that amended them, with adoption day, day in force and title'), L('20 luật chưa có ngày có hiệu lực trong hồ sơ', '20 laws have no day in force in the record')],
+    [L('Phiên bản', 'Versions'), 'data/versions.json', fmt(P.versions), L(`các phiên bản đã có hiệu lực từ ${dateShort(P.record_from)} đến ${dateShort(P.record_to)}`, `the versions in force from ${dateShort(P.record_from)} to ${dateShort(P.record_to)}`), L(`${fmt(P.future)} phiên bản về sau, đến 1/3/2027, chưa phải commit và không được tính`, `${fmt(P.future)} later versions, to 1 Mar 2027, are not commits yet and are not counted`)],
+    [L('Văn bản của từng điều', 'The text of every article'), 'art-*.md · loi-mo-dau.md · ket-thuc.md · cau-truc.md', L('mọi phiên bản', 'every version'), L('độ dài, cụm từ, căn cứ của văn bản, kỳ họp thông qua, hình phạt, ai viết từng dòng', 'length, phrases, the constitution cited, the session of adoption, penalties, who wrote each line'),
+      L('Luật Trẻ em và Luật Dân quân tự vệ giữ một phần văn bản của văn bản khác (vulnerabilities/); hai luật này không được tính trong các số đo về câu chữ. Quy tắc phân loại nằm trong src/prep.py', 'the Law on Children and the Law on Militia hold part of another document’s text (vulnerabilities/) and are left out of the measures of wording. The rules that classify are in src/prep.py')],
+  ];
+  const tb = el.append('table');
+  tb.append('thead').append('tr').selectAll('th').data([t('ds'), t('src'), t('n'), t('cover'), t('caveat')]).join('th').text(d => d);
+  const tr = s => Object.entries(PH).reduce((a, [x, y]) => a.split(x).join(LA(y)), s);
+  tb.append('tbody').selectAll('tr').data(rows).join('tr').selectAll('td').data(r => r).join('td').html((v, i) => i === 1 ? `<code>${esc(tr(v))}</code>` : esc(v));
+}
+// a label that runs past the edge of its chart's card would be cut: report it (the charts size their columns to their labels)
+function checkLabels(fig) {
+  const fr = fig.node().getBoundingClientRect();
+  fig.selectAll('svg text').each(function () {
+    const r = this.getBoundingClientRect();
+    if (r.width && (r.left < fr.left - 0.5 || r.right > fr.right + 0.5)) console.warn('label outside its chart', fig.attr('id'), this.textContent);
+  });
+}
+function render() {
+  HATCH = 0;
+  document.documentElement.lang = LANG;
+  document.title = t('title');
+  const fill = s => s.replace('{acts}', fmt(PF.acts)).replace('{laws}', fmt(PF.laws_only)).replace('{named}', fmt(PF.laws)).replace('{chg}', fmt(PF.art_changes));
+  d3.selectAll('[data-i]').each(function () { this.textContent = fill(t(this.dataset.i)); });
+  document.getElementById('gl-link').innerHTML = t('gl');
+  d3.selectAll('[data-lang]').attr('aria-pressed', function () { return String(this.dataset.lang === LANG); });
+  d3.selectAll('[data-theme-set]').attr('aria-pressed', function () { return String(this.dataset.themeSet === THEME); });
+  const tv = [[fmt(PF.acts), L('văn bản của Quốc hội', 'acts of the National Assembly')], [fmt(PF.articles), L('điều, mỗi điều một tệp', 'articles, one file each')], [L(`${dec(PF.words / 1e6, 2)} triệu`, `${dec(PF.words / 1e6, 2)} million`), L('từ đang có hiệu lực', 'words in force')],
+    [fmt(PF.versions), L('phiên bản đã có hiệu lực', 'versions in force')], [fmt(PF.art_changes), L('lần một điều được sửa, thêm hoặc bãi bỏ', 'changes to an article')], [fmt(PF.amending_laws), L('luật đã sửa các văn bản', 'laws that amended the acts')]];
+  d3.select('#tiles').html('').selectAll('div').data(tv).join('div').attr('class', 'tile').html(d => `<b>${d[0]}</b><span>${d[1]}</span>`);
+  profileTable();
+  const main = d3.select('#main').html(''), toc = d3.select('#toc').html('');
+  let sec = null, n = 0;
+  CH.forEach(c => {
+    if (c.part) {
+      sec = main.append('section').attr('class', 'part').attr('id', c.id);
+      sec.append('h2').text(L(c.vi, c.en)); sec.append('p').attr('class', 'pd').text(fill(L(c.dvi, c.den)).replace('{laws}', fmt(PF.amending_laws)));
+      toc.append('a').attr('class', 'p').attr('href', '#' + c.id).text(L(c.vi, c.en));
+      return;
+    }
+    n++;
+    const fig = sec.append('figure').attr('class', 'chart').attr('id', c.id);
+    let spec;
+    try { spec = c.fn(fig); } catch (e) { fig.append('p').attr('class', 'note').text('Error: ' + e.message); console.error(c.id, e); return; }
+    const h3 = fig.append('h3'); h3.append('span').attr('class', 'no').text(n + '.'); h3.append('span').text(spec.title);
+    fig.append('p').attr('class', 'dek').text(spec.dek);
+    try { spec.draw(fig); } catch (e) { fig.append('p').attr('class', 'note').text('Error: ' + e.message); console.error(c.id, e); }
+    checkLabels(fig);
+    fig.select('svg').attr('aria-label', spec.title);
+    toc.append('a').attr('href', '#' + c.id).text(`${n}. ${TOCN[c.id] ? LA(TOCN[c.id]) : spec.title.split(/:\s/)[0]}`);
+  });
+  d3.select('#foot').text(t('foot').replace('{built}', dateTxt(PF.built) + (PF.head ? ', ' + PF.head.slice(0, 10) : '')).replace('{record}', dateTxt(PF.retrieved)));
+}
+d3.selectAll('[data-lang]').on('click', function () { LANG = this.dataset.lang; try { localStorage.setItem('vn-viz-lang', LANG); } catch (e) {} render(); });
+d3.selectAll('[data-theme-set]').on('click', function () {
+  THEME = this.dataset.themeSet;
+  if (THEME === 'auto') document.documentElement.removeAttribute('data-theme'); else document.documentElement.setAttribute('data-theme', THEME);
+  try { localStorage.setItem('vn-viz-theme', THEME); } catch (e) {}
+  render();
+});
+if (THEME !== 'auto') document.documentElement.setAttribute('data-theme', THEME);
+try { matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => { if (THEME === 'auto') render(); }); } catch (e) {}
+let lastW = innerWidth, rt;
+addEventListener('resize', () => { if (Math.abs(innerWidth - lastW) < 40) return; clearTimeout(rt); rt = setTimeout(() => { lastW = innerWidth; const y = scrollY; render(); scrollTo(0, y); }, 200); });
+render();
+// labels are measured as they are drawn: draw again when the web fonts have loaded, so the measures are the fonts' own
+let ft;
+const redraw = () => { clearTimeout(ft); ft = setTimeout(() => { const y = scrollY; render(); scrollTo(0, y); }, 120); };
+const T0 = Date.now();
+if (document.fonts) { if (document.fonts.status !== 'loaded') document.fonts.ready.then(redraw); document.fonts.addEventListener('loadingdone', () => { if (Date.now() - T0 < 15000) redraw(); }); }
+</script>
+</body>
+</html>
