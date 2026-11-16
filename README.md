@@ -87,6 +87,10 @@ Không có mô hình AI nào viết, dịch hay sửa văn bản pháp luật, v
 
 Văn bản này là bản dịch của bản tiếng Anh ([README.en.md](README.en.md)); nếu có khác biệt, bản tiếng Anh được ưu tiên áp dụng.
 
+## Trực quan hóa
+
+- [visualisations/](visualisations/): biểu đồ vẽ từ kho này. Chưa vẽ.
+
 ## Thông tin thêm
 
 Từ kho lưu trữ [lexifina/global-law](https://github.com/lexifina/global-law) (trang tiếng Anh):
