@@ -1,0 +1,53 @@
+# Các trường hợp đặc biệt
+
+**Tiếng Việt** · [English](EDGE-CASES.en.md)
+
+Sáu cảnh báo còn lại sau khi mô hình xem xét, mỗi cảnh báo đã được kiểm tra thủ công, tám dẫn chiếu đến điều đã bị bãi bỏ mà mô hình đã gạt bỏ và cũng được đọc thủ công, cùng với các cảnh báo khác. Quay lại [README về lỗ hổng](README.md).
+
+## Còn để ngỏ: có thể là sơ suất, cần đối chiếu với luật sửa đổi (3, đều thuộc các dẫn chiếu mà mô hình đã gạt bỏ)
+
+| Văn bản | Hồ sơ cho thấy | Vì sao có thể là sơ suất |
+| --- | --- | --- |
+| [Luật Viễn thông](https://github.com/lexifina/vietnam-law/blob/851db24da020e03409223e1cb1e30a0178298dad/luat/2023/24-2023-qh15/art-029.md) (24/2023/QH15), điểm c khoản 2 Điều 29 | Điều 8 (quy hoạch phát triển viễn thông quốc gia) bị xóa từ ngày 1 tháng 3 năm 2026, ghi công cho Luật Quy hoạch số 112/2025/QH15 ([thay đổi](https://github.com/lexifina/vietnam-law/commit/578a34e04cf8e891e5b57a593888d73b45dd7bc1)) | Doanh nghiệp cung cấp dịch vụ trung tâm dữ liệu, dịch vụ điện toán đám mây vẫn phải thực hiện "khoản 3 Điều 8" cùng các quy định khác; khoản 3 Điều 8 yêu cầu doanh nghiệp viễn thông xây dựng quy hoạch, kế hoạch của mình căn cứ vào quy hoạch hạ tầng thông tin và truyền thông. Luật số 112/2025/QH15 đồng thời sửa đổi các Điều 13, 25, 34 và một số điều khác của luật này, nhưng không sửa Điều 29. Sau đó, Luật An ninh mạng số 116/2025/QH15 sửa đổi điểm b của cùng khoản này từ ngày 1 tháng 7 năm 2026 ([thay đổi](https://github.com/lexifina/vietnam-law/commit/95b97ce52a2a3b0b44ddfb709c535877ababac0d)) và giữ nguyên điểm c. |
+| [Luật Trồng trọt](https://github.com/lexifina/vietnam-law/blob/851db24da020e03409223e1cb1e30a0178298dad/luat/2018/31-2018-qh14/art-050.md) (31/2018/QH14), điểm c khoản 1 Điều 50 | Điều 49 (quảng cáo phân bón) bị xóa từ ngày 1 tháng 1 năm 2026, ghi công cho Luật số 146/2025/QH15 sửa đổi, bổ sung một số điều của 15 luật trong lĩnh vực nông nghiệp và môi trường ([thay đổi](https://github.com/lexifina/vietnam-law/commit/96de8c4cb37788538da7ea87d113277f4ce06c40)) | Tổ chức, cá nhân sản xuất phân bón vẫn có quyền "quảng cáo phân bón theo quy định tại Điều 49 của Luật này". Luật số 146/2025/QH15 đã thay đổi 37 điều của luật này, trong đó có Điều 49, nhưng không thay đổi Điều 50, điều vẫn giữ văn bản năm 2020. |
+| [Luật Đầu tư theo phương thức đối tác công tư](https://github.com/lexifina/vietnam-law/blob/851db24da020e03409223e1cb1e30a0178298dad/luat/2020/64-2020-qh14/art-101.md) (64/2020/QH14), điểm b khoản 1 Điều 101 | Điều 23 (nội dung quyết định phê duyệt dự án PPP) bị xóa từ ngày 1 tháng 7 năm 2025, ghi công cho Luật số 90/2025/QH15 ([thay đổi](https://github.com/lexifina/vietnam-law/commit/5eb62174fca22ed0142422b6ea6949257374de4c)) | Dự án đã được phê duyệt báo cáo nghiên cứu khả thi trước ngày 1 tháng 1 năm 2021 mà chưa tổ chức lựa chọn nhà đầu tư vẫn "phải phê duyệt bổ sung nội dung quy định tại khoản 6 Điều 23". Trong cùng lần thay đổi đó, Luật số 90/2025/QH15 sửa đổi khoản 4, điểm d khoản 5 và khoản 7 Điều 101 nhưng giữ nguyên dẫn chiếu này. Đây là quy định chuyển tiếp, nên có thể chỉ còn ít dự án thuộc phạm vi áp dụng. |
+
+Cả ba trường hợp đều dựa vào việc xóa điều được ghi nhận ở đây, theo các văn bản hợp nhất mà kho này sử dụng; bản thân các luật sửa đổi không có trong kho này, và phiên bản ngày 1 tháng 7 năm 2025 của Luật Dân quân tự vệ trong kho này cho thấy một lần xóa điều ở đây có thể là lỗi xây dựng (xem dưới đây), nên mỗi trường hợp vẫn cần được đối chiếu với luật sửa đổi đăng trên Công báo.
+
+## Do cách kho lưu trữ này được tổ chức hoặc xây dựng (4)
+
+| Cảnh báo | Hồ sơ cho thấy | Thực tế |
+| --- | --- | --- |
+| Sửa đổi trong cùng một ngày (3): [Bộ luật Hình sự](https://github.com/lexifina/vietnam-law/tree/851db24da020e03409223e1cb1e30a0178298dad/bo-luat/2015/100-2015-qh13) (100/2015/QH13), [Điều 113](https://github.com/lexifina/vietnam-law/blob/851db24da020e03409223e1cb1e30a0178298dad/bo-luat/2015/100-2015-qh13/art-113.md), [Điều 281](https://github.com/lexifina/vietnam-law/blob/851db24da020e03409223e1cb1e30a0178298dad/bo-luat/2015/100-2015-qh13/art-281.md) và [Điều 309](https://github.com/lexifina/vietnam-law/blob/851db24da020e03409223e1cb1e30a0178298dad/bo-luat/2015/100-2015-qh13/art-309.md) | bộ luật được thông qua ngày 27 tháng 11 năm 2015 ([commit](https://github.com/lexifina/vietnam-law/commit/db6ac1620c7751ad3870672ab394aaa14f881a78)) và Luật số 12/2017/QH14 ngày 20 tháng 6 năm 2017 sửa đổi bộ luật này ([commit](https://github.com/lexifina/vietnam-law/commit/c7512dd8b63c0a9d1027d3e9ae779753ee89143f)) đều có hiệu lực từ ngày 1 tháng 1 năm 2018 | Luật số 12/2017/QH14 sửa đổi bộ luật trước khi bộ luật có hiệu lực, nên văn bản có hiệu lực từ ngày 1 tháng 1 năm 2018 là văn bản đã sửa đổi. Kho này ghi cả hai phiên bản vào ngày đó, phiên bản đã sửa đổi đứng sau, như README của kho đã nêu. Chưa bao giờ có hai văn bản cùng có hiệu lực. |
+| Khoảng trống sau khi bãi bỏ (1): [Luật Dân quân tự vệ](https://github.com/lexifina/vietnam-law/blob/851db24da020e03409223e1cb1e30a0178298dad/luat/2019/48-2019-qh14/art-038.md) (48/2019/QH14), Điều 38 | bị xóa từ ngày 1 tháng 7 năm 2025, ghi công cho Luật số 98/2025/QH15 ([thay đổi](https://github.com/lexifina/vietnam-law/commit/32a4d8687cd3f6cd36f951fb26d57b6d67a3ecef)); trở lại từ ngày 1 tháng 9 năm 2026, ghi công cho Luật số 14/2026/QH16 ([thay đổi](https://github.com/lexifina/vietnam-law/commit/61cac055eb3d3a709c3515e19dff487fbce90c0e)) | Văn bản trở lại là văn bản cũ, chỉ bỏ "Ban chỉ huy quân sự cấp xã" ở khoản 6 và rút "trụ sở hoặc nơi làm việc" thành "trụ sở làm việc" ở khoản 8. Thay đổi ngày 1 tháng 7 năm 2025 cũng đưa các quy định về nghĩa vụ quân sự vào 21 tệp điều của luật này (xem [Vấn đề phát hiện trong kho lưu trữ này](README.md#vấn-đề-phát-hiện-trong-kho-lưu-trữ-này)), nên việc xóa điều này nhiều khả năng là một phần của lỗi xây dựng phiên bản đó chứ không phải việc bãi bỏ. Mô hình đánh giá đây là lỗi kỹ thuật (artefact). |
+
+## Hợp pháp (2)
+
+| Văn bản | Hồ sơ cho thấy | Vì sao hợp pháp |
+| --- | --- | --- |
+| [Luật Thuế tài nguyên](https://github.com/lexifina/vietnam-law/blob/851db24da020e03409223e1cb1e30a0178298dad/luat/2009/45-2009-qh12/art-010.md) (45/2009/QH12), khoản 3 Điều 10 | dự án đầu tư hoặc hợp đồng dầu khí "đã được ký kết trước ngày 01 tháng 7 năm 2010" | Mốc này xác định những hợp đồng được tiếp tục áp dụng quy định về thuế tài nguyên trong giấy phép hoặc hợp đồng; đó là ngày luật có hiệu lực (khoản 1 Điều 10), không phải giới hạn thời gian của quy định. |
+| [Bộ luật Lao động](https://github.com/lexifina/vietnam-law/blob/851db24da020e03409223e1cb1e30a0178298dad/bo-luat/2019/45-2019-qh14/art-219.md) (45/2019/QH14), Điều 219 | hai cảnh báo: đủ 15 năm làm việc ở vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn, kể cả nơi có phụ cấp khu vực hệ số 0,7 trở lên, "trước ngày 01 tháng 01 năm 2021" | Điều 219 sửa đổi điều kiện hưởng lương hưu tại Điều 54 và Điều 55 Luật Bảo hiểm xã hội số 58/2014/QH13; mốc này xác định những năm làm việc được tính. Bản thân Luật số 58/2014/QH13 đã hết hiệu lực từ ngày 1 tháng 7 năm 2025 (Điều 140 Luật Bảo hiểm xã hội số 41/2024/QH15), và Điều 64 của luật mới vẫn giữ mốc này. Hai cảnh báo là cùng một câu ở khoản 1 và khoản 2 của Điều 54 mới; mô hình đã xem xét cả hai. |
+
+## Số tiền của văn bản khác (1)
+
+| Cảnh báo | Hồ sơ cho thấy | Thực tế |
+| --- | --- | --- |
+| Số tiền chưa được cập nhật: [Luật Đấu thầu](https://github.com/lexifina/vietnam-law/blob/851db24da020e03409223e1cb1e30a0178298dad/luat/2023/22-2023-qh15/art-023.md) (22/2023/QH15), Điều 23 | Luật số 57/2024/QH15 thay "100 triệu đồng" bằng "300 triệu đồng" tại điểm m (chỉ định thầu đối với gói thầu nhỏ) từ ngày 15 tháng 1 năm 2025; "100 triệu đồng" vẫn còn tại Điều 317 Bộ luật Tố tụng dân sự và Điều 70, Điều 78 Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15 | Đó là một ngưỡng khác: vụ án về bảo vệ quyền lợi người tiêu dùng có giá trị giao dịch dưới 100 triệu đồng được giải quyết theo thủ tục rút gọn. Bộ phát hiện so sánh số tiền trên toàn bộ kho. |
+
+## Tám dẫn chiếu đến điều đã bị bãi bỏ
+
+Ngoài ba trường hợp còn để ngỏ nêu trên:
+
+- **Bộ phát hiện đọc nhầm (3):** Điều 99 Luật Đầu tư theo phương thức đối tác công tư (hai cảnh báo, Điều 6 và Điều 15) và Điều 84 Luật Tài nguyên nước số 28/2023/QH15 (Điều 56) sửa đổi các luật khác ("Sửa đổi, bổ sung khoản 2 Điều 15 như sau"), nên số điều thuộc Luật Đấu thầu và các luật khác được nêu trong khoản đó, không thuộc văn bản chứa chúng.
+- **Đã hết tác dụng (1):** khoản 2 Điều 114 Luật Giáo dục số 43/2019/QH14 làm Luật Giáo dục năm 2005 hết hiệu lực "trừ trường hợp quy định tại Điều 115", quy định chuyển tiếp cho học sinh, sinh viên sư phạm được tuyển sinh trước ngày luật đó có hiệu lực (1 tháng 7 năm 2020), điều đã bị Luật số 123/2025/QH15 xóa từ ngày 1 tháng 1 năm 2026.
+- **Hợp pháp (1):** Điều 27 Luật Điều ước quốc tế số 108/2016/QH13 áp dụng "từ Điều 8 đến Điều 26"; Điều 19, nằm trong khoảng đó, bị Luật số 137/2025/QH15 xóa từ ngày 1 tháng 1 năm 2026, và một khoảng điều có thể bao gồm điều đã bị bãi bỏ.
+
+## Các cảnh báo khác
+
+- **Thời hạn đã qua:** 116, trong đó 74 cảnh báo đứng sau "trước", 21 sau "đến hết" hoặc "cho đến hết", 12 sau "đến" hoặc "cho đến", 5 sau "chậm nhất là" và 4 ở dạng khác. Phần lớn là mốc trong quy định chuyển tiếp (hồ sơ đã nộp, hợp đồng đã ký, thời gian đã đóng trước một ngày) hoặc thời hạn đã kết thúc như dự kiến. Trong 40 cảnh báo đã xem xét, 27 được đánh giá là hợp pháp, 11 là lỗi kỹ thuật và 2 còn lại (nêu trên). Một cảnh báo nằm trong README tiếng Anh của kho này.
+- **Sửa đổi trong cùng một ngày:** 239. 202 cảnh báo là hai phiên bản ngày 1 tháng 1 năm 2018 của Bộ luật Hình sự (nêu trên); trong số đó, 40 cảnh báo được xem xét: 25 được đánh giá là hợp pháp, 11 là lỗi kỹ thuật, 4 là có thể có sai sót, trong đó 3 còn lại. 37 cảnh báo khác là các văn bản được sửa đổi trước hoặc vào ngày chúng có hiệu lực: Luật Phòng không nhân dân số 49/2024/QH15 bởi Luật số 98/2025/QH15 (12), Luật Phòng, chống mua bán người số 53/2024/QH15 bởi Luật số 86/2025/QH15 (9), Luật Công đoàn số 50/2024/QH15 bởi Luật số 97/2025/QH15 (8), Luật Bảo hiểm xã hội số 41/2024/QH15 bởi Luật Thanh tra số 84/2025/QH15 (4), và bốn văn bản mỗi văn bản một lần.
+- **Số tiền chưa được cập nhật:** ngoài trường hợp nêu trên, hai cảnh báo trong Bộ luật Hình sự, nơi Luật số 12/2017/QH14 thay đổi số tiền của một tội và cùng con số đó vẫn còn ở các tội khác (được đánh giá là hợp pháp và lỗi kỹ thuật).
+
+## Vấn đề phát hiện trong kho lưu trữ này
+
+Xem [README](README.md#vấn-đề-phát-hiện-trong-kho-lưu-trữ-này): 21 tệp điều của Luật Dân quân tự vệ chứa các quy định về nghĩa vụ quân sự, và Luật Trẻ em chứa một quyết định về đặc xá năm 2024 ở các điều đầu và phần mở đầu.

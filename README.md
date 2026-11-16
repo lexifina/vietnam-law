@@ -62,6 +62,7 @@ Phiên bản đầu tiên của mỗi văn bản được ghi công cho chính v
 - Mỗi văn bản khi được thông qua là văn bản gốc trên vbpl.vn. Một điều đã sửa đổi được lấy nguyên văn từ văn bản hợp nhất chính thức của Văn phòng Quốc hội, đăng trên Công báo, có chú thích nêu tên luật sửa đổi; các điều không được chú thích nào ghi công thì giữ văn bản khi được thông qua.
 - `tools/check_repo.py` đọc lại từ git mọi phiên bản vào ngày có hiệu lực và vào ngày liền trước, so sánh từng tệp với kho dữ liệu đã dùng để xây dựng, và kiểm tra các trailer, không có commit hợp nhất (merge) và không có commit nào ghi ngày trong tương lai. [`REPRODUCE.md`](REPRODUCE.md) cho biết sha256 của kho dữ liệu và mã băm blob của các trình xây dựng, và ghi nhận rằng, đối với bản đã công bố, việc kiểm tra đó chưa được chạy và chưa so sánh với một lần xây dựng thứ hai.
 - Lịch sử chỉ được ghi thêm: các văn bản được bổ sung sau lần xây dựng đầu tiên nằm sau nó, mỗi văn bản theo thứ tự ngày có hiệu lực, và một văn bản về sau được phát hiện là sai được sửa bằng một commit đính chính, không bao giờ bằng cách viết lại lịch sử.
+- [vulnerabilities/](vulnerabilities/): những sai sót có thể có trong văn bản pháp luật Việt Nam, do các bộ phát hiện của global-law tìm ra và được kiểm tra thủ công.
 
 ## Những gì không thể hiện
 

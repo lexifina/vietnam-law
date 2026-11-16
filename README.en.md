@@ -62,6 +62,7 @@ Each act's first version is credited to the act itself, and each change to the a
 - Each text as enacted is vbpl.vn's original text (văn bản gốc). An amended article is taken whole from the official consolidated text (văn bản hợp nhất) of the Office of the National Assembly, printed in the Công báo, whose footnote names the amending law; articles no footnote credits keep the text as enacted.
 - `tools/check_repo.py` reads every version back from git on the day it took effect and on the day before, compares it file by file with the corpus it was built from, and checks the trailers, with no merge commits and no commit dated in the future. [`REPRODUCE.md`](REPRODUCE.md) gives the corpus's sha256 and the builders' blob hashes, and records that, for the published build, that check had not yet been run and no second build had been compared.
 - History is append-only: acts added after the first build come after it, each in in-force order, and a text found wrong later is fixed by a correction commit, never by rewriting.
+- [vulnerabilities/](vulnerabilities/README.en.md): possible drafting mistakes in Vietnamese law, found by global-law's detectors and checked by hand.
 
 ## What it does not show
 
